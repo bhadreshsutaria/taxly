@@ -1,6 +1,7 @@
 import logowhite from "../Images/site-logo-white.svg";
 import taxlypartnership from "../Images/taxly-partnership.svg";
 import sitelogonavy from "../Images/site-logo-navy.svg";
+import taxlyHeroBg from "../Images/taxly-hero-bg.png";
 import facebook from "../Images/facebook.svg";
 import instagram from "../Images/instagram.svg";
 import linkedin from "../Images/linkedin.svg";
@@ -15,5 +16,6 @@ const images = {
     soclinkedin: linkedin,
     soctwitter: twitter,
     socmedium: medium,
+    taxlyHeroBg: taxlyHeroBg,
 }
 export default images
