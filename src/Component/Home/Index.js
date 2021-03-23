@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import images from "../../Utils/ImageHelper";
 import Footer from "../../Layout/Footer";
-import Header from "../../Layout/Header"
+import Header from "../../Layout/Header";
 export default function Home() {
     return (
         <div className="App home">
