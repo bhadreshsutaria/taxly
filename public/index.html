@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -24,7 +24,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Taxly &#8211; Swiss Digital Tax Submission</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +39,25 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div className="modal video-modal">
+      <div className="modal__overlay"></div>
+      <div className="modal__content taxly-box">
+      <div className="box-top-left box-image"></div>
+      <div className="box-top-right box-image"></div>
+      <div className="box-bottom-left box-image"></div>
+      <div className="box-bottom-right box-image"></div>
+      <div className="box-content">
+        <div className="modal__close js-hide-modal">Close</div>
+        <div className="modal__body">
+          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/LVeccgzap4s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>			</div>
+      </div>
+      </div>
+    </div>
+    <script src="%PUBLIC_URL%/detectmobilebrowser.js"></script>
+    <script src="%PUBLIC_URL%/mystickymenu.min.js"></script>
+    <script src="%PUBLIC_URL%/slick.min.js"></script>
+    <script src="%PUBLIC_URL%/scripts.min.js"></script>
+    <script src="%PUBLIC_URL%/scripts.js"></script>
   </body>
 </html>
+  
