@@ -221,7 +221,7 @@
     position: absolute;
     width: 104px;
     height: 12px;
-    /* background: url('../../Images/line.svg') no-repeat 50% / 104px auto; */
+    background: url('../../Images/v2/line.svg') no-repeat 50% / 104px auto;
     top: calc(100% - 10px);
     left: -5px;
 }
@@ -662,7 +662,7 @@
     height: 30px;
     top: 34px;
     right: 15px;
-    /* background: url('../../Images/plus.svg') no-repeat 50%; */
+    background: url('../../Images/v2/plus.svg') no-repeat 50%;
     transition: transform .3s ease;
 }
 
@@ -1226,7 +1226,7 @@ html[lang="pt-PT"] #mysticky-wrap #menu-container .hero__cta {
         box-shadow: 0 2px 30px 0 var(--shadow-color);
     }
     .home .taxly-mobile-menu-button {
-        /* background-image: url('../../Images/mobile_menu_button_dark.svg'); */
+        background-image: url('../../Images/v2/mobile_menu_button_dark.svg');
     }
     .home .taxly-mobile-menu-bg {
         background: var(--white-color);

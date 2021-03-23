@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import images from "../../Utils/ImageHelper";
+import Homeheader from "../../Layout/Homeheader";
 import Footer from "../../Layout/Footer";
-import Header from "../../Layout/Header";
 export default function Home() {
     return (
         <div className="App home">
-            <Header/>
+            <Homeheader/>
             {/* BEGIN press logos section */}
             <section className="site-section home-press-logos taxly-grey-bg">
                 <div className="l-container">
@@ -15,13 +15,13 @@ export default function Home() {
                         <li><img style={{height: "50px"}} src={images.twentyMinutenLogo} alt="" /></li>
                         <li><img style={{height: "22px"}} src={images.nzzLogo} alt="" /></li>
                         <li><img style={{height: "25px"}} src={images.tagesanzeigerLogo} alt="" /></li>
-                        <li><img style={{height: "50px"}} src={images.cmsLogo} alt="" /></li>		
+                        <li><img style={{height: "50px"}} src={images.cmsLogo} alt="" /></li>       
                     </ul>
                 </div>
             </section>
             {/* END press logos section */}
 
-            {/* BEGIN testimonials section */}
+            {/* BEGIN Over 6'000 Happy Customers section */}
             <section className="b-section site-section site-section-line no-subtitle testimonials-section">
                 <div className="l-container b-section__container">
                     <span className="b-section__note">A 5 Star Tax Service</span>
@@ -67,7 +67,7 @@ export default function Home() {
                                         <path fill="#05F29B" fillRule="evenodd" d="M22.95 8.285a.823.823 0 00-.293-.466 1.659 1.659 0 00-.537-.27l-6.664-.93L12.429.563C12.282.188 11.973 0 11.5 0c-.472 0-.781.188-.927.564L7.546 6.52.98 7.55a.77.77 0 00-.55.22 1.83 1.83 0 00-.378.515c-.065.213-.07.417-.012.613a.764.764 0 00.305.441l4.81 4.707-1.148 6.692a.943.943 0 00.049.6c.081.188.203.34.366.454.146.098.321.163.525.196.203.032.41 0 .622-.098l5.932-3.138 5.932 3.138h.537c.098 0 .2-.02.305-.062.106-.04.208-.094.306-.159a.904.904 0 00.366-.429.943.943 0 00.049-.6l-1.148-6.692 4.81-4.707a.887.887 0 00.304-.441.745.745 0 00-.012-.515z"></path>
                                     </svg>
                                 </div>
-                                <img className="testimonial-item__image" src="https://taxly.ch/wp-content/uploads/2020/04/1-1.png" alt="" />
+                                <img className="testimonial-item__image" src={images.andyGrayshonUser} alt="" />
                             </footer>
                         </div>
                         <div className="testimonial-item testimonials-section__item">
@@ -109,7 +109,7 @@ export default function Home() {
                                         <path fill="#05F29B" fillRule="evenodd" d="M22.95 8.285a.823.823 0 00-.293-.466 1.659 1.659 0 00-.537-.27l-6.664-.93L12.429.563C12.282.188 11.973 0 11.5 0c-.472 0-.781.188-.927.564L7.546 6.52.98 7.55a.77.77 0 00-.55.22 1.83 1.83 0 00-.378.515c-.065.213-.07.417-.012.613a.764.764 0 00.305.441l4.81 4.707-1.148 6.692a.943.943 0 00.049.6c.081.188.203.34.366.454.146.098.321.163.525.196.203.032.41 0 .622-.098l5.932-3.138 5.932 3.138h.537c.098 0 .2-.02.305-.062.106-.04.208-.094.306-.159a.904.904 0 00.366-.429.943.943 0 00.049-.6l-1.148-6.692 4.81-4.707a.887.887 0 00.304-.441.745.745 0 00-.012-.515z"></path>
                                     </svg>
                                 </div>
-                                <img className="testimonial-item__image" src="https://taxly.ch/wp-content/uploads/2020/04/2-1.png" alt="" />
+                                <img className="testimonial-item__image" src={images.annaBlomkvistUser} alt="" />
                             </footer>
                         </div>
                         <div className="testimonial-item testimonials-section__item">
@@ -151,13 +151,248 @@ export default function Home() {
                                         <path fill="#05F29B" fillRule="evenodd" d="M22.95 8.285a.823.823 0 00-.293-.466 1.659 1.659 0 00-.537-.27l-6.664-.93L12.429.563C12.282.188 11.973 0 11.5 0c-.472 0-.781.188-.927.564L7.546 6.52.98 7.55a.77.77 0 00-.55.22 1.83 1.83 0 00-.378.515c-.065.213-.07.417-.012.613a.764.764 0 00.305.441l4.81 4.707-1.148 6.692a.943.943 0 00.049.6c.081.188.203.34.366.454.146.098.321.163.525.196.203.032.41 0 .622-.098l5.932-3.138 5.932 3.138h.537c.098 0 .2-.02.305-.062.106-.04.208-.094.306-.159a.904.904 0 00.366-.429.943.943 0 00.049-.6l-1.148-6.692 4.81-4.707a.887.887 0 00.304-.441.745.745 0 00-.012-.515z"></path>
                                     </svg>
                                 </div>
-                                <img className="testimonial-item__image" src="https://taxly.ch/wp-content/uploads/2020/04/3-1.png" alt="" />
+                                <img className="testimonial-item__image" src={images.helenaBoadaUser} alt="" />
                             </footer>
+                        </div>
+                    </div>
+                    <div className="b-section__link good-to-know-section__link">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Taxly+AG/@47.3672655,8.5329657,17z/data=!4m7!3m6!1s0x47900a01fce3e665:0xdc6d8cbf4e9556f3!8m2!3d47.3672655!4d8.5351544!9m1!1b1?hl=en-VN" className="b-section__link-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 14">
+                                <path fill="#505D68" fillRule="nonzero" d="M11.174 13.984a.992.992 0 00.692-.28L17.8 7.768l.077-.066A.934.934 0 0018.17 7a.934.934 0 00-.293-.703l-.077-.065L11.866.297a.992.992 0 00-.692-.281.971.971 0 00-.691.293.928.928 0 00-.305.691c0 .266.094.5.281.703l4.29 4.29H1.177c-.281.015-.52.116-.715.304A.934.934 0 00.17 7c0 .281.098.516.293.703.196.188.434.29.715.305h13.57l-4.289 4.289a1.006 1.006 0 00-.281.703c0 .266.102.496.305.691a.971.971 0 00.691.293z"></path>
+                            </svg>
+                            <span className="b-section__link-value">Read All Reviews</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            {/* END Over 6'000 Happy Customers section */}
+
+            {/* BEGIN How Does Taxly Work section */}
+            <section className="b-section b-section_bg-gray how-section">
+                <div className="l-container b-section__container">
+                    <span className="b-section__note">Swiss Tax Returns In Just 4 Steps</span>
+                    <h2 className="b-section__title">How Does Taxly Work</h2>
+                    <span className="b-section__desc how-section__desc">Roger is your virtual AI tax assistant.&nbsp;He’ll connect up the dots in your life, analyse your data, and optimize your return in real time down to the penny.</span>
+                    <div className="how-section__grid">
+                        <div className="how-item how-section__item">
+                            <img className="how-item__icon-number" src={images.hsnOneIcon} alt="Taxly" />
+                            <img className="how-item__icon" src={images.hsOneImage} alt="Taxly" />
+                            <span className="how-item__name">Answer a few simple questions</span>
+                        </div>
+                        <div className="how-item how-section__item">
+                            <img className="how-item__icon-number" src={images.hsnTwoIcon} alt="Taxly" />
+                            <img className="how-item__icon" src={images.hsTwoImage} alt="Taxly" />
+                            <span className="how-item__name">Let Roger make your calculations</span>
+                        </div>
+                        <div className="how-item how-section__item">
+                            <img className="how-item__icon-number" src={images.hsnThreeIcon} alt="Taxly" />
+                            <img className="how-item__icon" src={images.hsThreeImage} alt="Taxly" />
+                            <span className="how-item__name">Double check your tax return</span>
+                        </div>
+                        <div className="how-item how-section__item">
+                            <img className="how-item__icon-number" src={images.hsnFourIcon} alt="Taxly" />
+                            <img className="how-item__icon" src={images.hsFourImage} alt="Taxly" />
+                            <span className="how-item__name">And you're done. Time to enjoy</span>
+                        </div>
+                    </div>
+                    <div className="how-content how-section__content">
+                        <span className="how-content__title">Additional Support - Our In-House Swiss Tax Advisors Are On Hand</span>
+                        <div className="how-content__text">
+                            <p>Not every tax situation is the same and we can adapt to your needs. Whenever you need help, one of our Swiss tax advisors will be&nbsp;there to support&nbsp;you. Step by step until the finished tax return.</p>
                         </div>
                     </div>
                 </div>
             </section>
-            {/* END testimonials section */}
+            {/* END How Does Taxly Work section */}
+
+            {/* BEGIN Who Can Benefit From Taxly? section */}
+            <section className="b-section for-whom-section">
+                <div className="l-container b-section__container">
+                    <h3 className="b-section__title">Who Can Benefit From Taxly?</h3>
+                    <span className="b-section__desc for-whom-section__desc">Taxly offers its services to all residents of Switzerland, regardless of your income or nationality.</span>
+                    <div className="for-whom-section__grid">
+                        <img className="for-whom-section__image" src={images.fWI2x} alt="Taxly" />
+                        <span className="for-whom-section__item">Expats</span>
+                        <span className="for-whom-section__item">Homeowner</span>
+                        <span className="for-whom-section__item">Freelancers</span>
+                        <span className="for-whom-section__item">Business Owners</span>
+                        <span className="for-whom-section__item">Pensioner</span>
+                        <span className="for-whom-section__item">Disabled</span>
+                    </div>
+                    <div className="b-section__link for-whom-section__link">
+                        <a target="_blank" rel="noopener noreferrer" href="/faq/" className="b-section__link-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 14">
+                                <path fill="#505D68" fillRule="nonzero" d="M11.174 13.984a.992.992 0 00.692-.28L17.8 7.768l.077-.066A.934.934 0 0018.17 7a.934.934 0 00-.293-.703l-.077-.065L11.866.297a.992.992 0 00-.692-.281.971.971 0 00-.691.293.928.928 0 00-.305.691c0 .266.094.5.281.703l4.29 4.29H1.177c-.281.015-.52.116-.715.304A.934.934 0 00.17 7c0 .281.098.516.293.703.196.188.434.29.715.305h13.57l-4.289 4.289a1.006 1.006 0 00-.281.703c0 .266.102.496.305.691a.971.971 0 00.691.293z"></path>
+                            </svg>
+                            <span className="b-section__link-value">Questions? (FAQ)</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            {/* END Who Can Benefit From Taxly? section */}
+
+            {/* BEGIN Who Can Benefit From Taxly? section */}
+            <section className="b-section b-section_bg-gray site-section price-section">
+                <div className="l-container b-section__container">
+                    <h2 className="site-section__heading b-section__title">Smart Pricing For Everyone</h2>
+                    <div className="site-section__subheading b-section__desc price-section__desc">
+                        <p>We strive for the most competitive&nbsp;prices in Switzerland and thanks to our smart technology, you can create your tax return at an unprecedented price. Examples below.</p>
+                    </div>
+                    <div className="price-section__grid">
+                        <div className="price-item price-section__item">
+                            <img src={images.priceIconOne} className="price-item__icon" alt="Taxly" />
+                            <span className="price-item__note">Under 25 Years</span>
+                            <span className="price-item__value">25 <span className="price-item__value-currency">CHF</span></span>
+                            <div className="price-item__text">
+                                <p>Completed Swiss Tax Return</p>
+                                <p>Optimised by Roger (AI)</p>
+                                <p>Shipping to the Tax Office</p>
+                                <pre id="tw-target-text" className="tw-data-text tw-text-large XcVN5d tw-ta" dir="ltr" data-placeholder="Translation"></pre>
+                            </div>
+                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn hero__cta price-item__button">Get Started </a>
+                        </div>
+                        <div className="price-item price-section__item">
+                            <img src={images.priceIconTwo} className="price-item__icon" alt="Taxly" />
+                            <span className="price-item__note">Family Package</span>
+                            <span className="price-item__value">49 <span className="price-item__value-currency">CHF</span></span>
+                            <div className="price-item__text">
+                                <p>Completed Swiss Tax Return (For you and your family)</p>
+                                <p>Optimised by Roger (AI)</p>
+                                <p>Shipping to the Tax Office</p>
+                            </div>
+                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn hero__cta price-item__button">Get Started </a>
+                        </div>
+                        <div className="price-item price-section__item">
+                            <img src={images.priceIconThree} className="price-item__icon" alt="Taxly" />
+                            <span className="price-item__note">Unemployed Due To COVID-19</span>
+                            <span className="price-item__value">Free</span>
+                            <div className="price-item__text">
+                                <p>Free Swiss Tax Return (For you and your family)</p>
+                                <p>Optimised by Roger (AI)</p>
+                                <p>Free Shipping to the Tax Office</p>
+                            </div>
+                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn hero__cta price-item__button">Get Started </a>
+                        </div>
+                    </div>
+                    <footer className="price-section__details">
+                        <svg className="price-section__details-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 20">
+                            <g fill="none" fillRule="evenodd">
+                                <path fill="#EEF1F6" d="M-466-1017H914V136H-466z"></path>
+                                <path fill="#7C8AA2" d="M30 0H2C1.458 0 .99.165.594.495.198.825 0 1.215 0 1.667v16.666c0 .452.198.842.594 1.172.396.33.864.495 1.406.495h28c.542 0 1.01-.165 1.406-.495.396-.33.594-.72.594-1.172V1.667c0-.452-.198-.842-.594-1.172A2.127 2.127 0 0030 0zM2 4h28v3H2V4z"></path>
+                            </g>
+                        </svg>
+                        <span className="price-section__details-value">Payment Options: Twint, PayPal, Credit Card, Payment By Invoice</span>
+                    </footer>
+                </div>
+            </section>
+            {/* END Who Can Benefit From Taxly? section */}
+
+            {/* BEGIN We Want To Help Your Business section */}
+            <section className="b-section site-section price-section">
+                <div className="l-container b-section__container">
+                    <span className="b-section__note b-section__note_icon-line">COVID-19 Special For Small Businesses</span>
+                    <h3 className="site-section__heading b-section__title">We Want To Help Your Business</h3>
+                    <div className="site-section__subheading b-section__desc price-section__desc">
+                        <p>Taxly wants to help small businesses in their time of need with special prices for Small Medium Sized Businesses who have been affected by COVID-19.</p>
+                    </div>
+                    <div className="price-section__grid">
+                        <div className="price-item price-section__item">
+                            <img src={images.priceIconFour} className="price-item__icon" alt="Taxly" />
+                            <span className="price-item__note">Startups &amp; Small Enterprises</span>
+                            <span className="price-item__value">500 <span className="price-item__value-currency">CHF</span></span>
+                            <div className="price-item__text">
+                                <p>In-House support</p>
+                                <p>Completed tax return</p>
+                                <p>Tax optimization by Roger (AI) &amp; Certified Tax Advisors (Human)</p>
+                            </div>
+                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn hero__cta price-item__button">Get Started </a>
+                        </div>
+                        <div className="price-item price-section__item">
+                            <img src={images.priceIconFive} className="price-item__icon" alt="Taxly" />
+                            <span className="price-item__note">Hotels, Restaurants &amp; Shops</span>
+                            <span className="price-item__value">450 <span className="price-item__value-currency">CHF</span></span>
+                            <div className="price-item__text">
+                                <p>In-House support</p>
+                                <p>Completed tax return</p>
+                                <p>Tax optimization by Roger (AI) &amp; Certified Tax Advisors (Human)</p>
+                            </div>
+                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn hero__cta price-item__button">Get Started </a>
+                        </div>
+                        <div className="price-item price-section__item">
+                            <img src={images.priceIconSix} className="price-item__icon" alt="Taxly" />
+                            <span className="price-item__note">Freelancers</span>
+                            <span className="price-item__value">350 <span className="price-item__value-currency">CHF</span></span>
+                            <div className="price-item__text">
+                                <p>In-House support</p>
+                                <p>Completed tax return</p>
+                                <p>Tax optimization by Roger (AI) &amp; Certified Tax Advisors (Human)</p>
+                            </div>
+                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn hero__cta price-item__button">Get Started </a>
+                        </div>
+                    </div>
+                    <footer className="price-section__details">
+                        <svg className="price-section__details-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 20">
+                            <g fill="none" fillRule="evenodd">
+                                <path fill="#EEF1F6" d="M-466-1017H914V136H-466z"></path>
+                                <path fill="#7C8AA2" d="M30 0H2C1.458 0 .99.165.594.495.198.825 0 1.215 0 1.667v16.666c0 .452.198.842.594 1.172.396.33.864.495 1.406.495h28c.542 0 1.01-.165 1.406-.495.396-.33.594-.72.594-1.172V1.667c0-.452-.198-.842-.594-1.172A2.127 2.127 0 0030 0zM2 4h28v3H2V4z"></path>
+                            </g>
+                        </svg>
+                        <span className="price-section__details-value">Payment Options: Twint, PayPal, Credit Card, Payment By Invoice</span>
+                    </footer>
+                </div>
+            </section>
+            {/* END We Want To Help Your Business section */}
+
+            {/* BEGIN You're In Safe Hands section */}
+            <section className="site-section taxly-grey-bg b-section good-to-know-section">
+                <div className="l-container b-section__container">
+                    <h4 className="site-section__heading b-section__title good-to-know-section__title">You're In Safe Hands</h4>
+                    <div className="site-section__subheading b-section__desc good-to-know-section__desc">
+                        <p>Brought to you by a team of Swiss tax experts and technologists who care deeply about protecting you and your data.</p>
+                    </div>
+                    <div className="b-icons-module good-to-know-section__grid">
+                        <div className="b-icons-module__item">
+                            <img className="b-icons-module__item-icon" src={images.iconTaxExperts2x} alt="tax experts" />
+                            <p className="b-icons-module__item-name">Swiss Tax Experts</p>
+                            <p className="b-icons-module__item-text">Developed by certified Swiss tax experts.</p>
+                        </div>
+                        <div className="b-icons-module__item">
+                            <img className="b-icons-module__item-icon" src={images.iconEncryption2x} alt="encryption" />
+                            <p className="b-icons-module__item-name">High Data Security</p>
+                            <p className="b-icons-module__item-text">We take data security as our highest priority.</p>
+                        </div>
+                        <div className="b-icons-module__item">
+                            <img className="b-icons-module__item-icon" src={images.iconSecurity2x} alt="security" />
+                            <p className="b-icons-module__item-name">TLS 1.2 Data Encryption</p>
+                            <p className="b-icons-module__item-text">Ensures that no hacking of data is possible.</p>
+                        </div>
+                        <div className="b-icons-module__item">
+                            <img className="b-icons-module__item-icon" src={images.iconSustainablyCompany2x} alt="sustainably company" />
+                            <p className="b-icons-module__item-name">Sustainable Company</p>
+                            <p className="b-icons-module__item-text">With Taxly profit &amp; impact are in balance.</p>
+                        </div>
+                    </div>
+                    <div className="b-section__link good-to-know-section__link">
+                        <a target="_blank" rel="noopener noreferrer" href="/faq/" className="b-section__link-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 14">
+                                <path fill="#505D68" fillRule="nonzero" d="M11.174 13.984a.992.992 0 00.692-.28L17.8 7.768l.077-.066A.934.934 0 0018.17 7a.934.934 0 00-.293-.703l-.077-.065L11.866.297a.992.992 0 00-.692-.281.971.971 0 00-.691.293.928.928 0 00-.305.691c0 .266.094.5.281.703l4.29 4.29H1.177c-.281.015-.52.116-.715.304A.934.934 0 00.17 7c0 .281.098.516.293.703.196.188.434.29.715.305h13.57l-4.289 4.289a1.006 1.006 0 00-.281.703c0 .266.102.496.305.691a.971.971 0 00.691.293z"></path>
+                            </svg>
+                            <span className="b-section__link-value">Questions? (FAQ)</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            {/* BEGIN You're In Safe Hands section */}
+
+            {/* BEGIN App Section */}
+            <section className="b-section mobile-app-section">
+                <div className="l-container b-section__container">
+                    <span className="b-section__title mobile-app-section__title"><b>Our mobile app for iOS and Android will be available soon</b></span>
+                    <span className="b-section__desc mobile-app-section__desc">Interested? We can keep you up to date.</span>
+                    <a href="#" className="btn btn-large mobile-app-section__link js-show-dark-modal">Sign up to our newsletter</a>
+                </div>
+            </section>
+            {/* End App Section */}
             <Footer/>
         </div>
     )
