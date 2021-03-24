@@ -1,7 +1,7 @@
 import logowhite from "../Images/site-logo-white.svg";
 import taxlypartnership from "../Images/taxly-partnership.svg";
 import sitelogonavy from "../Images/site-logo-navy.svg";
-import taxlyHeroBg from "../Images/taxly-hero-bg.png";
+import taxlyHeroBg from "../Images/taxly-hero-bg.jpg";
 import facebook from "../Images/facebook.svg";
 import instagram from "../Images/instagram.svg";
 import linkedin from "../Images/linkedin.svg";
@@ -34,6 +34,30 @@ import taxExperts2x from "../Images/icon-tax-experts@2x.png";
 import encryption2x from "../Images/icon-encryption@2x.png";
 import security2x from "../Images/icon-security@2x.png";
 import sustainablyCompany2x from "../Images/icon-sustainably-company@2x.png";
+import howItWorkBird from "../Images/how-it-work-bird.png";
+import taxlyHeroCurveDark from "../Images/taxly-hero-curve-dark.svg";
+import meetRogerOne from "../Images/meet-roger-1-en.png";
+import meetRogerTwo from "../Images/meet-roger-2-large.png";
+import meetRogerThree from "../Images/meet-roger-3.png";
+import meetRogerFour from "../Images/meet-roger-4.png";
+import insightsBack from "../Images/insights_back.png";
+import insightsFront from "../Images/insights_front.png";
+import insightsHowitworksSingle from "../Images/insights-howitworks-single.png";
+import insightsIcon from "../Images/insights-icon-ai.png";
+import insightsSavings from "../Images/insights-icon-savings.png";
+import insightsOffers from "../Images/insights-icon-offers.png";
+import insightsHome from "../Images/insights-home.png";
+import insightsMortgage from "../Images/insights-mortgage.png";
+import insightsChildren from "../Images/insights-children.png";
+import insightsMarried from "../Images/insights-married.png";
+import insightsRetirement from "../Images/insights-retirement.png";
+import insights3a from "../Images/insights-3a.png";
+import insightsCar from "../Images/insights-car.png";
+import insightsBusiness from "../Images/insights-business.png";
+import insightsLifeInsurance from "../Images/insights-life-insurance.png";
+import insightsCanton from "../Images/insights-canton.png";
+import insightsDivorce from "../Images/insights-divorce.png";
+import insightsMore from "../Images/insights-more.png";
 const images = {
     logowhite: logowhite,
     taxlypartnership: taxlypartnership,
@@ -71,5 +95,29 @@ const images = {
     iconEncryption2x: encryption2x,
     iconSecurity2x: security2x,
     iconSustainablyCompany2x: sustainablyCompany2x,
+    howItWorkBirdBg: howItWorkBird,
+    taxlyHeroCurveDarkBg: taxlyHeroCurveDark,
+    meetRogerOneEn: meetRogerOne,
+    meetRogerTwoEn: meetRogerTwo,
+    meetRogerThreeEn: meetRogerThree,
+    meetRogerFourEn: meetRogerFour,
+    insightsBackBg: insightsBack,
+    insightsFrontBg: insightsFront,
+    insightsHowitworksSingleBg: insightsHowitworksSingle,
+    insightsIconAi: insightsIcon,
+    insightsIconSavings: insightsSavings,
+    insightsIconOffers: insightsOffers,
+    insightsHomeIcon: insightsHome,
+    insightsMortgageIcon: insightsMortgage,
+    insightsChildrenIcon: insightsChildren,
+    insightsMarriedIcon: insightsMarried,
+    insightsRetirementIcon: insightsRetirement,
+    insights3aIcon: insights3a,
+    insightsCarIcon: insightsCar,
+    insightsBusinessIcon: insightsBusiness,
+    insightsLifeInsuranceIcon: insightsLifeInsurance,
+    insightsCantonIcon: insightsCanton,
+    insightsDivorceIcon: insightsDivorce,
+    insightsMoreIcon: insightsMore,
 }
 export default images

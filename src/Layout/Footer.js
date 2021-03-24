@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="l-container l-container--wide taxly-footer">
                 <div className="l-footer-row">
                     <div className="l-footer-column taxly-footer-logo">
-                        <a href="/"><img src={images.logowhite} alt="" /></a>
+                        <a href="/"><img src={images.logowhite} alt="Footer Logo" /></a>
                     </div>
                     <div className="l-footer-column taxly-footer-2">
                         <div className="footer-menu">
@@ -63,11 +63,11 @@ export default function Footer() {
                             </div>
                             <div className="footer-menu__heading">Follow Us</div>
                             <ul className="taxly-footer-social">
-                                <li><a href="https://www.facebook.com/SimplifiedByTaxly" target="_blank"><img src={images.socfacebook} className="attachment-full size-full" alt="" loading="lazy" /></a></li>
-                                <li><a href="https://twitter.com/Taxly_" target="_blank"><img src={images.soctwitter} className="attachment-full size-full" alt="" loading="lazy" /></a></li>
-                                <li><a href="https://www.instagram.com/Taxly___/" target="_blank"><img src={images.socinstagram} className="attachment-full size-full" alt="" loading="lazy" /></a></li>
-                                <li><a href="https://www.linkedin.com/company/taxlyag" target="_blank"><img src={images.soclinkedin} className="attachment-full size-full" alt="" loading="lazy" /></a></li>
-                                <li><a href="https://medium.com/taxly" target="_blank"><img src={images.socmedium} className="attachment-full size-full" alt="" loading="lazy" /></a></li>
+                                <li><a href="https://www.facebook.com/SimplifiedByTaxly" target="_blank"><img src={images.socfacebook} alt="Facebook" /></a></li>
+                                <li><a href="https://twitter.com/Taxly_" target="_blank"><img src={images.soctwitter} alt="Twitter" /></a></li>
+                                <li><a href="https://www.instagram.com/Taxly___/" target="_blank"><img src={images.socinstagram} alt="Instagram" /></a></li>
+                                <li><a href="https://www.linkedin.com/company/taxlyag" target="_blank"><img src={images.soclinkedin} alt="Linkedin" /></a></li>
+                                <li><a href="https://medium.com/taxly" target="_blank"><img src={images.socmedium} alt="Medium" /></a></li>
                             </ul>
                         </div>
                     </div>
