@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import images from "../../Utils/ImageHelper";
 import Homeheader from "../../Layout/Homeheader";
 import Footer from "../../Layout/Footer";
+
 export default function Home() {
     return (
         <div className="App home">
@@ -11,11 +12,11 @@ export default function Home() {
                 <div className="l-container">
                     <p className="home-press-logos__title">You might’ve heard of us</p>
                     <ul>
-                        <li><img style={{height: "18px"}} src={images.techCrunchLogo} alt="" /></li>
-                        <li><img style={{height: "50px"}} src={images.twentyMinutenLogo} alt="" /></li>
-                        <li><img style={{height: "22px"}} src={images.nzzLogo} alt="" /></li>
-                        <li><img style={{height: "25px"}} src={images.tagesanzeigerLogo} alt="" /></li>
-                        <li><img style={{height: "50px"}} src={images.cmsLogo} alt="" /></li>       
+                        <li><img style={{height: "18px"}} src={images.techCrunchLogo} alt="01_TechCrunch" /></li>
+                        <li><img style={{height: "50px"}} src={images.twentyMinutenLogo} alt="02_20Minuten" /></li>
+                        <li><img style={{height: "22px"}} src={images.nzzLogo} alt="03_NZZ" /></li>
+                        <li><img style={{height: "25px"}} src={images.tagesanzeigerLogo} alt="04_Tagesanzeiger" /></li>
+                        <li><img style={{height: "50px"}} src={images.cmsLogo} alt="cnn-money-switzerland" /></li>       
                     </ul>
                 </div>
             </section>
@@ -67,7 +68,7 @@ export default function Home() {
                                         <path fill="#05F29B" fillRule="evenodd" d="M22.95 8.285a.823.823 0 00-.293-.466 1.659 1.659 0 00-.537-.27l-6.664-.93L12.429.563C12.282.188 11.973 0 11.5 0c-.472 0-.781.188-.927.564L7.546 6.52.98 7.55a.77.77 0 00-.55.22 1.83 1.83 0 00-.378.515c-.065.213-.07.417-.012.613a.764.764 0 00.305.441l4.81 4.707-1.148 6.692a.943.943 0 00.049.6c.081.188.203.34.366.454.146.098.321.163.525.196.203.032.41 0 .622-.098l5.932-3.138 5.932 3.138h.537c.098 0 .2-.02.305-.062.106-.04.208-.094.306-.159a.904.904 0 00.366-.429.943.943 0 00.049-.6l-1.148-6.692 4.81-4.707a.887.887 0 00.304-.441.745.745 0 00-.012-.515z"></path>
                                     </svg>
                                 </div>
-                                <img className="testimonial-item__image" src={images.andyGrayshonUser} alt="" />
+                                <img className="testimonial-item__image" src={images.andyGrayshonUser} alt="Andy Grayshon" />
                             </footer>
                         </div>
                         <div className="testimonial-item testimonials-section__item">
@@ -109,7 +110,7 @@ export default function Home() {
                                         <path fill="#05F29B" fillRule="evenodd" d="M22.95 8.285a.823.823 0 00-.293-.466 1.659 1.659 0 00-.537-.27l-6.664-.93L12.429.563C12.282.188 11.973 0 11.5 0c-.472 0-.781.188-.927.564L7.546 6.52.98 7.55a.77.77 0 00-.55.22 1.83 1.83 0 00-.378.515c-.065.213-.07.417-.012.613a.764.764 0 00.305.441l4.81 4.707-1.148 6.692a.943.943 0 00.049.6c.081.188.203.34.366.454.146.098.321.163.525.196.203.032.41 0 .622-.098l5.932-3.138 5.932 3.138h.537c.098 0 .2-.02.305-.062.106-.04.208-.094.306-.159a.904.904 0 00.366-.429.943.943 0 00.049-.6l-1.148-6.692 4.81-4.707a.887.887 0 00.304-.441.745.745 0 00-.012-.515z"></path>
                                     </svg>
                                 </div>
-                                <img className="testimonial-item__image" src={images.annaBlomkvistUser} alt="" />
+                                <img className="testimonial-item__image" src={images.annaBlomkvistUser} alt="Anna Blomkvist" />
                             </footer>
                         </div>
                         <div className="testimonial-item testimonials-section__item">
@@ -151,7 +152,7 @@ export default function Home() {
                                         <path fill="#05F29B" fillRule="evenodd" d="M22.95 8.285a.823.823 0 00-.293-.466 1.659 1.659 0 00-.537-.27l-6.664-.93L12.429.563C12.282.188 11.973 0 11.5 0c-.472 0-.781.188-.927.564L7.546 6.52.98 7.55a.77.77 0 00-.55.22 1.83 1.83 0 00-.378.515c-.065.213-.07.417-.012.613a.764.764 0 00.305.441l4.81 4.707-1.148 6.692a.943.943 0 00.049.6c.081.188.203.34.366.454.146.098.321.163.525.196.203.032.41 0 .622-.098l5.932-3.138 5.932 3.138h.537c.098 0 .2-.02.305-.062.106-.04.208-.094.306-.159a.904.904 0 00.366-.429.943.943 0 00.049-.6l-1.148-6.692 4.81-4.707a.887.887 0 00.304-.441.745.745 0 00-.012-.515z"></path>
                                     </svg>
                                 </div>
-                                <img className="testimonial-item__image" src={images.helenaBoadaUser} alt="" />
+                                <img className="testimonial-item__image" src={images.helenaBoadaUser} alt="Helena Boada" />
                             </footer>
                         </div>
                     </div>

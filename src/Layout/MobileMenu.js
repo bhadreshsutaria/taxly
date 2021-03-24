@@ -3,12 +3,12 @@ import images from "../Utils/ImageHelper";
 
 export default function MobileMenu() {
     return (
-        <div className="wi-100">
+        <>
             <div className="taxly-mobile-menu-fixed">
                 <div className="taxly-logo">
                     <a href="/">
-                        <img className="taxly-logo__item" src={images.logowhite} alt="" />
-                        <img className="taxly-logo__item taxly-logo__item_mobile" src={images.sitelogonavy} alt="" />
+                        <img className="taxly-logo__item taxly-logo__white" src={images.logowhite} alt="" />
+                        <img className="taxly-logo__item taxly-logo__blue taxly-logo__item_mobile" src={images.sitelogonavy} alt="" />
                     </a>
                 </div>
                 <div className="taxly-mobile-menu-button"></div>
@@ -28,6 +28,6 @@ export default function MobileMenu() {
                     <li><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" className="taxly-icon taxly-icon-login">Log in</a></li>
                 </ul>
             </div>
-        </div>
+        </>
     );
 }

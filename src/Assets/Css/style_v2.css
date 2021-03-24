@@ -19,8 +19,7 @@
 }
 
 .home .taxly-hero {
-    /* background-image: none; */
-    background-image: url('../../Images/taxly-hero-bg@2x.png');
+    background-image: url('../../Images/media/taxly-hero-bg@2x.png');
     background-size: 100% auto;
     background-position: center bottom;
     background-color: var(--white-color);
