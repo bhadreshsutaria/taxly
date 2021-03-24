@@ -1,17 +1,25 @@
 import React from "react";
 import images from "../Utils/ImageHelper";
+import { useHistory } from "react-router-dom";
+
 
 export default function Navbar() {
+    let history = useHistory();
+
+    const onRedirect = (url) => {
+        history.push(url)
+    }
+
     return (
         <div id="mysticky-wrap">
             <div id="mysticky-nav" className="up">
                 <div id="menu-container" className="">
                     <div className="main-nav">
                         <ul id="menu-main-nav" className="main-nav__list">
-                            <li className="menu-item"><a target="_blank" rel="noopener" href="/faq/">FAQ</a></li>
-                            <li className="menu-item"><a target="_blank" rel="noopener" href="/how-it-works/">How it works</a></li>
-                            <li className="menu-item"><a target="_blank" rel="noopener" href="/insights/">Insights</a></li>
-                            <li className="menu-item"><a target="_blank" rel="noopener" href="/app/">App</a></li>
+                            <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/faq/')}>FAQ</a></li>
+                            <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/how-it-works/')}>How it works</a></li>
+                            <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/insights/')}>Insights</a></li>
+                            <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/app/')}>App</a></li>
                             </ul>
                         <ul className="main-nav__right">
                             <li className="menu-item"><a href="#" className="taxly-icon taxly-icon-language">EN</a></li>
