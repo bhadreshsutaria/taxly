@@ -58,6 +58,36 @@ import insightsLifeInsurance from "../Images/insights-life-insurance.png";
 import insightsCanton from "../Images/insights-canton.png";
 import insightsDivorce from "../Images/insights-divorce.png";
 import insightsMore from "../Images/insights-more.png";
+import iconManager from "../Images/icon-manager.png";
+import iconInvest from "../Images/icon-invest.png";
+import iconArt from "../Images/icon-art.png";
+import iconIncome from "../Images/icon-income.png";
+import iconHouse from "../Images/icon-house.png";
+import iconChoose from "../Images/icon-choose.png";
+import apiBack from "../Images/api_back.png";
+import apiFront from "../Images/api_front.png";
+import screenOne from "../Images/screen-1.svg";
+import screenTwo from "../Images/screen-2.svg";
+import screenThree from "../Images/screen-3.svg";
+import vis from "../Images/vis.png";
+import visOne from "../Images/vis1.png";
+import apiFinance from "../Images/api-finance.png";
+import apiRealestate from "../Images/api-real-estate.png";
+import apiInsurance from "../Images/api-insurance.png";
+import apiCommerce from "../Images/api-commerce.png";
+import openDoor from "../Images/open-door.png";
+import socialBack from "../Images/social_back-1.png";
+import socialFront from "../Images/social_front-1.png";
+import socialWhostars from "../Images/social_who_stars.png";
+import socialWhoglobeen from "../Images/social_who_globe-en.png";
+import iconcharity from "../Images/icon-charity.png";
+import iconcampaign from "../Images/icon-campaign.png";
+import iconcollaboration from "../Images/icon-collaboration.png";
+import socialBcorpglobe from "../Images/social_bcorp_globe.png";
+import socialBcorpleaf from "../Images/social_bcorp_leaf.png";
+import socialBcorpcertified from "../Images/social_bcorp_certified-en.png";
+import homeBack from "../Images/home_back.png";
+import appFrontOne from "../Images/app_front-1.png";
 const images = {
     logowhite: logowhite,
     taxlypartnership: taxlypartnership,
@@ -119,5 +149,35 @@ const images = {
     insightsCantonIcon: insightsCanton,
     insightsDivorceIcon: insightsDivorce,
     insightsMoreIcon: insightsMore,
+    managerIcon: iconManager,
+    investIcon: iconInvest,
+    artIcon: iconArt,
+    incomeIcon: iconIncome,
+    houseIcon: iconHouse,
+    chooseIcon: iconChoose,
+    apiBackBg: apiBack,
+    apiFrontBg: apiFront,
+    apiscreenOne: screenOne,
+    apiscreenTwo: screenTwo,
+    apiscreenThree: screenThree,
+    apivis: vis,
+    apivisOne: visOne,
+    apiFinanceIcon: apiFinance,
+    apiRealestateIcon: apiRealestate,
+    apiInsuranceIcon: apiInsurance,
+    apiCommerceIcon: apiCommerce,
+    apiopenDoor: openDoor,
+    socialBackBg: socialBack,
+    socialFrontBg: socialFront,
+    socialwhoStars: socialWhostars,
+    socialwhogloBeen: socialWhoglobeen,
+    charityIcon: iconcharity,
+    campaignIcon: iconcampaign,
+    collaborationIcon: iconcollaboration,
+    socialimpactBcorpglobe: socialBcorpglobe,
+    socialimpactBcorpleaf: socialBcorpleaf,
+    socialimpactBcorpcertified: socialBcorpcertified,
+    homeBackBg: homeBack,
+    appFrontOneBg: appFrontOne,
 }
 export default images

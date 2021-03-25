@@ -28,8 +28,8 @@ export default function Navbar() {
                     </div>
                     <div className="taxly-logo">
                         <a href="/">
-                            <img className="taxly-logo__icon taxly-logo__white" src={images.sitelogonavy} alt="Taxly" />
-                            <img className="taxly-logo__icon taxly-logo__blue taxly-logo__icon_fixed" src={images.logowhite} alt="Taxly" />
+                            <img className="taxly-logo__icon taxly-logo__blue" src={images.sitelogonavy} alt="Taxly" />
+                            <img className="taxly-logo__icon taxly-logo__white taxly-logo__icon_fixed" src={images.logowhite} alt="Taxly" />
                         </a>
                     </div>
                     <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">Get Started</a>

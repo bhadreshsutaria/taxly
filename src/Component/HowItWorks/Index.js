@@ -7,7 +7,7 @@ import Navbar from "../../Layout/Navbar";
 export default function HowItWorks() {
     return (
         <div className="App">
-            <div className="hero">
+            <div className="hero__inner">
                 <MobileMenu/>
                 <div className="taxly-hero">
                     <div className="taxly-hero-city-bg"></div>
