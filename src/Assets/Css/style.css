@@ -4870,6 +4870,30 @@ p.taxly-icon {
 
 /*  */
 
-.hero .taxly-logo a .taxly-logo__white {
+.hero__inner .taxly-logo a .taxly-logo__blue {
     display: none;
+}
+
+.social-who img.stars {
+    max-height: 138.5px;
+}
+
+.social-who img.stars-flip {
+    max-height: 138.5px;
+}
+
+.social-who img.globe {
+    max-height: 173px;
+}
+
+.social-climate-change img.globe {
+    height: 172px;
+}
+
+.social-climate-change img.leaf {
+    height: 36px;
+}
+
+.social-climate-change img.bcorp {
+    height: 195px;
 }

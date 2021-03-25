@@ -4,6 +4,7 @@ import MobileMenu from "../Layout/MobileMenu";
 import Navbar from "../Layout/Navbar";
 import '../Assets/Css/style.css';
 import '../Assets/Css/style_v2.css';
+import '../Assets/Css/slick.css';
 
 export default function Header() {
     return (

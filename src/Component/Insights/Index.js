@@ -6,7 +6,7 @@ import Navbar from "../../Layout/Navbar";
 export default function Insights() {
     return (
         <div className="App">
-            <div className="hero insights">
+            <div className="hero__inner insights">
                 <MobileMenu/>
                 <div className="taxly-hero">
                     <div className="taxly-hero-city-bg"></div>
@@ -228,6 +228,57 @@ export default function Insights() {
                 </div>
             </section>
             {/*END What would you like to plan for?*/}
+
+            {/*BEING Guides & Resources*/}
+            <section className="site-section">
+                <div className="l-container">
+                    <h2 className="site-section__heading">Guides &amp; Resources</h2>
+                    <div className="site-section__subheading">
+                        <p>Unlock our guides to help you navigate and become more financially savvy.</p>
+                    </div>
+                    <div className="icons-module insights-guides">
+                        <div className="columns-3">
+                            <div className="columns-3-item">
+                                <img src={images.managerIcon} alt="icon-manager" />
+                                <p>How do wealth managers work?</p>
+                            </div>
+                            <div className="columns-3-item">
+                                <img src={images.investIcon} alt="icon-invest" />
+                                <p>Start investing like the top 1%</p>
+                            </div>
+                            <div className="columns-3-item">
+                                <img src={images.artIcon} alt="icon-art" />
+                                <p>Investing in art and precious metals</p>
+                            </div>
+                            <div className="columns-3-item">
+                                <img src={images.incomeIcon} alt="icon-income" />
+                                <p>Managing major income</p>
+                            </div>
+                            <div className="columns-3-item">
+                                <img src={images.houseIcon} alt="icon-house" />
+                                <p>Investing in Swiss property</p>
+                            </div>
+                            <div className="columns-3-item">
+                                <img src={images.chooseIcon} alt="icon-choose" />
+                                <p>Choosing an investment provider</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/*END Guides & Resources*/}
+
+            {/*BEING Take control of your finances*/}
+            <section className="site-section control-bg taxly-grey-bg no-subtitle">
+                <div className="controller-bg"></div>
+                <div className="l-container">
+                    <h2 className="site-section__heading">Take control of your finances</h2>
+                    <div className="taxly-module">
+                        <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">Get started</a>
+                    </div>
+                </div>
+            </section>
+            {/*END Take control of your finances*/}
             <Footer/>
         </div>
     )
