@@ -149,7 +149,7 @@ export default function API() {
                         <div className="site-section__subheading">
                             <p>Excite customers with Taxly’s powerful API. We can’t wait to hear from you!</p>
                         </div>
-                            <a href="#" className="btn btn-large hero__cta js-show-dark-modal">I'm interested</a>
+                        <a href="#" className="btn btn-large hero__cta js-show-dark-modal">I'm interested</a>
                     </div>
                 </section>
                 {/*END Let’s talk*/}

@@ -8,7 +8,7 @@ export default function Footer() {
         history.push(url)
     }
     return (
-        <div className="footer-wrap">
+        <>
         <footer className="site-footer">
             <div className="l-container l-container--wide taxly-footer">
                 <div className="l-footer-row">
@@ -84,6 +84,6 @@ export default function Footer() {
                 </div>
             </div>
         </footer>
-    </div>
+        </>
     );
 }
