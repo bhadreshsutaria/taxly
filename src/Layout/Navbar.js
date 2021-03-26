@@ -1,26 +1,13 @@
 import React from "react";
 import images from "../Utils/ImageHelper";
-import { useHistory } from "react-router-dom";
-
-
+import Listmenu from "../Layout/Listmenu";
 export default function Navbar() {
-    let history = useHistory();
-
-    const onRedirect = (url) => {
-        history.push(url)
-    }
-
     return (
         <div id="mysticky-wrap">
             <div id="mysticky-nav" className="up">
                 <div id="menu-container" className="">
                     <div className="main-nav">
-                        <ul id="menu-main-nav" className="main-nav__list">
-                            <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/faq/')}>FAQ</a></li>
-                            <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/how-it-works/')}>How it works</a></li>
-                            <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/insights/')}>Insights</a></li>
-                            <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/app/')}>App</a></li>
-                            </ul>
+                        <Listmenu />
                         <ul className="main-nav__right">
                             <li className="menu-item"><a href="#" className="taxly-icon taxly-icon-language">EN</a></li>
                             <li className="menu-item"><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" className="taxly-icon taxly-icon-login">Log in</a></li>

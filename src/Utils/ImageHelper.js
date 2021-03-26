@@ -88,6 +88,14 @@ import socialBcorpleaf from "../Images/social_bcorp_leaf.png";
 import socialBcorpcertified from "../Images/social_bcorp_certified-en.png";
 import homeBack from "../Images/home_back.png";
 import appFrontOne from "../Images/app_front-1.png";
+import revolutionalOsr from "../Images/revolutional-osr.png";
+import scanLikeAWind from "../Images/scan-like-a-wind.png";
+import appScreens from "../Images/app-screens.png";
+import thirdApp from "../Images/3rd-app.png";
+import tBackground1x from "../Images/t-background1x.png";
+import appleLogo from "../Images/apple.png";
+import androidLogo from "../Images/android.png";
+
 const images = {
     logowhite: logowhite,
     taxlypartnership: taxlypartnership,
@@ -179,5 +187,12 @@ const images = {
     socialimpactBcorpcertified: socialBcorpcertified,
     homeBackBg: homeBack,
     appFrontOneBg: appFrontOne,
+    revolutionalOsrBg: revolutionalOsr,
+    scanLikeAWindBg: scanLikeAWind,
+    appScreensBg : appScreens,
+    thirdAppBg : thirdApp,
+    tBackground1xLogo: tBackground1x,
+    appleIcon: appleLogo,
+    androidIcon: androidLogo,
 }
 export default images

@@ -1715,7 +1715,7 @@ form .ajax-loader {
     height: 24px;
 }
 
-.main-nav ul li.menu-item.current-menu-item a,
+.main-nav ul li.menu-item a.active,
 .main-nav ul li.menu-item a:hover,
 .taxly-hero .video-link .taxly-icon:hover {
     color: #00ffb6;
@@ -1762,7 +1762,7 @@ form .ajax-loader {
     text-align: left;
 }
 
-.taxly-white .main-nav ul li.menu-item.current-menu-item a,
+.taxly-white .main-nav ul li.menu-item a.active,
 .taxly-white .main-nav ul li.menu-item a:hover {
     color: #00ffb6;
 }
@@ -3452,7 +3452,7 @@ p.taxly-icon {
 }
 
 .taxly-mobile-menu ul li a:hover,
-.taxly-mobile-menu ul li.current-menu-item a {
+.taxly-mobile-menu ul li a.active {
     color: #00ffb6 !important;
 }
 
@@ -3501,7 +3501,7 @@ p.taxly-icon {
     color: #fff;
 }
 
-.taxly-white .main-nav.myfixed ul li.menu-item.current-menu-item a,
+.taxly-white .main-nav.myfixed ul li.menu-item a.active,
 .taxly-white .main-nav.myfixed ul li.menu-item a:hover {
     color: #00ffb6;
 }

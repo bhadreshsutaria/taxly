@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Faqheader from "../../Layout/Faqheader"
+import Faqheader from "../../Layout/Faqheader";
 import Footer from "../../Layout/Footer";
 export default function FAQ() {
     return (
