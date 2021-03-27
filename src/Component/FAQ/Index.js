@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Faqheader from "../../Layout/Faqheader";
 import Footer from "../../Layout/Footer";
+import FaqTab, {PageHeading, SubHeading, PageDescription} from "../FAQ/Content";
+import FaqTabData from "../FAQ/Data";
+
 export default function FAQ() {
     return (
         <div className="App">
@@ -9,79 +12,20 @@ export default function FAQ() {
                 <section className="main-wrapper">
                     <div className="l-container l-container--content">
                         <aside className="page-navigation">
-                            <div className="taxly-box selected">
-                                <div className="box-top-left box-image"></div>
-                                <div className="box-top-right box-image"></div>
-                                <div className="box-bottom-left box-image"></div>
-                                <div className="box-bottom-right box-image"></div>
-                                <div className="box-content">
-                                    <a href="#" className="page-navigation__item js-about-us-tab">
-                                        <div className="page-navigation__item-text">About Us</div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="taxly-box">
-                                <div className="box-top-left box-image"></div>
-                                <div className="box-top-right box-image"></div>
-                                <div className="box-bottom-left box-image"></div>
-                                <div className="box-bottom-right box-image"></div>
-                                <div className="box-content">
-                                    <a href="#" className="page-navigation__item js-about-us-tab">
-                                        <div className="page-navigation__item-text">How it works</div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="taxly-box">
-                                <div className="box-top-left box-image"></div>
-                                <div className="box-top-right box-image"></div>
-                                <div className="box-bottom-left box-image"></div>
-                                <div className="box-bottom-right box-image"></div>
-                                <div className="box-content">
-                                    <a href="#" className="page-navigation__item js-about-us-tab">
-                                        <div className="page-navigation__item-text">Tax stuff</div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="taxly-box">
-                                <div className="box-top-left box-image"></div>
-                                <div className="box-top-right box-image"></div>
-                                <div className="box-bottom-left box-image"></div>
-                                <div className="box-bottom-right box-image"></div>
-                                <div className="box-content">
-                                    <a href="#" className="page-navigation__item js-about-us-tab">
-                                        <div className="page-navigation__item-text">Documents</div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="taxly-box">
-                                <div className="box-top-left box-image"></div>
-                                <div className="box-top-right box-image"></div>
-                                <div className="box-bottom-left box-image"></div>
-                                <div className="box-bottom-right box-image"></div>
-                                <div className="box-content">
-                                    <a href="#" className="page-navigation__item js-about-us-tab">
-                                        <div className="page-navigation__item-text">Data protection</div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="taxly-box">
-                                <div className="box-top-left box-image"></div>
-                                <div className="box-top-right box-image"></div>
-                                <div className="box-bottom-left box-image"></div>
-                                <div className="box-bottom-right box-image"></div>
-                                <div className="box-content">
-                                    <a href="#" className="page-navigation__item js-about-us-tab">
-                                        <div className="page-navigation__item-text">Charity/Social impact</div>
-                                    </a>
-                                </div>
-                            </div>
+                            {FaqTabData.map((val, ind) =>{
+                                return <FaqTab 
+                                        key={ind}
+                                        extraClass={val.extraClass}
+                                        tabName={val.tabName}
+                                    />;
+                            })}
                         </aside>
                         <div className="about-content">
                             <div className="about-content__wrapper">
                                 <div className="about-content-tab-item list-items-style">
-                                    <h2 className="page-heading">What is taxly?</h2>
-                                    <p>Taxly is an online service which allows you to quickly and easily create an optimised tax return.</p>
-                                    <h3 className="site-section-line">How long is the preparation of the tax return?</h3>
+                                    <PageHeading headingTitle="What is taxly?"/>
+                                    <PageDescription description="Taxly is an online service which allows you to quickly and easily create an optimised tax return."/>
+                                    <SubHeading  subTitle="How long is the preparation of the tax return?" />
                                     <p>Taxly’s AI will guide you through some simplified tax return questions based on your personal situation, the process should take around 10 minutes.</p>
                                     <p>For more complex cases, it can take between 15 and 20 minutes.</p>
                                     <h3 className="site-section-line">How is taxly different from that of a traditional cantonal tax software?</h3>
@@ -159,7 +103,6 @@ export default function FAQ() {
                     </div>
                 </section>
             </main>
-
             <Footer/>
         </div>
     )

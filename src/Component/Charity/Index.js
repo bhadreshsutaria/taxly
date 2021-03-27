@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import images from "../../Utils/ImageHelper";
 import Footer from "../../Layout/Footer";
 import MobileMenu from "../../Layout/MobileMenu";
