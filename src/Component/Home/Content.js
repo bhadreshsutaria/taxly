@@ -1,4 +1,23 @@
 import React from "react";
+import images from "../../Utils/ImageHelper";
+import {SingalData, Testimonialdata, SectionLinkData, TaxlyWorkData, BenefitTaxlyData, PriceData, PriceBusinessData, SafeHandData} from "../Home/Data";
+
+const LogoSection = () => {
+    return(
+        <section className="site-section home-press-logos taxly-grey-bg">
+            <div className="l-container">
+                <p className="home-press-logos__title">{SingalData.logoTitle}</p>
+                <ul>
+                    <li><img style={{height: "18px"}} src={images.techCrunchLogo} alt="01_TechCrunch" /></li>
+                    <li><img style={{height: "50px"}} src={images.twentyMinutenLogo} alt="02_20Minuten" /></li>
+                    <li><img style={{height: "22px"}} src={images.nzzLogo} alt="03_NZZ" /></li>
+                    <li><img style={{height: "25px"}} src={images.tagesanzeigerLogo} alt="04_Tagesanzeiger" /></li>
+                    <li><img style={{height: "50px"}} src={images.cmsLogo} alt="cnn-money-switzerland" /></li>       
+                </ul>
+            </div>
+        </section>
+    );
+};
 
 const Star = (props) => {
     return(
@@ -13,30 +32,9 @@ const Star = (props) => {
     );
 };
 
-const Testimonial = (props) => {
-    return(
-        <div className="testimonial-item testimonials-section__item">
-            <span className="testimonial-item__title">{props.title}</span>
-            <div className="testimonial-item__text">
-                <p>{props.description}</p>
-            </div>
-            <span className="testimonial-item__name">{props.name}</span>
-            <footer className="testimonial-item__footer">
-                <div className="rating-mdule testimonial-item__rating stars" data-stars="5">
-                    <Star halfStar=".5" fullStar="1" />
-                    <Star halfStar="1.5" fullStar="2" />
-                    <Star halfStar="2.5" fullStar="3" />
-                    <Star halfStar="3.5" fullStar="4" />
-                    <Star halfStar="4.5" fullStar="5" />
-                </div>
-                <img className="testimonial-item__image" src={props.image} alt={props.name} />
-            </footer>
-        </div>
-    );
-};
-
 const SectionLink = (props) => {
     return(
+        <>
         <div className={`b-section__link ${props.extraClass}`}>
             <a target={props.pageTarget} rel="noopener noreferrer" href={props.pageLink} className="b-section__link-item">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 14">
@@ -45,18 +43,104 @@ const SectionLink = (props) => {
                 <span className="b-section__link-value">{props.linkText}</span>
             </a>
         </div>
+        </>
     );
 };
 
-const TaxlyWork = (props) => {
+const Testimonial = () => {
     return(
-        <div className="how-item how-section__item">
-            <img className="how-item__icon-number" src={props.imageSmall} alt="Taxly" />
-            <img className="how-item__icon" src={props.imageBig} alt="Taxly" />
-            <span className="how-item__name">{props.name}</span>
-        </div>
+        <section className="b-section site-section site-section-line no-subtitle testimonials-section">
+                <div className="l-container b-section__container">
+                    <span className="b-section__note">{SingalData.testimonialNote}</span>
+                    <h2 className="site-section__heading b-section__title">{SingalData.testimonialTitle}</h2>
+                    <span className="b-section__desc testimonials-section__desc">{SingalData.testimonialDesc}</span>
+                    <div className="testimonials-section__grid">
+                        {Testimonialdata.map((val,ind) =>
+                        <div key={ind} className="testimonial-item testimonials-section__item">
+                            <span className="testimonial-item__title">{val.title}</span>
+                            <div className="testimonial-item__text">
+                                <p>{val.description}</p>
+                            </div>
+                            <span className="testimonial-item__name">{val.name}</span>
+                            <footer className="testimonial-item__footer">
+                                <div className="rating-mdule testimonial-item__rating stars" data-stars="5">
+                                    <Star halfStar=".5" fullStar="1" />
+                                    <Star halfStar="1.5" fullStar="2" />
+                                    <Star halfStar="2.5" fullStar="3" />
+                                    <Star halfStar="3.5" fullStar="4" />
+                                    <Star halfStar="4.5" fullStar="5" />
+                                </div>
+                                <img className="testimonial-item__image" src={val.image} alt={val.name} />
+                            </footer>
+                        </div>
+                        )}
+                    </div>
+                    {SectionLinkData[0].map((val,ind) => {
+                        return <SectionLink
+                            key={ind}
+                            extraClass={val.extraClass}
+                            pageTarget={val.pageTarget}
+                            linkText={val.linkText}
+                        />
+                    })}
+                </div>
+        </section>
     );
 };
+
+const TaxlyWork = () => {
+    return(
+        <section className="b-section b-section_bg-gray how-section">
+            <div className="l-container b-section__container">
+                <span className="b-section__note">{SingalData.TaxlyWorkNote}</span>
+                <h2 className="b-section__title">{SingalData.TaxlyWorkTitle}</h2>
+                <span className="b-section__desc how-section__desc">{SingalData.TaxlyWorkDesc}</span>
+                <div className="how-section__grid">
+                    {TaxlyWorkData.map((val,ind) => 
+                        <div key={ind} className="how-item how-section__item">
+                            <img className="how-item__icon-number" src={val.imageSmall} alt="Taxly" />
+                            <img className="how-item__icon" src={val.imageBig} alt="Taxly" />
+                            <span className="how-item__name">{val.name}</span>
+                        </div>
+                    )}
+                </div>
+                <div className="how-content how-section__content">
+                    <span className="how-content__title">{SingalData.TaxlyWorkBtnText}</span>
+                    <div className="how-content__text">
+                        <p>{SingalData.TaxlyWorkBtnDesc}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+const BenefitTaxly = () => {
+    return(
+        <section className="b-section for-whom-section">
+            <div className="l-container b-section__container">
+                <h3 className="b-section__title">{SingalData.BenefitTaxlyTitle}</h3>
+                <span className="b-section__desc for-whom-section__desc">{SingalData.BenefitTaxlyDesc}</span>
+                <div className="for-whom-section__grid">
+                    <img className="for-whom-section__image" src={images.fWI2x} alt="Taxly" />
+                    { BenefitTaxlyData.map((val, ind) => 
+                        <span key={ind} className="for-whom-section__item">{val}</span>
+                    )}
+                </div>
+                {SectionLinkData[1].map((val,ind) => {
+                    return <SectionLink
+                        key={ind}
+                        extraClass={val.extraClass}
+                        pageTarget={val.pageTarget}
+                        linkText={val.linkText}
+                    />
+                })}
+            </div>
+        </section>
+    );
+};
+
+
 
 const Price = (props) => {
     return(
@@ -77,26 +161,113 @@ const Price = (props) => {
     );
 };
 
-const SafeHand = (props) => {
+const PaymentOptions = () => {
     return(
-        <div className="b-icons-module__item">
-            <img className="b-icons-module__item-icon" src={props.image} alt={props.alt} />
-            <p className="b-icons-module__item-name">{props.sname}</p>
-            <p className="b-icons-module__item-text">{props.stext}</p>
-        </div>
+        <footer className="price-section__details">
+            <svg className="price-section__details-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 20">
+                <g fill="none" fillRule="evenodd">
+                    <path fill="#EEF1F6" d="M-466-1017H914V136H-466z"></path>
+                    <path fill="#7C8AA2" d="M30 0H2C1.458 0 .99.165.594.495.198.825 0 1.215 0 1.667v16.666c0 .452.198.842.594 1.172.396.33.864.495 1.406.495h28c.542 0 1.01-.165 1.406-.495.396-.33.594-.72.594-1.172V1.667c0-.452-.198-.842-.594-1.172A2.127 2.127 0 0030 0zM2 4h28v3H2V4z"></path>
+                </g>
+            </svg>
+            <span className="price-section__details-value">{SingalData.PaymentOptions}</span>
+        </footer>
     );
 };
 
-const AppSection = (props) => {
+const SmartPricing = () => {
     return(
-        <section className="b-section mobile-app-section">
+        <section className="b-section b-section_bg-gray site-section price-section">
             <div className="l-container b-section__container">
-                <span className="b-section__title mobile-app-section__title"><b>{props.atitle}</b></span>
-                <span className="b-section__desc mobile-app-section__desc">{props.adesc}</span>
-                <a href="#" className="btn btn-large mobile-app-section__link js-show-dark-modal">{props.btnText}</a>
+                <h2 className="site-section__heading b-section__title">{SingalData.smartPricingTitle}</h2>
+                <div className="site-section__subheading b-section__desc price-section__desc">
+                    <p>{SingalData.smartPricingDesc}</p>
+                </div>
+                <div className="price-section__grid">
+                    {PriceData.map((val, ind) => {
+                        return <Price 
+                                key={ind}
+                                image={val.image}
+                                note={val.note}
+                                numberValue={val.numberValue}
+                                currency={val.currency}
+                                priceText= {val.priceText}
+                            />;
+                    })}
+                </div>
+                <PaymentOptions />
+            </div>
+        </section>
+    );
+}
+
+const YourBusiness = () => {
+    return(
+        <section className="b-section site-section price-section">
+            <div className="l-container b-section__container">
+                <span className="b-section__note b-section__note_icon-line">{SingalData.yourBusinessNote}</span>
+                <h3 className="site-section__heading b-section__title">{SingalData.yourBusinessTitle}</h3>
+                <div className="site-section__subheading b-section__desc price-section__desc">
+                    <p>{SingalData.yourBusinessDesc}</p>
+                </div>
+                <div className="price-section__grid">
+                    {PriceBusinessData.map((val, ind) => {
+                        return <Price 
+                                key={ind}
+                                image={val.image}
+                                note={val.note}
+                                numberValue={val.numberValue}
+                                currency={val.currency}
+                                priceText= {val.priceText}
+                            />;
+                    })}
+                </div>
+                <PaymentOptions />
             </div>
         </section>
     );
 };
 
-export {Testimonial, SectionLink, TaxlyWork, Price, SafeHand, AppSection};
+const SafeHand = () => {
+    return(
+        <section className="site-section taxly-grey-bg b-section good-to-know-section">
+            <div className="l-container b-section__container">
+                <h4 className="site-section__heading b-section__title good-to-know-section__title">{SingalData.safeHandTitle}</h4>
+                <div className="site-section__subheading b-section__desc good-to-know-section__desc">
+                    <p>{SingalData.safeHandDesc}</p>
+                </div>
+                <div className="b-icons-module good-to-know-section__grid">
+                    {SafeHandData.map((val, ind) => 
+                        <div key={ind} className="b-icons-module__item">
+                            <img className="b-icons-module__item-icon" src={val.image} alt={val.alt} />
+                            <p className="b-icons-module__item-name">{val.sname}</p>
+                            <p className="b-icons-module__item-text">{val.stext}</p>
+                        </div>
+                    )}
+                </div>
+                {SectionLinkData[2].map((val,ind) => {
+                    return <SectionLink
+                        key={ind}
+                        extraClass={val.extraClass}
+                        pageTarget={val.pageTarget}
+                        linkText={val.linkText}
+                    />
+                })}
+            </div>
+        </section>
+    );
+};
+
+const AppSection = () => {
+    return(
+        <section className="b-section mobile-app-section">
+            <div className="l-container b-section__container">
+                <span className="b-section__title mobile-app-section__title"><b>{SingalData.appTitle}</b></span>
+                <span className="b-section__desc mobile-app-section__desc">{SingalData.appDesc}</span>
+                <a href="#" className="btn btn-large mobile-app-section__link js-show-dark-modal">{SingalData.appBtnText}</a>
+            </div>
+        </section>
+    );
+};
+
+export {Testimonial, LogoSection, SectionLink, TaxlyWork, Price, PaymentOptions, SmartPricing, YourBusiness, SafeHand, AppSection, BenefitTaxly};
