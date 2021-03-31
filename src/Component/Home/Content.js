@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import images from "../../Utils/ImageHelper";
 import {SingalData, Testimonialdata, SectionLinkData, TaxlyWorkData, BenefitTaxlyData, PriceData, PriceBusinessData, SafeHandData} from "../Home/Data";
 
@@ -88,31 +88,39 @@ const Testimonial = () => {
     );
 };
 
-const TaxlyWork = () => {
-    return(
-        <section className="b-section b-section_bg-gray how-section">
-            <div className="l-container b-section__container">
-                <span className="b-section__note">{SingalData.TaxlyWorkNote}</span>
-                <h2 className="b-section__title">{SingalData.TaxlyWorkTitle}</h2>
-                <span className="b-section__desc how-section__desc">{SingalData.TaxlyWorkDesc}</span>
-                <div className="how-section__grid">
-                    {TaxlyWorkData.map((val,ind) => 
-                        <div key={ind} className="how-item how-section__item">
-                            <img className="how-item__icon-number" src={val.imageSmall} alt="Taxly" />
-                            <img className="how-item__icon" src={val.imageBig} alt="Taxly" />
-                            <span className="how-item__name">{val.name}</span>
+export class TaxlyWork extends Component {
+    state = {
+        class: "",
+    };
+    toggleTaxly = () => {
+        this.setState({ class: this.state.class === "" ? "how-content_open" : "" });
+    };
+    render() {
+        return(
+            <section className="b-section b-section_bg-gray how-section">
+                <div className="l-container b-section__container">
+                    <span className="b-section__note">{SingalData.TaxlyWorkNote}</span>
+                    <h2 className="b-section__title">{SingalData.TaxlyWorkTitle}</h2>
+                    <span className="b-section__desc how-section__desc">{SingalData.TaxlyWorkDesc}</span>
+                    <div className="how-section__grid">
+                        {TaxlyWorkData.map((val,ind) => 
+                            <div key={ind} className="how-item how-section__item">
+                                <img className="how-item__icon-number" src={val.imageSmall} alt="Taxly" />
+                                <img className="how-item__icon" src={val.imageBig} alt="Taxly" />
+                                <span className="how-item__name">{val.name}</span>
+                            </div>
+                        )}
+                    </div>
+                    <div className={`how-content how-section__content ${this.state.class}`} onClick={this.toggleTaxly}>
+                        <span className="how-content__title">{SingalData.TaxlyWorkBtnText}</span>
+                        <div className="how-content__text">
+                            <p>{SingalData.TaxlyWorkBtnDesc}</p>
                         </div>
-                    )}
-                </div>
-                <div className="how-content how-section__content">
-                    <span className="how-content__title">{SingalData.TaxlyWorkBtnText}</span>
-                    <div className="how-content__text">
-                        <p>{SingalData.TaxlyWorkBtnDesc}</p>
                     </div>
                 </div>
-            </div>
-        </section>
-    );
+            </section>
+        );
+    }
 };
 
 const BenefitTaxly = () => {
@@ -269,5 +277,5 @@ const AppSection = () => {
         </section>
     );
 };
-
-export {Testimonial, LogoSection, SectionLink, TaxlyWork, Price, PaymentOptions, SmartPricing, YourBusiness, SafeHand, AppSection, BenefitTaxly};
+export default TaxlyWork;
+export {Testimonial, LogoSection, SectionLink, Price, PaymentOptions, SmartPricing, YourBusiness, SafeHand, AppSection, BenefitTaxly};

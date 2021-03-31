@@ -22,7 +22,7 @@ jQuery(document).ready(function() {
             jQuery('.taxly-mobile-menu').css('left', "1000px");
         }
     }
-    jQuery('.limitless-module .slick-list, .slider-container .slick-list').slick({
+    jQuery('.slider-container .slick-list').slick({
         centerMode: true,
         autoplay: true,
         autoplaySpeed: 5000,
@@ -85,6 +85,6 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
     jQuery('.how-section__content').on('click', function() {
         jQuery(this).find('.how-content__text').slideToggle();
-        jQuery(this).toggleClass('how-content_open');
+        // jQuery(this).toggleClass('how-content_open');
     });
 });
