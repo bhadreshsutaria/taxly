@@ -1,54 +1,17 @@
 import React from "react";
 import images from "../../Utils/ImageHelper";
 import Footer from "../../Layout/Footer";
-import MobileMenu from "../../Layout/MobileMenu";
-import Navbar from "../../Layout/Navbar";
+import {ApiHeroSection, LimitlessPossibilities} from "../API/Content";
+
 export default function API() {
     return (
         <div className="App taxly-dark">
-            <div className="hero">
-                <MobileMenu/>
-                <div className="taxly-hero">
-                    <div className="taxly-hero-city-bg"></div>
-                    <Navbar/>
-                    <div className="taxly-hero-bg-green"></div>
-                    <div className="hero site-section padding-bottom-none l-container in-viewport">
-                        <div className="taxly-hero-bg"></div>
-                        <div className="taxly-hero-bird-back" style={{ backgroundImage: `url(${images.apiBackBg})` }}></div>
-                        <div className="taxly-hero-curve-green"><img src={images.taxlyHeroCurveDarkBg} alt="taxly-hero-curve-dark" /></div>
-                        <div className="taxly-hero-bird-front" style={{ backgroundImage: `url(${images.apiFrontBg})` }}></div>
-                        <div className="taxly-hero-bird"></div>
-                        <div className="hero__wrapper">
-                            <div className="l-container l-container--content">
-                                <h1 className="page-heading">Introducing the taxly API</h1>
-                                <p>An easy way for you and your customers to take advantage of taxly’s ground-breaking technology</p>
-                                <a href="#" className="btn btn-large hero__cta js-show-dark-modal">I'm interested</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            
+            <ApiHeroSection />
+            
             <main className="page-content api">
                 {/*BEING Limitless possibilities*/}
-                <section className="site-section pdb-40">
-                    <div className="slick-slide-container">
-                        <h2 className="site-section__heading">Limitless possibilities</h2>
-                        <div className="site-section__subheading">
-                            <p>An application programming interface is a computing interface to a software component or a system, that defines how other components or systems can use it.</p>
-                        </div>
-                        <div className="site-section__module limitless limitless-module">
-                            <div className="slick-list">
-                                    <div className=""><img src={images.apiscreenOne} alt="screen-1" /></div>
-                                    <div className=""><img src={images.apiscreenTwo} alt="screen-2" /></div>
-                                    <div className=""><img src={images.apiscreenThree} alt="screen-3" /></div>
-                            </div>
-                            <div className="slider-nav">
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <LimitlessPossibilities />
                 {/*END Limitless possibilities*/}
 
                 {/*BEING How it works*/}
