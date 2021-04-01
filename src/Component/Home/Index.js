@@ -1,8 +1,8 @@
 import React from "react";
 import Homeheader from "../../Layout/Homeheader";
 import Footer from "../../Layout/Footer";
-import {Testimonial, LogoSection , TaxlyWork, BenefitTaxly, SmartPricing, YourBusiness, SafeHand, AppSection} from "../Home/Content";
-import DarkModal, {VideoModal} from "../Modal/Modal";
+import {Testimonial, LogoSection , TaxlyWork, VariableHeight, BenefitTaxly, SmartPricing, YourBusiness, SafeHand, AppSection} from "../Home/Content";
+import {DarkModal, VideoModal} from "../Modal/Modal";
 
 export default function Home() {
     return (

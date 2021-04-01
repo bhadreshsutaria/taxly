@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Slider from "react-slick";
 import images from "../../Utils/ImageHelper";
 import MobileMenu from "../../Layout/MobileMenu";
 import Navbar from "../../Layout/Navbar";
-import {SingleData, LimitlessPData} from "../API/Data";
+import {DarkModalApi} from "../Modal/Modal";
+import {SingleData, LimitlessPData, ApiHowItWorkData, ApiPartnershipData} from "../API/Data";
+import Modal from "react-modal";
 
 const ApiHeroSection = () => {
     return(
@@ -24,7 +26,7 @@ const ApiHeroSection = () => {
                             <div className="l-container l-container--content">
                                 <h1 className="page-heading">{SingleData.apiHeroHeading}</h1>
                                 <p>{SingleData.apiHeroDescription}</p>
-                                <a href="#" className="btn btn-large hero__cta js-show-dark-modal">{SingleData.apiHeroBtnName}</a>
+                                <a href="#" className="btn btn-large hero__cta">{SingleData.apiHeroBtnName}</a>
                             </div>
                         </div>
                     </div>
@@ -86,4 +88,85 @@ const LimitlessPossibilities = () =>{
     );
 };
 
-export {ApiHeroSection, LimitlessPossibilities};
+const ApiHowItWork = () =>{
+    return(
+        <section className="site-section">
+            <div className="l-container">
+                <h2 className="site-section__heading">{SingleData.apiHowItWorkHeading}</h2>
+                <div className="site-section__subheading">
+                    <p>{SingleData.apiHowItWorkSubHeading}</p>
+                </div>
+                <div className="howitworks-module module-single-column">
+                    {ApiHowItWorkData.map((val,ind) =>
+                        <div key={ind} className={`columns-2 text-left taxly-image-text ${val.extraClass === '' ? '': val.extraClass}`}>
+                            <div className="columns-2-item">
+                                <img src={val.image} alt={val.imgAlt} />
+                            </div>
+                            <div className="columns-2-item">
+                                <h3>{val.title}</h3>
+                                <p>{val.description}</p>
+                            </div>
+                        </div>
+                    )}
+                </div>
+            </div>
+        </section>
+    );
+};
+
+const ApiPartnership = () => {
+    return (
+        <section className="site-section">
+            <div className="l-container">
+                <h2 className="site-section__heading">{SingleData.apiPHeading}</h2>
+                <div className="site-section__subheading">
+                    <p>{SingleData.apiPSubHeading}</p>
+                </div>
+                <div className="interest-areas-module">
+                    <div className="columns-2 taxly-boxes">
+                        {ApiPartnershipData.map((val,ind) =>
+                            <div key={ind} className="columns-2-item taxly-box taxly-box-white">
+                                <div className="box-top-left box-image"></div>
+                                <div className="box-top-right box-image"></div>
+                                <div className="box-bottom-left box-image"></div>
+                                <div className="box-bottom-right box-image"></div>
+                                <div className="box-content">
+                                    <img src={val.apiImage} alt={val.apiAlt} />
+                                    <h3>{val.apiPartnershipTitle}</h3>
+                                    <p>{val.apiPartnershipDesc}</p>
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
+
+const ApiLetsTalk = () =>{
+    const [isOpen, setIsOpen] = useState(false);
+    function toggleModal() {
+        setIsOpen(!isOpen);
+    }
+    return(
+        <section className="site-section open-door">
+            <div className="open-door-bg">
+                <img src={images.apiopenDoor} alt="open-door" />
+            </div>
+            <div className="l-container">
+                <h2 className="site-section__heading">{SingleData.apiLetsTalkheading}</h2>
+                <div className="site-section__subheading">
+                    <p>{SingleData.apiLetsTalkSubheading}</p>
+                </div>
+                <button className="btn btn-large hero__cta" onClick={toggleModal}>{SingleData.apiLetsTalkBtnText}</button>
+                <Modal className="modal invite-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
+                    <DarkModalApi/>
+                </Modal>
+            </div>
+        </section>
+    );
+};
+
+export {ApiHeroSection, LimitlessPossibilities, ApiHowItWork, ApiPartnership, ApiLetsTalk};
+Modal.setAppElement('#root');

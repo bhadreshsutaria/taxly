@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import {Collapse} from 'react-collapse';
+import {UnmountClosed} from 'react-collapse';
 import images from "../../Utils/ImageHelper";
 import {SingalData, Testimonialdata, SectionLinkData, TaxlyWorkData, BenefitTaxlyData, PriceData, PriceBusinessData, SafeHandData} from "../Home/Data";
 
@@ -90,10 +92,12 @@ const Testimonial = () => {
 
 export class TaxlyWork extends Component {
     state = {
+        opened: false,
         class: "",
     };
-    toggleTaxly = () => {
+    toggleClass = () => {
         this.setState({ class: this.state.class === "" ? "how-content_open" : "" });
+        this.setState({ opened: !this.state.opened })
     };
     render() {
         return(
@@ -111,11 +115,9 @@ export class TaxlyWork extends Component {
                             </div>
                         )}
                     </div>
-                    <div className={`how-content how-section__content ${this.state.class}`} onClick={this.toggleTaxly}>
+                    <div className={`how-content how-section__content ${this.state.class}`} onClick={this.toggleClass}>
                         <span className="how-content__title">{SingalData.TaxlyWorkBtnText}</span>
-                        <div className="how-content__text">
-                            <p>{SingalData.TaxlyWorkBtnDesc}</p>
-                        </div>
+                        <Collapse isOpened={this.state.opened}><div className="how-content__text"><p>{SingalData.TaxlyWorkBtnDesc}</p></div></Collapse>
                     </div>
                 </div>
             </section>

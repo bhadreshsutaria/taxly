@@ -4897,3 +4897,7 @@ p.taxly-icon {
 .social-climate-change img.bcorp {
     height: 195px;
 }
+
+.ReactModal__Overlay--after-open {
+    z-index: 9999999999;
+}
