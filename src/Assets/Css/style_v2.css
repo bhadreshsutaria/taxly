@@ -687,7 +687,7 @@
 }
 
 .how-content__text {
-    display: none;
+    /* display: none; */
     margin-top: 20px;
     padding-bottom: 5px;
 }

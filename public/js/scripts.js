@@ -1,3 +1,5 @@
+
+
 jQuery(document).ready(function() {
     function windowResize() {
         if (window.innerWidth <= 768) {
@@ -82,9 +84,9 @@ jQuery(document).ready(function() {
     });
 });
 
-jQuery(document).ready(function() {
-    jQuery('.how-section__content').on('click', function() {
-        jQuery(this).find('.how-content__text').slideToggle();
-        // jQuery(this).toggleClass('how-content_open');
-    });
-});
+// jQuery(document).ready(function() {
+//     jQuery('.how-section__content').on('click', function() {
+//         jQuery(this).find('.how-content__text').slideToggle();
+//         // jQuery(this).toggleClass('how-content_open');
+//     });
+// });
