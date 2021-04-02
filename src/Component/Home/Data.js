@@ -5,7 +5,6 @@ const SingalData = {
     heroHeading: "Complicated is Outdated. Swiss Tax Returns Made Simple.",
     heroDesc: "Create your Swiss tax return in less than 10 minutes",
     heroBtnName: "Get Started",
-    heroVidName: "Watch the video",
     logoTitle: "You might’ve heard of us",
     testimonialNote: "A 5 Star Tax Service",
     testimonialTitle: "Over 6'000 Happy Customers",
@@ -27,11 +26,11 @@ const SingalData = {
     safeHandDesc: "Brought to you by a team of Swiss tax experts and technologists who care deeply about protecting you and your data.",
     appTitle: "Our mobile app for iOS and Android will be available soon",
     appDesc: "Interested? We can keep you up to date.",
-    appBtnText: "Sign up to our newsletter",
+    videoModalText: "Watch the video",
+    darkModalText: "Sign up to our newsletter",
 }
 
-const Testimonialdata = [
-    {
+const Testimonialdata = [{
         title: "Intuitive workflow and great customer support!",
         description: '"Intuitive workflow and great customer support! Totally recommend it. Never thought my tax declaration would be such a pleasant experience! Merci Taxly!"',
         name: "Andy Grayshon",
@@ -52,34 +51,27 @@ const Testimonialdata = [
 ];
 
 const SectionLinkData = [
-    [
-        {
-            extraClass: "good-to-know-section__link",
-            pageTarget: "_blank",
-            pageLink: "https://www.google.com/maps/place/Taxly+AG/@47.3672655,8.5329657,17z/data=!4m7!3m6!1s0x47900a01fce3e665:0xdc6d8cbf4e9556f3!8m2!3d47.3672655!4d8.5351544!9m1!1b1?hl=en-VN",
-            linkText: "Read All Reviews",
-        },
-    ],
-    [
-        {
-            extraClass: "for-whom-section__link",
-            pageTarget: "",
-            pageLink: "/faq/",
-            linkText: "Questions? (FAQ)",
-        },
-    ],
-    [
-        {
-            extraClass: "good-to-know-section__link",
-            pageTarget: "",
-            pageLink: "/faq/",
-            linkText: "Questions? (FAQ)",
-        },
-    ],
+    [{
+        extraClass: "good-to-know-section__link",
+        pageTarget: "_blank",
+        pageLink: "https://www.google.com/maps/place/Taxly+AG/@47.3672655,8.5329657,17z/data=!4m7!3m6!1s0x47900a01fce3e665:0xdc6d8cbf4e9556f3!8m2!3d47.3672655!4d8.5351544!9m1!1b1?hl=en-VN",
+        linkText: "Read All Reviews",
+    }, ],
+    [{
+        extraClass: "for-whom-section__link",
+        pageTarget: "",
+        pageLink: "/faq/",
+        linkText: "Questions? (FAQ)",
+    }, ],
+    [{
+        extraClass: "good-to-know-section__link",
+        pageTarget: "",
+        pageLink: "/faq/",
+        linkText: "Questions? (FAQ)",
+    }, ],
 ];
 
-const TaxlyWorkData = [
-    {
+const TaxlyWorkData = [{
         imageSmall: images.hsnOneIcon,
         imageBig: images.hsOneImage,
         name: "Answer a few simple questions",
@@ -102,58 +94,55 @@ const TaxlyWorkData = [
 ];
 
 
-const BenefitTaxlyData = [ "Expats", "Homeowner", "Freelancers", "Business Owners", "Pensioner", "Disabled"];
+const BenefitTaxlyData = ["Expats", "Homeowner", "Freelancers", "Business Owners", "Pensioner", "Disabled"];
 
-const PriceData = [
-    {  
+const PriceData = [{
         image: images.priceIconOne,
         note: "Under 25 Years",
         numberValue: "25",
         currency: "CHF",
-        priceText: ["Completed Swiss Tax Return" , "Optimised by Roger (AI)", "Shipping to the Tax Office"],
+        priceText: ["Completed Swiss Tax Return", "Optimised by Roger (AI)", "Shipping to the Tax Office"],
     },
-    {  
+    {
         image: images.priceIconTwo,
         note: "Family Package",
         numberValue: "49",
         currency: "CHF",
-        priceText: ["Completed Swiss Tax Return (For you and your family)" , "Optimised by Roger (AI)", "Shipping to the Tax Office"],
+        priceText: ["Completed Swiss Tax Return (For you and your family)", "Optimised by Roger (AI)", "Shipping to the Tax Office"],
     },
-    {  
+    {
         image: images.priceIconThree,
         note: "Unemployed Due To COVID-19",
         numberValue: "Free",
         currency: "",
-        priceText: ["Free Swiss Tax Return (For you and your family)" , "Optimised by Roger (AI)", "Free Shipping to the Tax Office"],
+        priceText: ["Free Swiss Tax Return (For you and your family)", "Optimised by Roger (AI)", "Free Shipping to the Tax Office"],
     },
 ];
 
-const PriceBusinessData = [
-    {  
+const PriceBusinessData = [{
         image: images.priceIconFour,
         note: "Startups & Small Enterprises",
         numberValue: "500",
         currency: "CHF",
-        priceText: ["In-House support" , "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
+        priceText: ["In-House support", "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
     },
-    {  
+    {
         image: images.priceIconFive,
         note: "Hotels, Restaurants & Shops",
         numberValue: "450",
         currency: "CHF",
-        priceText: ["In-House support" , "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
+        priceText: ["In-House support", "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
     },
-    {  
+    {
         image: images.priceIconSix,
         note: "Freelancers",
         numberValue: "350",
         currency: "CHF",
-        priceText: ["In-House support" , "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
+        priceText: ["In-House support", "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
     },
 ];
 
-const SafeHandData = [
-    {
+const SafeHandData = [{
         image: images.iconTaxExperts2x,
         alt: "tax experts",
         sname: "Swiss Tax Experts",
@@ -179,4 +168,4 @@ const SafeHandData = [
     },
 ];
 
-export {SingalData, Testimonialdata, SectionLinkData, TaxlyWorkData, BenefitTaxlyData, PriceData, PriceBusinessData, SafeHandData};
+export { SingalData, Testimonialdata, SectionLinkData, TaxlyWorkData, BenefitTaxlyData, PriceData, PriceBusinessData, SafeHandData };

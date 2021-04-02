@@ -1323,14 +1323,14 @@ form.sent .wpcf7-response-output {
     background-image: url(../../Images/form_success_dark.svg);
 }
 
-form .wpcf7-email {
+form #email-api {
     background-image: url(../../Images/form_email.svg);
     background-repeat: no-repeat;
     background-position: right 16px center;
     padding: 18px 44px 18px 16px;
 }
 
-.taxly-dark form .wpcf7-email {
+.taxly-dark form #email-api {
     background-image: url(../../Images/form_email_dark.svg);
 }
 
@@ -1715,11 +1715,12 @@ form .ajax-loader {
     height: 24px;
 }
 
-.main-nav ul li.menu-item a.active,
+
+/* .main-nav ul li.menu-item a.active,
 .main-nav ul li.menu-item a:hover,
 .taxly-hero .video-link .taxly-icon:hover {
     color: #00ffb6;
-}
+} */
 
 .main-nav ul,
 .main-nav ul li.menu-item {
@@ -4865,39 +4866,4 @@ p.taxly-icon {
     border: 0px;
     background: none;
     max-width: 100%;
-}
-
-
-/*  */
-
-.hero__inner .taxly-logo a .taxly-logo__blue {
-    display: none;
-}
-
-.social-who img.stars {
-    max-height: 138.5px;
-}
-
-.social-who img.stars-flip {
-    max-height: 138.5px;
-}
-
-.social-who img.globe {
-    max-height: 173px;
-}
-
-.social-climate-change img.globe {
-    height: 172px;
-}
-
-.social-climate-change img.leaf {
-    height: 36px;
-}
-
-.social-climate-change img.bcorp {
-    height: 195px;
-}
-
-.ReactModal__Overlay--after-open {
-    z-index: 9999999999;
 }

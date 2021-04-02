@@ -40,6 +40,7 @@ import meetRogerOne from "../Images/meet-roger-1-en.png";
 import meetRogerTwo from "../Images/meet-roger-2-large.png";
 import meetRogerThree from "../Images/meet-roger-3.png";
 import meetRogerFour from "../Images/meet-roger-4.png";
+import insightsBackWhite from "../Images/Taxly_Insights.png";
 import insightsBack from "../Images/insights_back.png";
 import insightsFront from "../Images/insights_front.png";
 import insightsHowitworksSingle from "../Images/insights-howitworks-single.png";
@@ -95,7 +96,9 @@ import thirdApp from "../Images/3rd-app.png";
 import tBackground1x from "../Images/t-background1x.png";
 import appleLogo from "../Images/apple.png";
 import androidLogo from "../Images/android.png";
-
+import TaxlyHowItWorks from "../Images/Taxly_How_It_Works.png";
+import TaxlyApp from "../Images/Taxly_App.png";
+import TaxlyApi from "../Images/Taxly_Api.png";
 const images = {
     logowhite: logowhite,
     taxlypartnership: taxlypartnership,
@@ -139,6 +142,7 @@ const images = {
     meetRogerTwoEn: meetRogerTwo,
     meetRogerThreeEn: meetRogerThree,
     meetRogerFourEn: meetRogerFour,
+    insightsBackWhiteBg: insightsBackWhite,
     insightsBackBg: insightsBack,
     insightsFrontBg: insightsFront,
     insightsHowitworksSingleBg: insightsHowitworksSingle,
@@ -189,10 +193,13 @@ const images = {
     appFrontOneBg: appFrontOne,
     revolutionalOsrBg: revolutionalOsr,
     scanLikeAWindBg: scanLikeAWind,
-    appScreensBg : appScreens,
-    thirdAppBg : thirdApp,
+    appScreensBg: appScreens,
+    thirdAppBg: thirdApp,
     tBackground1xLogo: tBackground1x,
     appleIcon: appleLogo,
     androidIcon: androidLogo,
+    TaxlyHowItWorksBg: TaxlyHowItWorks,
+    TaxlyAppBg: TaxlyApp,
+    TaxlyApiBg: TaxlyApi,
 }
 export default images

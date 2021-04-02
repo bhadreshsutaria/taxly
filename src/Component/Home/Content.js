@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import {Collapse} from 'react-collapse';
-import {UnmountClosed} from 'react-collapse';
+import Modal from "react-modal";
 import images from "../../Utils/ImageHelper";
+import {DarkModal, TopBottomLeftRight} from "../Modal/Modal";
 import {SingalData, Testimonialdata, SectionLinkData, TaxlyWorkData, BenefitTaxlyData, PriceData, PriceBusinessData, SafeHandData} from "../Home/Data";
 
 const LogoSection = () => {
@@ -268,16 +269,40 @@ const SafeHand = () => {
     );
 };
 
+const HomeDarkModal = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    function toggleModal() {
+        setIsOpen(!isOpen);
+    }
+    return(
+        <>
+        <button className="btn btn-large mobile-app-section__link" onClick={toggleModal}>{SingalData.darkModalText}</button>
+        <Modal className="modal invite-modal dark-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
+            <div className="modal__overlay"></div>
+            <div className="modal__content taxly-box">
+                <TopBottomLeftRight />
+                <div className="box-content">
+                    <div className="modal__close" onClick={toggleModal}>Close</div>
+                    <DarkModal />
+                </div>
+            </div>
+        </Modal>
+        </>
+    );
+};
+
 const AppSection = () => {
     return(
         <section className="b-section mobile-app-section">
             <div className="l-container b-section__container">
                 <span className="b-section__title mobile-app-section__title"><b>{SingalData.appTitle}</b></span>
                 <span className="b-section__desc mobile-app-section__desc">{SingalData.appDesc}</span>
-                <a href="#" className="btn btn-large mobile-app-section__link js-show-dark-modal">{SingalData.appBtnText}</a>
+                <HomeDarkModal/>
+                {/* <a href="#" className="btn btn-large mobile-app-section__link js-show-dark-modal">{SingalData.appBtnText}</a> */}
             </div>
         </section>
     );
 };
+
 export default TaxlyWork;
-export {Testimonial, LogoSection, SectionLink, Price, PaymentOptions, SmartPricing, YourBusiness, SafeHand, AppSection, BenefitTaxly};
+export {Testimonial, LogoSection, SectionLink, Price, PaymentOptions, SmartPricing, YourBusiness, SafeHand, AppSection, BenefitTaxly, HomeDarkModal};
