@@ -18,6 +18,11 @@
     font-size: 62.5%;
 }
 
+.taxly-hero_bg {
+    background-size: 100% auto;
+    background-position: center 100%;
+}
+
 .home .taxly-hero {
     background-image: url('../../Images/media/taxly-hero-bg@2x.png');
     background-size: 100% auto;
@@ -42,37 +47,57 @@
     z-index: 1;
 }
 
+.taxly-hero_bg-white {
+    background-color: var(--white-color);
+}
+
+.taxly-hero #mysticky-nav.wrapfixed .myfixed {
+    background-color: transparent;
+}
+
 .home #mysticky-nav.wrapfixed .myfixed {
     background-color: transparent;
 }
 
-.home .main-nav ul li.menu-item a {
+.home .main-nav ul li.menu-item a,
+.taxly-hero_bg-white .main-nav ul li.menu-item a {
     color: var(--primary-color);
     font-family: var(--font-regular);
 }
 
-.home .main-nav ul li.menu-item a:hover {
+.home .main-nav ul li.menu-item.current-menu-item a,
+.taxly-hero_bg-white .main-nav ul li.menu-item a.active {
+    font-weight: 600;
+}
+
+.home .main-nav ul li.menu-item a:hover,
+.taxly-hero_bg-white .main-nav ul li.menu-item a:hover {
     opacity: .8;
 }
 
-.home .taxly-icon-login {
+.home .taxly-icon-login,
+.taxly-hero_bg-white .taxly-icon-login {
     background: url('../../Images/v2/login.svg') no-repeat left center / 24px auto;
 }
 
-.home .taxly-icon-language {
+.home .taxly-icon-language,
+.taxly-hero_bg-white .taxly-icon-language {
     background: url('../../Images/v2/language.svg') no-repeat left center / 24px auto;
 }
 
-.home .taxly-hero .page-heading {
+.home .taxly-hero .page-heading,
+.taxly-hero_bg-white .page-heading {
     color: var(--primary-color);
 }
 
-.home .hero__wrapper p {
+.home .hero__wrapper p,
+.taxly-hero_bg-white .hero__wrapper p {
     color: var(--primary-color);
     margin-bottom: 20px;
 }
 
-.home .taxly-hero h1 {
+.home .taxly-hero h1,
+.taxly-hero_bg-white h1 {
     margin-bottom: 25px;
 }
 
@@ -108,6 +133,9 @@
 .home .taxly-hero .video-link .taxly-icon-play {
     background-image: none;
     padding-left: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
 }
 
 
@@ -115,11 +143,13 @@
     color: var(--white-color);
 } */
 
-.home .taxly-logo__icon_fixed {
+.home .taxly-logo__icon_fixed,
+.taxly-hero_bg-white .taxly-logo__icon_fixed {
     display: none;
 }
 
-.home #mysticky-nav.wrapfixed {
+.home #mysticky-nav.wrapfixed,
+.taxly-hero_bg-white #mysticky-nav.wrapfixed {
     box-shadow: 0 2px 30px 0 var(--shadow-color);
     background: var(--white-color) !important;
 }
@@ -1005,20 +1035,24 @@ html[lang="pt-PT"] #mysticky-wrap #menu-container .hero__cta {
 /* Media */
 
 @media screen and (min-width: 1280px) and (max-width: 1680px) {
-    .home .taxly-hero .page-heading {
+    .home .taxly-hero .page-heading,
+    .taxly-hero_bg-white .page-heading {
         font-size: 5rem;
         margin-bottom: 15px;
     }
-    .home .taxly-hero .video-link {
+    .home .taxly-hero .video-link,
+    .taxly-hero_bg-white .video-link {
         margin-top: 5px;
     }
-    .home .taxly-hero .hero__wrapper .l-container {
+    .home .taxly-hero .hero__wrapper .l-container,
+    .taxly-hero_bg-white .hero__wrapper .l-container {
         padding-top: 50px;
     }
     .home #menu-containerL:not(.myfixed) .main-nav {
         padding-bottom: 15px;
     }
-    .home .taxly-hero {
+    .home .taxly-hero,
+    .taxly-hero_bg {
         height: 100vh;
     }
     .taxly-hero__partnership {
@@ -1097,6 +1131,21 @@ html[lang="pt-PT"] #mysticky-wrap #menu-container .hero__cta {
 }
 
 @media screen and (max-width: 767px) {
+    .taxly-mobile-menu-fixed .taxly-logo a img.taxly-logo__item_mobile,
+    .taxly-mobile-menu-fixed_white .taxly-logo a img.taxly-logo__item {
+        display: none;
+    }
+    .home .taxly-mobile-menu-fixed .taxly-logo a img.taxly-logo__item_mobile,
+    .taxly-mobile-menu-fixed_white .taxly-logo a img.taxly-logo__item_mobile {
+        display: block;
+    }
+    .home .taxly-hero,
+    .taxly-hero_bg {
+        height: 81.5vh;
+        background-size: auto 100%;
+        background-position: 67% bottom;
+        min-height: 0;
+    }
     .b-section__container {
         padding: 0 25px;
     }
@@ -1213,29 +1262,39 @@ html[lang="pt-PT"] #mysticky-wrap #menu-container .hero__cta {
     .testimonials-section__item {
         width: 350px;
     }
-    .home .taxly-logo__item {
+    .home .taxly-logo__item,
+    .taxly-hero_bg-white .taxly-logo__item {
         display: none;
     }
-    .home .taxly-logo__item_mobile {
+    .home .taxly-logo__item_mobile,
+    .taxly-hero_bg-white .taxly-logo__item_mobile {
         display: block;
     }
-    .home .taxly-mobile-menu-fixed {
-        background: var(--white-color);
+    .taxly-mobile-menu-fixed {
         height: 80px;
+    }
+    .home .taxly-mobile-menu-fixed,
+    .taxly-mobile-menu-fixed_white {
+        background: var(--white-color);
         box-shadow: 0 2px 30px 0 var(--shadow-color);
     }
-    .home .taxly-mobile-menu-button {
+    .home .taxly-mobile-menu-button,
+    .taxly-mobile-menu-button_white {
         background-image: url('../../Images/v2/mobile_menu_button_dark.svg');
     }
-    .home .taxly-mobile-menu-bg {
+    .home .taxly-mobile-menu-bg,
+    .taxly-mobile-menu_white .taxly-mobile-menu-bg {
         background: var(--white-color);
     }
-    .home .taxly-mobile-menu ul.top-menu li a {
+    .home .taxly-mobile-menu ul.top-menu li a,
+    .taxly-mobile-menu_white ul.top-menu li a {
         color: var(--primary-color) !important;
     }
-    .home .taxly-mobile-menu ul.bottom-menu li a {
+    .home .taxly-mobile-menu ul.bottom-menu li a,
+    .taxly-mobile-menu_white ul.bottom-menu li a {
         color: var(--primary-color) !important;
-        padding-left: 0;
+        padding-left: 0 !important;
+        background: none !important;
     }
     .taxly-hero__partnership {
         bottom: 10px;
@@ -1244,20 +1303,23 @@ html[lang="pt-PT"] #mysticky-wrap #menu-container .hero__cta {
         width: 170px;
         height: 70px;
     }
-    .home .taxly-hero .page-heading {
+    .home .taxly-hero .page-heading,
+    .taxly-hero_bg-white .page-heading {
         font-size: 3.6rem;
         margin-bottom: 15px;
     }
     .taxly-hero .hero__wrapper .l-container {
         padding-top: 30px;
     }
-    .home .taxly-hero {
-        height: 78vh;
+    .home .taxly-hero,
+    .taxly-hero_bg {
+        height: 81.5vh;
         background-size: auto 100%;
         background-position: 67% bottom;
         min-height: 0;
     }
-    .home .taxly-hero::after {
+    .home .taxly-hero::after,
+    .taxly-hero_bg-white::after {
         bottom: auto;
         top: 100%;
     }
@@ -1270,10 +1332,12 @@ html[lang="pt-PT"] #mysticky-wrap #menu-container .hero__cta {
     .home .home-press-logos {
         padding-bottom: 30px;
     }
-    .home .taxly-hero .video-link {
+    .home .taxly-hero .video-link,
+    .taxly-hero_bg-white .video-link {
         margin-top: 5px;
     }
-    .home .hero__wrapper {
+    .home .hero__wrapper,
+    .taxle-hero_bg-white .hero__wrapper {
         padding-bottom: 0;
     }
     .partnership-template__hero {
@@ -1316,7 +1380,8 @@ html[lang="pt-PT"] #mysticky-wrap #menu-container .hero__cta {
         text-align: center;
         width: 100%;
     }
-    .home .taxly-hero .page-heading {
+    .home .taxly-hero .page-heading,
+    .taxly-hero_bg-white .page-heading {
         font-size: 3.2rem;
         margin-bottom: 10px;
     }
@@ -1342,4 +1407,40 @@ html[lang="pt-PT"] #mysticky-wrap #menu-container .hero__cta {
     .testimonials-section__item {
         width: 300px;
     }
+}
+
+
+/*  */
+
+.hero__inner .taxly-logo a .taxly-logo__white,
+.hero__inner__white .taxly-logo a .taxly-logo__blue {
+    display: none;
+}
+
+.social-who img.stars {
+    max-height: 138.5px;
+}
+
+.social-who img.stars-flip {
+    max-height: 138.5px;
+}
+
+.social-who img.globe {
+    max-height: 173px;
+}
+
+.social-climate-change img.globe {
+    height: 172px;
+}
+
+.social-climate-change img.leaf {
+    height: 36px;
+}
+
+.social-climate-change img.bcorp {
+    height: 195px;
+}
+
+.ReactModal__Overlay--after-open {
+    z-index: 9999999999;
 }

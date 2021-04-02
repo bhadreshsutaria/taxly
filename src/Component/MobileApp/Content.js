@@ -1,28 +1,44 @@
-import React from "react";
+import React , {useState} from "react";
 import images from "../../Utils/ImageHelper";
 import MobileMenu from "../../Layout/MobileMenu";
 import Navbar from "../../Layout/Navbar";
+import Modal from "react-modal";
+import {DarkModal, TopBottomLeftRight} from "../Modal/Modal";
 import {SingleData, AppHowItWorkData, SiteSectionData, ComingSoonCardData} from "../MobileApp/Data";
 
 const HeroApp = () => {
-  return (
+    const [isOpen, setIsOpen] = useState(false);
+    function toggleModal() {
+        setIsOpen(!isOpen);
+    }
+    return (
     <div className="hero__inner app-page">
         <MobileMenu/>
-        <div className="taxly-hero">
-            <div className="taxly-hero-city-bg"></div>
+        <div className="taxly-hero taxly-hero_bg taxly-hero_bg-white" style={{ backgroundImage: `url(${images.TaxlyAppBg})` }}>
+            {/* <div className="taxly-hero-city-bg"></div> */}
             <Navbar/>
-            <div className="taxly-hero-bg-green"></div>
+            {/* <div className="taxly-hero-bg-green"></div> */}
             <div className="hero site-section padding-bottom-none l-container in-viewport">
-                <div className="taxly-hero-bg"></div>
+                {/* <div className="taxly-hero-bg"></div>
                 <div className="taxly-hero-bird-back" style={{ backgroundImage: `url(${images.homeBackBg})` }}></div>
                 <div className="taxly-hero-curve-green"><img src={images.taxlyHeroCurveDarkBg} alt="taxly-hero-curve-dark" /></div>
                 <div className="taxly-hero-bird-front" style={{ backgroundImage: `url(${images.appFrontOneBg})` }}></div>
-                <div className="taxly-hero-bird"></div>
+                <div className="taxly-hero-bird"></div> */}
                 <div className="hero__wrapper">
                     <div className="l-container l-container--content">
                         <h1 className="page-heading">{SingleData.heroAppPageHeading}</h1>
                         <p>{SingleData.heroAppSubHeading}</p>
-                        <a href="#" className="btn btn-large hero__cta js-show-dark-modal">{SingleData.heroAppBtnText}</a>
+                        <button className="btn btn-large hero__cta" onClick={toggleModal}>{SingleData.notifyMeModalText}</button>
+                        <Modal className="modal invite-modal dark-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
+                            <div className="modal__overlay"></div>
+                            <div className="modal__content taxly-box">
+                                <TopBottomLeftRight />
+                                <div className="box-content">
+                                    <div className="modal__close" onClick={toggleModal}>Close</div>
+                                    <DarkModal />
+                                </div>
+                            </div>
+                        </Modal>
                     </div>
                 </div>
             </div>
@@ -75,6 +91,28 @@ const SiteSection = () => {
 	);
 };
 
+const AppDarkModal = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    function toggleModal() {
+        setIsOpen(!isOpen);
+    }
+    return(
+        <>
+        <button className="btn btn-large hero__cta" onClick={toggleModal}>{SingleData.notifyMeModalText}</button>
+        <Modal className="modal invite-modal dark-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
+            <div className="modal__overlay"></div>
+            <div className="modal__content taxly-box">
+                <TopBottomLeftRight />
+                <div className="box-content">
+                    <div className="modal__close" onClick={toggleModal}>Close</div>
+                    <DarkModal />
+                </div>
+            </div>
+        </Modal>
+        </>
+    );
+};
+
 const ComingSoonCard= () => {
   return (
     <>
@@ -98,7 +136,7 @@ const ComingSoonCard= () => {
 									<div className="columns-2-item">
 										<img src={val.image} alt={val.imgAlt} />
 									</div>
-									<a href="#" className="btn btn-large hero__cta js-show-dark-modal">{val.btnName}</a>
+                                    <AppDarkModal/>
 								</div>
 							</div>
 						)}

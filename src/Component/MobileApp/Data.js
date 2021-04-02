@@ -3,13 +3,12 @@ import images from "../../Utils/ImageHelper";
 const SingleData = {
     heroAppPageHeading: "Tax Submission Built Around Your Life",
     heroAppSubHeading: "It really couldn’t be easier, or faster.",
-    heroAppBtnText: "Notify Me",
     comingSoonCardHeading: "Download the app",
-    comingSoonCardSubheading : "Download Taxly for free from the App Store & Google Play.",
+    comingSoonCardSubheading: "Download Taxly for free from the App Store & Google Play.",
+    notifyMeModalText: "Notify Me",
 };
 
-const AppHowItWorkData = [
-    {
+const AppHowItWorkData = [{
         extraClass: "",
         img: images.revolutionalOsrBg,
         alt: "revolutional-osr",
@@ -25,8 +24,7 @@ const AppHowItWorkData = [
     }
 ];
 
-const SiteSectionData = [
-    {
+const SiteSectionData = [{
         extraClass: "taxly-grey-bg",
         heading: "Tax For the 21st Century",
         subHeading: "Taxly's amazing app makes doing your taxes simple, practical and kinda fun!",
@@ -42,8 +40,7 @@ const SiteSectionData = [
     },
 ];
 
-const ComingSoonCardData = [
-    {
+const ComingSoonCardData = [{
         title: "Coming soon",
         image: images.appleIcon,
         imgAlt: "apple",
@@ -57,4 +54,4 @@ const ComingSoonCardData = [
     },
 ];
 
-export {SingleData, AppHowItWorkData, SiteSectionData, ComingSoonCardData};
+export { SingleData, AppHowItWorkData, SiteSectionData, ComingSoonCardData };

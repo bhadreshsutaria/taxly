@@ -12,7 +12,6 @@ const SingleData = {
     apiPSubHeading: "We‘re always open to new ideas. Let’s discuss how customers can benefit from combining Taxly with your products or services.",
     apiLetsTalkheading: "Let’s talk",
     apiLetsTalkSubheading: "Excite customers with Taxly’s powerful API. We can’t wait to hear from you!",
-    apiLetsTalkBtnText: "I'm interested",
 };
 
 const LimitlessPData = [
@@ -41,7 +40,7 @@ const ApiHowItWorkData = [
         extraClass: "flex-reverse",
         image: images.apivisOne,
         imgAlt: "vis1",
-        title: "Integrate our risk &amp; evaluation widget",
+        title: "Integrate our risk & evaluation widget",
         description: "Are you a tax accountant looking to help your customers evaluate their financial situation? Our widget can evaluate the tax risk and financial impact of typical financial choices in life.",
     },
 ];

@@ -1,28 +1,40 @@
 import React from "react";
 import images from "../Utils/ImageHelper";
-
+import { NavLink } from "react-router-dom";
 export default function MobileMenu() {
     return (
         <>
-            <div className="taxly-mobile-menu-fixed">
+            <div className="taxly-mobile-menu-fixed taxly-mobile-menu-fixed_white">
                 <div className="taxly-logo">
                     <a href="/">
-                        <img className="taxly-logo__item taxly-logo__white" src={images.logowhite} alt="" />
-                        <img className="taxly-logo__item taxly-logo__blue taxly-logo__item_mobile" src={images.sitelogonavy} alt="" />
+                        <img className="taxly-logo__item taxly-logo__white" src={images.logowhite} alt="Taxly White Logo" />
+                        <img className="taxly-logo__item taxly-logo__blue taxly-logo__item_mobile" src={images.sitelogonavy} alt="Taxly Blue Logo" />
                     </a>
                 </div>
-                <div className="taxly-mobile-menu-button"></div>
+                <div className="taxly-mobile-menu-button taxly-mobile-menu-button_white"></div>
             </div>
             <div className="taxly-mobile-menu-padding"></div>
-            <div className="taxly-mobile-menu">
+            <div className="taxly-mobile-menu taxly-mobile-menu_white">
                 <div className="taxly-mobile-menu-bg"></div>
                 <ul className="top-menu">
-                    <li><a target="_blank" rel="noopener" href="/de-taxcalculator.html">Tax calculator</a></li>
-                    <li><a target="_blank" rel="noopener" href="/about-us/">About us</a></li>
-                    <li><a target="_blank" rel="noopener" href="/faq/">FAQs</a></li>
-                    <li><a target="_blank" rel="noopener" href="/how-it-works/">How it works</a></li>
-                    <li><a target="_blank" rel="noopener" href="/insights/">Insights</a></li>
-                    <li><a target="_blank" rel="noopener" href="/tax-extension/">Tax Extension</a></li>
+                    <li>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/de-taxcalculator.html">Tax calculator</NavLink>
+                    </li>
+                    <li>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/about-us/">About us</NavLink>
+                    </li>
+                    <li>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/faq/">FAQs</NavLink>
+                    </li>
+                    <li>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/how-it-works/">How it works</NavLink>
+                    </li>
+                    <li>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/insights/">Insights</NavLink>
+                    </li>
+                    <li>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/tax-extension/">Tax Extension</NavLink>
+                    </li>
                 </ul>
                 <ul className="bottom-menu">
                     <li><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" className="taxly-icon taxly-icon-login">Log in</a></li>
