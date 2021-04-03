@@ -1,6 +1,10 @@
 import React from "react";
 import images from "../Utils/ImageHelper";
+import { Text } from '../containers/Language';
 import Listmenu from "../Layout/Listmenu";
+
+const CurrentLanguage = window.localStorage.getItem('rcml-lang');
+
 export default function Navbar() {
     return (
         <div id="mysticky-wrap">
@@ -9,7 +13,7 @@ export default function Navbar() {
                     <div className="main-nav">
                         <Listmenu />
                         <ul className="main-nav__right">
-                            <li className="menu-item"><a href="#" className="taxly-icon taxly-icon-language">EN</a></li>
+                            <li className="menu-item"><a href="#" className="taxly-icon taxly-icon-language"><Text tid="CurrentLanguage" /></a></li>
                             <li className="menu-item"><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" className="taxly-icon taxly-icon-login">Log in</a></li>
                         </ul>
                     </div>

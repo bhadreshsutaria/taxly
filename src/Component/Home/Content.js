@@ -1,4 +1,5 @@
-import React, { Component, useState } from "react";
+import React, {Component, useState } from "react";
+import { Text } from '../../containers/Language';
 import {Collapse} from 'react-collapse';
 import Modal from "react-modal";
 import images from "../../Utils/ImageHelper";
@@ -21,6 +22,7 @@ const LogoSection = () => {
         </section>
     );
 };
+
 
 const Star = (props) => {
     return(
@@ -295,7 +297,7 @@ const AppSection = () => {
     return(
         <section className="b-section mobile-app-section">
             <div className="l-container b-section__container">
-                <span className="b-section__title mobile-app-section__title"><b>{SingalData.appTitle}</b></span>
+                <span className="b-section__title mobile-app-section__title"><b><Text tid="lanTitle" /></b></span>
                 <span className="b-section__desc mobile-app-section__desc">{SingalData.appDesc}</span>
                 <HomeDarkModal/>
                 {/* <a href="#" className="btn btn-large mobile-app-section__link js-show-dark-modal">{SingalData.appBtnText}</a> */}
