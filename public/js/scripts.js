@@ -49,38 +49,38 @@ jQuery(document).ready(function() {
     });
 
 
-    jQuery('.slider-container .slick-list').slick({
-        centerMode: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        dots: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        centerPadding: '30px',
-        arrows: false,
-        variableWidth: true,
-        initialSlide: 1,
-        responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    variableWidth: false,
-                    centerPadding: '200px'
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    variableWidth: false,
-                    centerPadding: '90px',
-                }
-            }
-        ]
-    });
+    // jQuery('.slider-container .slick-list').slick({
+    //     centerMode: true,
+    //     autoplay: true,
+    //     autoplaySpeed: 5000,
+    //     dots: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     infinite: true,
+    //     centerPadding: '30px',
+    //     arrows: false,
+    //     variableWidth: true,
+    //     initialSlide: 1,
+    //     responsive: [{
+    //             breakpoint: 1024,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //                 variableWidth: false,
+    //                 centerPadding: '200px'
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 768,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //                 variableWidth: false,
+    //                 centerPadding: '90px',
+    //             }
+    //         }
+    //     ]
+    // });
     //jQuery('.taxly-hero-curve-green img').attr('src', 'https://taxly.ch/wp-content/themes/taxly-child/images/taxly-hero-curve-dark.svg');
 });
 

@@ -7,7 +7,11 @@ import Listmenu from "../Layout/Listmenu";
 export default function Faqheader() {
     return (
     <div className="header-wrap">
-        <MobileMenu/>
+        <MobileMenu 
+            extraClass="taxly-mobile-menu-fixed_white" 
+            menuBtnClass="taxly-mobile-menu-button_white"
+            menuBGColorClass="taxly-mobile-menu_white"
+        />
         <div className="taxly-white">
             <div className="taxly-hero">
                 <div id="mysticky-wrap">
