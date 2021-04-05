@@ -1443,4 +1443,5 @@ html[lang="pt-PT"] #mysticky-wrap #menu-container .hero__cta {
 
 .ReactModal__Overlay--after-open {
     z-index: 9999999999;
+    background-color: transparent !important;
 }

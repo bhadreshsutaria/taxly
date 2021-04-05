@@ -1,12 +1,14 @@
 import React from "react";
 import Footer from "../../Layout/Footer";
-import Header from "../../Layout/Header"
+import {CommunityHeroSection, CommunityStorySection} from '../Community/Content';
+
 export default function Community() {
     return (
         <div className="App">
-            <Header/>
-            <strong>This is Community</strong>
-
+            <CommunityHeroSection/>
+            <main className="page-content">
+                <CommunityStorySection/>
+            </main>
             <Footer/>
         </div>
     )

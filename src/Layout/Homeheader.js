@@ -10,7 +10,11 @@ import '../Assets/Css/style_v2.css';
 export default function Homeheader() {
     return (
     <div className="header-wrap">
-        <MobileMenu/>
+        <MobileMenu 
+            extraClass="taxly-mobile-menu-fixed_white" 
+            menuBtnClass="taxly-mobile-menu-button_white"
+            menuBGColorClass="taxly-mobile-menu_white"
+        />
         <div className="taxly-hero">
             <a target="_blank" rel="noopener noreferrer" href="https://www.helvetia.com/corporate/web/en/home/media-and-topics/overview/media-releases/2021/20210209.html" className="partnership-icon taxly-hero__partnership">
                 <span className="partnership-icon__title">{SingalData.partnershipTitle}</span>

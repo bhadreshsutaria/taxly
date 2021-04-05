@@ -7,7 +7,11 @@ import {SingleData, InsightPlanForOptionData, InsightPFOListData, GuidesResource
 const InsightHeroSection = () => {
     return(
         <div className="hero__inner insights">
-            <MobileMenu/>
+            <MobileMenu
+                extraClass="taxly-mobile-menu-fixed_white" 
+                menuBtnClass="taxly-mobile-menu-button_white"
+                menuBGColorClass="taxly-mobile-menu_white"
+            />
             <div className="taxly-hero taxly-hero taxly-hero_bg taxly-hero_bg-white" style={{ backgroundImage: `url(${images.insightsBackWhiteBg})` }}>
                 {/* <div className="taxly-hero-city-bg"></div> */}
                 <Navbar/>

@@ -1,20 +1,20 @@
 import React from "react";
 import images from "../Utils/ImageHelper";
 import { NavLink } from "react-router-dom";
-export default function MobileMenu() {
+export default function MobileMenu(props) {
     return (
         <>
-            <div className="taxly-mobile-menu-fixed taxly-mobile-menu-fixed_white">
+            <div className={`taxly-mobile-menu-fixed ${props.extraClass === '' ? '':  props.extraClass}`}>
                 <div className="taxly-logo">
                     <a href="/">
                         <img className="taxly-logo__item taxly-logo__white" src={images.logowhite} alt="Taxly White Logo" />
                         <img className="taxly-logo__item taxly-logo__blue taxly-logo__item_mobile" src={images.sitelogonavy} alt="Taxly Blue Logo" />
                     </a>
                 </div>
-                <div className="taxly-mobile-menu-button taxly-mobile-menu-button_white"></div>
+                <div className={`taxly-mobile-menu-button ${props.menuBtnClass === '' ? '':  props.menuBtnClass}`}></div>
             </div>
             <div className="taxly-mobile-menu-padding"></div>
-            <div className="taxly-mobile-menu taxly-mobile-menu_white">
+            <div className={`taxly-mobile-menu ${props.menuBGColorClass === '' ? '' : props.menuBGColorClass}`}>
                 <div className="taxly-mobile-menu-bg"></div>
                 <ul className="top-menu">
                     <li>

@@ -2479,7 +2479,8 @@ p.taxly-icon {
     margin-top: 16px;
 }
 
-.tax-acc .prices-module .taxly-box .box-content a {
+.tax-acc .prices-module .taxly-box .box-content a,
+.tax-acc .prices-module .taxly-box .box-content .btn {
     margin-top: 20px;
 }
 

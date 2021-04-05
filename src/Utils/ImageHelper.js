@@ -99,6 +99,15 @@ import androidLogo from "../Images/android.png";
 import TaxlyHowItWorks from "../Images/Taxly_How_It_Works.png";
 import TaxlyApp from "../Images/Taxly_App.png";
 import TaxlyApi from "../Images/Taxly_Api.png";
+import TaxlyAccountants from "../Images/Taxly_Accountants.png";
+import taxAccountantsOne from "../Images/tax-accountants-1.png";
+import taxAccountantsTwo from "../Images/tax-accountants-2.png";
+import taxAccountantsThree from "../Images/tax-accountants-3.png";
+import taxAccountantsHowOneEn from "../Images/tax-accountants-how-1-en.png";
+import taxAccountantsHowTwoEn from "../Images/tax-accountants-how-2-en.png";
+import taxAccountantsHowThreeEn from "../Images/tax-accountants-how-3-en.png";
+import aboutBackOne from "../Images/about_back-1.png";
+import aboutFrontOne from "../Images/about_front-1.png";
 const images = {
     logowhite: logowhite,
     taxlypartnership: taxlypartnership,
@@ -201,5 +210,14 @@ const images = {
     TaxlyHowItWorksBg: TaxlyHowItWorks,
     TaxlyAppBg: TaxlyApp,
     TaxlyApiBg: TaxlyApi,
+    TaxlyAccountantsBg: TaxlyAccountants,
+    taxAccountantsOneBg: taxAccountantsOne,
+    taxAccountantsTwoBg: taxAccountantsTwo,
+    taxAccountantsThreeBg: taxAccountantsThree,
+    taxAccountantsHowOneEnBg: taxAccountantsHowOneEn,
+    taxAccountantsHowTwoEnBg: taxAccountantsHowTwoEn,
+    taxAccountantsHowThreeEnBg: taxAccountantsHowThreeEn,
+    aboutBackOneBg: aboutBackOne,
+    aboutFrontOneBg: aboutFrontOne,
 }
 export default images

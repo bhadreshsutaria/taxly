@@ -7,7 +7,11 @@ import {SingalData, HeroSectionData, NutShellData, HIWColumns2Data, TaxReturnDat
 const HeroSection = () => {
     return(
         <div className="hero__inner">
-            <MobileMenu/>
+            <MobileMenu
+                extraClass="taxly-mobile-menu-fixed_white" 
+                menuBtnClass="taxly-mobile-menu-button_white"
+                menuBGColorClass="taxly-mobile-menu_white"
+            />
             <div className="taxly-hero taxly-hero_bg taxly-hero_bg-white" style={{ backgroundImage: `url(${images.TaxlyHowItWorksBg})` }}>
                 {/* <div className="taxly-hero-city-bg"></div> */}
                 <Navbar/>
@@ -63,7 +67,7 @@ const NutShell = () => {
     return (
         <section className="site-section site-section-line no-subtitle">
                 <div className="l-container">
-                    <h2 className="site-section__heading">{SingalData.map((val) => val.NSHeading)}</h2>
+                    <h2 className="site-section__heading">{SingalData.NSHeading}</h2>
                     <div className="list-ticks-module">
                         <ul>
                             { NutShellData.map((val, ind) => 
