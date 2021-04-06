@@ -2,24 +2,66 @@
     "language": "DE",
     "home": {
         "SingalData": {
-            "partnershipTitle": "In partnership with DE",
-            "darkModalText": "Sign up to our newsletter DE",
-            "heroHeading": "Complicated is Outdated. Swiss Tax Returns Made Simple.",
-            "heroDesc": "Create your Swiss tax return in less than 10 minutes",
-            "heroBtnName": "Get Started",
-            "logoTitle": "You might’ve heard of us",
-            "testimonialNote": "A 5 Star Tax Service",
-            "testimonialTitle": "Over 6'000 Happy Customers",
-            "testimonialDesc": "Join a community of over 6'000 like-minded individuals who have already submitted their 2019 tax returns with Taxly."
+            "partnershipTitle": "In Partnerschaft mit",
+            "heroHeading": "Reiche Deine Steuererklärung in nur 10 Minuten ein",
+            "heroDesc": "Starte mit einem einfachen Fragebogen",
+            "heroBtnName": "Jetzt loslegen",
+            "logoTitle": "Bekannt aus den Medien",
+            "testimonialNote": "Der (fast) 5 Sterne Service",
+            "testimonialTitle": "Über 6'000 glückliche Kunden",
+            "testimonialDesc": "Schliesse dich den über 6000 glücklichen Kunden an, welche bereits die Steuererklärung mit Taxly eingereicht haben.",
+            "TaxlyWorkNote": "In nur vier Schritten zur Einreichung",
+            "TaxlyWorkTitle": "So funktioniert es",
+            "TaxlyWorkDesc": "Roger ist dein virtueller AI-Steuerprofi. Er analysiert zuerst rasend schnell deine Unterlagen und Angaben und optimiert diese dann in Echtzeit.",
+            "TaxlyWorkBtnText": "Unsere Schweizer Steuerberater stehen dir jederzeit zur Seite",
+            "TaxlyWorkBtnDesc": "Wir passen uns jeder Steuersituation an und decken jedes Bedürfnis ab. Dabei stehen Dir unsere internen Steuerexperten jederzeit zur Seite, solltest Du Hilfe benötigen. Schritt für Schritt, bis zur fertigen Steuererklärung.",
+            "BenefitTaxlyTitle": "Wer kann von Taxly profitieren?",
+            "BenefitTaxlyDesc": "Taxly bietet seine Dienstleistungen für alle EinwohnerInnen der Schweiz an. Dein Einkommensverhältnisse oder Nationalität spielt dabei keine Rolle.",
+            "smartPricingTitle": "Smart. Deshalb günstig.",
+            "smartPricingDesc": "Dank smarter Technologie und Künstlicher Intelligenz kannst du deine Steuererklärung unerreicht günstig erstellen – und dabei vielleicht sogar noch Steuern sparen.",
+            "PaymentOptions": "Zahlungsmöglichkeiten: Twint, Paypal, Kreditkarte, Rechnung",
+            "yourBusinessNote": "COVID-19 Special für Unternehmen",
+            "yourBusinessTitle": "Wir wollen helfen",
+            "yourBusinessDesc": "Die aktuelle Situation trifft uns alle hart. Taxly möchte kleinen Unternehmen helfen, und bietet Spezialangebote an.",
+            "safeHandTitle": "Gut zu wissen",
+            "safeHandDesc": "Weshalb du bei Taxly in guten Händen bist.",
+            "appTitle": "Unsere mobile App für iOS und Android wird in Kürze verfügbar sein",
+            "appDesc": "Interessiert? Wir können Dich auf dem Laufenden halten.",
+            "videoModalText": "Video anschauen",
+            "darkModalText": "Registriere Dich für unseren Newsletter"
         }
     },
-    "select_language": "Select Language",
-    "hello_welcome_to_react": "Hello English, Welcome to React",
-    "Home": {
-        "lan": {
-            "hello_welcome_to_react": "Hello, Welcome to React"
+    "faq": {
+        "FaqTabData": {
+            "data": [{
+                    "extraClass": "selected",
+                    "tabName": "About Us De"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "How it works De"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Tax stuff De"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Documents De"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Data protection De"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Charity/Social impact De"
+                }
+            ]
+        },
+        "SingalData": {
+            "headingTitleOne": "What is taxly?",
+            "actiOneP1Text": "Taxly is an online service which allows you to quickly and easily create an optimised tax return."
         }
-    },
-    "this_is_an_example": "This is an example",
-    "please_enter_name": "Please enter your name"
+    }
 }

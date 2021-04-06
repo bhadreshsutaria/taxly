@@ -1,6 +1,6 @@
 import React from "react";
 import {FaqTabData, SingalData} from "../FAQ/Data";
-
+import { useTranslation } from "react-i18next";
 const FaqTab = (props) =>{
     return(
         <div className={`taxly-box ${props.extraClass === '' ? '':  props.extraClass}`}>
@@ -18,6 +18,8 @@ const FaqTab = (props) =>{
 };
 
 const FaqContent = () =>{
+    const { t } = useTranslation();
+    let FaqTabData =  t('faq.FaqTabData.data', { returnObjects: true });
     return(
         <main className="page-content page-content--about hero-none taxly-white taxly-default faq">
             <section className="main-wrapper">
@@ -34,8 +36,8 @@ const FaqContent = () =>{
                     <div className="about-content">
                         <div className="about-content__wrapper">
                             <div className="about-content-tab-item list-items-style">
-                                <h2 className="page-heading">{SingalData.headingTitleOne}</h2>
-                                <p>{SingalData.actiOneP1Text}</p>
+                                <h2 className="page-heading">{t('faq.SingalData.headingTitleOne')}</h2>
+                                <p>{t('faq.SingalData.actiOneP1Text')}</p>
                                 <h3 className="site-section-line">{SingalData.sslOneH31Heading}</h3>
                                 <p>{SingalData.actiOneP2Text}</p>
                                 <p>{SingalData.actiOneP3Text}</p>
