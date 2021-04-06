@@ -2,24 +2,39 @@
     "language": "FR",
     "home": {
         "SingalData": {
-            "partnershipTitle": "In partnership with FR",
-            "darkModalText": "Sign up to our newsletter FR",
-            "heroHeading": "Complicated is Outdated. Swiss Tax Returns Made Simple.",
-            "heroDesc": "Create your Swiss tax return in less than 10 minutes",
-            "heroBtnName": "Get Started",
-            "logoTitle": "You might’ve heard of us",
-            "testimonialNote": "A 5 Star Tax Service",
-            "testimonialTitle": "Over 6'000 Happy Customers",
-            "testimonialDesc": "Join a community of over 6'000 like-minded individuals who have already submitted their 2019 tax returns with Taxly."
+            "partnershipTitle": "En partenariat avec",
+            "heroHeading": "Oubliez tout ce que vous pensez savoir sur les impôts",
+            "heroDesc": "Envoyez votre déclaration suisse en 10 minutes",
+            "heroBtnName": "Commencer",
+            "logoTitle": "Connu des médias",
+            "testimonialNote": "Un service fiscal 5 étoiles",
+            "testimonialTitle": "Plus de 6'000 clients satisfaits",
+            "testimonialDesc": "Rejoignez une communauté de plus de 6'000 personnes partageant les mêmes idées qui ont déjà soumis leur déclaration de revenus 2019 avec Taxly.",
+            "TaxlyWorkNote": "Déclarations fiscales suisses en seulement 4 étapes",
+            "TaxlyWorkTitle": "Comment fonctionne Taxly",
+            "TaxlyWorkDesc": "Roger est votre assistant fiscal virtuel AI. Il reliera les points de votre vie, analysera vos données et optimisera votre retour en temps réel jusqu'au centime.",
+            "TaxlyWorkBtnText": "Assistance supplémentaire - Nos conseillers fiscaux suisses internes sont à votre disposition",
+            "TaxlyWorkBtnDesc": "Toutes les situations fiscales ne sont pas les mêmes et nous pouvons nous adapter à vos besoins. Chaque fois que vous avez besoin d'aide, l'un de nos conseillers fiscaux suisses sera là pour vous aider. Étape par étape jusqu'à la déclaration de revenus terminée.",
+            "BenefitTaxlyTitle": "Qui peut bénéficier de Taxly?",
+            "BenefitTaxlyDesc": "Taxly propose ses services à tous les résidents de Suisse, quels que soient vos revenus ou votre nationalité.",
+            "smartPricingTitle": "Tarification intelligente pour tous",
+            "smartPricingDesc": "Nous recherchons les prix les plus compétitifs de Suisse et grâce à notre technologie intelligente, vous pouvez créer votre déclaration de revenus à un prix sans précédent. Exemples ci-dessous.",
+            "PaymentOptions": "Options de paiement: Twint, PayPal, carte de crédit, paiement par facture",
+            "yourBusinessNote": "COVID-19 spécial pour les petites entreprises",
+            "yourBusinessTitle": "Nous voulons aider votre entreprise",
+            "yourBusinessDesc": "Taxly veut aider les petites entreprises en cas de besoin avec des prix spéciaux pour les petites entreprises de taille moyenne qui ont été touchées par le COVID-19.",
+            "safeHandTitle": "Vous êtes entre de bonnes mains",
+            "safeHandDesc": "Présenté par une équipe d’experts et de technologues fiscaux suisses soucieux de vous protéger, vous et vos données.",
+            "appTitle": "Notre application mobile pour iOS et Android sera bientôt disponible",
+            "appDesc": "Intéressé? Nous pouvons vous tenir au courant.",
+            "videoModalText": "Regarder la vidéo",
+            "darkModalText": "Abonnez-vous à notre lettre d'information"
         }
     },
-    "select_language": "Select Language",
-    "hello_welcome_to_react": "Hello English, Welcome to React",
-    "Home": {
-        "lan": {
-            "hello_welcome_to_react": "Hello, Welcome to React"
+    "faq": {
+        "SingalData": {
+            "headingTitleOne": "What is taxly?",
+            "actiOneP1Text": "Taxly is an online service which allows you to quickly and easily create an optimised tax return."
         }
-    },
-    "this_is_an_example": "This is an example",
-    "please_enter_name": "Please enter your name"
+    }
 }

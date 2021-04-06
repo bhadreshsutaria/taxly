@@ -4,7 +4,9 @@ import MobileMenu from "../Layout/MobileMenu";
 import '../Assets/Css/style.css';
 import '../Assets/Css/style_v2.css';
 import Listmenu from "../Layout/Listmenu";
+import { useTranslation } from "react-i18next";
 export default function Faqheader() {
+    const { t } = useTranslation();
     return (
     <div className="header-wrap">
         <MobileMenu 
@@ -20,7 +22,7 @@ export default function Faqheader() {
                             <div className="main-nav">
                                 <Listmenu />
                                 <ul className="main-nav__right">
-                                    <li className="menu-item"><a href="#" className="taxly-icon taxly-icon-language">EN</a></li>
+                                    <li className="menu-item"><a href="#" className="taxly-icon taxly-icon-language">{t("language")}</a></li>
                                     <li className="menu-item"><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" className="taxly-icon taxly-icon-login">Log in</a></li>
                                 </ul>
                             </div>

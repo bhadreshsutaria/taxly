@@ -55,18 +55,20 @@ const SectionLink = (props) => {
 };
 
 const Testimonial = () => {
+    const { t } = useTranslation();
+    let Testimonialdata =  t('home.Testimonialdata.data', { returnObjects: true });
     return(
         <section className="b-section site-section site-section-line no-subtitle testimonials-section">
                 <div className="l-container b-section__container">
-                    <span className="b-section__note">{SingalData.testimonialNote}</span>
-                    <h2 className="site-section__heading b-section__title">{SingalData.testimonialTitle}</h2>
-                    <span className="b-section__desc testimonials-section__desc">{SingalData.testimonialDesc}</span>
+                    <span className="b-section__note">{t('home.SingalData.testimonialNote')}</span>
+                    <h2 className="site-section__heading b-section__title">{t('home.SingalData.testimonialTitle')}</h2>
+                    <span className="b-section__desc testimonials-section__desc">{t('home.SingalData.testimonialDesc')}</span>
                     <div className="testimonials-section__grid">
                         {Testimonialdata.map((val,ind) =>
                         <div key={ind} className="testimonial-item testimonials-section__item">
                             <span className="testimonial-item__title">{val.title}</span>
                             <div className="testimonial-item__text">
-                                <p>{val.description}</p>
+                                <p>"{val.description}"</p>
                             </div>
                             <span className="testimonial-item__name">{val.name}</span>
                             <footer className="testimonial-item__footer">
@@ -131,11 +133,12 @@ export class TaxlyWork extends Component {
 };
 
 const BenefitTaxly = () => {
+    const { t } = useTranslation();
     return(
         <section className="b-section for-whom-section">
             <div className="l-container b-section__container">
-                <h3 className="b-section__title">{SingalData.BenefitTaxlyTitle}</h3>
-                <span className="b-section__desc for-whom-section__desc">{SingalData.BenefitTaxlyDesc}</span>
+                <h3 className="b-section__title">{t('home.SingalData.BenefitTaxlyTitle')}</h3>
+                <span className="b-section__desc for-whom-section__desc">{t('home.SingalData.BenefitTaxlyDesc')}</span>
                 <div className="for-whom-section__grid">
                     <img className="for-whom-section__image" src={images.fWI2x} alt="Taxly" />
                     { BenefitTaxlyData.map((val, ind) => 
@@ -158,6 +161,7 @@ const BenefitTaxly = () => {
 
 
 const Price = (props) => {
+    const { t } = useTranslation();
     return(
         <div className="price-item price-section__item">
             <img src={props.image} className="price-item__icon" alt="Taxly" />
@@ -177,6 +181,7 @@ const Price = (props) => {
 };
 
 const PaymentOptions = () => {
+    const { t } = useTranslation();
     return(
         <footer className="price-section__details">
             <svg className="price-section__details-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 20">
@@ -185,18 +190,19 @@ const PaymentOptions = () => {
                     <path fill="#7C8AA2" d="M30 0H2C1.458 0 .99.165.594.495.198.825 0 1.215 0 1.667v16.666c0 .452.198.842.594 1.172.396.33.864.495 1.406.495h28c.542 0 1.01-.165 1.406-.495.396-.33.594-.72.594-1.172V1.667c0-.452-.198-.842-.594-1.172A2.127 2.127 0 0030 0zM2 4h28v3H2V4z"></path>
                 </g>
             </svg>
-            <span className="price-section__details-value">{SingalData.PaymentOptions}</span>
+            <span className="price-section__details-value">{t('home.SingalData.PaymentOptions')}</span>
         </footer>
     );
 };
 
 const SmartPricing = () => {
+    const { t } = useTranslation();
     return(
         <section className="b-section b-section_bg-gray site-section price-section">
             <div className="l-container b-section__container">
-                <h2 className="site-section__heading b-section__title">{SingalData.smartPricingTitle}</h2>
+                <h2 className="site-section__heading b-section__title">{t('home.SingalData.smartPricingTitle')}</h2>
                 <div className="site-section__subheading b-section__desc price-section__desc">
-                    <p>{SingalData.smartPricingDesc}</p>
+                    <p>{t('home.SingalData.smartPricingDesc')}</p>
                 </div>
                 <div className="price-section__grid">
                     {PriceData.map((val, ind) => {
@@ -217,13 +223,14 @@ const SmartPricing = () => {
 }
 
 const YourBusiness = () => {
+    const { t } = useTranslation();
     return(
         <section className="b-section site-section price-section">
             <div className="l-container b-section__container">
-                <span className="b-section__note b-section__note_icon-line">{SingalData.yourBusinessNote}</span>
-                <h3 className="site-section__heading b-section__title">{SingalData.yourBusinessTitle}</h3>
+                <span className="b-section__note b-section__note_icon-line">{t('home.SingalData.yourBusinessNote')}</span>
+                <h3 className="site-section__heading b-section__title">{t('home.SingalData.yourBusinessTitle')}</h3>
                 <div className="site-section__subheading b-section__desc price-section__desc">
-                    <p>{SingalData.yourBusinessDesc}</p>
+                    <p>{t('home.SingalData.yourBusinessDesc')}</p>
                 </div>
                 <div className="price-section__grid">
                     {PriceBusinessData.map((val, ind) => {
@@ -244,12 +251,13 @@ const YourBusiness = () => {
 };
 
 const SafeHand = () => {
+    const { t } = useTranslation();
     return(
         <section className="site-section taxly-grey-bg b-section good-to-know-section">
             <div className="l-container b-section__container">
-                <h4 className="site-section__heading b-section__title good-to-know-section__title">{SingalData.safeHandTitle}</h4>
+                <h4 className="site-section__heading b-section__title good-to-know-section__title">{t('home.SingalData.safeHandTitle')}</h4>
                 <div className="site-section__subheading b-section__desc good-to-know-section__desc">
-                    <p>{SingalData.safeHandDesc}</p>
+                    <p>{t('home.SingalData.safeHandDesc')}</p>
                 </div>
                 <div className="b-icons-module good-to-know-section__grid">
                     {SafeHandData.map((val, ind) => 
@@ -297,13 +305,14 @@ const HomeDarkModal = () => {
 };
 
 const AppSection = () => {
+    const { t } = useTranslation();
     return(
         <section className="b-section mobile-app-section">
             <div className="l-container b-section__container">
-                <span className="b-section__title mobile-app-section__title"><b>{SingalData.appTitle}</b></span>
-                <span className="b-section__desc mobile-app-section__desc">{SingalData.appDesc}</span>
+                <span className="b-section__title mobile-app-section__title"><b>{t('home.SingalData.appTitle')}</b></span>
+                <span className="b-section__desc mobile-app-section__desc">{t('home.SingalData.appDesc')}</span>
                 <HomeDarkModal/>
-                {/* <a href="#" className="btn btn-large mobile-app-section__link js-show-dark-modal">{SingalData.appBtnText}</a> */}
+                {/* <a href="#" className="btn btn-large mobile-app-section__link js-show-dark-modal">{t('home.SingalData.appBtnText')}</a> */}
             </div>
         </section>
     );

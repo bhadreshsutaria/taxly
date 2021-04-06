@@ -2,24 +2,87 @@
     "language": "EN",
     "home": {
         "SingalData": {
-            "partnershipTitle": "In partnership with EN",
-            "darkModalText": "Sign up to our newsletter EN",
+            "partnershipTitle": "In partnership with",
             "heroHeading": "Complicated is Outdated. Swiss Tax Returns Made Simple.",
             "heroDesc": "Create your Swiss tax return in less than 10 minutes",
             "heroBtnName": "Get Started",
             "logoTitle": "You might’ve heard of us",
             "testimonialNote": "A 5 Star Tax Service",
             "testimonialTitle": "Over 6'000 Happy Customers",
-            "testimonialDesc": "Join a community of over 6'000 like-minded individuals who have already submitted their 2019 tax returns with Taxly."
+            "testimonialDesc": "Join a community of over 6'000 like-minded individuals who have already submitted their 2019 tax returns with Taxly.",
+            "TaxlyWorkNote": "Swiss Tax Returns In Just 4 Steps",
+            "TaxlyWorkTitle": "How Does Taxly Work",
+            "TaxlyWorkDesc": "Roger is your virtual AI tax assistant. He’ll connect up the dots in your life, analyse your data, and optimize your return in real time down to the penny.",
+            "TaxlyWorkBtnText": "Additional Support - Our In-House Swiss Tax Advisors Are On Hand",
+            "TaxlyWorkBtnDesc": "Not every tax situation is the same and we can adapt to your needs. Whenever you need help, one of our Swiss tax advisors will be there to support you. Step by step until the finished tax return.",
+            "BenefitTaxlyTitle": "Who Can Benefit From Taxly?",
+            "BenefitTaxlyDesc": "Taxly offers its services to all residents of Switzerland, regardless of your income or nationality.",
+            "smartPricingTitle": "Smart Pricing For Everyone",
+            "smartPricingDesc": "We strive for the most competitive prices in Switzerland and thanks to our smart technology, you can create your tax return at an unprecedented price. Examples below.",
+            "PaymentOptions": "Payment Options: Twint, PayPal, Credit Card, Payment By Invoice",
+            "yourBusinessNote": "COVID-19 Special For Small Businesses",
+            "yourBusinessTitle": "We Want To Help Your Business",
+            "yourBusinessDesc": "Taxly wants to help small businesses in their time of need with special prices for Small Medium Sized Businesses who have been affected by COVID-19.",
+            "safeHandTitle": "You're In Safe Hands",
+            "safeHandDesc": "Brought to you by a team of Swiss tax experts and technologists who care deeply about protecting you and your data.",
+            "appTitle": "Our mobile app for iOS and Android will be available soon",
+            "appDesc": "Interested? We can keep you up to date.",
+            "videoModalText": "Watch the video",
+            "darkModalText": "Sign up to our newsletter"
+        },
+        "Testimonialdata": {
+            "data": [{
+                    "title": "Intuitive workflow and great customer support!",
+                    "description": "Intuitive workflow and great customer support! Totally recommend it. Never thought my tax declaration would be such a pleasant experience! Merci Taxly!",
+                    "name": "Andy Grayshon",
+                    "image": "./Images/users/andy-grayshon.png"
+                },
+                {
+                    "title": "Taxes made simple!",
+                    "description": "So easy to navigate and quick &amp; the team is very reactive for any question. Highly recommend!",
+                    "name": "Anna Blomkvist",
+                    "image": "./Images/users/anna-blomkvist.png"
+                },
+                {
+                    "title": "Very friendly service!",
+                    "description": "Very friendly service that allows the filing of personal income taxes transparently. The value is in the last mile before the taxpayers and Taxly got it perfectly.",
+                    "name": "Helena Boada",
+                    "image": "./Images/users/helena-boada.png"
+                }
+            ]
         }
     },
-    "select_language": "Select Language",
-    "hello_welcome_to_react": "Hello English, Welcome to React",
-    "Home": {
-        "lan": {
-            "hello_welcome_to_react": "Hello, Welcome to React"
+    "faq": {
+        "FaqTabData": {
+            "data": [{
+                    "extraClass": "selected",
+                    "tabName": "About Us"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "How it works"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Tax stuff"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Documents"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Data protection"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Charity/Social impact"
+                }
+            ]
+        },
+        "SingalData": {
+            "headingTitleOne": "What is taxly?",
+            "actiOneP1Text": "Taxly is an online service which allows you to quickly and easily create an optimised tax return."
         }
-    },
-    "this_is_an_example": "This is an example",
-    "please_enter_name": "Please enter your name"
+    }
 }

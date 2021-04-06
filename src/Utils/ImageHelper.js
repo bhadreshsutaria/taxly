@@ -27,9 +27,9 @@ import priceIcon3 from "../Images/price-icon-3.png";
 import priceIcon4 from "../Images/price-icon-4.png";
 import priceIcon5 from "../Images/price-icon-5.png";
 import priceIcon6 from "../Images/price-icon-6.png";
-import andyGrayshon from "../Images/users/andy-grayshon.png";
-import annaBlomkvist from "../Images/users/anna-blomkvist.png";
-import helenaBoada from "../Images/users/helena-boada.png";
+// import andyGrayshon from "../Images/users/andy-grayshon.png";
+// import annaBlomkvist from "../Images/users/anna-blomkvist.png";
+// import helenaBoada from "../Images/users/helena-boada.png";
 import taxExperts2x from "../Images/icon-tax-experts@2x.png";
 import encryption2x from "../Images/icon-encryption@2x.png";
 import security2x from "../Images/icon-security@2x.png";
@@ -138,9 +138,9 @@ const images = {
     priceIconFour: priceIcon4,
     priceIconFive: priceIcon5,
     priceIconSix: priceIcon6,
-    andyGrayshonUser: andyGrayshon,
-    annaBlomkvistUser: annaBlomkvist,
-    helenaBoadaUser: helenaBoada,
+    // andyGrayshonUser: andyGrayshon,
+    // annaBlomkvistUser: annaBlomkvist,
+    // helenaBoadaUser: helenaBoada,
     iconTaxExperts2x: taxExperts2x,
     iconEncryption2x: encryption2x,
     iconSecurity2x: security2x,

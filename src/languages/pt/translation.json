@@ -1,0 +1,40 @@
+{
+    "language": "PT",
+    "home": {
+        "SingalData": {
+            "partnershipTitle": "Em parceria com",
+            "heroHeading": "Esqueça tudo o que sabe sobre impostos",
+            "heroDesc": "Envie a sua declaração de IRS na Suíça em 10 minutos",
+            "heroBtnName": "Início",
+            "logoTitle": "Conhecido na mídia",
+            "testimonialNote": "Um serviço tributário 5 estrelas",
+            "testimonialTitle": "Mais de 6.000 clientes satisfeitos",
+            "testimonialDesc": "Junte-se a uma comunidade de mais de 6.000 indivíduos com ideias semelhantes que já enviaram suas declarações fiscais de 2019 com o Taxly.",
+            "TaxlyWorkNote": "Declarações de impostos suíços em apenas 4 etapas",
+            "TaxlyWorkTitle": "Como funciona o imposto",
+            "TaxlyWorkDesc": "Roger é o seu assistente fiscal de IA virtual. Ele conectará os pontos em sua vida, analisará seus dados e otimizará seu retorno em tempo real até o centavo.",
+            "TaxlyWorkBtnText": "Suporte adicional - Nossos consultores fiscais suíços estão disponíveis",
+            "TaxlyWorkBtnDesc": "Nem todas as situações fiscais são iguais e podemos nos adaptar às suas necessidades. Sempre que você precisar de ajuda, um de nossos consultores tributários suíços estará lá para apoiá-lo. Passo a passo até a declaração de impostos concluída.",
+            "BenefitTaxlyTitle": "Quem pode se beneficiar do imposto?",
+            "BenefitTaxlyDesc": "Taxly oferece seus serviços a todos os residentes da Suíça, independentemente de sua renda ou nacionalidade.",
+            "smartPricingTitle": "Preços inteligentes para todos",
+            "smartPricingDesc": "Nós nos esforçamos para obter os preços mais competitivos na Suíça e, graças à nossa tecnologia inteligente, você pode criar sua declaração de imposto de renda a um preço sem precedentes. Exemplos abaixo.",
+            "PaymentOptions": "Opções de pagamento: Twint, PayPal, Cartão de crédito, Pagamento por fatura",
+            "yourBusinessNote": "COVID-19 especial para pequenas empresas",
+            "yourBusinessTitle": "Queremos ajudar sua empresa",
+            "yourBusinessDesc": "Taxly quer ajudar pequenas empresas em seus momentos de necessidade com preços especiais para pequenas e médias empresas que foram afetadas pelo COVID-19.",
+            "safeHandTitle": "Você está em boas mãos",
+            "safeHandDesc": "Trazido a você por uma equipe de especialistas em impostos e tecnólogos suíços que se preocupam profundamente em proteger você e seus dados.",
+            "appTitle": "Nosso aplicativo móvel para iOS e Android estará disponível em breve",
+            "appDesc": "Interessado? Podemos mantê-lo atualizado.",
+            "videoModalText": "Assista o vídeo",
+            "darkModalText": "Inscreva-se no nosso boletim"
+        }
+    },
+    "faq": {
+        "SingalData": {
+            "headingTitleOne": "What is taxly?",
+            "actiOneP1Text": "Taxly is an online service which allows you to quickly and easily create an optimised tax return."
+        }
+    }
+}
