@@ -3,13 +3,17 @@ import {Collapse} from 'react-collapse';
 import Modal from "react-modal";
 import images from "../../Utils/ImageHelper";
 import {DarkModal, TopBottomLeftRight} from "../Modal/Modal";
+import { useTranslation } from "react-i18next";
 import {SingalData, Testimonialdata, SectionLinkData, TaxlyWorkData, BenefitTaxlyData, PriceData, PriceBusinessData, SafeHandData} from "../Home/Data";
 
+
+
 const LogoSection = () => {
+    const { t } = useTranslation();
     return(
         <section className="site-section home-press-logos taxly-grey-bg">
             <div className="l-container">
-                <p className="home-press-logos__title">{SingalData.logoTitle}</p>
+                <p className="home-press-logos__title">{t("home.SingalData.partnershipTitle")}</p>
                 <ul>
                     <li><img style={{height: "18px"}} src={images.techCrunchLogo} alt="01_TechCrunch" /></li>
                     <li><img style={{height: "50px"}} src={images.twentyMinutenLogo} alt="02_20Minuten" /></li>
@@ -270,13 +274,14 @@ const SafeHand = () => {
 };
 
 const HomeDarkModal = () => {
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
     function toggleModal() {
         setIsOpen(!isOpen);
     }
     return(
         <>
-        <button className="btn btn-large mobile-app-section__link" onClick={toggleModal}>{SingalData.darkModalText}</button>
+        <button className="btn btn-large mobile-app-section__link" onClick={toggleModal}>{t("home.SingalData.darkModalText")}</button>
         <Modal className="modal invite-modal dark-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
             <div className="modal__overlay"></div>
             <div className="modal__content taxly-box">

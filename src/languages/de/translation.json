@@ -1,0 +1,25 @@
+{
+    "language": "DE",
+    "home": {
+        "SingalData": {
+            "partnershipTitle": "In partnership with DE",
+            "darkModalText": "Sign up to our newsletter DE",
+            "heroHeading": "Complicated is Outdated. Swiss Tax Returns Made Simple.",
+            "heroDesc": "Create your Swiss tax return in less than 10 minutes",
+            "heroBtnName": "Get Started",
+            "logoTitle": "You might’ve heard of us",
+            "testimonialNote": "A 5 Star Tax Service",
+            "testimonialTitle": "Over 6'000 Happy Customers",
+            "testimonialDesc": "Join a community of over 6'000 like-minded individuals who have already submitted their 2019 tax returns with Taxly."
+        }
+    },
+    "select_language": "Select Language",
+    "hello_welcome_to_react": "Hello English, Welcome to React",
+    "Home": {
+        "lan": {
+            "hello_welcome_to_react": "Hello, Welcome to React"
+        }
+    },
+    "this_is_an_example": "This is an example",
+    "please_enter_name": "Please enter your name"
+}
