@@ -1,6 +1,8 @@
 import React from "react";
 import images from "../Utils/ImageHelper";
 import { useHistory } from "react-router-dom";
+import LanguageSelect from "../Component/languageSelect";
+
 export default function Footer() {
     let history = useHistory();
 
@@ -56,16 +58,7 @@ export default function Footer() {
                         <div className="footer-menu">
                             <div className="footer-menu__heading">Language</div>
                             <div className="language-switcher">
-                                <ul className="wpm-language-switcher switcher-dropdown">
-                                    <li className="item-language-main item-language-en"><span><span>English</span></span>
-                                        <ul className="language-dropdown">
-                                            <li className="item-language-de"><a href="https://taxly.ch/de/" data-lang="de"><span>Deutsch</span></a></li>
-                                            <li className="item-language-fr"><a href="https://taxly.ch/fr/" data-lang="fr"><span>Français</span></a></li>
-                                            <li className="item-language-it"><a href="https://taxly.ch/it/" data-lang="it"><span>Italiano</span></a></li>
-                                            <li className="item-language-pt"><a href="https://taxly.ch/pt/" data-lang="pt"><span>Português</span></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <LanguageSelect />
                             </div>
                             <div className="footer-menu__heading">Follow Us</div>
                             <ul className="taxly-footer-social">
