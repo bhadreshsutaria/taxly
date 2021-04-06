@@ -29,6 +29,102 @@
             "appDesc": "Interessiert? Wir können Dich auf dem Laufenden halten.",
             "videoModalText": "Video anschauen",
             "darkModalText": "Registriere Dich für unseren Newsletter"
+        },
+        "Testimonialdata": {
+            "data": [{
+                    "title": "Intuitiver Workflow und grossartige Kundenbetreuung!",
+                    "description": "Intuitiver Workflow und grossartige Kundenbetreuung! Ich kann es nur empfehlen. Ich hätte nie gedacht, dass meine Steuererklärung eine so angenehme Erfahrung wäre! Merci Taxly!",
+                    "name": "Javier Gómez Gázquez",
+                    "image": "../assets/Images/users/andy-grayshon.png"
+                },
+                {
+                    "title": "Steuern einfach gemacht!",
+                    "description": "So einfach zu navigieren und schnell und das Team ist sehr reaktiv auf jede Frage. Sehr zu empfehlen!",
+                    "name": "Anna Blomkvist",
+                    "image": "../assets/Images/users/anna-blomkvist.png"
+                },
+                {
+                    "title": "Sehr freundlicher Service!",
+                    "description": "Sehr freundlicher Service, der die transparente Einreichung persönlicher Einkommenssteuern ermöglicht. Der Wert liegt in der letzten Meile, bevor die Steuerzahler und Taxly ihn perfekt verstanden haben.",
+                    "name": "Helena Boada",
+                    "image": "../assets/Images/users/helena-boada.png"
+                }
+            ]
+        },
+        "SectionLinkData": {
+            "data": [
+                [{
+                    "extraClass": "good-to-know-section__link",
+                    "pageTarget": "_blank",
+                    "pageLink": "https://www.google.com/maps/place/Taxly+AG/@47.3672655,8.5329657,17z/data=!4m7!3m6!1s0x47900a01fce3e665:0xdc6d8cbf4e9556f3!8m2!3d47.3672655!4d8.5351544!9m1!1b1?hl=en-VN",
+                    "linkText": "Mehr Kommentare anzeigen"
+                }],
+                [{
+                    "extraClass": "for-whom-section__link",
+                    "pageTarget": "",
+                    "pageLink": "/faq/",
+                    "linkText": "Noch Fragen? (FAQ)"
+                }],
+                [{
+                    "extraClass": "good-to-know-section__link",
+                    "pageTarget": "",
+                    "pageLink": "/faq/",
+                    "linkText": "Noch Fragen? (FAQ)"
+                }]
+            ]
+        },
+        "TaxlyWorkData": {
+            "data": [{
+                    "imageSmall": "../assets/Images/how-section-number-1.svg",
+                    "imageBig": "../assets/Images/how-section-1.png",
+                    "name": "Beantworte ein paar einfache Fragen"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-2.svg",
+                    "imageBig": "../assets/Images/how-section-2.png",
+                    "name": "Lass Roger deine Steuerauszüge finden"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-3.svg",
+                    "imageBig": "../assets/Images/how-section-3.png",
+                    "name": "Überprüfe deine Steuererklärung"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-4.svg",
+                    "imageBig": "../assets/Images/how-section-4.png",
+                    "name": "Mit nur einem Klick einreichen"
+                }
+            ]
+        },
+        "BenefitTaxlyData": {
+            "data": ["Expats", "Hausbesitzer", "Beschenkte", "Erben", "Rentner", "Disabled"]
+        },
+        "PriceData": {
+            "data": [{
+                    "image": "../assets/Images/price-icon-1.png",
+                    "note": "unter 25 Jahren",
+                    "numberValue": "25",
+                    "currency": "CHF",
+                    "priceText": ["Vollständig ausgefüllte Steuererklärung", "Steueroptimierung durch Roger (AI)", "Versand an das Finanzamt inkl. Sendungsstatus (optional)"],
+                    "priceBtnText": "Jetzt loslegen"
+                },
+                {
+                    "image": "../assets/Images/price-icon-2.png",
+                    "note": "über 25 Jahren",
+                    "numberValue": "49",
+                    "currency": "CHF",
+                    "priceText": ["Vollständig ausgefüllte Steuererklärung (für die ganze Familie)", "Steueroptimierung durch Roger (AI)", "Versand an das Finanzamt inkl. Sendungsstatus (optional)"],
+                    "priceBtnText": "Jetzt loslegen"
+                },
+                {
+                    "image": "../assets/Images/price-icon-3.png",
+                    "note": "Arbeitslos wegen COVID-19",
+                    "numberValue": "Kostenlos",
+                    "currency": "",
+                    "priceText": ["Vollständig ausgefüllte Steuererklärung (für die ganze Familie)", "Steueroptimierung durch Roger (AI)", "Versand an das Finanzamt inkl. Sendungsstatus (optional)"],
+                    "priceBtnText": "Jetzt loslegen"
+                }
+            ]
         }
     },
     "faq": {

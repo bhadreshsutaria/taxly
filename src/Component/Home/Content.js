@@ -57,6 +57,7 @@ const SectionLink = (props) => {
 const Testimonial = () => {
     const { t } = useTranslation();
     let Testimonialdata =  t('home.Testimonialdata.data', { returnObjects: true });
+    let SectionLinkData =  t('home.SectionLinkData.data', { returnObjects: true });
     return(
         <section className="b-section site-section site-section-line no-subtitle testimonials-section">
                 <div className="l-container b-section__container">
@@ -79,7 +80,7 @@ const Testimonial = () => {
                                     <Star halfStar="3.5" fullStar="4" />
                                     <Star halfStar="4.5" fullStar="5" />
                                 </div>
-                                <img className="testimonial-item__image" src={val.image} alt={val.name} />
+                                <img key={ind} className="testimonial-item__image" src={val.image} alt={val.name} />
                             </footer>
                         </div>
                         )}
@@ -97,7 +98,7 @@ const Testimonial = () => {
     );
 };
 
-export class TaxlyWork extends Component {
+export class CollapseTaxlyWork extends Component {
     state = {
         opened: false,
         class: "",
@@ -108,32 +109,46 @@ export class TaxlyWork extends Component {
     };
     render() {
         return(
-            <section className="b-section b-section_bg-gray how-section">
-                <div className="l-container b-section__container">
-                    <span className="b-section__note">{SingalData.TaxlyWorkNote}</span>
-                    <h2 className="b-section__title">{SingalData.TaxlyWorkTitle}</h2>
-                    <span className="b-section__desc how-section__desc">{SingalData.TaxlyWorkDesc}</span>
-                    <div className="how-section__grid">
-                        {TaxlyWorkData.map((val,ind) => 
-                            <div key={ind} className="how-item how-section__item">
-                                <img className="how-item__icon-number" src={val.imageSmall} alt="Taxly" />
-                                <img className="how-item__icon" src={val.imageBig} alt="Taxly" />
-                                <span className="how-item__name">{val.name}</span>
-                            </div>
-                        )}
-                    </div>
-                    <div className={`how-content how-section__content ${this.state.class}`} onClick={this.toggleClass}>
-                        <span className="how-content__title">{SingalData.TaxlyWorkBtnText}</span>
-                        <Collapse isOpened={this.state.opened}><div className="how-content__text"><p>{SingalData.TaxlyWorkBtnDesc}</p></div></Collapse>
-                    </div>
-                </div>
-            </section>
+            <div className={`how-content how-section__content ${this.state.class}`} onClick={this.toggleClass}>
+                <span className="how-content__title">{this.props.title}</span>
+                <Collapse isOpened={this.state.opened}><div className="how-content__text"><p>{this.props.desc}</p></div></Collapse>
+            </div>
         );
     }
 };
 
+const TaxlyWork = () => {
+    const { t } = useTranslation();
+    let TaxlyWorkData =  t('home.TaxlyWorkData.data', { returnObjects: true });
+    return(
+        <section className="b-section b-section_bg-gray how-section">
+            <div className="l-container b-section__container">
+                <span className="b-section__note">{t('home.SingalData.TaxlyWorkNote')}</span>
+                <h2 className="b-section__title">{t('home.SingalData.TaxlyWorkTitle')}</h2>
+                <span className="b-section__desc how-section__desc">{t('home.SingalData.TaxlyWorkDesc')}</span>
+                <div className="how-section__grid">
+                    {TaxlyWorkData.map((val,ind) => 
+                        <div key={ind} className="how-item how-section__item">
+                            <img className="how-item__icon-number" src={val.imageSmall} alt="Taxly" />
+                            <img className="how-item__icon" src={val.imageBig} alt="Taxly" />
+                            <span className="how-item__name">{val.name}</span>
+                        </div>
+                    )}
+                    
+                </div>
+                <CollapseTaxlyWork
+                    title={t('home.SingalData.TaxlyWorkBtnText')}
+                    desc={t('home.SingalData.TaxlyWorkBtnDesc')}
+                />
+            </div>
+        </section>
+    );
+};
+
 const BenefitTaxly = () => {
     const { t } = useTranslation();
+    let SectionLinkData =  t('home.SectionLinkData.data', { returnObjects: true });
+    let BenefitTaxlyData =  t('home.BenefitTaxlyData.data', { returnObjects: true });
     return(
         <section className="b-section for-whom-section">
             <div className="l-container b-section__container">
@@ -161,7 +176,6 @@ const BenefitTaxly = () => {
 
 
 const Price = (props) => {
-    const { t } = useTranslation();
     return(
         <div className="price-item price-section__item">
             <img src={props.image} className="price-item__icon" alt="Taxly" />
@@ -175,7 +189,7 @@ const Price = (props) => {
                 <p>{props.priceText[2]}</p>
                 <pre id="tw-target-text" className="tw-data-text tw-text-large XcVN5d tw-ta" dir="ltr" data-placeholder="Translation"></pre>
             </div>
-            <a target="_blank" className="btn hero__cta price-item__button" href="https://app.taxly.ch/GettingStarted">Get Started</a>
+            <a target="_blank" className="btn hero__cta price-item__button" href="https://app.taxly.ch/GettingStarted">{props.priceBtnText}</a>
         </div>
     );
 };
@@ -197,6 +211,7 @@ const PaymentOptions = () => {
 
 const SmartPricing = () => {
     const { t } = useTranslation();
+    let PriceData =  t('home.PriceData.data', { returnObjects: true });
     return(
         <section className="b-section b-section_bg-gray site-section price-section">
             <div className="l-container b-section__container">
@@ -252,6 +267,7 @@ const YourBusiness = () => {
 
 const SafeHand = () => {
     const { t } = useTranslation();
+    let SectionLinkData =  t('home.SectionLinkData.data', { returnObjects: true });
     return(
         <section className="site-section taxly-grey-bg b-section good-to-know-section">
             <div className="l-container b-section__container">
@@ -318,5 +334,4 @@ const AppSection = () => {
     );
 };
 
-export default TaxlyWork;
-export {Testimonial, LogoSection, SectionLink, Price, PaymentOptions, SmartPricing, YourBusiness, SafeHand, AppSection, BenefitTaxly, HomeDarkModal};
+export {TaxlyWork, Testimonial, LogoSection, SectionLink, Price, PaymentOptions, SmartPricing, YourBusiness, SafeHand, AppSection, BenefitTaxly, HomeDarkModal};

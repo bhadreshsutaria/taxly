@@ -29,6 +29,102 @@
             "appDesc": "Interessato? Possiamo tenerti aggiornato.",
             "videoModalText": "Guarda il video",
             "darkModalText": "Iscriviti alla nostra newsletter"
+        },
+        "Testimonialdata": {
+            "data": [{
+                    "title": "Flusso di lavoro intuitivo e ottimo supporto clienti!",
+                    "description": "Flusso di lavoro intuitivo e ottimo supporto clienti! Lo consiglio vivamente. Non avrei mai pensato che la mia dichiarazione dei redditi sarebbe stata un'esperienza così piacevole! Merci Taxly!",
+                    "name": "Javier Gómez Gázquez",
+                    "image": "../assets/Images/users/andy-grayshon.png"
+                },
+                {
+                    "title": "Tasse rese semplici!",
+                    "description": "Così facile da navigare e veloce e il team è molto reattivo per qualsiasi domanda. Lo consiglio vivamente!",
+                    "name": "Anna Blomkvist",
+                    "image": "../assets/Images/users/anna-blomkvist.png"
+                },
+                {
+                    "title": "Servizio molto cordiale!",
+                    "description": "Un servizio molto amichevole che consente la presentazione delle imposte sul reddito delle persone fisiche in modo trasparente. Il valore è nell'ultimo miglio prima che i contribuenti e Taxly lo ricevessero perfettamente.",
+                    "name": "Helena Boada",
+                    "image": "../assets/Images/users/helena-boada.png"
+                }
+            ]
+        },
+        "SectionLinkData": {
+            "data": [
+                [{
+                    "extraClass": "good-to-know-section__link",
+                    "pageTarget": "_blank",
+                    "pageLink": "https://www.google.com/maps/place/Taxly+AG/@47.3672655,8.5329657,17z/data=!4m7!3m6!1s0x47900a01fce3e665:0xdc6d8cbf4e9556f3!8m2!3d47.3672655!4d8.5351544!9m1!1b1?hl=en-VN",
+                    "linkText": "Leggi tutte le recensioni"
+                }],
+                [{
+                    "extraClass": "for-whom-section__link",
+                    "pageTarget": "",
+                    "pageLink": "/faq/",
+                    "linkText": "Domande? (FAQ)"
+                }],
+                [{
+                    "extraClass": "good-to-know-section__link",
+                    "pageTarget": "",
+                    "pageLink": "/faq/",
+                    "linkText": "Domande? (FAQ)"
+                }]
+            ]
+        },
+        "TaxlyWorkData": {
+            "data": [{
+                    "imageSmall": "../assets/Images/how-section-number-1.svg",
+                    "imageBig": "../assets/Images/how-section-1.png",
+                    "name": "Rispondi ad alcune semplici domande"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-2.svg",
+                    "imageBig": "../assets/Images/how-section-2.png",
+                    "name": "Lascia che Roger faccia i tuoi calcoli"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-3.svg",
+                    "imageBig": "../assets/Images/how-section-3.png",
+                    "name": "Controlla la tua dichiarazione dei redditi"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-4.svg",
+                    "imageBig": "../assets/Images/how-section-4.png",
+                    "name": "E hai finito. È ora di divertirsi"
+                }
+            ]
+        },
+        "BenefitTaxlyData": {
+            "data": ["Expats", "Padrone di casa", "Freelancers", "Proprietari", "Pensionato", "Disabilitato"]
+        },
+        "PriceData": {
+            "data": [{
+                    "image": "../assets/Images/price-icon-1.png",
+                    "note": "Al di sotto dei 25 anni",
+                    "numberValue": "25",
+                    "currency": "CHF",
+                    "priceText": ["Dichiarazione dei redditi svizzera compilata", "Ottimizzato da Roger (AI)", "Spedizione all’ufficio delle imposte"],
+                    "priceBtnText": "Guida introduttiva"
+                },
+                {
+                    "image": "../assets/Images/price-icon-2.png",
+                    "note": "Al di sopra dei 25 anni",
+                    "numberValue": "49",
+                    "currency": "CHF",
+                    "priceText": ["Dichiarazione dei redditi svizzera compilata (per te e la tua famiglia)", "Ottimizzato da Roger (AI)", "Spedizione all’ufficio delle imposte"],
+                    "priceBtnText": "Guida introduttiva"
+                },
+                {
+                    "image": "../assets/Images/price-icon-3.png",
+                    "note": "Disoccupato a causa di COVID-19",
+                    "numberValue": "Gratuito",
+                    "currency": "",
+                    "priceText": ["Dichiarazione dei redditi svizzera compilata (per te e la tua famiglia)", "Ottimizzato da Roger (AI)", "Spedizione all’ufficio delle imposte"],
+                    "priceBtnText": "Guida introduttiva"
+                }
+            ]
         }
     },
     "faq": {

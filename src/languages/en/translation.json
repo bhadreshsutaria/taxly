@@ -35,19 +35,94 @@
                     "title": "Intuitive workflow and great customer support!",
                     "description": "Intuitive workflow and great customer support! Totally recommend it. Never thought my tax declaration would be such a pleasant experience! Merci Taxly!",
                     "name": "Andy Grayshon",
-                    "image": "./Images/users/andy-grayshon.png"
+                    "image": "../assets/Images/users/andy-grayshon.png"
                 },
                 {
                     "title": "Taxes made simple!",
                     "description": "So easy to navigate and quick &amp; the team is very reactive for any question. Highly recommend!",
                     "name": "Anna Blomkvist",
-                    "image": "./Images/users/anna-blomkvist.png"
+                    "image": "../assets/Images/users/anna-blomkvist.png"
                 },
                 {
                     "title": "Very friendly service!",
                     "description": "Very friendly service that allows the filing of personal income taxes transparently. The value is in the last mile before the taxpayers and Taxly got it perfectly.",
                     "name": "Helena Boada",
-                    "image": "./Images/users/helena-boada.png"
+                    "image": "../assets/Images/users/helena-boada.png"
+                }
+            ]
+        },
+        "SectionLinkData": {
+            "data": [
+                [{
+                    "extraClass": "good-to-know-section__link",
+                    "pageTarget": "_blank",
+                    "pageLink": "https://www.google.com/maps/place/Taxly+AG/@47.3672655,8.5329657,17z/data=!4m7!3m6!1s0x47900a01fce3e665:0xdc6d8cbf4e9556f3!8m2!3d47.3672655!4d8.5351544!9m1!1b1?hl=en-VN",
+                    "linkText": "Read All Reviews"
+                }],
+                [{
+                    "extraClass": "for-whom-section__link",
+                    "pageTarget": "",
+                    "pageLink": "/faq/",
+                    "linkText": "Questions? (FAQ)"
+                }],
+                [{
+                    "extraClass": "good-to-know-section__link",
+                    "pageTarget": "",
+                    "pageLink": "/faq/",
+                    "linkText": "Questions? (FAQ)"
+                }]
+            ]
+        },
+        "TaxlyWorkData": {
+            "data": [{
+                    "imageSmall": "../assets/Images/how-section-number-1.svg",
+                    "imageBig": "../assets/Images/how-section-1.png",
+                    "name": "Answer a few simple questions"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-2.svg",
+                    "imageBig": "../assets/Images/how-section-2.png",
+                    "name": "Let Roger make your calculations"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-3.svg",
+                    "imageBig": "../assets/Images/how-section-3.png",
+                    "name": "Double check your tax return"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-4.svg",
+                    "imageBig": "../assets/Images/how-section-4.png",
+                    "name": "And you're done. Time to enjoy"
+                }
+            ]
+        },
+        "BenefitTaxlyData": {
+            "data": ["Expats", "Homeowner", "Freelancers", "Business Owners", "Pensioner", "Disabled"]
+        },
+        "PriceData": {
+            "data": [{
+                    "image": "../assets/Images/price-icon-1.png",
+                    "note": "Under 25 Years",
+                    "numberValue": "25",
+                    "currency": "CHF",
+                    "priceText": ["Completed Swiss Tax Return", "Optimised by Roger (AI)", "Shipping to the Tax Office"],
+                    "priceBtnText": "Get Started"
+                },
+                {
+                    "image": "../assets/Images/price-icon-2.png",
+                    "note": "Family Package",
+                    "numberValue": "49",
+                    "currency": "CHF",
+                    "priceText": ["Completed Swiss Tax Return (For you and your family)", "Optimised by Roger (AI)", "Shipping to the Tax Office"],
+                    "priceBtnText": "Get Started"
+                },
+                {
+                    "image": "../assets/Images/price-icon-3.png",
+                    "note": "Unemployed Due To COVID-19",
+                    "numberValue": "Free",
+                    "currency": "",
+                    "priceText": ["Free Swiss Tax Return (For you and your family)", "Optimised by Roger (AI)", "Free Shipping to the Tax Office"],
+                    "priceBtnText": "Get Started"
                 }
             ]
         }

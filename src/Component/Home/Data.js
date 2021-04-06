@@ -102,6 +102,7 @@ const PriceData = [{
         numberValue: "25",
         currency: "CHF",
         priceText: ["Completed Swiss Tax Return", "Optimised by Roger (AI)", "Shipping to the Tax Office"],
+        priceBtnText: "Get Started",
     },
     {
         image: images.priceIconTwo,
@@ -109,6 +110,7 @@ const PriceData = [{
         numberValue: "49",
         currency: "CHF",
         priceText: ["Completed Swiss Tax Return (For you and your family)", "Optimised by Roger (AI)", "Shipping to the Tax Office"],
+        priceBtnText: "Get Started",
     },
     {
         image: images.priceIconThree,
@@ -116,6 +118,7 @@ const PriceData = [{
         numberValue: "Free",
         currency: "",
         priceText: ["Free Swiss Tax Return (For you and your family)", "Optimised by Roger (AI)", "Free Shipping to the Tax Office"],
+        priceBtnText: "Get Started",
     },
 ];
 
@@ -125,6 +128,7 @@ const PriceBusinessData = [{
         numberValue: "500",
         currency: "CHF",
         priceText: ["In-House support", "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
+        priceBtnText: "Get Started",
     },
     {
         image: images.priceIconFive,
@@ -132,6 +136,7 @@ const PriceBusinessData = [{
         numberValue: "450",
         currency: "CHF",
         priceText: ["In-House support", "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
+        priceBtnText: "Get Started",
     },
     {
         image: images.priceIconSix,
@@ -139,6 +144,7 @@ const PriceBusinessData = [{
         numberValue: "350",
         currency: "CHF",
         priceText: ["In-House support", "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
+        priceBtnText: "Get Started",
     },
 ];
 
