@@ -29,6 +29,102 @@
             "appDesc": "Interessado? Podemos mantê-lo atualizado.",
             "videoModalText": "Assista o vídeo",
             "darkModalText": "Inscreva-se no nosso boletim"
+        },
+        "Testimonialdata": {
+            "data": [{
+                    "title": "Fluxo de trabalho intuitivo e ótimo suporte ao cliente!",
+                    "description": "Very friendly service that allows the filing of personal income taxes transparently. ",
+                    "name": "Javier Gómez Gázquez",
+                    "image": "../assets/Images/users/andy-grayshon.png"
+                },
+                {
+                    "title": "Impostos simplificados!",
+                    "description": "Tão fácil de navegar e rápido e a equipe é muito reativa para qualquer pergunta. Altamente recomendável!",
+                    "name": "Anna Blomkvist",
+                    "image": "../assets/Images/users/anna-blomkvist.png"
+                },
+                {
+                    "title": "Serviço muito amigável!",
+                    "description": "Atendimento muito amigável que permite o recolhimento do imposto de renda de pessoa física de forma transparente. O valor fica na última milha antes que o contribuinte e a Taxly o recebam perfeitamente.",
+                    "name": "Helena Boada",
+                    "image": "../assets/Images/users/helena-boada.png"
+                }
+            ]
+        },
+        "SectionLinkData": {
+            "data": [
+                [{
+                    "extraClass": "good-to-know-section__link",
+                    "pageTarget": "_blank",
+                    "pageLink": "https://www.google.com/maps/place/Taxly+AG/@47.3672655,8.5329657,17z/data=!4m7!3m6!1s0x47900a01fce3e665:0xdc6d8cbf4e9556f3!8m2!3d47.3672655!4d8.5351544!9m1!1b1?hl=en-VN",
+                    "linkText": "Leia todas as críticas"
+                }],
+                [{
+                    "extraClass": "for-whom-section__link",
+                    "pageTarget": "",
+                    "pageLink": "/faq/",
+                    "linkText": "Questões? (FAQ)"
+                }],
+                [{
+                    "extraClass": "good-to-know-section__link",
+                    "pageTarget": "",
+                    "pageLink": "/faq/",
+                    "linkText": "Questões? (FAQ)"
+                }]
+            ]
+        },
+        "TaxlyWorkData": {
+            "data": [{
+                    "imageSmall": "../assets/Images/how-section-number-1.svg",
+                    "imageBig": "../assets/Images/how-section-1.png",
+                    "name": "Responda a algumas perguntas simples"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-2.svg",
+                    "imageBig": "../assets/Images/how-section-2.png",
+                    "name": "Deixe Roger fazer seus cálculos"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-3.svg",
+                    "imageBig": "../assets/Images/how-section-3.png",
+                    "name": "Verifique novamente sua declaração de impostos"
+                },
+                {
+                    "imageSmall": "../assets/Images/how-section-number-4.svg",
+                    "imageBig": "../assets/Images/how-section-4.png",
+                    "name": "E pronto. Hora de aproveitar"
+                }
+            ]
+        },
+        "BenefitTaxlyData": {
+            "data": ["Expats", "Dono da casa", "Freelancers", "Proprietários de negócios", "Pensionista", "Desativado"]
+        },
+        "PriceData": {
+            "data": [{
+                    "image": "../assets/Images/price-icon-1.png",
+                    "note": "Menos de 25 anos",
+                    "numberValue": "25",
+                    "currency": "CHF",
+                    "priceText": ["Declaração de imposto suíça preenchida", "Otimizado por Roger (AI)", "Envio para a Repartição de Finanças"],
+                    "priceBtnText": "Início"
+                },
+                {
+                    "image": "../assets/Images/price-icon-2.png",
+                    "note": "Mais de 25 anos",
+                    "numberValue": "49",
+                    "currency": "CHF",
+                    "priceText": ["Declaração de imposto suíça preenchida (para você e sua família)", "Otimizado por Roger (AI)", "Envio para a Repartição de Finanças"],
+                    "priceBtnText": "Início"
+                },
+                {
+                    "image": "../assets/Images/price-icon-3.png",
+                    "note": "Desempregado devido ao COVID",
+                    "numberValue": "Livre",
+                    "currency": "",
+                    "priceText": ["Declaração de imposto suíça preenchida (para você e sua família)", "Otimizado por Roger (AI)", "Envio para a Repartição de Finanças"],
+                    "priceBtnText": "Início"
+                }
+            ]
         }
     },
     "faq": {
