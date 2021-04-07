@@ -6,8 +6,8 @@ const SingleData = {
     communityHeroBtnText: 'Get started',
 };
 
-const CommunityStorySectionData = [
-    {
+const CommunityStorySectionData = [{
+        id: "1",
         personName: 'Alessio, Zurich',
         popupText: 'Read my story',
         cplName: 'Alessio',
@@ -26,6 +26,7 @@ const CommunityStorySectionData = [
         cplpSix: '100%.',
     },
     {
+        id: "2",
         personName: 'Charlotte, St. Gallen',
         popupText: 'Read my story',
         cplName: 'Charlotte',
@@ -45,6 +46,7 @@ const CommunityStorySectionData = [
         cplpEmoji: true,
     },
     {
+        id: "3",
         personName: 'Maximilian, Zurich',
         popupText: 'Read my story',
         cplName: 'Maximilian',
@@ -63,6 +65,7 @@ const CommunityStorySectionData = [
         cplpSix: 'Two of my friends already submitted with Taxly.',
     },
     {
+        id: "4",
         personName: 'Emma, Basel Land',
         popupText: 'Read my story',
         cplName: 'Emma',
@@ -81,6 +84,7 @@ const CommunityStorySectionData = [
         cplpSix: 'Yes, most defiantly.',
     },
     {
+        id: "5",
         personName: 'Alex, Zurich',
         popupText: 'Read my story',
         cplName: 'Alex',
@@ -100,4 +104,4 @@ const CommunityStorySectionData = [
     },
 ];
 
-export{SingleData, CommunityStorySectionData};
+export { SingleData, CommunityStorySectionData };

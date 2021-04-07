@@ -1,7 +1,9 @@
 import React from "react";
 import images from "../Utils/ImageHelper";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 export default function MobileMenu(props) {
+    const { t } = useTranslation();
     return (
         <>
             <div className={`taxly-mobile-menu-fixed ${props.extraClass === '' ? '':  props.extraClass}`}>
@@ -18,26 +20,26 @@ export default function MobileMenu(props) {
                 <div className="taxly-mobile-menu-bg"></div>
                 <ul className="top-menu">
                     <li>
-                        <NavLink activeClassName="active" exact rel="noopener" to="/de-taxcalculator.html">Tax calculator</NavLink>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/de-taxcalculator.html">{t('header.data.navLinkTaxcalculator')}</NavLink>
                     </li>
                     <li>
-                        <NavLink activeClassName="active" exact rel="noopener" to="/about-us/">About us</NavLink>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/about-us/">{t('header.data.navLinkAboutus')}</NavLink>
                     </li>
                     <li>
-                        <NavLink activeClassName="active" exact rel="noopener" to="/faq/">FAQs</NavLink>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/faq/">{t('header.data.navLinkFaqs')}</NavLink>
                     </li>
                     <li>
-                        <NavLink activeClassName="active" exact rel="noopener" to="/how-it-works/">How it works</NavLink>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/how-it-works/">{t('header.data.navLinkHowItWork')}</NavLink>
                     </li>
                     <li>
-                        <NavLink activeClassName="active" exact rel="noopener" to="/insights/">Insights</NavLink>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/insights/">{t('header.data.navLinkInsights')}</NavLink>
                     </li>
                     <li>
-                        <NavLink activeClassName="active" exact rel="noopener" to="/tax-extension/">Tax Extension</NavLink>
+                        <NavLink activeClassName="active" exact rel="noopener" to="/tax-extension/">{t('header.data.navLinkTaxExtension')}</NavLink>
                     </li>
                 </ul>
                 <ul className="bottom-menu">
-                    <li><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" className="taxly-icon taxly-icon-login">Log in</a></li>
+                    <li><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" className="taxly-icon taxly-icon-login">{t('header.data.navLogIn')}</a></li>
                 </ul>
             </div>
         </>

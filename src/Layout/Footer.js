@@ -1,9 +1,10 @@
 import React from "react";
 import images from "../Utils/ImageHelper";
-import { useHistory } from "react-router-dom";
+import { useHistory, NavLink } from "react-router-dom";
 import LanguageSelect from "../Component/languageSelect";
-
+import { useTranslation } from "react-i18next";
 export default function Footer() {
+    const { t } = useTranslation();
     let history = useHistory();
 
     const onRedirect = (url) => {
@@ -19,48 +20,80 @@ export default function Footer() {
                     </div>
                     <div className="l-footer-column taxly-footer-2">
                         <div className="footer-menu">
-                            <div className="footer-menu__heading">Features</div>
+                            <div className="footer-menu__heading">{t('footer.features.headingFeatures')}</div>
                             <ul className="footer-menu__list">
-                                <li><a onClick={() => onRedirect('/api/')}>API</a></li>
-                                <li><a onClick={() => onRedirect('/social-impact/')}>Charity</a></li>
-                                <li><a onClick={() => onRedirect('/insights/')}>Insights</a></li>
-                                <li><a onClick={() => onRedirect('/tax-accountants/')}>Tax Accountants</a></li>
-                                <li><a onClick={() => onRedirect('/app/')}>App</a></li>
-                                <li><a onClick={() => onRedirect('/de-taxcalculator/')} rel="noopener">2020 Calculator</a></li>
+                                <li>
+                                    <NavLink exact to="/api/">{t('footer.features.navLinkApi')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/social-impact/">{t('footer.features.navLinkCharity')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/insights/">{t('header.data.navLinkInsights')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/tax-accountants/">{t('footer.features.navLinkTaxAccountants')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/app/">{t('header.data.navLinkApp')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/de-taxcalculator/" rel="noopener">{t('footer.features.navLink2020Calculator')}</NavLink>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div className="l-footer-column taxly-footer-3">
                         <div className="footer-menu">
-                            <div className="footer-menu__heading">Resources</div>
+                            <div className="footer-menu__heading">{t('footer.resources.headingResources')}</div>
                             <ul className="footer-menu__list">
-                                <li><a target="_blank" rel="noopener" href="https://medium.com/taxly">Blog</a></li>
-                                <li><a onClick={() => onRedirect('/faq/')}>FAQ</a></li>
-                                <li><a onClick={() => onRedirect('/community/')}>Community</a></li>
-                                <li><a onClick={() => onRedirect('/tax-dictionary/')}>Tax Dictionary</a></li>
-                                <li><a onClick={() => onRedirect('/how-it-works/')}>How it works</a></li>
+                                <li>
+                                    <NavLink exact target="_blank" rel="noopener" to="https://medium.com/taxly">{t('footer.resources.navLinkBlog')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/faq/">{t('header.data.navLinkFaq')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/community/">{t('footer.resources.navLinkCommunity')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/tax-dictionary/">{t('footer.resources.navLinkTaxDictionary')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/insights/">{t('footer.resources.navLinkHowItWork')}</NavLink>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div className="l-footer-column taxly-footer-4">
                         <div className="footer-menu">
-                            <div className="footer-menu__heading">Company</div>
+                            <div className="footer-menu__heading">{t('footer.company.headingCompany')}</div>
                             <ul className="footer-menu__list">
-                                <li><a onClick={() => onRedirect('/careers/')}>Join the team</a></li>
-                                <li><a onClick={() => onRedirect('/privacy/')}>Privacy Policy</a></li>
-                                <li><a onClick={() => onRedirect('/terms-of-service/')}>Terms of Service</a></li>
-                                <li><a onClick={() => onRedirect('/contact-us/')}>Contact Us</a></li>
-                                <li><a onClick={() => onRedirect('/about-us/')}>About us</a></li>
+                                <li>
+                                    <NavLink exact to="/careers/">{t('footer.company.navLinkJoinTheTeam')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/privacy/">{t('footer.company.navLinkPrivacyPolicy')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/terms-of-service/">{t('footer.company.navLinkTermsOfService')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/contact-us/">{t('footer.company.navLinkContactUs')}</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink exact to="/about-us/">{t('footer.company.navLinkAboutUs')}</NavLink>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div className="l-footer-column taxly-footer-5">
                         <div className="footer-menu">
-                            <div className="footer-menu__heading">Language</div>
+                            <div className="footer-menu__heading">{t('footer.language.headingLanguage')}</div>
                             <div className="language-switcher">
                                 <LanguageSelect />
                             </div>
-                            <div className="footer-menu__heading">Follow Us</div>
+                            <div className="footer-menu__heading">{t('footer.followUs.headingfollowUs')}</div>
                             <ul className="taxly-footer-social">
                                 <li><a href="https://www.facebook.com/SimplifiedByTaxly" target="_blank"><img src={images.socfacebook} alt="Facebook" /></a></li>
                                 <li><a href="https://twitter.com/Taxly_" target="_blank"><img src={images.soctwitter} alt="Twitter" /></a></li>
@@ -72,8 +105,8 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="b-footer-copyright">
-                    <p className="copyright-location taxly-icon taxly-icon-heart">Made with love in Zürich</p>
-                    <p className="copyright-date">Tax services provided by Taxly AG. Company registration Number CHE-253.409.943 <br />© 2021 Taxly AG</p>
+                    <p className="copyright-location taxly-icon taxly-icon-heart">{t('footer.footerBottom.madeWith')}</p>
+                    <p className="copyright-date">{t('footer.footerBottom.provideBy')} <br />{t('footer.footerBottom.copyRight')}</p>
                 </div>
             </div>
         </footer>

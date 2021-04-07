@@ -4,13 +4,14 @@ import MobileMenu from "../../Layout/MobileMenu";
 import Navbar from "../../Layout/Navbar";
 import Modal from "react-modal";
 import {DarkModal, TopBottomLeftRight} from "../Modal/Modal";
-import {SingleData, AppHowItWorkData, SiteSectionData, ComingSoonCardData} from "../MobileApp/Data";
+import { useTranslation } from "react-i18next";
 
 const HeroApp = () => {
     const [isOpen, setIsOpen] = useState(false);
     function toggleModal() {
         setIsOpen(!isOpen);
     }
+    const { t } = useTranslation();
     return (
     <div className="hero__inner app-page">
         <MobileMenu 
@@ -30,9 +31,9 @@ const HeroApp = () => {
                 <div className="taxly-hero-bird"></div> */}
                 <div className="hero__wrapper">
                     <div className="l-container l-container--content">
-                        <h1 className="page-heading">{SingleData.heroAppPageHeading}</h1>
-                        <p>{SingleData.heroAppSubHeading}</p>
-                        <button className="btn btn-large hero__cta" onClick={toggleModal}>{SingleData.notifyMeModalText}</button>
+                        <h1 className="page-heading">{t('mobileapp.SingleData.heroAppPageHeading')}</h1>
+                        <p>{t('mobileapp.SingleData.heroAppSubHeading')}</p>
+                        <button className="btn btn-large hero__cta" onClick={toggleModal}>{t('mobileapp.SingleData.notifyMeModalText')}</button>
                         <Modal className="modal invite-modal dark-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
                             <div className="modal__overlay"></div>
                             <div className="modal__content taxly-box">
@@ -52,6 +53,8 @@ const HeroApp = () => {
 }; 
 
 const AppHowItWork = () => {
+    const { t } = useTranslation();
+    let AppHowItWorkData =  t('mobileapp.AppHowItWorkData.data', { returnObjects: true });
     return(
       <section className="site-section no-title">
           <div className="l-container">
@@ -74,6 +77,8 @@ const AppHowItWork = () => {
 };
 
 const SiteSection = () => {
+    const { t } = useTranslation();
+    let SiteSectionData =  t('mobileapp.SiteSectionData.data', { returnObjects: true });
 	return(
 		<>
 		{SiteSectionData.map((val, ind) =>
@@ -100,9 +105,10 @@ const AppDarkModal = () => {
     function toggleModal() {
         setIsOpen(!isOpen);
     }
+    const { t } = useTranslation();
     return(
         <>
-        <button className="btn btn-large hero__cta" onClick={toggleModal}>{SingleData.notifyMeModalText}</button>
+        <button className="btn btn-large hero__cta" onClick={toggleModal}>{t('mobileapp.SingleData.notifyMeModalText')}</button>
         <Modal className="modal invite-modal dark-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
             <div className="modal__overlay"></div>
             <div className="modal__content taxly-box">
@@ -118,15 +124,21 @@ const AppDarkModal = () => {
 };
 
 const ComingSoonCard= () => {
-  return (
+    const { t } = useTranslation();
+    let ComingSoonCardData =  t('mobileapp.ComingSoonCardData.data', { returnObjects: true });
+    const [isOpen, setIsOpen] = useState(false);
+    function toggleModal() {
+        setIsOpen(!isOpen);
+    }
+    return (
     <>
 		<section className="site-section apps-bottom-module site-section-line">
 			<div className="l-container">
 				<div className="top-image">
 					<img src={images.tBackground1xLogo} alt="t-background1x" />
 				</div>
-				<h2 className="site-section__heading">{SingleData.comingSoonCardHeading}</h2>
-				<div className="site-section__subheading">{SingleData.comingSoonCardSubheading}</div>
+				<h2 className="site-section__heading">{t('mobileapp.SingleData.comingSoonCardHeading')}</h2>
+				<div className="site-section__subheading">{t('mobileapp.SingleData.comingSoonCardSubheading')}</div>
 				<div className="prices-module">
 					<div className="columns-2 taxly-boxes taxly-boxes-square">
 						{ComingSoonCardData.map((val, ind) =>
@@ -140,7 +152,17 @@ const ComingSoonCard= () => {
 									<div className="columns-2-item">
 										<img src={val.image} alt={val.imgAlt} />
 									</div>
-                                    <AppDarkModal/>
+                                    <button className="btn btn-large hero__cta" onClick={toggleModal}>{val.btnName}</button>
+                                    <Modal className="modal invite-modal dark-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
+                                        <div className="modal__overlay"></div>
+                                        <div className="modal__content taxly-box">
+                                            <TopBottomLeftRight />
+                                            <div className="box-content">
+                                                <div className="modal__close" onClick={toggleModal}>Close</div>
+                                                <DarkModal />
+                                            </div>
+                                        </div>
+                                    </Modal>
 								</div>
 							</div>
 						)}
@@ -149,7 +171,7 @@ const ComingSoonCard= () => {
 			</div>
 		</section>
     </>
-  );
+    );
 };
 
 export {HeroApp, AppHowItWork, SiteSection, ComingSoonCard};

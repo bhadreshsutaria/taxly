@@ -1,5 +1,4 @@
 import React from "react";
-import {FaqTabData, SingalData} from "../FAQ/Data";
 import { useTranslation } from "react-i18next";
 const FaqTab = (props) =>{
     return(
@@ -38,78 +37,78 @@ const FaqContent = () =>{
                             <div className="about-content-tab-item list-items-style">
                                 <h2 className="page-heading">{t('faq.SingalData.headingTitleOne')}</h2>
                                 <p>{t('faq.SingalData.actiOneP1Text')}</p>
-                                <h3 className="site-section-line">{SingalData.sslOneH31Heading}</h3>
-                                <p>{SingalData.actiOneP2Text}</p>
-                                <p>{SingalData.actiOneP3Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslOneH32Heading}</h3>
-                                <p>{SingalData.actiOneP4Text}</p>
-                                <p>{SingalData.actiOneP5Text}</p>
-                                <p>{SingalData.actiOneP6Text}</p>
-                                <p>{SingalData.actiOneP7Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslOneH33Heading}</h3>
-                                <p>{SingalData.actiOneP8Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslOneH34Heading}</h3>
-                                <p>{SingalData.actiOneP9Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslOneH35Heading}</h3>
-                                <p>{SingalData.actiOneP10Text}</p>
-                                <p>{SingalData.actiOneP11Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslOneH36Heading}</h3>
-                                <p>{SingalData.actiOneP12Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslOneH37Heading}</h3>
-                                <p>{SingalData.actiOneP13Text}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslOneH31Heading')}</h3>
+                                <p>{t('faq.SingalData.actiOneP2Text')}</p>
+                                <p>{t('faq.SingalData.actiOneP3Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslOneH32Heading')}</h3>
+                                <p>{t('faq.SingalData.actiOneP4Text')}</p>
+                                <p>{t('faq.SingalData.actiOneP5Text')}</p>
+                                <p>{t('faq.SingalData.actiOneP6Text')}</p>
+                                <p>{t('faq.SingalData.actiOneP7Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslOneH33Heading')}</h3>
+                                <p>{t('faq.SingalData.actiOneP8Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslOneH34Heading')}</h3>
+                                <p>{t('faq.SingalData.actiOneP9Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslOneH35Heading')}</h3>
+                                <p>{t('faq.SingalData.actiOneP10Text')}</p>
+                                <p>{t('faq.SingalData.actiOneP11Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslOneH36Heading')}</h3>
+                                <p>{t('faq.SingalData.actiOneP12Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslOneH37Heading')}</h3>
+                                <p>{t('faq.SingalData.actiOneP13Text')}</p>
                             </div>
                             <div className="about-content-tab-item list-items-style">
-                                <h2 className="page-heading">{SingalData.headingTitleOne}</h2>
-                                <p>{SingalData.actiTwoP1Text}</p>
-                                <p>{SingalData.actiTwoP2Text}</p>
-                                <p>{SingalData.actiTwoP3Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslTwoH31Heading}</h3>
-                                <p>{SingalData.actiTwoP4Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslTwoH32Heading}</h3>
-                                <p>{SingalData.actiTwoP5Text}</p>
+                                <h2 className="page-heading">{t('faq.SingalData.headingTitleOne')}</h2>
+                                <p>{t('faq.SingalData.actiTwoP1Text')}</p>
+                                <p>{t('faq.SingalData.actiTwoP2Text')}</p>
+                                <p>{t('faq.SingalData.actiTwoP3Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslTwoH31Heading')}</h3>
+                                <p>{t('faq.SingalData.actiTwoP4Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslTwoH32Heading')}</h3>
+                                <p>{t('faq.SingalData.actiTwoP5Text')}</p>
                             </div>
                             <div className="about-content-tab-item list-items-style">
-                                <h2 className="page-heading">{SingalData.headingTitleThree}</h2>
-                                <p>{SingalData.actiThreeP1Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslThreeH31Heading}</h3>
-                                <p>{SingalData.actiThreeP2Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslThreeH32Heading}</h3>
-                                <p>{SingalData.actiThreeP3Text}</p>
+                                <h2 className="page-heading">{t('faq.SingalData.headingTitleThree')}</h2>
+                                <p>{t('faq.SingalData.actiThreeP1Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslThreeH31Heading')}</h3>
+                                <p>{t('faq.SingalData.actiThreeP2Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslThreeH32Heading')}</h3>
+                                <p>{t('faq.SingalData.actiThreeP3Text')}</p>
                             </div>
                             <div className="about-content-tab-item list-items-style">
-                                <h2 className="page-heading">{SingalData.headingTitleFour}</h2>
-                                <p>{SingalData.actiFourP1Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslFourH31Heading}</h3>
-                                <p>{SingalData.actiFourP2Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslFourH32Heading}</h3>
-                                <p>{SingalData.actiFourP3Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslFourH33Heading}</h3>
-                                <p>{SingalData.actiFourP4Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslFourH34Heading}</h3>
-                                <p>{SingalData.actiFourP5Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslFourH35Heading}</h3>
-                                <p>{SingalData.actiFourP6Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslFourH36Heading}</h3>
-                                <p>{SingalData.actiFourP7Text}</p>
+                                <h2 className="page-heading">{t('faq.SingalData.headingTitleFour')}</h2>
+                                <p>{t('faq.SingalData.actiFourP1Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslFourH31Heading')}</h3>
+                                <p>{t('faq.SingalData.actiFourP2Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslFourH32Heading')}</h3>
+                                <p>{t('faq.SingalData.actiFourP3Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslFourH33Heading')}</h3>
+                                <p>{t('faq.SingalData.actiFourP4Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslFourH34Heading')}</h3>
+                                <p>{t('faq.SingalData.actiFourP5Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslFourH35Heading')}</h3>
+                                <p>{t('faq.SingalData.actiFourP6Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslFourH36Heading')}</h3>
+                                <p>{t('faq.SingalData.actiFourP7Text')} {t('faq.SingalData.actiFourP7TextLink') === '' ? '' : <a href={t('faq.SingalData.actiFourP7TextLinkUrl')}>{t('faq.SingalData.actiFourP7TextLink')}</a>}{t('faq.SingalData.actiFourP7ExtraText')}</p>
                             </div>
                             <div className="about-content-tab-item list-items-style">
-                                <h2 className="page-heading">{SingalData.headingTitleFive}</h2>
-                                <p>{SingalData.actiFiveP1Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslFiveH31Heading}</h3>
-                                <p>{SingalData.actiFiveP2Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslFiveH32Heading}</h3>
-                                <p>{SingalData.actiFiveP3Text}</p>
-                                <p>{SingalData.actiFiveP4Text}</p>
+                                <h2 className="page-heading">{t('faq.SingalData.headingTitleFive')}</h2>
+                                <p>{t('faq.SingalData.actiFiveP1Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslFiveH31Heading')}</h3>
+                                <p>{t('faq.SingalData.actiFiveP2Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslFiveH32Heading')}</h3>
+                                <p>{t('faq.SingalData.actiFiveP3Text')}</p>
+                                <p>{t('faq.SingalData.actiFiveP4Text')} {t('faq.SingalData.actiFiveP4TextLink') === '' ? '' : <a href={t('faq.SingalData.actiFiveP4TextLinkUrl')}>{t('faq.SingalData.actiFiveP4TextLink')}</a>}{t('faq.SingalData.actiFiveP4ExtraText')}</p>
                             </div>
                             <div className="about-content-tab-item list-items-style">
-                                <h2 className="page-heading">{SingalData.headingTitleSix}</h2>
-                                <p>{SingalData.actiSixP1Text}</p>
-                                <p>{SingalData.actiSixP2Text}</p>
-                                <p>{SingalData.actiSixP3Text}</p>
-                                <h3 className="site-section-line">{SingalData.sslSixH32Heading}</h3>
-                                <p>{SingalData.actiSixP4Text}</p>
-                                <p>{SingalData.actiSixP5Text}</p>
-                                <p>{SingalData.actiSixP6Text}</p>
+                                <h2 className="page-heading">{t('faq.SingalData.headingTitleSix')}</h2>
+                                <p>{t('faq.SingalData.actiSixP1Text')}</p>
+                                <p>{t('faq.SingalData.actiSixP2Text')}</p>
+                                <p>{t('faq.SingalData.actiSixP3Text')}</p>
+                                <h3 className="site-section-line">{t('faq.SingalData.sslSixH32Heading')}</h3>
+                                <p>{t('faq.SingalData.actiSixP4Text')}</p>
+                                <p>{t('faq.SingalData.actiSixP5Text')}</p>
+                                <p>{t('faq.SingalData.actiSixP6Text')}</p>
                             </div>
                         </div>
                     </div>

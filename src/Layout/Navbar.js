@@ -13,7 +13,7 @@ export default function Navbar() {
                         <Listmenu />
                         <ul className="main-nav__right">
                             <li className="menu-item"><a href="#" className="taxly-icon taxly-icon-language">{t("language")}</a></li>
-                            <li className="menu-item"><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" className="taxly-icon taxly-icon-login">Log in</a></li>
+                            <li className="menu-item"><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" className="taxly-icon taxly-icon-login">{t('header.data.navLogIn')}</a></li>
                         </ul>
                     </div>
                     <div className="taxly-logo">
@@ -22,7 +22,7 @@ export default function Navbar() {
                             <img className="taxly-logo__icon taxly-logo__white taxly-logo__icon_fixed" src={images.logowhite} alt="Taxly" />
                         </a>
                     </div>
-                    <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">Get Started</a>
+                    <a href="https://app.taxly.ch/GettingStarted" target="_blank" className={`btn btn-large hero__cta btn-${t("language")}`}>{t('header.data.navGetStartedBtn')}</a>
                 </div>
             </div>
         </div>

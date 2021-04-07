@@ -4,9 +4,6 @@ import Modal from "react-modal";
 import images from "../../Utils/ImageHelper";
 import {DarkModal, TopBottomLeftRight} from "../Modal/Modal";
 import { useTranslation } from "react-i18next";
-import {SingalData, Testimonialdata, SectionLinkData, TaxlyWorkData, BenefitTaxlyData, PriceData, PriceBusinessData, SafeHandData} from "../Home/Data";
-
-
 
 const LogoSection = () => {
     const { t } = useTranslation();
@@ -228,6 +225,7 @@ const SmartPricing = () => {
                                 numberValue={val.numberValue}
                                 currency={val.currency}
                                 priceText= {val.priceText}
+                                priceBtnText= {val.priceBtnText}
                             />;
                     })}
                 </div>
@@ -239,6 +237,7 @@ const SmartPricing = () => {
 
 const YourBusiness = () => {
     const { t } = useTranslation();
+    let PriceBusinessData =  t('home.PriceBusinessData.data', { returnObjects: true });
     return(
         <section className="b-section site-section price-section">
             <div className="l-container b-section__container">
@@ -256,6 +255,7 @@ const YourBusiness = () => {
                                 numberValue={val.numberValue}
                                 currency={val.currency}
                                 priceText= {val.priceText}
+                                priceBtnText= {val.priceBtnText}
                             />;
                     })}
                 </div>
@@ -268,6 +268,7 @@ const YourBusiness = () => {
 const SafeHand = () => {
     const { t } = useTranslation();
     let SectionLinkData =  t('home.SectionLinkData.data', { returnObjects: true });
+    let SafeHandData =  t('home.SafeHandData.data', { returnObjects: true });
     return(
         <section className="site-section taxly-grey-bg b-section good-to-know-section">
             <div className="l-container b-section__container">
