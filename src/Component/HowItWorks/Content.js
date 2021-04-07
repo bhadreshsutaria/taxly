@@ -2,9 +2,11 @@ import React from 'react';
 import images from "../../Utils/ImageHelper";
 import MobileMenu from "../../Layout/MobileMenu";
 import Navbar from "../../Layout/Navbar";
-import {SingalData, HeroSectionData, NutShellData, HIWColumns2Data, TaxReturnData} from "../HowItWorks/Data";
+import { useTranslation } from "react-i18next";
 
 const HeroSection = () => {
+    const { t } = useTranslation();
+    let HeroSectionData =  t('howitworks.HeroSectionData.data', { returnObjects: true });
     return(
         <div className="hero__inner">
             <MobileMenu
@@ -38,18 +40,17 @@ const HeroSection = () => {
 }
 
 const HIWColumns2 = () => {
+    const { t } = useTranslation();
+    let HIWColumns2Data =  t('howitworks.HIWColumns2Data.data', { returnObjects: true });
     return(
         <section className="site-section no-title">
             <div className="l-container">
                 <div className="howitworks-module">
                     {HIWColumns2Data.map((val, ind) =>
                     <div key={ind} className={`columns-2 text-left taxly-image-text ${val.extraClass === '' ? '':  val.extraClass}`}>
-                        <div className="columns-2-item fade-bottom">
-                            <div className="fade-bottom-left"></div>
-                            <div className="fade-bottom-right"></div>
-                            <div className="fade-bottom-item">
-                                <img src={val.image} alt={val.alt} />
-                            </div>
+                        <div className={`columns-2-item ${val.fadeBottomClass === '' ? '':  val.fadeBottomClass}`}>
+                            {val.fadeBottomRightLeft === true ? <><div className="fade-bottom-left"></div><div className="fade-bottom-right"></div></> : ''}
+                            {val.fadeBottomItem === true ? <div className="fade-bottom-item"><img src={val.image} alt={val.alt} /></div> : <img src={val.image} alt={val.alt} /> }
                         </div>
                         <div className="columns-2-item">
                             <h3>{val.title}</h3>
@@ -64,10 +65,13 @@ const HIWColumns2 = () => {
 };
 
 const NutShell = () => {
+    const { t } = useTranslation();
+    let NutShellData =  t('howitworks.NutShellData.data', { returnObjects: true });
+
     return (
         <section className="site-section site-section-line no-subtitle">
                 <div className="l-container">
-                    <h2 className="site-section__heading">{SingalData.NSHeading}</h2>
+                    <h2 className="site-section__heading">{t('howitworks.SingalData.NSHeading')}</h2>
                     <div className="list-ticks-module">
                         <ul>
                             { NutShellData.map((val, ind) => 
@@ -81,6 +85,8 @@ const NutShell = () => {
 };
 
 const TaxReturn = () => {
+    const { t } = useTranslation();
+    let TaxReturnData =  t('howitworks.TaxReturnData.data', { returnObjects: true });
     return(
         <>
         {TaxReturnData.map((val, ind) =>

@@ -809,11 +809,11 @@
     display: none;
 }
 
-html[lang="de-DE"] #mysticky-wrap #menu-container .hero__cta {
+#mysticky-wrap #menu-container .hero__cta.btn-DE {
     right: 215px;
 }
 
-html[lang="pt-PT"] #mysticky-wrap #menu-container .hero__cta {
+#mysticky-wrap #menu-container .hero__cta.btn-PT {
     right: 235px;
 }
 

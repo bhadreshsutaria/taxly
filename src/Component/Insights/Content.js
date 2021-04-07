@@ -2,9 +2,10 @@ import React from "react";
 import images from "../../Utils/ImageHelper";
 import MobileMenu from "../../Layout/MobileMenu";
 import Navbar from "../../Layout/Navbar";
-import {SingleData, InsightPlanForOptionData, InsightPFOListData, GuidesResourcesData, InsightControlData} from "../Insights/Data";
+import { useTranslation } from "react-i18next";
 
 const InsightHeroSection = () => {
+    const { t } = useTranslation();
     return(
         <div className="hero__inner insights">
             <MobileMenu
@@ -24,8 +25,8 @@ const InsightHeroSection = () => {
                     <div className="taxly-hero-bird"></div> */}
                     <div className="hero__wrapper">
                         <div className="l-container l-container--content">
-                            <h1 className="page-heading">{SingleData.heroPageHeading}</h1>
-                            <p>{SingleData.heroDesc}</p>
+                            <h1 className="page-heading">{t('insights.SingleData.heroPageHeading')}</h1>
+                            <p>{t('insights.SingleData.heroDesc')}</p>
                         </div>
                     </div>
                 </div>
@@ -35,10 +36,11 @@ const InsightHeroSection = () => {
 };
 
 const InsightHowItWork = () =>{
+    const { t } = useTranslation();
     return(
         <section className="site-section no-subtitle">
             <div className="l-container">
-                <h2 className="site-section__heading">{SingleData.HowItWorkTitle}</h2>
+                <h2 className="site-section__heading">{t('insights.SingleData.HowItWorkTitle')}</h2>
                 <div className="insights-first">
                     <div className="insights-first-image">
                         <img src={images.insightsHowitworksSingleBg} alt="insights-howitworks-single" />
@@ -46,7 +48,7 @@ const InsightHowItWork = () =>{
                         <img src={images.insightsHowitworksSingleBg} alt="insights-howitworks-single" />
                     </div>
                     <div className="insights-first-text">
-                        <p>{SingleData.HowItWorkDesc}</p>
+                        <p>{t('insights.SingleData.HowItWorkDesc')}</p>
                     </div>
                 </div>
             </div>
@@ -55,10 +57,13 @@ const InsightHowItWork = () =>{
 };
 
 const InsightPlanFor = () =>{
+    const { t } = useTranslation();
+    let InsightPlanForOptionData =  t('insights.InsightPlanForOptionData.data', { returnObjects: true });
+    let InsightPFOListData =  t('insights.InsightPFOListData.data', { returnObjects: true });
     return(
         <section className="site-section taxly-grey-bg no-subtitle">
             <div className="l-container">
-                <h2 className="site-section__heading">{SingleData.InsightPlanForHeading}</h2>
+                <h2 className="site-section__heading">{t('insights.SingleData.InsightPlanForHeading')}</h2>
                 <div className="insights-planning-module">
                     <div className="insights-planning-options">
                         {InsightPlanForOptionData.map((val, ind) => 
@@ -97,12 +102,14 @@ const InsightPlanFor = () =>{
 };
 
 const GuidesResources = () =>{
+    const { t } = useTranslation();
+    let GuidesResourcesData =  t('insights.GuidesResourcesData.data', { returnObjects: true });
     return(
         <section className="site-section">
             <div className="l-container">
-                <h2 className="site-section__heading">{SingleData.GuidesResourcesHeading}</h2>
+                <h2 className="site-section__heading">{t('insights.SingleData.GuidesResourcesHeading')}</h2>
                 <div className="site-section__subheading">
-                    <p>{SingleData.GuidesResourcesSubHeading}</p>
+                    <p>{t('insights.SingleData.GuidesResourcesSubHeading')}</p>
                 </div>
                 <div className="icons-module insights-guides">
                     <div className="columns-3">
@@ -120,13 +127,14 @@ const GuidesResources = () =>{
 };
 
 const InsightControl = () => {
+    const { t } = useTranslation();
     return(
         <section className="site-section control-bg taxly-grey-bg no-subtitle">
             <div className="controller-bg"></div>
             <div className="l-container">
-                <h2 className="site-section__heading">{SingleData.InsightControlHeading}</h2>
+                <h2 className="site-section__heading">{t('insights.SingleData.InsightControlHeading')}</h2>
                 <div className="taxly-module">
-                    <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{SingleData.InsightControlBtnText}</a>
+                    <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{t('insights.SingleData.InsightControlBtnText')}</a>
                 </div>
             </div>
         </section>

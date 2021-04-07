@@ -1,5 +1,54 @@
 {
     "language": "PT",
+    "header": {
+        "data": {
+            "navLinkFaq": "Perguntas frequentes",
+            "navLinkHowItWork": "Como funciona",
+            "navLinkInsights": "Informações",
+            "navLinkApp": "App",
+            "navLinkTaxcalculator": "Tax calculator",
+            "navLinkAboutus": "Sobre nós",
+            "navLinkFaqs": "Perguntas frequentes",
+            "navLinkTaxExtension": "Extensão de impostos",
+            "navLogIn": "Iniciar sessão",
+            "navGetStartedBtn": "Início"
+        }
+    },
+    "footer": {
+        "features": {
+            "headingFeatures": "Características",
+            "navLinkApi": "IPA",
+            "navLinkCharity": "Beneficência",
+            "navLinkTaxAccountants": "Consultores fiscais",
+            "navLink2020Calculator": "2020 Calculadora de impostos"
+        },
+        "resources": {
+            "headingResources": "Recursos",
+            "navLinkBlog": "Blogue",
+            "navLinkCommunity": "Comunidade",
+            "navLinkTaxDictionary": "Dicionário fiscal",
+            "navLinkHowItWork": "Informações"
+        },
+        "company": {
+            "headingCompany": "Empresa",
+            "navLinkJoinTheTeam": "Junte-se a nós",
+            "navLinkPrivacyPolicy": "Politica de privacidade",
+            "navLinkTermsOfService": "Termos de serviço",
+            "navLinkContactUs": "Contate-Nos",
+            "navLinkAboutUs": "About us"
+        },
+        "language": {
+            "headingLanguage": "Idioma"
+        },
+        "followUs": {
+            "headingfollowUs": "Siga-nos"
+        },
+        "footerBottom": {
+            "madeWith": "Feito com amor em Zürich",
+            "provideBy": "Serviços fiscais prestados pela Taxly AG. Número de registo da empresa CHE-253.409.943",
+            "copyRight": "© 2021 Taxly AG"
+        }
+    },
     "home": {
         "SingalData": {
             "partnershipTitle": "Em parceria com",
@@ -125,12 +174,499 @@
                     "priceBtnText": "Início"
                 }
             ]
+        },
+        "PriceBusinessData": {
+            "data": [{
+                    "image": "../assets/Images/price-icon-4.png",
+                    "note": "Startups e pequenas empresas",
+                    "numberValue": "500",
+                    "currency": "CHF",
+                    "priceText": ["Suporte interno", "Declaração de imposto concluída", "Otimização fiscal por Roger (AI) e consultores fiscais certificados (humanos)"],
+                    "priceBtnText": "Início"
+                },
+                {
+                    "image": "../assets/Images/price-icon-5.png",
+                    "note": "Hotéis, restaurantes e lojas",
+                    "numberValue": "450",
+                    "currency": "CHF",
+                    "priceText": ["Suporte interno", "Declaração de imposto concluída", "Otimização fiscal por Roger (AI) e consultores fiscais certificados (humanos)"],
+                    "priceBtnText": "Início"
+                },
+                {
+                    "image": "../assets/Images/price-icon-5.png",
+                    "note": "Freelancers",
+                    "numberValue": "350",
+                    "currency": "CHF",
+                    "priceText": ["Suporte interno", "Declaração de imposto concluída", "Otimização fiscal por Roger (AI) e consultores fiscais certificados (humanos)"],
+                    "priceBtnText": "Início"
+                }
+
+            ]
+        },
+        "SafeHandData": {
+            "data": [{
+                    "image": "../assets/Images/icon-tax-experts@2x.png",
+                    "alt": "tax experts",
+                    "sname": "Peritos fiscais suíços",
+                    "stext": "Desenvolvido por especialistas fiscais suíços certificados."
+                },
+                {
+                    "image": "../assets/Images/icon-encryption@2x.png",
+                    "alt": "encryption",
+                    "sname": "Alta segurança de dados",
+                    "stext": "Consideramos a segurança dos dados nossa maior prioridade."
+                },
+                {
+                    "image": "../assets/Images/icon-security@2x.png",
+                    "alt": "security",
+                    "sname": "Criptografia de dados TLS 1.2",
+                    "stext": "Garante que nenhum hacking de dados seja possível."
+                },
+                {
+                    "image": "../assets/Images/icon-sustainably-company@2x.png",
+                    "alt": "sustainably company",
+                    "sname": "Empresa Sustentável",
+                    "stext": "Com o lucro fiscal e o impacto estão em equilíbrio."
+                }
+            ]
         }
     },
     "faq": {
+        "FaqTabData": {
+            "data": [{
+                    "extraClass": "selected",
+                    "tabName": "Sobre nós"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Como funciona"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Questões fiscais"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Documentos"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Proteção de dados"
+                },
+                {
+                    "extraClass": "",
+                    "tabName": "Beneficência / Impacto social"
+                }
+            ]
+        },
         "SingalData": {
-            "headingTitleOne": "What is taxly?",
-            "actiOneP1Text": "Taxly is an online service which allows you to quickly and easily create an optimised tax return."
+            "headingTitleOne": "O que é a taxly?",
+            "actiOneP1Text": "A Taxly é um serviço online que permite criar rápida e facilmente uma declaração de IRS otimizada.",
+            "sslOneH31Heading": "Quanto tempo demora a preparar a declaração de IRS?",
+            "actiOneP2Text": "A IA da taxly fornece orientação através de algumas perguntas simplificadas sobre a declaração de IRS, com base na sua situação pessoal. O processo demora cerca de 10 minutos.",
+            "actiOneP3Text": "Para casos mais complexos, o processo pode demorar entre 15 e 20 minutos.",
+            "sslOneH32Heading": "l é a diferença entre a Taxly e os programas informáticos cantonais tradicionais em matéria de tributação?",
+            "actiOneP4Text": "Os programas informáticos cantonais, como o EasyTax, o PrivateTax, o BalTax ou o GeTax, foram concebidos essencialmente para acelerar o processo interno das autoridades e apoiar os seus utilizadores a preencher as declarações.",
+            "actiOneP5Text": "A taxly é a primeira tecnologia ao serviço da declaração de IRS na Suíça, cujo objetivo principal é a facilidade de utilização e a satisfação do cliente. A nossa equipa revê constantemente o produto, para garantir fluxos simplificados e fáceis de entender, bem como o cumprimento da legislação fiscal.",
+            "actiOneP6Text": "Além disso, quaisquer decisões judiciais ou alterações na legislação cantonal são imediatamente implementadas na taxly, o que em alguns casos demora anos para ser implementado nos programas informáticos cantonais tradicionais.",
+            "actiOneP7Text": "Por último, este programa informático foi preparado para tirar proveito de todas as deduções disponíveis na lei e nas práticas cantonais, o que não é sistematicamente o caso quando se prepara uma declaração de IRS com um programa informático cantonal, que normalmente leva ao desperdício de centenas de francos em impostos.",
+            "sslOneH33Heading": "Quando devo esperar que a Taxly esteja disponível no meu país?",
+            "actiOneP8Text": "A taxly tem grandes ambições globais e estamos a preparar para 2022 lançamentos adicionais noutros países.",
+            "sslOneH34Heading": "Como posso entrar em contacto convosco?",
+            "actiOneP9Text": "Para entrar em contacto com a nossa equipa, basta clicar no botão ‘Ajuda’ no canto inferior direito desta página. Também pode fazer login no seu painel Taxly e clicar no ícone de chat. Se tenciona adotar a Taxly, não hesite em entrar em contacto connosco.",
+            "sslOneH35Heading": "O que significa ser uma B-Corp, ou empresa B?",
+            "actiOneP10Text": "As empresas B certificadas são um novo tipo de empresas que conciliam os objetivos com os lucros. Estas empresas são legalmente obrigadas a considerar o impacto das suas decisões sobre os seus funcionários, clientes, fornecedores, a comunidade e o meio ambiente.",
+            "actiOneP11Text": "Acreditamos que esses são valores importantes e, por isso, optámos deliberadamente por ser uma empresa B.",
+            "sslOneH36Heading": "Onde é a sede da taxly?",
+            "actiOneP12Text": "A taxly AG situa-se em Zurique, uma das capitais financeiras do mundo. Estamos registados no registo comercial de Zurique, com o número de registo CHE-253.409.943, Stockerstrasse 38, 8002 Zurique, Suíça.",
+            "sslOneH37Heading": "Quem está por detrás da taxly?",
+            "actiOneP13Text": "A taxly foi criada por vários especialistas suíços, certificados em matéria fiscal e empresários experientes no domínio da tecnologia.",
+            "headingTitleTwo": "Como funciona?",
+            "actiTwoP1Text": "A experiência completa com a taxly está disponível no nosso site e em browsers móveis. Em breve, também ofereceremos uma aplicação móvel nativa, com benefícios adicionais. A taxly repensou todo o processo de declaração de impostos na Suíça, do ponto de vista do cliente, a fim de o tornar simples, fácil de entender e totalmente otimizado.",
+            "actiTwoP2Text": "Basta responder a algumas perguntas e a nossa IA otimizará totalmente a sua situação fiscal pessoal. Assim que estiver concluída, escolha se deseja enviá-la digitalmente ou recebê-la por correio.",
+            "actiTwoP3Text": "Se sua situação tributária for mais complexa, nós o colocaremos em contato com um de nossos especialistas em impostos certificados suíços internos, que examinará pessoalmente sua declaração de imposto de renda.",
+            "sslTwoH31Heading": "Quanto custa?",
+            "actiTwoP4Text": "Isso depende de sua situação individual. Tentamos oferecer nossos serviços a preços muito atrativos.",
+            "sslTwoH32Heading": "E se, no fim, eu encontrar um erro na minha declaração de IRS?",
+            "actiTwoP5Text": "Não há problema. Basta fazer login no painel, clicar no link EDITAR na declaração de IRS concluída e fazer a correção. Por fim, receberá uma nova versão emitida por nós.",
+            "headingTitleThree": "Quais são os anos fiscais abrangidos pela taxly?",
+            "actiThreeP1Text": "A taxly oferece a possibilidade de fazer declarações de IRS para o ano fiscal de 2019 e seguintes.",
+            "sslThreeH31Heading": "Quais são os casos fiscais não abrangidos pela taxly?",
+            "actiThreeP2Text": "Taxly tenta oferecer suporte a todos os cantões e situações possíveis, combinando você com um de nossos especialistas fiscais certificados suíços internos quando houver mais complexidade.",
+            "sslThreeH32Heading": "Quais são os cantões abrangidos pela taxly?",
+            "actiThreeP3Text": "Taxly oferece serviços diretos para residentes dos seguintes cantões: Zurique, Aargau, Basel-Land, St. Gallen, Bern, Basel-Stadt, Luzerne. Para todos os outros cantões, nós colocamos você em contato com nossos especialistas em impostos certificados suíços, que farão a declaração de impostos para você de forma mais pessoal.",
+            "headingTitleFour": "Quando recebo a minha folha de pagamento?",
+            "actiFourP1Text": "O seu empregador deverá prepará-la e entregá-la a si, o mais tardar, até meados ou fim de fevereiro do ano seguinte.",
+            "sslFourH31Heading": "Onde posso encontrar os meus extratos bancários?",
+            "actiFourP2Text": "Atualmente, a maioria dos bancos não envia as declarações fiscais por correio, mas sim online, na respetiva plataforma eletrónica. Deverá procurar extratos de todas as suas contas bancárias e financeiras até 31.12 do ano anterior.",
+            "sslFourH32Heading": "Onde posso encontrar declarações relativas a apólices de seguros?",
+            "actiFourP3Text": "As companhias de seguros que oferecem apólices de seguro de vida, ou qualquer tipo de apólice de seguros, são obrigadas a enviar todos os anos um resumo para efeitos fiscais. Estes resumos são normalmente enviados por correio, para o seu endereço privado, no início do ano. Se não recebeu nada, recomendamos que entre em contacto com a sua companhia de seguros.",
+            "sslFourH33Heading": "Que tipo de recibos posso utilizar para deduções?",
+            "actiFourP4Text": "De um modo geral, para a maioria das deduções, é suficiente o comprovativo de pagamento. Assim, recomendamos que anexe o comprovativo de pagamento do seu banco à fatura correspondente.",
+            "sslFourH34Heading": "Que impostos terei de pagar?",
+            "actiFourP5Text": "Atualmente, a primeira versão da taxly não abrange o cálculo do valor dos impostos, pelo que não lhe pode fornecer informações sobre as suas obrigações fiscais. Estamos a planear incluir essa função no ano fiscal de 2020.",
+            "sslFourH35Heading": "Já tenho um contabilista que trata dos meus impostos. Como posso mudar para a taxly?",
+            "actiFourP6Text": "É muito simples! Entre em contacto com o(a) seu/sua contabilista e diga-lhe que a partir de agora fará a sua declaração de IRS com a sua própria solução. O(a) contabilista deverá informar as autoridades para que todas as informações sejam redirecionadas diretamente para si e enviar-lhe todas as informações necessárias para que possa preencher a sua declaração, incluindo o formulário fiscal.",
+            "sslFourH36Heading": "Mais informações",
+            "actiFourP7Text": "Para mais informações relacionadas com os impostos na Suíça, visite a nossa página com o ",
+            "actiFourP7TextLink": "dicionário fiscal",
+            "actiFourP7TextLinkUrl": "/tax-dictionary/",
+            "actiFourP7ExtraText": ".",
+            "headingTitleFive": "As minhas informações permanecem confidenciais?",
+            "actiFiveP1Text": "Claro que sim! Valorizamos e respeitamos a sua privacidade (consulte a nossa Política de privacidade). Não partilharemos ou venderemos as suas informações a terceiros, para nenhuma finalidade.",
+            "sslFiveH31Heading": "Quem tem acesso aos meus dados?",
+            "actiFiveP2Text": "A segurança dos dados é a nossa principal prioridade. Os seus dados só podem ser visualizados por si. Todos os dados e recibos enviados são armazenados e sempre encriptados. Os seus dados são processados apenas através de uma ligação de Internet encriptada. Para mais informações detalhadas sobre proteção de dados e as nossas medidas para garantir a segurança dos dados, consulte os nossos regulamentos sobre proteção de dados.",
+            "sslFiveH32Heading": "Posso apagar a minha conta e os meus dados?",
+            "actiFiveP3Text": "Sim, pode apagar completamente os seus dados fiscais da sua conta de utilizador, a qualquer momento. Lembre-se de que, nesse caso, deixa de ser possível reaver os dados.",
+            "actiFiveP4Text": "Leia mais",
+            "actiFiveP4TextLink": "aqui",
+            "actiFiveP4TextLinkUrl": "/privacy/",
+            "actiFiveP4ExtraText": " sobre proteção de dados e privacidade.",
+            "headingTitleSix": "O que é isso?",
+            "actiSixP1Text": "Estamos profundamente convencidos de que as alterações climáticas são a questão mais premente do nosso tempo. Na sua forma atual, a indústria cresce às custas do planeta. Estamos profundamente convencidos de que as alterações climáticas são a questão mais premente do nosso tempo. Na sua forma atual, a indústria cresce às custas do planeta.",
+            "actiSixP2Text": "Somos uma empresa jovem. Sozinhos, podemos não causar um grande impacto. Mas poderá ser simplesmente uma questão de pedir a outras startups que se juntem a nós? Talvez seja necessário só isso. Já existem muitas startups a fazer coisas incríveis no sentido da reposição. A uma escala maior e melhor do que poderíamos esperar, neste momento.",
+            "actiSixP3Text": "Não se trata aqui de nos posicionarmos num patamar acima, ou de apontar o dedo àqueles que não participam; trata-se antes de um apelo à ação que pretende ser positivo e encorajador, junto daqueles que concordam que poderíamos estar a fazer melhor.",
+            "sslSixH32Heading": "Como funciona?",
+            "actiSixP4Text": "Apoiaremos uma instituição de beneficência que centra a sua atenção nas alterações climáticas e no impacto ambiental. Compensaremos cada donativo feito pelos nossos clientes.",
+            "actiSixP5Text": "Faremos campanhas nas redes sociais, no site e na imprensa. Queremos dar a conhecer os nossos clientes e as startups que se juntaram ao movimento.",
+            "actiSixP6Text": "Esperamos que esta seja a primeira de muitas colaborações futuras entre clientes e empresas e que isso signifique uma mudança para melhor."
+        }
+    },
+    "howitworks": {
+        "SingalData": {
+            "NSHeading": "Em suma"
+        },
+        "HeroSectionData": {
+            "data": [{
+                "title": "Como funciona a Taxly?",
+                "description": "Com a Taxly, será capaz de fazer a sua declaração de IRS na Suíça, sem necessitar de conhecimentos fiscais.",
+                "btnLink": "https://app.taxly.ch/GettingStarted",
+                "btnName": "Início"
+            }]
+        },
+        "HIWColumns2Data": {
+            "data": [{
+                    "extraClass": "",
+                    "fadeBottomClass": "fade-bottom",
+                    "fadeBottomRightLeft": true,
+                    "fadeBottomItem": true,
+                    "image": "../assets/Images/meet-roger-1-en.png",
+                    "alt": "meet-roger-1-en",
+                    "title": "Perguntas simplificadas",
+                    "description": "A IA Roger fornece orientação através de perguntas simplificadas, relevantes apenas para a sua situação."
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "fadeBottomClass": "",
+                    "fadeBottomItem": false,
+                    "image": "../assets/Images/meet-roger-2-large.png",
+                    "alt": "meet-roger-2-large",
+                    "title": "Deixe que o Roger faça o trabalho dele!",
+                    "description": "O Roger calcula e otimiza a sua declaração de IRS na Suíça melhor do que qualquer ser humano, verificando as regras relevantes e encontrando deduções numa fração de segundos."
+                },
+                {
+                    "extraClass": "",
+                    "fadeBottomClass": "fade-bottom",
+                    "fadeBottomRightLeft": true,
+                    "fadeBottomItem": true,
+                    "image": "../assets/Images/meet-roger-3.png",
+                    "alt": "meet-roger-3",
+                    "title": "Revisão e confirmação",
+                    "description": "Em poucos minutos, poderá rever a sua declaração de IRS totalmente concluída. E não se preocupe, pois o Roger é o melhor amigo da sua autoridade fiscal local, o que garante a verificação e a correção dos resultados."
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "fadeBottomClass": "fade-bottom",
+                    "fadeBottomRightLeft": true,
+                    "fadeBottomItem": true,
+                    "image": "../assets/Images/meet-roger-4.png",
+                    "alt": "meetRogerFourEn",
+                    "title": "Envie com um clique",
+                    "description": "Responsabilizamos-nos pelo envio à repartição de finanças local, por via eletrónica ou por correio, para que não precise de se preocupar com isso. Claro que receberá sempre informações da nossa parte e poderá aceder aos seus dados online a qualquer momento."
+                }
+            ]
+        },
+        "NutShellData": {
+            "data": [
+                "Faça a sua declaração de IRS na Suíça em 10 minutos",
+                "Os seus impostos são otimizados automaticamente - melhor do que qualquer ser humano, para maximizar a sua situação pessoal",
+                "Não são necessários conhecimentos fiscais",
+                "O preço é de apenas 49 CHF - incluindo casais",
+                "Envie a sua declaração de IRS digitalmente, ou receba-a por correio",
+                "Receba informações sobre como otimizar as suas finanças",
+                "Ajude-nos a combater as alterações climáticas"
+            ]
+        },
+        "TaxReturnData": {
+            "data": [{
+                "title": "Obtenha sua declaração de imposto de renda em 10 minutos",
+                "btnLink": "https://app.taxly.ch/GettingStarted",
+                "btnText": "Início"
+            }]
+        }
+    },
+    "insights": {
+        "SingleData": {
+            "heroPageHeading": "Apresentação de informações pessoais",
+            "heroDesc": "Descubra as implicações fiscais e as poupanças para o seu futuro, com recursos simples e adequados",
+            "HowItWorkTitle": "Como funciona?",
+            "HowItWorkDesc": "A vida é incerta. Os impostos são ainda mais incertos. Acrescente clareza ao seu planeamento financeiro pessoal com as nossas informações.",
+            "InsightPlanForHeading": "Que planos gostaria de fazer?",
+            "GuidesResourcesHeading": "Guias e recursos",
+            "GuidesResourcesSubHeading": "Aceda aos nossos guias para navegar com mais facilidade e adquirir mais conhecimentos financeiros",
+            "InsightControlHeading": "Assuma o controlo das suas finanças",
+            "InsightControlBtnText": "Início"
+        },
+        "InsightPlanForOptionData": {
+            "data": [{
+                    "PlanForOptionNumber": "1",
+                    "PlanForOptionTitle": "Execução do nosso guião de IA",
+                    "PlanForOptionDesc": "Analisamos os seus dados fiscais",
+                    "PlanForOptionImage": "../assets/Images/insights-icon-ai.png",
+                    "PlanForOptionAlt": "insights-icon-ai"
+                },
+                {
+                    "PlanForOptionNumber": "2",
+                    "PlanForOptionTitle": "Poupança total de 12.000 CHF por ano",
+                    "PlanForOptionDesc": "Aceda a informações reais com uma análise detalhada de possíveis poupanças ou encargos",
+                    "PlanForOptionImage": "../assets/Images/insights-icon-savings.png",
+                    "PlanForOptionAlt": "insights-icon-savings"
+                },
+                {
+                    "PlanForOptionNumber": "3",
+                    "PlanForOptionTitle": "Otimize ainda mais",
+                    "PlanForOptionDesc": "Com os nossos parceiros, podemos oferecer melhores produtos financeiros para que possa poupar mais dinheiro",
+                    "PlanForOptionImage": "../assets/Images/insights-icon-offers.png",
+                    "PlanForOptionAlt": "insights-icon-offers"
+                }
+            ]
+        },
+        "InsightPFOListData": {
+            "data": [{
+                    "InsightPSImage": "../assets/Images/insights-home.png",
+                    "InsightPSAlt": "insights-home",
+                    "InsightPSTitle": "Comprar uma casa"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-mortgage.png",
+                    "InsightPSAlt": "insights-mortgage",
+                    "InsightPSTitle": "Refinanciar a sua hipoteca"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-children.png",
+                    "InsightPSAlt": "insights-children",
+                    "InsightPSTitle": "Ter filhos"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-married.png",
+                    "InsightPSAlt": "insights-married",
+                    "InsightPSTitle": "Casar"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-retirement.png",
+                    "InsightPSAlt": "insights-retirement",
+                    "InsightPSTitle": "Planos de reforma"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-3a.png",
+                    "InsightPSAlt": "insights-3a",
+                    "InsightPSTitle": "Contribuir para uma conta 3a"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-car.png",
+                    "InsightPSAlt": "insights-car",
+                    "InsightPSTitle": "Locação ou compra de um automóvel"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-business.png",
+                    "InsightPSAlt": "insights-business",
+                    "InsightPSTitle": "Começar um negócio"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-life-insurance.png",
+                    "InsightPSAlt": "insights-life-insurance",
+                    "InsightPSTitle": "Comprar um seguro de vida"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-canton.png",
+                    "InsightPSAlt": "insights-canton",
+                    "InsightPSTitle": "Mudar de cantão"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-divorce.png",
+                    "InsightPSAlt": "insights-divorce",
+                    "InsightPSTitle": "Consequências do divórcio"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-more.png",
+                    "InsightPSAlt": "insights-more",
+                    "InsightPSTitle": "...Mais"
+                }
+            ]
+        },
+        "GuidesResourcesData": {
+            "data": [{
+                    "grdImage": "../assets/Images/icon-manager.png",
+                    "grdAlt": "icon-manager",
+                    "grdText": "Como atuam os gestores de património?"
+                },
+                {
+                    "grdImage": "../assets/Images/icon-invest.png",
+                    "grdAlt": "icon-invest",
+                    "grdText": "Investindo como o grupo dos 1% melhores"
+                },
+                {
+                    "grdImage": "../assets/Images/icon-art.png",
+                    "grdAlt": "icon-art",
+                    "grdText": "Investindo em arte"
+                },
+                {
+                    "grdImage": "../assets/Images/icon-income.png",
+                    "grdAlt": "icon-income",
+                    "grdText": "Gerindo os rendimentos principais"
+                },
+                {
+                    "grdImage": "../assets/Images/icon-house.png",
+                    "grdAlt": "icon-house",
+                    "grdText": "Investindo em propriedade na Suíça"
+                },
+                {
+                    "grdImage": "../assets/Images/icon-choose.png",
+                    "grdAlt": "icon-choose",
+                    "grdText": "Selecionando um prestador de serviços de investimento"
+                }
+            ]
+        }
+    },
+    "mobileapp": {
+        "SingleData": {
+            "heroAppPageHeading": "Tornando-se ainda melhor",
+            "heroAppSubHeading": "Com tributly, você pode concluir sua declaração de imposto suíço sem nenhum conhecimento tributário",
+            "comingSoonCardHeading": "Baixe o aplicativo",
+            "comingSoonCardSubheading": "Faça o download do Taxly gratuitamente na App Store ou no Google Play.",
+            "notifyMeModalText": "Notificar disponibilidade"
+        },
+        "AppHowItWorkData": {
+            "data": [{
+                    "extraClass": "",
+                    "img": "../assets/Images/revolutional-osr.png",
+                    "alt": "revolutional-osr",
+                    "title": "OSR Revolucional",
+                    "desc": "Roger repensou completamente o processo tributário suíço. Ele conectará os pontos da sua vida, analisará seus dados e otimizará seu retorno em tempo real. Assim, você pode enviar seus impostos com um único clique. Só não o chame de cuco."
+                },
+                {
+                    "extraClass": "flex-reverse relative pdt-40 site-section-line",
+                    "img": "../assets/Images/scan-like-a-wind.png",
+                    "alt": "scan-like-a-wind",
+                    "title": "Digitalize como um vento",
+                    "desc": "Roger repensou completamente o processo tributário suíço. Ele conectará os pontos da sua vida, analisará seus dados e otimizará seu retorno em tempo real. \n Assim, você pode enviar seus impostos com um único clique. Só não o chame de cuco."
+                }
+            ]
+        },
+        "SiteSectionData": {
+            "data": [{
+                    "extraClass": "taxly-grey-bg",
+                    "heading": "Simples e prático",
+                    "subHeading": "Cuide de seus impostos quando e onde quiser. Faça sua declaração de imposto on-line ou com o aplicativo para smartphone.",
+                    "image": "../assets/Images/app-screens.png",
+                    "imgAlt": "app-screens"
+                },
+                {
+                    "extraClass": "taxly-insight-bg",
+                    "heading": "O que você gostaria de planejar?",
+                    "subHeading": "A vida é incerta. Os impostos são ainda mais incertos. Adicione clareza ao seu planejamento financeiro pessoal com nossos insights.",
+                    "image": "../assets/Images/3rd-app.png",
+                    "imgAlt": "3rd-app"
+                }
+            ]
+        },
+        "ComingSoonCardData": {
+            "data": [{
+                    "title": "EM BREVE",
+                    "image": "../assets/Images/apple.png",
+                    "imgAlt": "apple",
+                    "btnName": "Notify availability"
+                },
+                {
+                    "title": "EM BREVE",
+                    "image": "../assets/Images/android.png",
+                    "imgAlt": "android",
+                    "btnName": "Notify availability"
+                }
+            ]
+        }
+    },
+    "api": {
+        "SingleData": {
+            "apiHeroHeading": "Apresentação da IPA da Taxly",
+            "apiHeroDescription": "Uma maneira fácil de aproveitar, juntamente com os seus clientes, a tecnologia inovadora da Taxly.",
+            "apiHeroBtnName": "Estou interessado(a)",
+            "limitlessPHeading": "Possibilidades ilimitadas",
+            "limitlessPSubHeading": "Uma interface de programação de aplicativos é uma interface de computação para um componente ou sistema de software que define como outros componentes ou sistemas podem usá-lo.",
+            "apiHowItWorkHeading": "Como funciona",
+            "apiHowItWorkSubHeading": "Com a nossa IPA, oferecemos vários níveis de integração, todos eles altamente personalizáveis, à medida das suas necessidades.",
+            "apiPHeading": "Oportunidades de parceria",
+            "apiPSubHeading": "Estamos sempre recetivos a novas ideias. Venha conversar connosco sobre como os clientes podem beneficiar da combinação da Taxly com os seus produtos ou serviços.",
+            "apiLetsTalkheading": "Venha conversar connosco",
+            "apiLetsTalkSubheading": "Desperte o interesse dos clientes com a IPA super eficiente da Taxly. Aguardamos o seu contacto com expectativa!"
+        },
+        "LimitlessPData": {
+            "data": [{
+                    "lPImage": "../assets/Images/screen-1.svg",
+                    "lPAlt": "screen-1"
+                },
+                {
+                    "lPImage": "../assets/Images/screen-2.svg",
+                    "lPAlt": "screen-2"
+                },
+                {
+                    "lPImage": "../assets/Images/screen-3.svg",
+                    "lPAlt": "screen-3"
+                }
+            ]
+        },
+        "ApiHowItWorkData": {
+            "data": [{
+                    "image": "../assets/Images/vis.png",
+                    "imgAlt": "vis",
+                    "title": "Ofereça os seus produtos financeiros aos nossos clientes",
+                    "description": "A nossa ferramenta de informações e planeamento financeiro oferece acesso a clientes relevantes, que procuram ativamente produtos ou serviços financeiros."
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "image": "../assets/Images/vis1.png",
+                    "imgAlt": "vis1",
+                    "title": "Integre o nosso widget de risco e avaliação",
+                    "description": "É um consultor fiscal que pretende ajudar os seus clientes a avaliar a sua situação financeira? O nosso widget é capaz de avaliar o risco fiscal e o impacto financeiro de escolhas financeiras comuns."
+                }
+            ]
+        },
+        "ApiPartnershipData": {
+            "data": [{
+                    "apiImage": "../assets/Images/api-finance.png",
+                    "apiAlt": "api-finance",
+                    "apiPartnershipTitle": "Serviços financeiros",
+                    "apiPartnershipDesc": "Ajude os seus clientes a controlar as finanças e os impostos, com apenas alguns cliques."
+                },
+                {
+                    "apiImage": "../assets/Images/api-real-estate.png",
+                    "apiAlt": "api-real-estate",
+                    "apiPartnershipTitle": "Património imobiliário",
+                    "apiPartnershipDesc": "Ajude os seus clientes a compreender os riscos e o impacto fiscal, antes de comprar."
+                },
+                {
+                    "apiImage": "../assets/Images/api-insurance.png",
+                    "apiAlt": "api-insurance",
+                    "apiPartnershipTitle": "Seguros e banca",
+                    "apiPartnershipDesc": "Ofereça os seus serviços aos nossos clientes, através da nossa ferramenta de informações pessoais."
+                },
+                {
+                    "apiImage": "../assets/Images/api-commerce.png",
+                    "apiAlt": "api-commerce",
+                    "apiPartnershipTitle": "Comércio",
+                    "apiPartnershipDesc": "Deixe que os seus clientes usufruam das informações financeiras."
+                }
+            ]
         }
     }
 }

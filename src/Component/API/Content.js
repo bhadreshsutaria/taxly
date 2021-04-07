@@ -4,19 +4,20 @@ import images from "../../Utils/ImageHelper";
 import MobileMenu from "../../Layout/MobileMenu";
 import Navbar from "../../Layout/Navbar";
 import {DarkModalApi, TopBottomLeftRight} from "../Modal/Modal";
-import {SingleData, LimitlessPData, ApiHowItWorkData, ApiPartnershipData} from "../API/Data";
 import Modal from "react-modal";
+import { useTranslation } from "react-i18next";
 
 Modal.setAppElement('#root');
 
 const ApiDarkModalApi = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const { t } = useTranslation();
     function toggleModal() {
         setIsOpen(!isOpen);
     }
     return(
         <>
-        <button className="btn btn-large hero__cta" onClick={toggleModal}>{SingleData.apiHeroBtnName}</button>
+        <button className="btn btn-large hero__cta" onClick={toggleModal}>{t('api.SingleData.apiHeroBtnName')}</button>
         <Modal className="modal invite-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
             <div className="modal__overlay"></div>
             <div className="modal__content taxly-box">
@@ -32,6 +33,7 @@ const ApiDarkModalApi = () => {
 };
 
 const ApiHeroSection = () => {
+    const { t } = useTranslation();
     return(
         <div className="hero__inner__white">
             <div className="hero">
@@ -48,8 +50,8 @@ const ApiHeroSection = () => {
                         <div className="taxly-hero-bird"></div> */}
                         <div className="hero__wrapper">
                             <div className="l-container l-container--content">
-                                <h1 className="page-heading">{SingleData.apiHeroHeading}</h1>
-                                <p>{SingleData.apiHeroDescription}</p>
+                                <h1 className="page-heading">{t('api.SingleData.apiHeroHeading')}</h1>
+                                <p>{t('api.SingleData.apiHeroDescription')}</p>
                                 <ApiDarkModalApi/>
                             </div>
                         </div>
@@ -93,13 +95,15 @@ const LimitlessPossibilities = () =>{
             }
         ]
     };
+    const { t } = useTranslation();
+    let LimitlessPData =  t('api.LimitlessPData.data', { returnObjects: true });
     return(
         <>
         <section className="site-section pdb-40">
             <div className="slick-slide-container">
-                <h2 className="site-section__heading">{SingleData.limitlessPHeading}</h2>
+                <h2 className="site-section__heading">{t('api.SingleData.limitlessPHeading')}</h2>
                 <div className="site-section__subheading">
-                    <p>{SingleData.limitlessPSubHeading}</p>
+                    <p>{t('api.SingleData.limitlessPSubHeading')}</p>
                 </div>
                 <div className="site-section__module limitless limitless-module">
                     <Slider {...settings} className="slick-dotted">
@@ -115,12 +119,14 @@ const LimitlessPossibilities = () =>{
 };
 
 const ApiHowItWork = () =>{
+    const { t } = useTranslation();
+    let ApiHowItWorkData =  t('api.ApiHowItWorkData.data', { returnObjects: true });
     return(
         <section className="site-section">
             <div className="l-container">
-                <h2 className="site-section__heading">{SingleData.apiHowItWorkHeading}</h2>
+                <h2 className="site-section__heading">{t('api.SingleData.apiHowItWorkHeading')}</h2>
                 <div className="site-section__subheading">
-                    <p>{SingleData.apiHowItWorkSubHeading}</p>
+                    <p>{t('api.SingleData.apiHowItWorkSubHeading')}</p>
                 </div>
                 <div className="howitworks-module module-single-column">
                     {ApiHowItWorkData.map((val,ind) =>
@@ -141,12 +147,14 @@ const ApiHowItWork = () =>{
 };
 
 const ApiPartnership = () => {
+    const { t } = useTranslation();
+    let ApiPartnershipData =  t('api.ApiPartnershipData.data', { returnObjects: true });
     return (
         <section className="site-section">
             <div className="l-container">
-                <h2 className="site-section__heading">{SingleData.apiPHeading}</h2>
+                <h2 className="site-section__heading">{t('api.SingleData.apiPHeading')}</h2>
                 <div className="site-section__subheading">
-                    <p>{SingleData.apiPSubHeading}</p>
+                    <p>{t('api.SingleData.apiPSubHeading')}</p>
                 </div>
                 <div className="interest-areas-module">
                     <div className="columns-2 taxly-boxes">
@@ -168,18 +176,19 @@ const ApiPartnership = () => {
             </div>
         </section>
     );
-}
+};
 
 const ApiLetsTalk = () =>{
+    const { t } = useTranslation();
     return(
         <section className="site-section open-door">
             <div className="open-door-bg">
                 <img src={images.apiopenDoor} alt="open-door" />
             </div>
             <div className="l-container">
-                <h2 className="site-section__heading">{SingleData.apiLetsTalkheading}</h2>
+                <h2 className="site-section__heading">{t('api.SingleData.apiLetsTalkheading')}</h2>
                 <div className="site-section__subheading">
-                    <p>{SingleData.apiLetsTalkSubheading}</p>
+                    <p>{t('api.SingleData.apiLetsTalkSubheading')}</p>
                 </div>
                 <ApiDarkModalApi/>
             </div>

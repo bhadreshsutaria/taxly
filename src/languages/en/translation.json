@@ -1,5 +1,54 @@
 {
     "language": "EN",
+    "header": {
+        "data": {
+            "navLinkFaq": "FAQ",
+            "navLinkHowItWork": "How it works",
+            "navLinkInsights": "Insights",
+            "navLinkApp": "App",
+            "navLinkTaxcalculator": "Tax calculator",
+            "navLinkAboutus": "About us",
+            "navLinkFaqs": "FAQs",
+            "navLinkTaxExtension": "Tax Extension",
+            "navLogIn": "Log in",
+            "navGetStartedBtn": "Get Started"
+        }
+    },
+    "footer": {
+        "features": {
+            "headingFeatures": "Features",
+            "navLinkApi": "API",
+            "navLinkCharity": "Charity",
+            "navLinkTaxAccountants": "Tax Accountants",
+            "navLink2020Calculator": "2020 Calculator"
+        },
+        "resources": {
+            "headingResources": "Resources",
+            "navLinkBlog": "Blog",
+            "navLinkCommunity": "Community",
+            "navLinkTaxDictionary": "Tax Dictionary",
+            "navLinkHowItWork": "How it works"
+        },
+        "company": {
+            "headingCompany": "Company",
+            "navLinkJoinTheTeam": "Join the team",
+            "navLinkPrivacyPolicy": "Privacy Policy",
+            "navLinkTermsOfService": "Terms of Service",
+            "navLinkContactUs": "Contact Us",
+            "navLinkAboutUs": "About us"
+        },
+        "language": {
+            "headingLanguage": "Language"
+        },
+        "followUs": {
+            "headingfollowUs": "Follow Us"
+        },
+        "footerBottom": {
+            "madeWith": "Made with love in Zürich",
+            "provideBy": "Tax services provided by Taxly AG. Company registration Number CHE-253.409.943",
+            "copyRight": "© 2021 Taxly AG"
+        }
+    },
     "home": {
         "SingalData": {
             "partnershipTitle": "In partnership with",
@@ -125,6 +174,61 @@
                     "priceBtnText": "Get Started"
                 }
             ]
+        },
+        "PriceBusinessData": {
+            "data": [{
+                    "image": "../assets/Images/price-icon-4.png",
+                    "note": "Startups & Small Enterprises",
+                    "numberValue": "500",
+                    "currency": "CHF",
+                    "priceText": ["In-House support", "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
+                    "priceBtnText": "Get Started"
+                },
+                {
+                    "image": "../assets/Images/price-icon-5.png",
+                    "note": "Hotels, Restaurants & Shops",
+                    "numberValue": "450",
+                    "currency": "CHF",
+                    "priceText": ["In-House support", "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
+                    "priceBtnText": "Get Started"
+                },
+                {
+                    "image": "../assets/Images/price-icon-5.png",
+                    "note": "Freelancers",
+                    "numberValue": "350",
+                    "currency": "CHF",
+                    "priceText": ["In-House support", "Completed tax return", "Tax optimization by Roger (AI) & Certified Tax Advisors (Human)"],
+                    "priceBtnText": "Get Started"
+                }
+
+            ]
+        },
+        "SafeHandData": {
+            "data": [{
+                    "image": "../assets/Images/icon-tax-experts@2x.png",
+                    "alt": "tax experts",
+                    "sname": "Swiss Tax Experts",
+                    "stext": "Developed by certified Swiss tax experts."
+                },
+                {
+                    "image": "../assets/Images/icon-encryption@2x.png",
+                    "alt": "encryption",
+                    "sname": "High Data Security",
+                    "stext": "We take data security as our highest priority."
+                },
+                {
+                    "image": "../assets/Images/icon-security@2x.png",
+                    "alt": "security",
+                    "sname": "TLS 1.2 Data Encryption",
+                    "stext": "Ensures that no hacking of data is possible."
+                },
+                {
+                    "image": "../assets/Images/icon-sustainably-company@2x.png",
+                    "alt": "sustainably company",
+                    "sname": "Sustainable Company",
+                    "stext": "With Taxly profit & impact are in balance."
+                }
+            ]
         }
     },
     "faq": {
@@ -157,7 +261,412 @@
         },
         "SingalData": {
             "headingTitleOne": "What is taxly?",
-            "actiOneP1Text": "Taxly is an online service which allows you to quickly and easily create an optimised tax return."
+            "actiOneP1Text": "Taxly is an online service which allows you to quickly and easily create an optimised tax return.",
+            "sslOneH31Heading": "How long is the preparation of the tax return?",
+            "actiOneP2Text": "Taxly’s AI will guide you through some simplified tax return questions based on your personal situation, the process should take around 10 minutes.",
+            "actiOneP3Text": "For more complex cases, it can take between 15 and 20 minutes.",
+            "sslOneH32Heading": "How is taxly different from that of a traditional cantonal tax software?",
+            "actiOneP4Text": "Cantonal softwares such as EasyTax, PrivateTax, BalTax or GeTax were developed primarily to speed up the internal process of the authorities and to help their users fill in their tax.",
+            "actiOneP5Text": "Taxly is the first tax return technology in Switzerland which has ease of use and customer satisfaction as its primary goal. Our team constantly reviews our product to make sure that our flows are simplified and easy to understand, while making sure that tax law is followed.",
+            "actiOneP6Text": "Furthermore, any court decisions or changes in cantonal laws are immediately implemented in taxly, which in some cases takes years to be implemented in traditional cantonal software.",
+            "actiOneP7Text": "Finally, this software was prepared to take advantage of all available deductions in the cantonal law and practise, which is not systematically the case when you prepare your tax return with a cantonal software, often resulting in 100s of Francs in taxes being wasted.",
+            "sslOneH33Heading": "When can I expect taxly to be available in my country?",
+            "actiOneP8Text": "Taxly has huge global ambitions, and we are preparing for additional country launches in 2022, in addition our B2B platform and global insights.",
+            "sslOneH34Heading": "How can I reach you guys?",
+            "actiOneP9Text": "You can get in touch with our team by simply clicking the ‘Help’ button on the lower right corner of this page. You can also log into your taxly dashboard and click on the chat icon. If you are considering taxly, we’d love to hear from you.",
+            "sslOneH35Heading": "What does being a B-Corp mean?",
+            "actiOneP10Text": "Certified B Corporations are a new kind of business that balance purpose and profit. They are legally required to consider the impact of their decisions on their workers, customers, suppliers, community, and the environment.",
+            "actiOneP11Text": "We believe these are important values and have therefore deliberately chosen to be a B-Corp.",
+            "sslOneH36Heading": "Where is taxly based?",
+            "actiOneP12Text": "Taxly AG is located in Zurich, one of the financial capitals of the world. We are registered at the Zurich commercial registry, registrations number CHE-253.409.943, Stockerstrasse 38, 8002 Zurich, Switzerland.",
+            "sslOneH37Heading": "Who is behind taxly?",
+            "actiOneP13Text": "Taxly has been built by a mix of Certified Swiss Tax Experts and seasoned technology entrepreneurs.",
+            "headingTitleTwo": "How does it work?",
+            "actiTwoP1Text": "The full taxly experience is available through our website and on mobile browsers. Soon we will also offer a native mobile app with additional benefits. Taxly has completely rethought the Swiss Tax process from a customer’s point of view in order to make it simple, easy to understand, and fully optimized.",
+            "actiTwoP2Text": "Simply answer some questions and our AI will fully optimize your personal tax situation.",
+            "actiTwoP3Text": "If your tax situation is more complex we will pair you with one of our inhouse Swiss Certified Tax Experts who will personally go through your tax return.",
+            "sslTwoH31Heading": "How much does it cost?",
+            "actiTwoP4Text": "This depends on your individual circumstance. We try and offer our services at very attractive rates.",
+            "sslTwoH32Heading": "What if in the end I see a mistake in my tax return?",
+            "actiTwoP5Text": "That’s no problem, simply log into your dashboard and click on the EDIT link on your completed tax return, make the adjustment and we can re-issue you a new version.",
+            "headingTitleThree": "Which tax years are covered by taxly?",
+            "actiThreeP1Text": "Taxly offers to file for the 2019 tax year and onwards.",
+            "sslThreeH31Heading": "Which tax cases are not covered by taxly?",
+            "actiThreeP2Text": "Taxly trys to support all possible cantons and situations by pairing you with one of our inhouse Swiss Certified Tax Experts when there is more complexity.",
+            "sslThreeH32Heading": "Which cantons are covered by taxly?",
+            "actiThreeP3Text": "Taxly offers its straight through services for residents of the following cantons: Zurich, Aargau, Basel-Land, St. Gallen, Bern, Basel-Stadt, Luzerne. For all the other cantons we match you with our inhouse Swiss Certified Tax Experts who will do the tax return for you on a more personal basis.",
+            "headingTitleFour": "When do I receive my salary certificate?",
+            "actiFourP1Text": "Your employer has to prepare it for you and you should have received it no later than mid- to end of February of the following year.",
+            "sslFourH31Heading": "Where do I find my bank statements?",
+            "actiFourP2Text": "Most banks are now not sending their tax statements per post but rather have it online on the electronic banking platform. You should look for statements for all your bank and financial accounts as of 31.12 of the previous year.",
+            "sslFourH32Heading": "Where do I find insurance policy statements?",
+            "actiFourP3Text": "Insurance companies offering life insurance policies and indeed any kind of insurance policy are mandated to send an overview for tax purposes every year. These are usually sent by post to your home address at the beginning of the year. If you have not received anything, we advise you to contact your insurance company.",
+            "sslFourH33Heading": "What kind of receipts can I use for deductions?",
+            "actiFourP4Text": "In general, for most deductions, proof of payment is sufficient. We suggest therefore attaching a proof of payment from your bank along with the corresponding invoice.",
+            "sslFourH34Heading": "How much tax will I have to pay?",
+            "actiFourP5Text": "Taxly does not currently support in the first version the computation of the amount of taxes and therefore cannot inform on your tax liability. We plan on including this function for the 2020 tax year.",
+            "sslFourH35Heading": "I already have an accountant doing my taxes, how can I switch to taxly?",
+            "actiFourP6Text": "Quite simply! You have to contact your accountant and tell him/her you are doing your taxes from now on with your own solution. They will then have to inform the authorities that all information be rerouted directly to you and they will send you all the information we require for you to fill your taxes, including the tax form.",
+            "sslFourH36Heading": "Further information",
+            "actiFourP7Text": "or further information related to Swiss tax, you can visit our tax dictionary page.",
+            "actiFourP7TextLink": "",
+            "actiFourP7TextLinkUrl": "/tax-dictionary/",
+            "actiFourP7ExtraText": "",
+            "headingTitleFive": "Is my information kept confidential?",
+            "actiFiveP1Text": "Very much so! We highly value and respect your privacy (see our Privacy Policy). We will not share or sell your information to any third parties for any purpose.",
+            "sslFiveH31Heading": "Who has access to my data?",
+            "actiFiveP2Text": "Data security is our top priority. Only you can view your data. All data and uploaded receipts are stored and encrypted at all times. Your data will only be processed via an encrypted Internet connection. Detailed information on data protection and our measures to ensure data security can be found in our data protection regulations.",
+            "sslFiveH32Heading": "Can I delete my account and data?",
+            "actiFiveP3Text": "Yes, you can completely delete your tax data from your user account at any time. Please note that in this case it is no longer possible to restore your data.",
+            "actiFiveP4Text": "Read more about Data Protection and Privacy here.",
+            "actiFiveP4TextLink": "",
+            "actiFiveP4TextLinkUrl": "",
+            "actiFiveP4ExtraText": "",
+            "headingTitleSix": "What is it about?",
+            "actiSixP1Text": "We strongly believe that Climate Change is the most pressing issue of our time. In its current form, industry grows at the expense of the planet. For us and our community, there is a real desire to be able to engage in actions for the environment, even as a start up and for profit-business.",
+            "actiSixP2Text": "We are a young company. Alone, we might not make a large impact. But could it be as simple as just asking other startups to join us? We think it might. There are many startups already doing incredible things to give back. Bigger and better than we might hope to right now.",
+            "actiSixP3Text": "This is not about positioning ourselves above, or shaming those who don’t participate, but is intended to be a positive and encouraging call to action for those who agree that we could be doing better.",
+            "sslSixH32Heading": "How does it work?",
+            "actiSixP4Text": "We will be supporting a charity focused on climate change / environmental impact. For every donation made by our customers, we will match it.",
+            "actiSixP5Text": "We will be campaigning on social, onsite and in the press. Spreading the word about our customers and those start-ups who join the movement.",
+            "actiSixP6Text": "We hope that this may be the first of many collaborations between customers and corporations to come and make a change for the better."
+        }
+    },
+    "howitworks": {
+        "SingalData": {
+            "NSHeading": "In a nutshell"
+        },
+        "HeroSectionData": {
+            "data": [{
+                "title": "How does taxly work?",
+                "description": "Complete your Swiss tax return without any tax knowledge in 10 minutes",
+                "btnLink": "https://app.taxly.ch/GettingStarted",
+                "btnName": "Get started"
+            }]
+        },
+        "HIWColumns2Data": {
+            "data": [{
+                    "extraClass": "",
+                    "fadeBottomClass": "fade-bottom",
+                    "fadeBottomRightLeft": true,
+                    "fadeBottomItem": true,
+                    "image": "../assets/Images/meet-roger-1-en.png",
+                    "alt": "meet-roger-1-en",
+                    "title": "Simplified Questions",
+                    "description": "AI Roger will guide you through simplified questions that are only relevant to your situation."
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "fadeBottomClass": "",
+                    "fadeBottomItem": false,
+                    "image": "../assets/Images/meet-roger-2-large.png",
+                    "alt": "meet-roger-2-large",
+                    "title": "Let Roger do his thing!",
+                    "description": "Roger will compute and optimise your tax return better than any human, by checking the relevant rules and finding deductions in a split second."
+                },
+                {
+                    "extraClass": "",
+                    "fadeBottomClass": "fade-bottom",
+                    "fadeBottomRightLeft": true,
+                    "fadeBottomItem": true,
+                    "image": "../assets/Images/meet-roger-3.png",
+                    "alt": "meet-roger-3",
+                    "title": "Review & confirm",
+                    "description": "In a matter of minutes you can review a fully completed tax return. And don’t worry Roger is best friends with your local tax authority to ensure the output is checked and correct."
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "fadeBottomClass": "fade-bottom",
+                    "fadeBottomRightLeft": true,
+                    "fadeBottomItem": true,
+                    "image": "../assets/Images/meet-roger-4.png",
+                    "alt": "meetRogerFourEn",
+                    "title": "Submit with a click",
+                    "description": "We handle the submission to your local tax office, either electronically or via post so you don’t have to worry about it. We’ll keep you informed, of course, and you can always retrieve your data online."
+                }
+            ]
+        },
+        "NutShellData": {
+            "data": [
+                "File your Swiss tax return in 10 minutes",
+                "Your taxes are automatically optimised - better than any human, to maximise your personal situation.",
+                "Zero tax knowledge required",
+                "Starts from 25 CHF",
+                "Submit your tax return digitally or receive it by post",
+                "Gain insights on how to optimize your finances",
+                "Help us fight climate change"
+            ]
+        },
+        "TaxReturnData": {
+            "data": [{
+                "title": "Get your tax return in 10 minutes",
+                "btnLink": "https://app.taxly.ch/GettingStarted",
+                "btnText": "Get started"
+            }]
+        }
+    },
+    "insights": {
+        "SingleData": {
+            "heroPageHeading": "Introducing personal insights",
+            "heroDesc": "Discover tax implications and savings for your future with simple to-the-point resources",
+            "HowItWorkTitle": "How does it work?",
+            "HowItWorkDesc": "Life is uncertain. Taxes are even more uncertain. Add clarity to your personal financial planning with our insights.",
+            "InsightPlanForHeading": "What would you like to plan for?",
+            "GuidesResourcesHeading": "Guides & Resources",
+            "GuidesResourcesSubHeading": "Unlock our guides to help you navigate and become more financially savvy.",
+            "InsightControlHeading": "Take control of your finances",
+            "InsightControlBtnText": "Get started"
+        },
+        "InsightPlanForOptionData": {
+            "data": [{
+                    "PlanForOptionNumber": "1",
+                    "PlanForOptionTitle": "Running our AI script",
+                    "PlanForOptionDesc": "We can analyse your tax data.",
+                    "PlanForOptionImage": "../assets/Images/insights-icon-ai.png",
+                    "PlanForOptionAlt": "insights-icon-ai"
+                },
+                {
+                    "PlanForOptionNumber": "2",
+                    "PlanForOptionTitle": "Total savings per year",
+                    "PlanForOptionDesc": "Detailed breakdowns of savings or liabilities.",
+                    "PlanForOptionImage": "../assets/Images/insights-icon-savings.png",
+                    "PlanForOptionAlt": "insights-icon-savings"
+                },
+                {
+                    "PlanForOptionNumber": "3",
+                    "PlanForOptionTitle": "Optimise further",
+                    "PlanForOptionDesc": "With our partners, we can offer you better financial products to save you more money.",
+                    "PlanForOptionImage": "../assets/Images/insights-icon-offers.png",
+                    "PlanForOptionAlt": "insights-icon-offers"
+                }
+            ]
+        },
+        "InsightPFOListData": {
+            "data": [{
+                    "InsightPSImage": "../assets/Images/insights-home.png",
+                    "InsightPSAlt": "insights-home",
+                    "InsightPSTitle": "Buying a home"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-mortgage.png",
+                    "InsightPSAlt": "insights-mortgage",
+                    "InsightPSTitle": "Remortgage"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-children.png",
+                    "InsightPSAlt": "insights-children",
+                    "InsightPSTitle": "Having children"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-married.png",
+                    "InsightPSAlt": "insights-married",
+                    "InsightPSTitle": "Getting married"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-retirement.png",
+                    "InsightPSAlt": "insights-retirement",
+                    "InsightPSTitle": "Retirement"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-3a.png",
+                    "InsightPSAlt": "insights-3a",
+                    "InsightPSTitle": "Buying into a 3A"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-car.png",
+                    "InsightPSAlt": "insights-car",
+                    "InsightPSTitle": "Leasing a car"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-business.png",
+                    "InsightPSAlt": "insights-business",
+                    "InsightPSTitle": "Starting a business"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-life-insurance.png",
+                    "InsightPSAlt": "insights-life-insurance",
+                    "InsightPSTitle": "Buying insurance"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-canton.png",
+                    "InsightPSAlt": "insights-canton",
+                    "InsightPSTitle": "Canton change"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-divorce.png",
+                    "InsightPSAlt": "insights-divorce",
+                    "InsightPSTitle": "Getting a divorce"
+                },
+                {
+                    "InsightPSImage": "../assets/Images/insights-more.png",
+                    "InsightPSAlt": "insights-more",
+                    "InsightPSTitle": "...More"
+                }
+            ]
+        },
+        "GuidesResourcesData": {
+            "data": [{
+                    "grdImage": "../assets/Images/icon-manager.png",
+                    "grdAlt": "icon-manager",
+                    "grdText": "How do wealth managers work?"
+                },
+                {
+                    "grdImage": "../assets/Images/icon-invest.png",
+                    "grdAlt": "icon-invest",
+                    "grdText": "Start investing like the top 1%"
+                },
+                {
+                    "grdImage": "../assets/Images/icon-art.png",
+                    "grdAlt": "icon-art",
+                    "grdText": "Investing in art and precious metals"
+                },
+                {
+                    "grdImage": "../assets/Images/icon-income.png",
+                    "grdAlt": "icon-income",
+                    "grdText": "Managing major income"
+                },
+                {
+                    "grdImage": "../assets/Images/icon-house.png",
+                    "grdAlt": "icon-house",
+                    "grdText": "Investing in Swiss property"
+                },
+                {
+                    "grdImage": "../assets/Images/icon-choose.png",
+                    "grdAlt": "icon-choose",
+                    "grdText": "Choosing an investment provider"
+                }
+            ]
+        }
+    },
+    "mobileapp": {
+        "SingleData": {
+            "heroAppPageHeading": "Tax Submission Built Around Your Life",
+            "heroAppSubHeading": "It really couldn’t be easier, or faster.",
+            "comingSoonCardHeading": "Download the app",
+            "comingSoonCardSubheading": "Download Taxly for free from the App Store & Google Play.",
+            "notifyMeModalText": "Notify Me"
+        },
+        "AppHowItWorkData": {
+            "data": [{
+                    "extraClass": "",
+                    "img": "../assets/Images/revolutional-osr.png",
+                    "alt": "revolutional-osr",
+                    "title": "Digitize & Transfer Documents In No Time At All",
+                    "desc": "Intuitive, fast, secure and always available. Snap documents and store them in a secure digital wallet and submit them instantly."
+                },
+                {
+                    "extraClass": "flex-reverse relative pdt-40 site-section-line",
+                    "img": "../assets/Images/scan-like-a-wind.png",
+                    "alt": "scan-like-a-wind",
+                    "title": "Scan Like The Wind",
+                    "desc": "Digitize paper documents via your smartphone. Single or multi-page document scans with OCR high image processing for maximum readability \n Automatic assignment to your tax return. End-to-end encryption."
+                }
+            ]
+        },
+        "SiteSectionData": {
+            "data": [{
+                    "extraClass": "taxly-grey-bg",
+                    "heading": "Tax For the 21st Century",
+                    "subHeading": "Taxly's amazing app makes doing your taxes simple, practical and kinda fun!",
+                    "image": "../assets/Images/app-screens.png",
+                    "imgAlt": "app-screens"
+                },
+                {
+                    "extraClass": "taxly-insight-bg",
+                    "heading": "Removing Financial Complexity Through Personal Insights",
+                    "subHeading": "Add clarity to your personal financial planning with our insights tool.",
+                    "image": "../assets/Images/3rd-app.png",
+                    "imgAlt": "3rd-app"
+                }
+            ]
+        },
+        "ComingSoonCardData": {
+            "data": [{
+                    "title": "Coming soon",
+                    "image": "../assets/Images/apple.png",
+                    "imgAlt": "apple",
+                    "btnName": "Notify Me"
+                },
+                {
+                    "title": "Coming soon",
+                    "image": "../assets/Images/android.png",
+                    "imgAlt": "android",
+                    "btnName": "Notify Me"
+                }
+            ]
+        }
+    },
+    "api": {
+        "SingleData": {
+            "apiHeroHeading": "Introducing the taxly API",
+            "apiHeroDescription": "An easy way for you and your customers to take advantage of taxly’s ground-breaking technology",
+            "apiHeroBtnName": "I'm interested",
+            "limitlessPHeading": "Limitless possibilities",
+            "limitlessPSubHeading": "An application programming interface is a computing interface to a software component or a system, that defines how other components or systems can use it.",
+            "apiHowItWorkHeading": "How it works",
+            "apiHowItWorkSubHeading": "We offer different levels of integration with our API, all highly customizable to your specific needs.",
+            "apiPHeading": "Partnership opportunities",
+            "apiPSubHeading": "We‘re always open to new ideas. Let’s discuss how customers can benefit from combining Taxly with your products or services.",
+            "apiLetsTalkheading": "Let’s talk",
+            "apiLetsTalkSubheading": "Excite customers with Taxly’s powerful API. We can’t wait to hear from you!"
+        },
+        "LimitlessPData": {
+            "data": [{
+                    "lPImage": "../assets/Images/screen-1.svg",
+                    "lPAlt": "screen-1"
+                },
+                {
+                    "lPImage": "../assets/Images/screen-2.svg",
+                    "lPAlt": "screen-2"
+                },
+                {
+                    "lPImage": "../assets/Images/screen-3.svg",
+                    "lPAlt": "screen-3"
+                }
+            ]
+        },
+        "ApiHowItWorkData": {
+            "data": [{
+                    "image": "../assets/Images/vis.png",
+                    "imgAlt": "vis",
+                    "title": "Offer your financial products to our customers",
+                    "description": "Our insights and financial planning tool gives access to relevant customers who are actively looking for financial products or services."
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "image": "../assets/Images/vis1.png",
+                    "imgAlt": "vis1",
+                    "title": "Integrate our risk & evaluation widget",
+                    "description": "Are you a tax accountant looking to help your customers evaluate their financial situation? Our widget can evaluate the tax risk and financial impact of typical financial choices in life."
+                }
+            ]
+        },
+        "ApiPartnershipData": {
+            "data": [{
+                    "apiImage": "../assets/Images/api-finance.png",
+                    "apiAlt": "api-finance",
+                    "apiPartnershipTitle": "Financial services",
+                    "apiPartnershipDesc": "Help your customers take control of their finances and taxes with a few clicks."
+                },
+                {
+                    "apiImage": "../assets/Images/api-real-estate.png",
+                    "apiAlt": "api-real-estate",
+                    "apiPartnershipTitle": "Real estate",
+                    "apiPartnershipDesc": "Help your customers understand the risks and tax impact before they purchase."
+                },
+                {
+                    "apiImage": "../assets/Images/api-insurance.png",
+                    "apiAlt": "api-insurance",
+                    "apiPartnershipTitle": "Insurance & banking",
+                    "apiPartnershipDesc": "Offer your services to our customers through our personal insights tool."
+                },
+                {
+                    "apiImage": "../assets/Images/api-commerce.png",
+                    "apiAlt": "api-commerce",
+                    "apiPartnershipTitle": "Commerce",
+                    "apiPartnershipDesc": "Let your customers take advantage of financial insights."
+                }
+            ]
         }
     }
 }
