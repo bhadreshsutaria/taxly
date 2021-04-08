@@ -5,7 +5,7 @@ export default function AboutUs() {
     return (
         <div className="App">
             <AboutUsHeroSection/>
-            <main class="page-content">
+            <main className="page-content">
                 <AboutUsOurMission/>
                 <AboutUsManagementTeam/>
                 <AboutUsInvestorsAndAdvisors/>

@@ -911,7 +911,10 @@
             "pageBtnText": "Get started",
             "AboutUsOMHeading": "Our Mission",
             "AboutUsOMSubHeading": "Our vision is to focus relentlessly on the customer experience, by supporting our customers for each major financial decision, in order for them to feel safe, be financially optimised and create a much better standard of living.",
-            "AboutUsManagementTeam": ""
+            "AboutUsMTHeading": "Management Team",
+            "AboutUsMTSubHeading": "Meet the forward-thinkers and disrupters driving the business forward.",
+            "AboutUsIAAHeading": "Investors & Advisors",
+            "AboutUsIAASubHeading": "We are lucky enough to be supported by some truly amazing people."
         },
         "AboutUsOurMissionData": {
             "data": [{
@@ -933,6 +936,56 @@
                     "image": "../assets/Images/icon-saving.png",
                     "imgAlt": "icon-saving",
                     "text": "Over 1M CHF raised from investors"
+                }
+            ]
+        },
+        "AboutUsManagementTeamData": {
+            "data": [{
+                    "link": "https://www.linkedin.com/in/dshkershaw/",
+                    "image": "../assets/Images/about-1.jpg",
+                    "imgAlt": "about-1",
+                    "title": "Daniel S. H. Kershaw",
+                    "description": "Founder & CEO"
+                },
+                {
+                    "link": "https://www.linkedin.com/company/taxlyag",
+                    "image": "../assets/Images/about-6.jpg",
+                    "imgAlt": "about-6",
+                    "title": "Roger",
+                    "description": "The Tax Boss"
+                }
+            ]
+        },
+        "AboutUsIAAData": {
+            "data": [{
+                    "link": "https://www.linkedin.com/in/sakebosch/",
+                    "title": "Sake Bosch",
+                    "subTitle": "Prime Ventures"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/joao-monteiro-cv/",
+                    "title": "Joao Monteiro",
+                    "subTitle": "Pinto Ventures"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/noel-hayden-2621475/",
+                    "title": "Noel Hayden",
+                    "subTitle": "Gamesys Ltd"
+                },
+                {
+                    "link": "https://www.helvetia.com",
+                    "title": "Helvetia Investment Fund",
+                    "subTitle": "Helvetia Insurance"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/georgsobczak/",
+                    "title": "Georg Sobczak",
+                    "subTitle": "Advisor"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/dr-stefan-a-heitmann-73883955/",
+                    "title": "Dr. Stefan A. Heitmann",
+                    "subTitle": "MoneyPark"
                 }
             ]
         }
