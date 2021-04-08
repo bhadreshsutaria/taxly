@@ -1,12 +1,15 @@
 import React from "react";
 import Footer from "../../Layout/Footer";
-import Header from "../../Layout/Header"
+import {AboutUsHeroSection, AboutUsOurMission, AboutUsManagementTeam, AboutUsInvestorsAndAdvisors} from "../AboutUs/Content";
 export default function AboutUs() {
     return (
         <div className="App">
-            <Header/>
-            <strong>This is About us</strong>
-
+            <AboutUsHeroSection/>
+            <main class="page-content">
+                <AboutUsOurMission/>
+                <AboutUsManagementTeam/>
+                <AboutUsInvestorsAndAdvisors/>
+            </main>
             <Footer/>
         </div>
     )

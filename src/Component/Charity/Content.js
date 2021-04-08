@@ -2,9 +2,10 @@ import React from "react";
 import images from "../../Utils/ImageHelper";
 import MobileMenu from "../../Layout/MobileMenu";
 import Navbar from "../../Layout/Navbar";
-import {SingalData, CharityOurPlanData} from "../Charity/Data";
+import { useTranslation } from "react-i18next";
 
 const CharityHeroSection = () => {
+    const { t } = useTranslation();
     return (
         <div className="hero__inner__white">
             <div className="hero">
@@ -21,9 +22,9 @@ const CharityHeroSection = () => {
                         <div className="taxly-hero-bird"></div>
                         <div className="hero__wrapper">
                             <div className="l-container l-container--content">
-                                <h1 className="page-heading">{SingalData.chsHeading}</h1>
-                                <p>{SingalData.chsDescription}</p>
-                                <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{SingalData.chsBtn}</a>
+                                <h1 className="page-heading">{t('charity.SingalData.chsHeading')}</h1>
+                                <p>{t('charity.SingalData.chsDescription')}</p>
+                                <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{t('charity.SingalData.chsBtn')}</a>
                             </div>
                         </div>
                     </div>
@@ -34,13 +35,14 @@ const CharityHeroSection = () => {
 };
 
 const CharityWhoWithUs = () => {
+    const { t } = useTranslation();
     return(
         <section className="site-section">
             <div className="l-container">
-                <h2 className="site-section__heading">{SingalData.cwwuHeading}</h2>
+                <h2 className="site-section__heading">{t('charity.SingalData.cwwuHeading')}</h2>
                 <div className="site-section__subheading">
-                    <p>{SingalData.cwwuSubHeading1}</p>
-                    <p>{SingalData.cwwuSubHeading1}</p>
+                    <p>{t('charity.SingalData.cwwuSubHeading1')}</p>
+                    <p>{t('charity.SingalData.cwwuSubHeading2')}</p>
                 </div>
                 <div className="social-who">
                     <img src={images.socialwhoStars} className="stars" alt="social_who_stars" />
@@ -51,16 +53,19 @@ const CharityWhoWithUs = () => {
         </section>
     );
 };
+
 const CharityOurPlan = () =>{
+    const { t } = useTranslation();
+    let CharityOurPlanData =  t('charity.CharityOurPlanData.data', { returnObjects: true });
     return(
         <section className="site-section taxly-grey-bg no-subtitle">
             <div className="l-container">
-                <h2 className="site-section__heading">{SingalData.copHeading}</h2>
+                <h2 className="site-section__heading">{t('charity.SingalData.copHeading')}</h2>
                 <div className="icons-module how-module">
                     <div className="columns-3">
                         <div className="columns-3-item">
                             <img src={images.charityIcon} alt="icon-charity" />
-                            <p>{SingalData.copdescription1} <a href="https://www.myclimate.org/" target="_blank" rel="noopener">{SingalData.myclimate}</a>, {SingalData.copdescription2}</p>
+                            <p>{t('charity.SingalData.copdescription1')} <a href="https://www.myclimate.org/" target="_blank" rel="noopener">{t('charity.SingalData.myclimate')}</a>, {t('charity.SingalData.copdescription2')}</p>
                         </div>
                         {CharityOurPlanData.map((val,ind) =>
                             <div key={ind} className="columns-3-item">
@@ -73,36 +78,38 @@ const CharityOurPlan = () =>{
             </div>
         </section>
     );
-}
+};
 
 const CharityBCorp = () => {
+    const { t } = useTranslation();
     return(
         <section className="site-section">
             <div className="l-container">
-                <h2 className="site-section__heading">{SingalData.cbcHeading}</h2>
+                <h2 className="site-section__heading">{t('charity.SingalData.cbcHeading')}</h2>
                 <div className="site-section__subheading">
-                    <p>{SingalData.cbcSubHeading}</p>
+                    <p>{t('charity.SingalData.cbcSubHeading')}</p>
                 </div>
                 <div className="social-climate-change">
                     <img src={images.socialimpactBcorpglobe} className="globe" alt="social_bcorp_globe" />
                     <img src={images.socialimpactBcorpleaf} className="leaf" alt="social_bcorp_leaf" />
                     <img src={images.socialimpactBcorpcertified} className="bcorp" alt="social_bcorp_certified" />
                 </div>
-                <a href="https://bcorporation.net/about-b-corps" target="_blank" className="btn btn-large hero__cta">{SingalData.cbcLearnMore}</a>
+                <a href="https://bcorporation.net/about-b-corps" target="_blank" className="btn btn-large hero__cta">{t('charity.SingalData.cbcLearnMore')}</a>
             </div>
         </section>
     );
 };
 
 const CharityJoinThe = () => {
+    const { t } = useTranslation();
     return(
         <section className="site-section handshake-bg taxly-grey-bg">
             <div className="l-container">
-                <h2 className="site-section__heading">{SingalData.cjtmHeading}</h2>
+                <h2 className="site-section__heading">{t('charity.SingalData.cjtmHeading')}</h2>
                 <div className="site-section__subheading">
-                    <p>{SingalData.cjtmSubHeading}</p>
+                    <p>{t('charity.SingalData.cjtmSubHeading')}</p>
                 </div>
-                <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{SingalData.cjtmBtnText}</a>
+                <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{t('charity.SingalData.cjtmBtnText')}</a>
             </div>
         </section>
     );

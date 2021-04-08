@@ -55,8 +55,7 @@ const CommunityStorySection = () => {
                             <div className="box-content">
                                 <div className="person-item">
                                     <h3>{val.personName}</h3>
-                                    <a href="#" onClick={toggleModal + ind}>{val.popupText}</a>
-                                    {console.log(toggleModal + ind)}
+                                    <a href="#" onClick={toggleModal}>{val.popupText}</a>
                                     <Modal className="modal community-modal is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
                                         <div class="modal__overlay"></div>
                                         <div class="modal__content taxly-box">

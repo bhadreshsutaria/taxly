@@ -5,17 +5,17 @@ import MobileMenu from "../../Layout/MobileMenu";
 import Navbar from "../../Layout/Navbar";
 import Modal from "react-modal";
 import {DarkModal, TopBottomLeftRight} from "../Modal/Modal";
-import {SingleData, TaxSoftwareSliderData, taxHowItWorkData, TaxOurPriceData} from '../TaxAccount/Data';
-
+import { useTranslation } from "react-i18next";
 
 const TaxAccountantModal = () => {
     const [isOpen, setIsOpen] = useState(false);
     function toggleModal() {
         setIsOpen(!isOpen);
     }
+    const { t } = useTranslation();
     return(
         <>
-        <button className="btn btn-large hero__cta" onClick={toggleModal}>{SingleData.taxHeroBtnText}</button>
+        <button className="btn btn-large hero__cta" onClick={toggleModal}>{t('taxaccount.SingleData.taxHeroBtnText')}</button>
         <Modal className="modal invite-modal dark-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
             <div className="modal__overlay"></div>
             <div className="modal__content taxly-box">
@@ -31,6 +31,7 @@ const TaxAccountantModal = () => {
 };
 
 const TaxAccountantsHeroSection = () => {
+    const { t } = useTranslation();
     return(
         <div className="header-wrap hero__inner__white">
             <MobileMenu/>
@@ -39,8 +40,8 @@ const TaxAccountantsHeroSection = () => {
                 <div className="hero site-section padding-bottom-none l-container in-viewport">
                     <div className="hero__wrapper">
                         <div className="l-container l-container--content">
-                            <h1 className="page-heading">{SingleData.taxHeroHeading}</h1>
-                            <p>{SingleData.taxHeroSubHeading}</p>
+                            <h1 className="page-heading">{t('taxaccount.SingleData.taxHeroHeading')}</h1>
+                            <p>{t('taxaccount.SingleData.taxHeroSubHeading')}</p>
                             <TaxAccountantModal/>
                         </div>
                     </div>
@@ -83,13 +84,15 @@ const TaxSoftwareSlider = () =>{
             }
         ]
     };
+    const { t } = useTranslation();
+    let TaxSoftwareSliderData =  t('taxaccount.TaxSoftwareSliderData.data', { returnObjects: true });
     return(
         <>
         <section className="site-section">
             <div className="slick-slide-container">
-                <h2 className="site-section__heading">{SingleData.taxSoftHeading}</h2>
+                <h2 className="site-section__heading">{t('taxaccount.SingleData.taxSoftHeading')}</h2>
                 <div className="site-section__subheading">
-                    <p>{SingleData.taxSoftSubHeading}</p>
+                    <p>{t('taxaccount.SingleData.taxSoftSubHeading')}</p>
                 </div>
                 <div className="site-section__module slider-container first-module">
                     <Slider {...settings} className="slick-dotted">
@@ -105,12 +108,14 @@ const TaxSoftwareSlider = () =>{
 };
 
 const TaxHowItWork = () =>{
+    const { t } = useTranslation();
+    let taxHowItWorkData =  t('taxaccount.taxHowItWorkData.data', { returnObjects: true });
     return(
         <section className="site-section">
 			<div className="l-container">
-				<h2 className="site-section__heading">{SingleData.taxHIWHeading}</h2>
+				<h2 className="site-section__heading">{t('taxaccount.SingleData.taxHIWHeading')}</h2>
 				<div className="site-section__subheading">
-					<p>{SingleData.taxHIWSubHeading}</p>
+					<p>{t('taxaccount.SingleData.taxHIWSubHeading')}</p>
 				</div>
                 <div className="howitworks-module">
                     {taxHowItWorkData.map((val, ind) =>
@@ -131,6 +136,8 @@ const TaxHowItWork = () =>{
 };
 
 const TaxOurPrice = () => {
+    const { t } = useTranslation();
+    let TaxOurPriceData =  t('taxaccount.TaxOurPriceData.data', { returnObjects: true });
     return(
         <section class="site-section no-subtitle">
 			<div class="l-container">
@@ -161,15 +168,16 @@ const TaxOurPrice = () => {
 };
 
 const TaxCurious = () =>{
+    const { t } = useTranslation();
     return(
         <section className="site-section open-door">
 			<div className="open-door-bg">
                 <img src={images.apiopenDoor} alt="open-door" />
             </div>
 			<div className="l-container">
-				<h2 className="site-section__heading">{SingleData.taxCuriousHeading}</h2>
+				<h2 className="site-section__heading">{t('taxaccount.SingleData.taxCuriousHeading')}</h2>
 				<div className="site-section__subheading">
-					<p>{SingleData.taxCuriousSubHeading}</p>
+					<p>{t('taxaccount.SingleData.taxCuriousSubHeading')}</p>
 				</div>
                 <TaxAccountantModal/>
 			</div>

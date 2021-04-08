@@ -108,6 +108,9 @@ import taxAccountantsHowTwoEn from "../Images/tax-accountants-how-2-en.png";
 import taxAccountantsHowThreeEn from "../Images/tax-accountants-how-3-en.png";
 import aboutBackOne from "../Images/about_back-1.png";
 import aboutFrontOne from "../Images/about_front-1.png";
+import joinFrontOne from "../Images/join_front-1.png";
+import joinBackOne from "../Images/join_back-1.png";
+import TaxlyAboutUs from "../Images/Taxly_About_Us.png";
 const images = {
     logowhite: logowhite,
     taxlypartnership: taxlypartnership,
@@ -219,5 +222,8 @@ const images = {
     taxAccountantsHowThreeEnBg: taxAccountantsHowThreeEn,
     aboutBackOneBg: aboutBackOne,
     aboutFrontOneBg: aboutFrontOne,
+    joinFrontOneBg: joinFrontOne,
+    joinBackOneBg: joinBackOne,
+    TaxlyAboutUsBg: TaxlyAboutUs,
 }
 export default images
