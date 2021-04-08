@@ -1,12 +1,14 @@
 import React from "react";
 import Footer from "../../Layout/Footer";
-import Header from "../../Layout/Header"
+import {CareersHeroSection, CareersJoinTheTeam, CareerCurrentOpp} from "../Careers/Content";
 export default function Careers() {
     return (
         <div className="App">
-            <Header/>
-            <strong>This is Careers</strong>
-
+            <CareersHeroSection/>
+            <main className="page-content">
+                <CareersJoinTheTeam/>
+                <CareerCurrentOpp/>
+            </main>
             <Footer/>
         </div>
     )

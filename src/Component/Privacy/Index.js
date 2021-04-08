@@ -1,12 +1,14 @@
 import React from "react";
+import Faqheader from "../../Layout/Faqheader";
 import Footer from "../../Layout/Footer";
-import Header from "../../Layout/Header"
+import {PrivacyPolicy} from "../Privacy/Content"
 export default function Privacy() {
     return (
         <div className="App">
-            <Header/>
-            <strong>This is Privacy</strong>
-
+            <Faqheader/>
+            <main className="page-content taxly-white taxly-default">
+                <PrivacyPolicy/>
+            </main>
             <Footer/>
         </div>
     )

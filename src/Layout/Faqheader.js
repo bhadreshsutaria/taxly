@@ -9,11 +9,7 @@ export default function Faqheader() {
     const { t } = useTranslation();
     return (
     <div className="header-wrap">
-        <MobileMenu 
-            extraClass="taxly-mobile-menu-fixed_white" 
-            menuBtnClass="taxly-mobile-menu-button_white"
-            menuBGColorClass="taxly-mobile-menu_white"
-        />
+        <MobileMenu/>
         <div className="taxly-white">
             <div className="taxly-hero">
                 <div id="mysticky-wrap">

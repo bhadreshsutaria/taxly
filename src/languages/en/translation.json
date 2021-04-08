@@ -668,5 +668,273 @@
                 }
             ]
         }
+    },
+    "charity": {
+        "SingalData": {
+            "chsHeading": "Making a change",
+            "chsDescription": "For us and our community, there is a real desire to be able to engage in actions for the environment, even as a start-up and for-profit business",
+            "chsBtn": "Get started",
+            "cwwuHeading": "Who’s with us?",
+            "cwwuSubHeading1": "We are a young company. Alone, we might not make a large impact. But could it be as simple as just asking other start-ups to join us? We think it just might.",
+            "cwwuSubHeading2": "There are many start-ups out there already doing incredible things to give back. This is not about positioning ourselves above, or shaming those who don’t participate, but is intended to be positive and an encouraging call to action for those who agree that we could and should be doing better.",
+            "copHeading": "Our plan",
+            "copdescription1": "We are supporting",
+            "myclimate": "myclimate.org",
+            "copdescription2": "a Swiss charity focused on climate change, and we will match every donation made by our customers.",
+            "cbcHeading": "B-Corp",
+            "cbcSubHeading": "Taxly AG has applied for a B-Corp pending certificate. Serious social impact is part of our legal mission and business model – Not just marketing fluff.",
+            "cbcLearnMore": "Learn more",
+            "cjtmHeading": "Join the movement",
+            "cjtmSubHeading": "People are already supporting us in this effort and care deeply about it. And as our community grows, our social impact can become much much bigger.",
+            "cjtmBtnText": "Get started"
+        },
+        "CharityOurPlanData": {
+            "data": [{
+                    "image": "../assets/Images/icon-campaign.png",
+                    "imgAlt": "icon-campaign",
+                    "description": "We will also be campaigning on social media, on site and in the press. Spreading the word about our customers and those start-ups who join the movement."
+                },
+                {
+                    "image": "../assets/Images/icon-collaboration.png",
+                    "imgAlt": "icon-collaboration",
+                    "description": "We hope that this may be the first of many collaborations between customer and corporations to come and make a change for the better."
+                }
+            ]
+        }
+    },
+    "taxaccount": {
+        "SingleData": {
+            "taxHeroHeading": "Calling All Tax Accountants!!",
+            "taxHeroSubHeading": "Remove the most time consuming and least value adding part of your business, so you can focus on what really matters – Your clients",
+            "taxHeroBtnText": "Apply now",
+            "taxSoftHeading": "Advanced cloud based tax software",
+            "taxSoftSubHeading": "We have built the most advanced professional tax software in Switzerland. It seamlessly connects you to your clients to quickly and efficiently prepare and process tax returns.",
+            "taxHIWHeading": "How it works",
+            "taxHIWSubHeading": "Our cutting edge technology makes onboarding, information collection and management, a time-saving and positive experience for you and your clients.",
+            "taxCuriousHeading": "Are you curious?",
+            "taxCuriousSubHeading": "Join those who are already taking advantage"
+        },
+        "TaxSoftwareSliderData": {
+            "data": [{
+                    "txImage": "../assets/Images/tax-accountants-1.png",
+                    "txAlt": "tax-accountants-1"
+                },
+                {
+                    "txImage": "../assets/Images/tax-accountants-2.png",
+                    "txAlt": "tax-accountants-2"
+                },
+                {
+                    "txImage": "../assets/Images/tax-accountants-3.png",
+                    "txAlt": "tax-accountants-3"
+                }
+            ]
+        },
+        "taxHowItWorkData": {
+            "data": [{
+                    "imageUrl": "../assets/Images/tax-accountants-how-1-en.png",
+                    "imageAlt": "tax-accountants-how-1-en",
+                    "title": "Request the information you need",
+                    "description": "Send a secure and personalized link to your clients, ensuring only relevant information is collected."
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "imageUrl": "../assets/Images/tax-accountants-how-2-en.png",
+                    "imageAlt": "tax-accountants-how-2-en",
+                    "title": "Your clients are guided by AI",
+                    "description": "Our AI TaxBot will guide clients quickly and easily on your requested information."
+                },
+                {
+                    "imageUrl": "../assets/Images/tax-accountants-how-3-en.png",
+                    "imageAlt": "tax-accountants-how-3-en",
+                    "title": "Our technology does its magic",
+                    "description": "Our AI engine optimises and fills out the tax return, and handles the submission process, so you can focus on your core business."
+                }
+            ]
+        },
+        "TaxOurPriceData": {
+            "data": [{
+                    "boxListOne": "50 clients",
+                    "boxListTwo": "Unlimited users",
+                    "boxNumberValue": "500",
+                    "boxNumberAlpha": "CHF"
+                },
+                {
+                    "boxListOne": "250 clients",
+                    "boxListTwo": "Unlimited users",
+                    "boxNumberValue": "1'000",
+                    "boxNumberAlpha": "CHF"
+                },
+                {
+                    "boxListOne": "+500 clients",
+                    "boxListTwo": "Unlimited users",
+                    "boxNumberValue": "2'000",
+                    "boxNumberAlpha": "CHF"
+                }
+            ]
+        }
+    },
+    "careers": {
+        "SingleData": {
+            "careersHeroHeading": "Fancy a career with taxly?",
+            "careersHeroSubHeading": "Innovation, creativity, technology, AI, uncharted waters. If you get excited by the same things we do, get in touch!",
+            "careersHeroBtnText": "Get started",
+            "careersJTTHeading": "Join the team",
+            "careersJTTSubHeading": "We hire ambitious people who have the desire, passion and drive to build world-class products and customer experience.",
+            "careerCOHeading": "Current opportunities",
+            "careerCOSubHeading": "We can’t wait to hear about what you can bring to Taxly, so don’t be a stranger. Get in touch to find out more."
+        },
+        "careersJoinTheTeamData": {
+            "data": [{
+                    "title": "More than just a job",
+                    "description": "We carve out two days a month for you to focus on dream projects, or your backlog. We call it getting sh** done day."
+                },
+                {
+                    "title": "We‘ll help you grow your network",
+                    "description": "We host events and are present in the Swiss start up scene. As a Taxly employee, you‘ll always be seen and heard."
+                },
+                {
+                    "title": "Invest in yourself",
+                    "description": "Investing in your future should be your number one priority. We provide the environment and a personalized development fund and the freedom to spend it as you see fit."
+                },
+                {
+                    "title": "Smooth landing in Switzerland",
+                    "description": "We‘ll help iron out any visa or moving issues you might have. And provide a comprehensive relocation package to our Zurich office."
+                }
+            ]
+        },
+        "careerCurrentOppData": {
+            "data": [{
+                    "image": "../assets/Images/bird-glasses.png",
+                    "imgAlt": "bird-glasses",
+                    "title": "CTO",
+                    "btnLink": "#",
+                    "button": "Find out more"
+                },
+                {
+                    "image": "../assets/Images/bird-star.png",
+                    "imgAlt": "bird-star",
+                    "title": "Lead Engineer",
+                    "btnLink": "#",
+                    "button": "Find out more"
+                },
+                {
+                    "image": "../assets/Images/bird-sunglasses.png",
+                    "imgAlt": "bird-sunglasses",
+                    "title": "Product Manager",
+                    "btnLink": "#",
+                    "button": "Find out more"
+                },
+                {
+                    "image": "../assets/Images/bird-monocle.png",
+                    "imgAlt": "bird-monocle",
+                    "title": "CMO",
+                    "btnLink": "#",
+                    "button": "Find out more"
+                },
+                {
+                    "image": "../assets/Images/bird-top-hat.png",
+                    "imgAlt": "bird-top-hat",
+                    "title": "Senior Tax Advisor (Austria, Germany & UK)",
+                    "btnLink": "#",
+                    "button": "Find out more"
+                },
+                {
+                    "image": "../assets/Images/bird-coffee.png",
+                    "imgAlt": "bird-coffee",
+                    "title": "AI Data Scientist",
+                    "btnLink": "#",
+                    "button": "Find out more"
+                }
+            ]
+        }
+    },
+    "privacy": {
+        "SingleData": {
+            "pageHeading": "Privacy Policy",
+            "lastupdatedDate": "15 February 2020",
+            "OneHeadingH2": "What is Taxly, and what is the purpose of this Privacy Policy and the Terms of Service?",
+            "OneHeadingH2POne": "With Taxly you can quickly and easily fill out your tax return and have it prepared for filing. We can also submit your tax return directly for you in the cantons that allow electronic filing. In order to be able to offer you these services we need to establish regulations regarding certain points. You can find these general regulations Terms of Service. You can find information on how we handle your data in this Privacy Policy.",
+            "OneHeadingH2PTwo": "By “we” or “us” we mean Taxly AG, which offers these services. By “you” we mean you as a user of our website, services. “Taxly” means the services that we offer you after logging in within the areas of our services that require registration. By “website” we mean the areas of our website and app that can be accessed before login or used without registration. Terms relating to data protection law have the meaning according to the Swiss Data Protection Act (“DSG”, version of 01/03/2019,"
+        },
+        "TwoHeadingH2": {
+            "pageHeading": "The essentials in brief",
+            "data": [
+                "By using our website, app and our services in general, you expressly agree to this Privacy Policy and the associated Terms of Service",
+                "By registering, you consent to us processing your data in accordance with the provisions of this Privacy Policy for the provision of our services and to our using this data for certain other purposes, as described below in this Privacy Policy.",
+                "By registering with us you confirm that you give us your correct age and actual place of residence and that you have all the necessary authorisations to provide us with the data and documents that you provide to us (e.g. by entering data or uploading documents)."
+            ]
+        },
+        "PrivacyPolicy1": {
+            "sectionHeading": "1. Privacy Policy for the Use of the Website",
+            "data": [
+                "If you only use the website (without login), you agree to the Terms of Service for the Website in accordance with this no. Error! Reference source not found. (the “website privacy regulations”) and with the associated Terms of Service for the Use of the Website (no. 1 Terms of Service). Changes to these website privacy regulations by Taxly AG are possible at any time and will be published here. The current website privacy regulations at the time of your use apply.",
+                "When accessing our website, we automatically collect access data transmitted from your browser (such as the IP address of the respective device, date and time (so-called “timestamp”), requested and possibly the requesting URL (so-called “referrer URL”), information on the browser and operating system used and comparable other technical data). The collection and processing of this data is necessary to enable you to access our website and to enable certain security measures to be taken to secure our systems (such as the defence against dDoS attacks). This data is only stored in an unchanged form for as long as is technically necessary. Then it is deleted or anonymised by shortening the IP addresses.",
+                "For the administration of our website as well as for the analysis of user behaviour, we use cookies and analysis technologies listed in no. 2.3. You can use both the website and Taxly without cookies by deactivating them in your browser and deleting any cookies that have already been set. You can find out how to do this in the help function of your browser and under no. 4 (Cookie/analysis tool info). Some of the analysis services we use also provide deactivation/opt-out functions. You can find further information on this in the privacy policy for the respective analysis services (no. 4).",
+                "Please note that when you deactivate/delete cookies or deactivate certain features of the analysis services we use, certain features of the website/Taxly may no longer function properly."
+            ]
+        }
+    },
+    "contactus": {
+        "SingleData": {
+            "pageHeading": "Contact us",
+            "pageSubHeading": "We’re happy to answer any questions or feedback you may have! "
+        },
+        "contactBoxData": {
+            "data": [{
+                    "title": "Speak",
+                    "linkTarget": "",
+                    "linkHref": "tel:0435089354",
+                    "link": "0435089354",
+                    "subTitle": "Mon-Fri: 8:30am-5:30pm"
+                },
+                {
+                    "title": "Write",
+                    "linkTarget": "",
+                    "linkHref": "mailto:hello@taxly.ch",
+                    "link": "hello@taxly.ch",
+                    "subTitle": ""
+                },
+                {
+                    "title": "Stop By",
+                    "linkTarget": "_blank",
+                    "linkHref": "https://goo.gl/maps/B7Ye8MUDL7UcB54r5",
+                    "link": "Stockerstrasse 38, 8002",
+                    "subTitle": "Zürich, Switzerland"
+                }
+            ]
+        }
+    },
+    "aboutUs": {
+        "SingleData": {
+            "pageHeading": "Tax just got interesting",
+            "pageSubHeading": "Taxly is on a mission to reinvent the tax experience at scale by enabling our customers to be financially optimised in order to create a much better standard of living",
+            "pageBtnText": "Get started",
+            "AboutUsOMHeading": "Our Mission",
+            "AboutUsOMSubHeading": "Our vision is to focus relentlessly on the customer experience, by supporting our customers for each major financial decision, in order for them to feel safe, be financially optimised and create a much better standard of living.",
+            "AboutUsManagementTeam": ""
+        },
+        "AboutUsOurMissionData": {
+            "data": [{
+                    "image": "../assets/Images/icon-launch.png",
+                    "imgAlt": "icon-launch",
+                    "text": "Taxly launched in 2020"
+                },
+                {
+                    "image": "../assets/Images/icon-zurich.png",
+                    "imgAlt": "icon-zurich",
+                    "text": "Based in Zürich, Switzerland"
+                },
+                {
+                    "image": "../assets/Images/icon-employees.png",
+                    "imgAlt": "icon-employees",
+                    "text": "Team of industry experts"
+                },
+                {
+                    "image": "../assets/Images/icon-saving.png",
+                    "imgAlt": "icon-saving",
+                    "text": "Over 1M CHF raised from investors"
+                }
+            ]
+        }
     }
 }

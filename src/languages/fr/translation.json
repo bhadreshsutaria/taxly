@@ -668,5 +668,184 @@
                 }
             ]
         }
+    },
+    "charity": {
+        "SingalData": {
+            "chsHeading": "Faire bouger les choses",
+            "chsDescription": "Nous pensons sincèrement que le changement climatique est le problème majeur de notre ère. Actuellement, la croissance se fait aux dépens de la planète. Nous et notre communauté souhaitons sincèrement agir pour l’environnement, même en tant que start-up ou entreprise lucrative.",
+            "chsBtn": "Commencer",
+            "cwwuHeading": "Qui est avec nous ?",
+            "cwwuSubHeading1": "Nous sommes une jeune entreprise. Seuls, nos actions seront limitées. Mais est-ce qu’il ne suffirait pas que d’autres start-ups nous rejoignent ? Nous pensons que si.",
+            "cwwuSubHeading2": "Il existe de nombreuses start-ups qui font déjà des choses incroyables. Encore bien mieux que nous pouvons l’espérer. L’objectif n’est pas de nous placer au-dessus des autres ni de culpabiliser ceux qui ne participent pas, mais d’encourager un appel positif à agir avec ceux qui pensent comme nous que nous pouvons et devons faire mieux.",
+            "copHeading": "Comment ?",
+            "copdescription1": "Nous soutenons",
+            "myclimate": "myclimate.org",
+            "copdescription2": "une œuvre caritative qui agit contre le changement climatique, et nous donnons autant que chacun de nos clients.",
+            "cbcHeading": "B-Corp",
+            "cbcSubHeading": "Taxly AG a demandé un certificat B-Corp en attente. Les répercutions sociales importantes font partie de notre mission légale et de notre modèle d’entreprise. Ce n’est pas juste du blabla marketing.",
+            "cbcLearnMore": "En savoir plus",
+            "cjtmHeading": "Rejoignez le mouvement",
+            "cjtmSubHeading": "Des milliers de personnes nous soutiennent déjà dans notre effort qui leur tient également à cœur. Plus notre communauté s’agrandit, plus notre impact social est important.",
+            "cjtmBtnText": "Commencer"
+        },
+        "CharityOurPlanData": {
+            "data": [{
+                    "image": "../assets/Images/icon-campaign.png",
+                    "imgAlt": "icon-campaign",
+                    "description": "Nous militons également sur les réseaux sociaux, sur le terrain et dans la presse. Nous répandons la bonne parole sur nos clients et ces start-ups qui rejoignent le mouvement."
+                },
+                {
+                    "image": "../assets/Images/icon-collaboration.png",
+                    "imgAlt": "icon-collaboration",
+                    "description": "We hope that this may be the first of many collaborations between customer and corporations to come and make a change for the better."
+                }
+            ]
+        }
+    },
+    "taxaccount": {
+        "SingleData": {
+            "taxHeroHeading": "Un message pour vous les comptables fiscaux !!",
+            "taxHeroSubHeading": "Oubliez les parties les plus chronophages et moins importantes de votre activité afin de vous concentrer sur ce qui compte vraiment : vos clients",
+            "taxHeroBtnText": "Postuler maintenant",
+            "taxSoftHeading": "Logiciel fiscal avancé basé sur cloud",
+            "taxSoftSubHeading": "Nous avons conçu le logiciel fiscal professionnel le plus avancé de Suisse. Il se connecte facilement à vos clients afin de préparer et programmer facilement et efficacement leur déclaration.",
+            "taxHIWHeading": "Comment cela fonctionne",
+            "taxHIWSubHeading": "Notre technologie de pointe permet une collecte d’information et une gestion complète ainsi qu’une expérience positive de gain de temps pour vous et vos clients.",
+            "taxCuriousHeading": "Curieux d’en savoir plus ?",
+            "taxCuriousSubHeading": "Rejoignez ceux qui en profitent déjà."
+        },
+        "TaxSoftwareSliderData": {
+            "data": [{
+                    "txImage": "../assets/Images/tax-accountants-1.png",
+                    "txAlt": "tax-accountants-1"
+                },
+                {
+                    "txImage": "../assets/Images/tax-accountants-2.png",
+                    "txAlt": "tax-accountants-2"
+                },
+                {
+                    "txImage": "../assets/Images/tax-accountants-3.png",
+                    "txAlt": "tax-accountants-3"
+                }
+            ]
+        },
+        "taxHowItWorkData": {
+            "data": [{
+                    "imageUrl": "../assets/Images/tax-accountants-how-1-fr.png",
+                    "imageAlt": "tax-accountants-how-1-fr",
+                    "title": "Demandez les informations dont vous avez besoin",
+                    "description": "Envoyez un lien sécurisé et personnalisé à vos clients, afin de vous assurer que seules les informations pertinentes seront collectées."
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "imageUrl": "../assets/Images/tax-accountants-how-2-fr.png",
+                    "imageAlt": "tax-accountants-how-2-fr",
+                    "title": "Vos clients sont guidés par une IA",
+                    "description": "Notre IA TaxBot guidera rapidement et facilement vos clients selon les informations demandées."
+                },
+                {
+                    "imageUrl": "../assets/Images/tax-accountants-how-3-fr.png",
+                    "imageAlt": "tax-accountants-how-3-fr",
+                    "title": "La magie de notre technologie fait son œuvre",
+                    "description": "Notre moteur IA optimise et complète les déclarations fiscales, et gère le processus d’envoi, afin que vous puissiez vous concentrer sur vos activités principales."
+                }
+            ]
+        },
+        "TaxOurPriceData": {
+            "data": [{
+                    "boxListOne": "50 CLIENTS",
+                    "boxListTwo": "UTILISATEURS ILLIMITÉS",
+                    "boxNumberValue": "500",
+                    "boxNumberAlpha": "CHF"
+                },
+                {
+                    "boxListOne": "250 CLIENTS",
+                    "boxListTwo": "UTILISATEURS ILLIMITÉS",
+                    "boxNumberValue": "1'000",
+                    "boxNumberAlpha": "CHF"
+                },
+                {
+                    "boxListOne": "+500 CLIENTS",
+                    "boxListTwo": "UTILISATEURS ILLIMITÉS",
+                    "boxNumberValue": "2'000",
+                    "boxNumberAlpha": "CHF"
+                }
+            ]
+        }
+    },
+    "careers": {
+        "SingleData": {
+            "careersHeroHeading": "Vous voulez faire carrière chez Taxly ?",
+            "careersHeroSubHeading": "Innovation, créativité, technologie, IA, nouvelles opportunités, eaux inexplorées. Si tout cela vous passionne autant que nous, contactez-nous.",
+            "careersHeroBtnText": "Commencer",
+            "careersJTTHeading": "Rejoindre l’équipe",
+            "careersJTTSubHeading": "Nous embauchons des individus ambitieux qui ont le désir, la passion et la motivation d’élaborer des produits et services hauts de gamme.",
+            "careerCOHeading": "Opportunités actuelles",
+            "careerCOSubHeading": "Nous avons hâte de découvrir ce que vous pouvez apporter à Taxly, alors ne soyez pas timide. Contactez-nous pour en savoir plus."
+        },
+        "careersJoinTheTeamData": {
+            "data": [{
+                    "title": "Bien plus qu’un emploi",
+                    "description": "Nous vous proposons deux jours par mois pour vous concentrer sur vos projets ou ce que vous devez terminer. C’est ce qu’on appelle tout faire en une journée."
+                },
+                {
+                    "title": "Nous vous aiderons à développer votre réseau",
+                    "description": "Nous organisons des événements et sommes présents auprès des start up suisses. En tant qu’employé Taxly, vous serez toujours vu et entendu."
+                },
+                {
+                    "title": "Investissez pour vous",
+                    "description": "Investir dans votre avenir devrait être votre priorité n°1 Nous vous apportons l’environnement et un fond de développement personnalisé ainsi que la liberté de le dépenser comme il vous convient."
+                },
+                {
+                    "title": "Atterrissage en douceur en Suisse",
+                    "description": "Nous vous aiderons à préparer le terrain, pour vos visas ou tous autres besoins. Nous vous fournirons une solution complète de relocalisation à notre bureau de Zurich."
+                }
+            ]
+        },
+        "careerCurrentOppData": {
+            "data": [{
+                    "image": "../assets/Images/bird-glasses.png",
+                    "imgAlt": "bird-glasses",
+                    "title": "CTO",
+                    "btnLink": "#",
+                    "button": "En savoir plus"
+                },
+                {
+                    "image": "../assets/Images/bird-star.png",
+                    "imgAlt": "bird-star",
+                    "title": "Lead Engineer",
+                    "btnLink": "#",
+                    "button": "En savoir plus"
+                },
+                {
+                    "image": "../assets/Images/bird-sunglasses.png",
+                    "imgAlt": "bird-sunglasses",
+                    "title": "Product Manager",
+                    "btnLink": "#",
+                    "button": "En savoir plus"
+                },
+                {
+                    "image": "../assets/Images/bird-monocle.png",
+                    "imgAlt": "bird-monocle",
+                    "title": "CMO",
+                    "btnLink": "#",
+                    "button": "En savoir plus"
+                },
+                {
+                    "image": "../assets/Images/bird-top-hat.png",
+                    "imgAlt": "bird-top-hat",
+                    "title": "Senior Tax Advisor (Austria, Germany & UK)",
+                    "btnLink": "#",
+                    "button": "En savoir plus"
+                },
+                {
+                    "image": "../assets/Images/bird-coffee.png",
+                    "imgAlt": "bird-coffee",
+                    "title": "AI Data Scientist",
+                    "btnLink": "#",
+                    "button": "En savoir plus"
+                }
+            ]
+        }
     }
 }
