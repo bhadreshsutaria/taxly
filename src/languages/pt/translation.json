@@ -773,6 +773,116 @@
             ]
         }
     },
+    "community": {
+        "SingleData": {
+            "communityHeroHeading": "Conheça a comunidade da Taxly",
+            "communityHeroSubHeading": "De escritores a banqueiros, passando por estagiários, padeiros, pessoal técnico e investidores. Cada um deles tem uma história para contar sobre a experiência com a Taxly.",
+            "communityHeroBtnText": "Início"
+        },
+        "CommunityStorySectionData": {
+            "data": [{
+                    "id": "1",
+                    "personName": "Alessio, Zurich",
+                    "popupText": "Leia a minha história",
+                    "cplName": "Alessio",
+                    "cplCityAndLanguage": "Zurich, Swiss",
+                    "cplH2One": "What comes to mind when you hear the word tax?",
+                    "cplpOne": "Costly and timely.",
+                    "cplH2Two": "How did you do your taxes before?",
+                    "cplpTwo": "With an accountant.",
+                    "cplH2Three": "How was your experience with Taxly?",
+                    "cplpThree": "Actually I didn’t realise it could be done so fast.",
+                    "cplH2Four": "Were you skeptical about taxly in the beginning?",
+                    "cplpFour": "Yeah, a friend told me about taxly and I was intrigued by the price.",
+                    "cplH2Five": "What was your favorite thing about Taxly?",
+                    "cplpFive": "That it took about the same time it takes to cook some pasta.",
+                    "cplH2Six": "Would you recommend Taxly to a friend?",
+                    "cplpSix": "100%.",
+                    "cplpEmoji": false
+                },
+                {
+                    "id": "2",
+                    "personName": "Charlotte, St. Gallen",
+                    "popupText": "Leia a minha história",
+                    "cplName": "Charlotte",
+                    "cplCityAndLanguage": "St. Gallen, Swiss",
+                    "cplH2One": "What comes to mind when you hear the word tax?",
+                    "cplpOne": "Being broke.",
+                    "cplH2Two": "How did you do your taxes before?",
+                    "cplpTwo": "On my own.",
+                    "cplH2Three": "How was your experience with Taxly?",
+                    "cplpThree": "Really easy and a surprisingly pleasant experience.",
+                    "cplH2Four": "Were you skeptical about taxly in the beginning?",
+                    "cplpFour": "I was more surprised this hasn’t been done before.",
+                    "cplH2Five": "What was your favorite thing about Taxly?",
+                    "cplpFive": "How easy it was.",
+                    "cplH2Six": "Would you recommend Taxly to a friend?",
+                    "cplpSix": "Already did",
+                    "cplpEmoji": true
+                },
+                {
+                    "id": "3",
+                    "personName": "Maximilian, Zurich",
+                    "popupText": "Leia a minha história",
+                    "cplName": "Maximilian",
+                    "cplCityAndLanguage": "Zurich, German",
+                    "cplH2One": "What comes to mind when you hear the word tax?",
+                    "cplpOne": "How much it’s going to cost me.",
+                    "cplH2Two": "How did you do your taxes before?",
+                    "cplpTwo": "I paid for an accountant.",
+                    "cplH2Three": "How was your experience with Taxly?",
+                    "cplpThree": "Yeah it was good. I didn’t realise it could be done so quick. And for 25 CHF. ",
+                    "cplH2Four": "Were you skeptical about taxly in the beginning?",
+                    "cplpFour": "A bit yes.",
+                    "cplH2Five": "What was your favorite thing about Taxly?",
+                    "cplpFive": "The price.",
+                    "cplH2Six": "Would you recommend Taxly to a friend?",
+                    "cplpSix": "Two of my friends already submitted with Taxly.",
+                    "cplpEmoji": false
+                },
+                {
+                    "id": "4",
+                    "personName": "Emma, Basel Land",
+                    "popupText": "Leia a minha história",
+                    "cplName": "Emma",
+                    "cplCityAndLanguage": "Basel Land, Swiss",
+                    "cplH2One": "What comes to mind when you hear the word tax?",
+                    "cplpOne": "Stress, time, money and the need for alcohol.",
+                    "cplH2Two": "How did you do your taxes before?",
+                    "cplpTwo": "I tried to do them by myself and then got my dad to check it.",
+                    "cplH2Three": "How was your experience with Taxly?",
+                    "cplpThree": "Was great. Finally don’t have to ask my dad for his help.",
+                    "cplH2Four": "Were you skeptical about taxly in the beginning?",
+                    "cplpFour": "A little, but the roger character seemed to know what he was doing.",
+                    "cplH2Five": "What was your favorite thing about Taxly?",
+                    "cplpFive": "How quick it was and that I can see the official tax return at the end.",
+                    "cplH2Six": "Would you recommend Taxly to a friend?",
+                    "cplpSix": "Yes, most defiantly.",
+                    "cplpEmoji": false
+                },
+                {
+                    "id": "5",
+                    "personName": "Alex, Zurich",
+                    "popupText": "Leia a minha história",
+                    "cplName": "Alex",
+                    "cplCityAndLanguage": "Zurich, English",
+                    "cplH2One": "What comes to mind when you hear the word tax?",
+                    "cplpOne": "Not much.",
+                    "cplH2Two": "How did you do your taxes before?",
+                    "cplpTwo": "In the UK its all deducted on your salary. So no bother really.",
+                    "cplH2Three": "How was your experience with Taxly?",
+                    "cplpThree": "Super easy. It was all in my language and the questions were very simple to understand. It’s my first time doing taxes in Switzerland.",
+                    "cplH2Four": "Were you skeptical about taxly in the beginning?",
+                    "cplpFour": "I don’t know. Everyone said doing taxes in Switzerland was complex and costly. But I found the opposite with Taxly.",
+                    "cplH2Five": "What was your favorite thing about Taxly?",
+                    "cplpFive": "How simple it was to do.",
+                    "cplH2Six": "Would you recommend Taxly to a friend?",
+                    "cplpSix": "Yes.",
+                    "cplpEmoji": false
+                }
+            ]
+        }
+    },
     "careers": {
         "SingleData": {
             "careersHeroHeading": "Quer iniciar uma carreira na Taxly?",
@@ -845,6 +955,373 @@
                     "btnLink": "#",
                     "button": "Saiba mais"
                 }
+            ]
+        }
+    },
+    "privacy": {
+        "SingleData": {
+            "pageHeading": "Política de privacidade",
+            "lastupdatedDate": "15 Fevereiro 2020",
+            "OneHeadingH2": "O que é a Taxly e para que servem as condições de utilização e a política de privacidade?",
+            "OneHeadingH2POne": "Com a Taxly, poderá preencher rápida e facilmente a sua declaração de IRS, bem como prepará-la para envio. Nos cantões onde é permitido o envio eletrónico, também podemos enviar a sua declaração de IRS diretamente para si. Para que possamos oferecer esses serviços, é necessário estabelecer algumas regras. Essas regras gerais podem ser consultadas nas nossas condições de utilização. As informações sobre o modo como lidamos com os seus dados podem ser consultadas na presente política de privacidade.",
+            "OneHeadingH2PTwo": "Sempre que dizemos ‘nós’, referimo-nos à Taxly AG, i.e., a empresa que oferece estes serviços. Sempre que dizemos ‘utilizador’ ou utilizamos a terceira pessoa do singular, referimo-nos a si, enquanto utilizador do nosso site, serviços e regalias. Por ‘Taxly’ entende-se os serviços que lhe oferecemos, após o início de sessão efetuado com sucesso, no âmbito das áreas dos nossos serviços sujeitos a registo. Por ‘site’, entende-se as áreas do nosso site e aplicação, cujo acesso é possível antes do início de sessão, ou cuja utilização é possível sem registo. O significado dos termos em matéria de proteção de dados está de acordo com a lei suíça relativa à proteção de dados (‘DSG, Datenschutzgesetz’, versão de 01.03.2019,",
+            "PrivacyPolicy4": "4. Informações sobre os cookies/ferramentas de análise"
+        },
+        "TwoHeadingH2": {
+            "pageHeading": "Resumo dos aspetos mais importantes",
+            "data": [
+                "Ao utilizar o nosso site, a aplicação e os nossos serviços em geral, o utilizador concorda expressamente com esta política de privacidade e com as condições de utilização[Link] a ela associadas.",
+                "Ao efetuar o registo, o utilizador concorda que os seus dados sejam alvo de tratamento, de acordo com as disposições desta política de privacidade, para a prestação dos nossos serviços, bem como alvo de utilização para outros fins, conforme descrito a seguir nesta política de privacidade.",
+                "Ao registar-se connosco, o utilizador confirma que nos fornece a sua idade correta e o verdadeiro local de residência e que possui todas as autorizações necessárias para disponibilização dos dados e dos documentos que nos são fornecidos (p. ex., ao inserir dados ou ao fazer o upload de documentos)."
+            ]
+        },
+        "PrivacyPolicy1": {
+            "sectionHeading": "1. Política de privacidade para a utilização do site",
+            "data": [
+                "Se utilizar apenas o site (sem iniciar sessão), o utilizador concorda com a respetiva política de privacidade, nos termos do presente ponto Error! Reference source not found. (“Política de privacidade do site”), bem como com as condições associadas à sua utilização (ponto 1 das condições de utilização). Quaisquer alterações a esta política de privacidade do site, realizadas pela Taxly AG, são possíveis a qualquer momento e serão publicadas aqui. Aquando da utilização do site, aplica-se a política de privacidade em vigor nesse momento.",
+                "Ao aceder ao nosso site, recolhemos automaticamente os dados de acesso transmitidos pelo seu browser (como o endereço IP do respetivo dispositivo, a data e a hora (o chamado «timestamp», ou carimbo temporal), a URL visitada ou, em todo o caso, a URL solicitada (a chamada «URL de referência»), as informações sobre o browser e o sistema operativo utilizados, bem como outros dados técnicos comparáveis). A recolha e o tratamento desses dados são necessários para permitir que o utilizador aceda ao nosso site e para que sejam tomadas determinadas medidas de segurança em prol da proteção dos nossos sistemas (p.ex., a defesa contra ataques dDoS). Esses dados são armazenados no seu estado inalterado, durante o tempo que for tecnicamente necessário. Em seguida, os dados são apagados ou anonimizados, através da redução dos endereços IP.",
+                "Para a administração do nosso site, bem como para a análise do comportamento do utilizador, implementamos os cookies e as tecnologias de análise mencionados no ponto2.3. É possível utilizar o site e a Taxly sem cookies, desativando-os no browser e, quando muito, apagando os cookies que já tenham sido ativados. O modo de proceder encontra-se na função de ajuda do seu browser, ou no ponto 4 (Informações sobre os cookies/ferramentas de análise). Alguns dos serviços de análise que utilizamos também disponibilizam funções de desativação/autoexclusão ou opt out. Para mais informações, consulte a política de privacidade dos respetivos serviços de análise (ponto 4).",
+                "Recorde que, sempre que os cookies são desativados ou eliminados, ou sempre que são desativadas determinadas funções dos serviços de análise por nós utilizados, algumas funções do site/Taxly podem deixar de funcionar corretamente."
+            ]
+        },
+        "PrivacyPolicy2": {
+            "sectionHeading": "2. Política de privacidade para a utilização da Taxly",
+            "data": [
+                "Os dados relacionados com a declaração de IRS são dados sensíveis. Por essa razão, levamos a proteção de dados muito a sério. Na presente política de privacidade, poderá obter informações sobre o nosso modo de proceder e quais as medidas que tomamos para a proteção dos dados.",
+                "Ao registar-se na Taxly, o utilizador concorda expressamente com esta política de privacidade (“Política de privacidade”) e com as condições de utilização a ela associadas.",
+                "Quaisquer alterações a esta política de privacidade, realizadas pela Taxly AG, são possíveis a qualquer momento e serão publicadas aqui. Além disso, tais alterações serão comunicadas aos utilizadores registados, através do endereço de e-mail fornecido. As alterações são consideradas aceites, se o utilizador iniciar sessão e/ou utilizar a Taxly após a notificação das alterações e, em qualquer caso, se tiverem decorrido trinta (30) dias após a notificação. Se não pretender aceitar as alterações, o utilizador poderá interromper a utilização da Taxly e, mediante notificação, eliminar a sua conta connosco. Os nossos dados de contacto encontram-se no ponto3."
+            ]
+        },
+        "PrivacyPolicy2_1": {
+            "sectionHeading": "2.1 Dados recolhidos",
+            "data": [
+                "Recolhemos alguns dos seus dados pessoais, para que lhe possamos prestar os nossos serviços. Esses dados incluem todas as informações por si fornecidas, no âmbito do seu registo de utilizador da Taxly («dados de registo»), por exemplo o seu nome, local de residência, e-mail, etc. Como parte do processo de registo, o utilizador pode visualizar a qualquer momento os dados enviados.",
+                "Para que lhe possamos prestar os serviços da Taxly e, em particular, para preencher e enviar a sua declaração de IRS, recolhemos os dados necessários, à luz dos requisitos das respetivas autoridades tributárias. Esses dados podem conter dados pessoais particularmente sensíveis e – na sua totalidade – são considerados como perfil de uma pessoa. Os dados recolhidos com o objetivo de preencher e enviar a declaração de IRS são designados por nós como «dados fiscais».",
+                "Ao entrar em contacto connosco por e-mail, Messenger ou qualquer outra opção interna de comunicação da Taxly, recolhemos os seus dados de contacto (p. ex., nome próprio, apelido, e-mail, etc.), o conteúdo da comunicação (p. ex., o texto dos e-mails), bem como outras informações associadas (p. ex., a hora do envio, etc.). Esses dados são designados por nós como «dados de comunicação». Processamos esses dados de comunicação para responder às suas perguntas e prestar o serviço relevante, bem como entrar em contacto consigo e melhorar os nossos serviços (p. ex., em caso de pedidos de assistência). Se entrar em contacto connosco através de outros meios de comunicação que não sejam as opções de comunicação da Taxly (p. ex., via Skype, SnapChat, Whatsapp, etc.), aplicam-se as respetivas condições de utilização e políticas de privacidade de cada fornecedor desses meios de comunicação.",
+                "Todos os dados que se refiram à sua pessoa são designados por nós como «dados do utilizador». Os dados do utilizador são recolhidos apenas diretamente de si, ou seja, não obtemos de terceiros os dados sobre a sua pessoa, ou relacionados consigo. Pertencem-lhe todos os direitos sobre os dados inseridos por si e que lhe possam ser atribuídos. Pertence-nos o direito sobre dados anonimizados, agregados ou, de outro modo, despersonalizados, bem como sobre dados e conhecimentos obtidos através da análise de dados do utilizador. O utilizador concede-nos os direitos necessários para realizar a análise e o processamento dos dados descritos aqui e confirma que possui quaisquer direitos e autorizações de terceiros para nos conceder esses direitos."
+            ]
+        },
+        "PrivacyPolicy2_2": {
+            "sectionHeading": "2.2 Finalidade do tratamento",
+            "data": [
+                "Os dados de registo servem para permitir acesso à Taxly. Isso inclui, em particular, a abertura da conta na Taxly, permitindo a comunicação entre a Taxly AG e o utilizador, a atribuição dos dados fiscais à conta e à pessoa do utilizador, o processamento de pagamentos e quaisquer medidas de cobrança, em caso de serviços com custos, bem como a aplicação dos nossos direitos.",
+                "Os dados fiscais servem para poder prestar os serviços pretendidos, em particular para o preenchimento da sua declaração de IRS e o seu envio à autoridade tributária relevante.",
+                "Os dados de comunicação servem para estabelecer comunicação consigo.",
+                "Além disso, processamos os dados do utilizador para cumprimento dos requisitos legais, p. ex., para cumprimento das obrigações legais de arquivo.",
+                "Podemos submeter todos os dados do utilizador a uma análise automatizada para reconhecimento de padrões e para o(a) informar sobre os conhecimentos adquiridos, sob a forma de dicas ou recomendações. Isso pode, p. ex., assumir a forma de dicas úteis sobre o preenchimento da declaração de IRS, propostas sobre possíveis produtos de terceiros ou serviços prestados pelos nossos parceiros, etc. Assiste-nos o direito de utilizar os conhecimentos e os resultados da análise dos dados do utilizador (sem referência a si pessoalmente, i.e., de forma anónima ou agregada) para os nossos próprios fins (p. ex., melhorar a Taxly)."
+            ]
+        },
+        "PrivacyPolicy2_3": {
+            "sectionHeading": "2.3 Utilização de cookies e tecnologias semelhantes",
+            "data": [
+                "Utilizamos cookies para o site e para a Taxly, desde os cookies de sessão (ficheiros temporários que o(a) identificam como utilizador e acompanham o seu percurso durante uma «sessão» no nosso site ou na Taxly, até que a respetiva «sessão» é encerrada), até aos cookies permanentes (que permanecem no respetivo dispositivo, mesmo após o encerramento da «sessão»).",
+                "Além dos nossos próprios cookies de sessão, no site e no âmbito da Taxly utilizamos os seguintes cookies e tecnologias ou serviços de análise:"
+            ],
+            "data1": [
+                "Adjust, cf. ponto 4.1",
+                "Appsee, cf. ponto 4.2",
+                "Facebook Pixel, cf. ponto 4.3",
+                "Google AdWords, cf. ponto 4.4",
+                "Google Analytics e Google Tag Manager, cf. ponto 4.5",
+                "Google Firebase/Crashlytics, cf. ponto 4.6",
+                "Google Places API, cf. ponto 4.7",
+                "Intercom Messenger, cf. ponto 4.8",
+                "Mixpanel, cf. ponto 4.9",
+                "Botões de redes sociais para Facebook, Twitter e LinkedIn, cf. ponto 4.10"
+            ],
+            "data2": [
+                "É possível utilizar o site e a Taxly sem cookies, desativando-os no browser e, quando muito, apagando os cookies que já tenham sido ativados. O modo de proceder encontra-se na função de ajuda do seu browser, ou no ponto 4 (Informações sobre os cookies/ferramentas de análise). Alguns dos serviços de análise que utilizamos também disponibilizam funções de desativação/autoexclusão ou opt out. Para mais informações, consulte a política de privacidade dos respetivos serviços de análise (ponto 4).",
+                "Recorde que, sempre que os cookies são desativados ou eliminados, ou sempre que são desativadas determinadas funções dos serviços de análise por nós utilizados, algumas funções do site/Taxly podem deixar de funcionar corretamente."
+            ]
+        },
+        "PrivacyPolicy2_4": {
+            "sectionHeading": "2.4 Segurança dos dados e obrigação de conservação",
+            "data": [
+                "A fim de garantir a segurança dos dados, implementamos medidas técnicas e organizacionais adequadas.",
+                "Recorde que não fornecemos serviços de armazenamento ou arquivo, i.e., o utilizador é responsável pela segurança e arquivo dos dados inseridos e dos documentos transferidos para a Taxly. Não garantimos a disponibilidade permanente desses dados. Especialmente após o termo da nossa relação de prestação de serviços, não temos a obrigação de continuar a armazenar, a arquivar ou, de outro modo, a guardar os seus dados."
+            ]
+        },
+        "PrivacyPolicy2_5": {
+            "sectionHeading": "2.5 Recurso a terceiros e divulgação de dados",
+            "data": [
+                "Podemos recorrer a terceiros para fornecer os nossos serviços. Mesmo em caso de recurso a terceiros, continuamos a ser a pessoa de contacto responsável perante si. Os seus dados serão essencialmente divulgados apenas às seguintes categorias de destinatários e para os fins indicados a seguir:"
+            ],
+            "data1": [
+                "À autoridade tributária relevante (de acordo com as suas instruções explícitas, ou aprovação da sua declaração de IRS).",
+                "A prestadores de serviços, aos quais recorremos, na medida do necessário, para a prestação dos serviços por eles oferecidos (p. ex., processamento de pedidos de contacto/assistência, gestão da relação com o cliente (CRM), envio de correspondência e outras entregas, análise de dados para reconhecimento de padrões, etc.). Esses prestadores de serviços podem utilizar os dados apenas para fins do serviço acordado."
+            ],
+            "data2": [
+                "Os seus dados não serão divulgados a terceiros para outros fins que não os mencionados aqui. Os seus dados serão apenas divulgados a terceiros, com base no seu consentimento ou instrução prévios e explícitos.",
+                "Se necessário, também podemos divulgar dados no estrangeiro, para os fins mencionados aqui. Nesse caso, tomamos as medidas legalmente exigidas para garantir o nível prescrito de proteção de dados, sempre que necessário. Em particular, garantimos que os prestadores de serviços dos EUA possuam certificação, de acordo com os requisitos do Escudo de Proteção da Privacidade CH-US ou, de forma comparável, se comprometam contratualmente com o nível de proteção de dados necessário (cf. https://www.edoeb.admin.ch/edoeb/de/home/datenschutz/handel-und-wirtschaft/uebermittlung-ins-ausland/datenuebermittlung-in-die-usa.html) .",
+                "sso aplica-se (além dos serviços de análise referidos no ponto 4) aos seguintes prestadores de serviços, certificados (a partir de janeiro de 2020) ao abrigo do Escudo de Proteção da Privacidade CH-US:"
+            ],
+            "PrivacyPolicy2_5List": {
+                "data": [{
+                        "text": "Automattic Inc.",
+                        "link": "https://www.privacyshield.gov/participant?id=a2zt0000000CbqcAAC"
+                    },
+                    {
+                        "text": "Microsoft Corporation",
+                        "link": "https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK"
+                    },
+                    {
+                        "text": "Salesforce,com Inc.",
+                        "link": "https://www.privacyshield.gov/participant?id=a2zt0000000KzLyAAK"
+                    },
+                    {
+                        "text": "Twilio Inc. und SendGrid Inc.",
+                        "link": "https://www.privacyshield.gov/participant?id=a2zt0000000TNLbAAO"
+                    }
+                ]
+            }
+        },
+        "PrivacyPolicy3": {
+            "sectionHeading": "3. Contacto e direito à informação/correção",
+            "data": [
+                "O responsável pelo tratamento («controller») e o proprietário do conjunto dos dados, na aceção da lei relativa à proteção de dados (DSG), é a Taxly AG. Em caso de dúvidas ou outras questões, entre em contacto, a qualquer momento, através de:"
+            ],
+            "link_data": {
+                "data": [{
+                    "text": "Taxly AG, Stockerstrasse 38, 8002 Zürich",
+                    "link": "hello@taxly.ch"
+                }]
+            },
+            "data1": [
+                "O utilizador pode, a qualquer momento, solicitar informações sobre quais dados são alvo de tratamento, bem como a correção ou (no âmbito dos requisitos legais) a eliminação desses dados."
+            ]
+        },
+        "PrivacyPolicy4_1": {
+            "sectionHeading": "4.1 Adjust",
+            "link_data": {
+                "data": [{
+                    "text": "Utilizamos a Adjust, uma tecnologia de avaliação e análise de utilização da Adjust GmbH, Saarbrücker Strasse 37a, 10405 Berlim, Alemanha («Adjust»). Utilizamos a Adjust em relação às informações anónimas, para entender como os nossos utilizadores interagem com a nossa aplicação e analisar as campanhas de anúncios para telemóveis. A política de privacidade da Adjust pode ser consultada em: ",
+                    "link": "https://www.adjust.com/terms/privacy-policy"
+                }]
+            }
+        },
+        "PrivacyPolicy4_2": {
+            "sectionHeading": "4.2 Appsee",
+            "link_data": {
+                "data": [{
+                    "text": "Para otimização do nosso site e da Taxly, utilizamos a Appsee, um serviço da Shift 6 Ltd., 18 Totzeret Haaretz Street, Telavive, Israel («Appsee»). Utilizamos a Appsee para analisar o comportamento do utilizador nas aplicações e identificar as causas dos erros. Para mais informações sobre a política de proteção de dados da Appsee, consulte: ",
+                    "link": "http://www.appsee.com/legal/privacypolicy"
+                }]
+            }
+        },
+        "PrivacyPolicy4_3": {
+            "sectionHeading": "4.3 Facebook Pixel",
+            "link_data": {
+                "text1": "No nosso site e na Taxly, utilizamos a chamada “Facebook Pixel” da Facebook Inc., 1 Hacker Way, Menlo Park, CA 94025, EUA, («Facebook»), para analisar o modo de utilização de anúncios publicitários no Facebook e determinar a sua eficácia. Os dados recolhidos são armazenados e processados pela Facebook e são anónimos para nós. A Facebook pode estabelecer a ligação entre esses dados e a conta do utilizador no Facebook, bem como utilizá-los para os seus próprios fins publicitários, de acordo com as disposições da sua política de privacidade (",
+                "link1": "http://www.facebook.com/about/privacy",
+                "text2": "A Facebook possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC",
+                "text3": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+            }
+        },
+        "PrivacyPolicy4_4": {
+            "sectionHeading": "4.4 Google AdWords",
+            "link_data": {
+                "text1": "Utilizamos a função de «remarketing» do Google AdWords da Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, EUA («Google»), para mostrar aos visitantes do site (ou da Taxly) anúncios baseados em interesses, no âmbito da rede de publicidade da Google. Segundo informações fornecidas pela Google, não são recolhidos nenhuns dados pessoais durante esse processo. Para mais informações sobre o Google AdWords, consulte: ",
+                "link1": "http://www.google.com/privacy/ads/",
+                "text2": "A Google possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "link2": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
+                "text3": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+            }
+        },
+        "PrivacyPolicy4_5": {
+            "sectionHeading": "4.5 Google Analytics and Google Tag Manager",
+            "link_data": {
+                "text1": "Utilizamos o Google Analytics (e o Google Tag Manager), um serviço de análise da web fornecido pela Google.",
+                "text11": "A Google serve-se de cookies para analisar a sua utilização do site e da Taxly, em nosso nome. As informações recolhidas pela Google são transferidas para um servidor seu nos EUA, sendo aí armazenadas e analisadas. O resultado é-nos posteriormente facultado de forma anónima. Os seus dados de utilização não são vinculados ao seu endereço IP completo: na Taxly, ativámos a função de anonimização de IP oferecida pela Google, para que, ao reduzir o endereço IP, as informações recolhidas sejam anonimizadas.",
+                "text2": "O utilizador pode impedir a instalação de cookies, configurando adequadamente o seu browser. O utilizador também pode impedir que a Google recolha e processe as informações geradas pelos cookies sobre o comportamento do utilizador, através do download e instalação do plug-in do browser, disponível no seguinte link:",
+                "link1": "http://tools.google.com/dlpage/gaoptout?hl= de",
+                "text3": "Para mais informações sobre o Google Analytics, consulte as respetivas condições de utilização ",
+                "link2": "https://marketingplatform.google.com/about/analytics/terms/de/",
+                "text4": " os princípios de segurança e proteção de dados do Google Analytics (",
+                "link3": "https://support.google.com/analytics/answer/6004245?hl=de",
+                "text5": ") e a política de privacidade da Google (",
+                "link4": "https://policies.google.com/privacy?hl=de&gl=de",
+                "text6": "A Google possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "link5": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
+                "text7": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+            }
+        },
+        "PrivacyPolicy4_6": {
+            "sectionHeading": "4.6 Google Firebase/Crashlytics",
+            "link_data": {
+                "text1": "Utilizamos o serviço de acompanhamento e controlo de qualidade «Firebase» ou «Firebase Crashlytics» da Google («Firebase/Crashlytics»). O Firebase/Crashlytics serve-se de tecnologias de acompanhamento que permitem uma análise da utilização da aplicação, p. ex., para monitorização do desempenho («performance monitoring»), listagem de erros e análise do comportamento do utilizador, para que, com base nisso, possamos melhorar a nossa oferta. Além disso, são recolhidos dados sobre falhas e erros do sistema, em particular informações sobre o dispositivo e a versão da aplicação, bem como outras informações úteis em termos de análise de erros (p. ex., informações sobre software e hardware). Para mais informações sobre este assunto, consulte",
+                "link1": "https://www.firebase.com/terms/privacy-policy.html",
+                "text2": "A Google possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "link2": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
+                "text3": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+            }
+        },
+        "PrivacyPolicy4_7": {
+            "sectionHeading": "4.7 Google Places API",
+            "link_data": {
+                "text1": "Utilizamos o Google Places API da Google, para facilitar as pesquisas com base na localização. Os dados recolhidos na sequência de uma pesquisa assistida pelo Google Places API estão sujeitos às condições de utilização e à política de privacidade da Google",
+                "link1": "https://www.google.com/policies/privacy/?hl=de",
+                "text2": "A Google possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "link2": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
+                "text3": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+            }
+        },
+        "PrivacyPolicy4_8": {
+            "sectionHeading": "4.8 Intercom Messenger",
+            "link_data": {
+                "text1": "Utilizamos o Intercom Messenger para estabelecer comunicação consigo, uma solução de comunicação da Intercom, Inc., 55 2nd Street, 4th Floor, São Francisco, CA 94105, EUA («Intercom»).",
+                "text2": "A Intercom serve-se de cookies para a identificação do utilizador e a gestão de sessões. Para mais informações, consulte: ",
+                "link1": "https://www.intercom.com/help/en/articles/2361922-intercom-messenger-cookies",
+                "text3": ". A Intercom possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000TNQvAAO",
+                "text4": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+            }
+        },
+        "PrivacyPolicy4_9": {
+            "sectionHeading": "4.9 Mixpanel",
+            "link_data": {
+                "text1": "Para a análise da utilização do nosso site e da Taxly, utilizamos a Mixpanel, uma solução de análise da Mixpanel Inc., One Front Street, 28th Floor, San Francisco, CA 94111, EUA («Mixpanel»).",
+                "text2": "A Mixpanel recolhe e armazena dados de utilização, relacionados com o acesso e a atividade na página. Para mais informações sobre este assunto, consulte http://mixpanel.com/privacy. Em ",
+                "link1": "http://mixpanel.com/optout/",
+                "text3": "encontrará informações sobre como impedir a recolha e a transmissão de dados de utilização para a Mixpanel, ativando a configuração de não acompanhamento «Do No Track».",
+                "text4": "A Mixpanel possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000TOacAAG",
+                "text5": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+            }
+        },
+        "PrivacyPolicy4_10": {
+            "sectionHeading": "4.10 Botões de redes sociais para Facebook, Twitter e LinkedIn",
+            "link_data": {
+                "text1": "Utilizamos botões de plug-in (os chamados «Social Plug-in Buttons») que permitem que o conteúdo seja partilhado através do facebook.com (operado pela Facebook), do twitter.com (operado pela Twitter Inc., Twitter, Inc. 1355 Market St, Suite 900 , San Francisco, CA 94103, EUA («Twitter»)), bem como do linkedin.com (operado pela LinkedIn Corporation, 2029 Stierlin Court, Mountain View, CA 94043, EUA («LinkedIn»)).",
+                "text2": "Ao clicar no botão de plug-in do Facebook, as informações sobre a utilização (p. ex., o conteúdo recomendado, a data e a hora, o endereço IP, etc.) são transmitidas à Facebook. A Facebook serve-se dessas informações sobre a utilização, de acordo com as suas diretrizes sobre proteção de dados, presentes em ",
+                "link1": "http://www.facebook.com/policy.php",
+                "text3": "Ao utilizar as funções tweet ou re-tweet, os sites visitados são associados à sua conta no Twitter e as informações de utilização são transmitidas à Twitter. Para mais informações, consulte a política de privacidade da Twitter em ",
+                "link2": "http://twitter.com/privacy",
+                "text4": "Ao clicar no botão do LinkedIn, as informações de utilização são transmitidas à LinkedIn. Para mais informações, consulte a política de privacidade da LinkedIn em ",
+                "link3": "https://www.linkedin.com/legal/privacy-policy",
+                "text5": "Todos os três fornecedores possuem certificação (a partir de janeiro de 2020) ao abrigo do Escudo de Proteção da Privacidade CH-US, para que seja garantido um nível adequado de proteção para os dados em causa:",
+                "link4": "",
+                "text6": ""
+            },
+            "list_data": {
+                "data": [{
+                        "text": "Facebook",
+                        "link": "https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC"
+                    },
+                    {
+                        "text": "Twitter",
+                        "link": "https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO"
+                    },
+                    {
+                        "text": "LinkedIn",
+                        "link": "https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0"
+                    }
+                ]
+            }
+        }
+    },
+    "TermsOfService": {
+        "SingleData": {
+            "pageHeading": "Condições de utilização",
+            "lastupdatedDate": "15 Fevereiro 2020",
+            "OneHeadingH2": "O que é a Taxly e para que servem as condições de utilização e a política de privacidade?",
+            "OneHeadingH2POne": "Com a Taxly, poderá preencher rápida e facilmente a sua declaração de IRS, bem como prepará-la para envio. Nos cantões onde é permitido o envio eletrónico, também podemos enviar a sua declaração de IRS diretamente para si. Para que possamos oferecer esses serviços, é necessário estabelecer algumas regras. Essas regras podem ser consultadas nestas condições de utilização. As informações sobre o modo como lidamos com os seus dados podem ser consultadas na nossa política de privacidade.",
+            "OneHeadingH2PTwo": "Sempre que dizemos ‘nós’, referimo-nos à Taxly AG, i.e., a empresa que oferece estes serviços. Sempre que dizemos ‘utilizador’ ou utilizamos a terceira pessoa do singular, referimo-nos a si, enquanto utilizador do nosso site, serviços e regalias. Por ‘Taxly’ entende-se os serviços que lhe oferecemos, após o início de sessão efetuado com sucesso, no âmbito das áreas dos nossos serviços sujeitos a registo. Por ‘site’, entende-se as áreas do nosso site e aplicação, cujo acesso é possível antes do início de sessão, ou cuja utilização é possível sem registo."
+        },
+        "TwoHeadingH2": {
+            "pageHeading": "Resumo dos aspetos mais importantes",
+            "data": [
+                "Ao utilizar a Taxly, o nosso site, a aplicação e os nossos serviços em geral, o utilizador concorda com estas condições de utilização e com a política de privacidade a elas associada. Os serviços com custos são assinalados como tal. Se usufruir desses serviços, deverão ser pagos os preços mencionados.",
+                "Ao efetuar o seu registo, é-nos concedida a autorização para tomar determinadas medidas em seu nome (p.ex., solicitar prorrogação de prazos junto da autoridade tributária, ou enviar a sua declaração de IRS à autoridade competente), sempre que recebamos as instruções apropriadas da sua parte. Para mais informações sobre a procuração, consulte o ponto 3 abaixo.",
+                "Recorde que não fornecemos aconselhamento jurídico ou fiscal. As recomendações e as dicas exibidas na aplicação ou no site são apenas ferramentas não vinculativas, que servem de ajuda para enviar a declaração de IRS. Cabe-lhe a si a responsabilidade pela pontualidade e correção da sua declaração de IRS.",
+                "Ao registar-se connosco, o utilizador confirma que nos fornece a sua idade correta e o verdadeiro local de residência e que possui todas as autorizações necessárias para disponibilização dos dados e dos documentos que nos são fornecidos (p. ex., ao inserir dados ou ao fazer o upload de documentos)."
+            ]
+        },
+        "Terms1": {
+            "sectionHeading": "1. Condições de utilização do site",
+            "data": [
+                "Se utilizar apenas o site (sem iniciar sessão), o utilizador concorda com as respetivas condições de utilização, nos termos do presente ponto 1 (“Condições de utilização do site”), bem como com a política de privacidade associada à sua utilização (ponto 1 da política de privacidade). Quaisquer alterações a estas condições de utilização do site, realizadas pela Taxly AG, são possíveis a qualquer momento e serão publicadas aqui. Aquando da utilização do site, aplicam-se as condições em vigor nesse momento.",
+                "As informações fornecidas no site são apenas para fins informativos, pelo que não assumimos nenhuma responsabilidade ou garantia a esse respeito. De igual modo, não nos responsabilizamos pelo conteúdo de sites de terceiros, que possam ser referidos por links. Na medida em que for permitido, é aplicável a lei suíça.",
+                "Todos os direitos de autor, bem como outros direitos de propriedade, relativos ao conteúdo disponível no site pertencem-nos ou aos respetivos titulares. O conteúdo do site não pode ser copiado, alterado, divulgado ou utilizado para fins comerciais, sem o nosso consentimento prévio e expresso."
+            ]
+        },
+        "Terms2": {
+            "sectionHeading": "2. Condições de utilização da Taxly",
+            "data": [
+                "Ao registar-se na Taxly, o utilizador concorda expressamente com estas condições de utilização (“Condições de utilização”) e com a política de privacidade a elas associada.",
+                "Quaisquer alterações a estas condições de utilização, realizadas pela Taxly AG, são possíveis a qualquer momento e serão publicadas aqui. Além disso, tais alterações serão comunicadas aos utilizadores registados, através do endereço de e-mail fornecido. As alterações são consideradas aceites, se o utilizador iniciar sessão e/ou utilizar a Taxly após a notificação das alterações e, em qualquer caso, se tiverem decorrido trinta (30) dias após a notificação. Se não pretender aceitar as alterações, o utilizador poderá interromper a utilização da Taxly e, mediante notificação, eliminar a sua conta connosco. Os nossos dados de contacto encontram-se no ponto 2.7."
+            ]
+        },
+        "Terms2_1": {
+            "sectionHeading": "2.1 As suas obrigações enquanto utilizador",
+            "data": [
+                "Ao registar-se na Taxly, o utilizador fornece-nos informações corretas e garante que é maior de idade e que possui residência na Suíça. Ao utilizar serviços com custos, o utilizador pagará os preços aplicáveis a cada um desses serviços. O utilizador deverá manter de forma segura e confidencial os dados de login e a respetiva palavra-passe. Ser-lhe-á atribuída qualquer atividade realizada na Taxly com os seus dados de login.",
+                "O utilizador deverá manter ativo o endereço de e-mail fornecido durante o registo, acedendo a ele regularmente. Todas as comunicações enviadas pela Taxly AG para esse endereço de e-mail são consideradas do seu conhecimento. Além disso, o utilizador deverá guardar de forma adequada todos os dados inseridos, bem como todos os documentos transferidos para a Taxly. Não nos é possível garantir a qualquer momento a disponibilidade e a integridade de todos os seus dados e documentos inseridos na Taxly. O risco pela falta de segurança dos dados é suportado por si.",
+                "O utilizador utilizará a Taxly, bem como todos os serviços e informações com ela relacionados, apenas de modo legal e para fins legais, especialmente no que diz respeito aos regulamentos fiscais. Relativamente aos dados inseridos e aos documentos transferidos para a Taxly, o utilizador garante que possui os respetivos direitos e autorizações de eventuais terceiros para inserir ou transferir esses dados e documentos para a Taxly e que nos concede os direitos de tratamento e disposição previstos nestas condições de utilização ou nesta política de privacidade.",
+                "Com o registo, o utilizador concede-nos uma procuração para realizar determinadas ações, conforme descrito no ponto 8, (p. ex., prorrogação de prazos, envio da declaração de IRS, etc.). No entanto, o utilizador permanece totalmente responsável perante as autoridades (p. ex., pelo cumprimento dos prazos, pela correção das informações de natureza fiscal inseridas, etc.); o papel que desempenhamos é apenas a prestação de apoio."
+            ]
+        },
+        "Terms2_2": {
+            "sectionHeading": "2.2 Serviços que prestamos e serviços que não prestamos",
+            "data": [
+                "O serviço por nós prestado consiste no apoio administrativo à preparação e ao envio da sua declaração de IRS, i. e., simplificamos o preenchimento e o envio da sua declaração de IRS. Oferecemos um processo simplificado e informações úteis na nossa base de dados. O conteúdo dos dados por si inseridos permanece inteiramente da sua responsabilidade. Em particular, não oferecemos aconselhamento jurídico ou fiscal, nem verificamos se os dados por si inseridos correspondem à sua situação real. Se necessitar de aconselhamento sobre essas matérias, recomendamos que entre em contacto com um administrador de bens ou um consultor fiscal.",
+                "Analisamos os dados inseridos e, com base nessa análise, propomos informações úteis sobre a sua declaração de IRS e sugerimos possíveis serviços ou produtos adicionais, fornecidos pelos nossos parceiros. Para mais informações sobre essa análise de dados, consulte a nossa política de privacidade, ponto 2.1.",
+                "Recorde que não fornecemos serviços de armazenamento ou arquivo, i.e., o utilizador é responsável pela segurança e arquivo dos dados inseridos e dos documentos transferidos para a Taxly. Não garantimos a disponibilidade permanente desses dados. Poderá, a qualquer momento, guardar a sua declaração de IRS nos seus próprios dispositivos. Ao enviar uma declaração de IRS, receberá automaticamente uma cópia (PDF) por e-mail."
+            ]
+        },
+        "Terms2_3": {
+            "sectionHeading": "2.3 Responsabilidades e restrições",
+            "data": [
+                "Recorde que a responsabilidade perante as autoridades relevantes é inteiramente sua (p. ex., pelo cumprimento dos prazos, pela correção das informações fornecidas, etc.). O papel que desempenhamos é apenas a prestação de apoio. Antes de enviarmos a declaração de IRS em seu nome, deverá verificá-la na íntegra. A declaração de IRS será enviada apenas após a sua confirmação (e, quando muito, após a sua assinatura).",
+                "A responsabilidade pelo arquivo da declaração de IRS enviada é inteiramente sua. Recomendamos que a guarde tanto em PDF como em suporte de papel. Poderá, a qualquer momento, guardar o PDF da sua declaração de IRS nos seus próprios dispositivos. Ao enviar uma declaração de IRS, receberá automaticamente uma cópia (PDF) por e-mail.",
+                "Podemos recorrer a terceiros para fornecer os nossos serviços. Se os seus dados pessoais forem alvo de tratamento por terceiros, isso basear-se-á nos regulamentos da nossa política de privacidade, ponto 2.4.",
+                "Reservamo-nos o direito de, a qualquer momento, recusar utilizadores individuais ou de alterar ou suspender a Taxly, a aplicação, o site ou quaisquer processos e serviços que lhes estejam associados, sem que, para tal, tenhamos de apresentar uma justificação e sem consequências em termos de responsabilidade ou compensação.",
+                "Excluímos toda a responsabilidade da Taxly AG, no âmbito do que é legalmente admissível. Em particular, também rejeitamos qualquer responsabilidade por sites, produtos ou serviços de terceiros, mesmo que estes sejam exibidos, ou o utilizador tenha tomado conhecimento deles, através da Taxly, com base na análise dos dados do utilizador.",
+                "Dependendo de como e em quais dispositivos utiliza a Taxly, podem surgir custos relacionados com a Internet ou a conectividade móvel (p. ex., em caso de roaming), que lhe serão cobrados pelo seu operador móvel."
+            ]
+        },
+        "Terms2_4": {
+            "sectionHeading": "2.4 Direitos de utilização e direitos sobre os dados",
+            "data": [
+                "Todos os direitos de autor, bem como outros direitos de propriedade (p. ex., sobre o site, os componentes da Taxly, etc.), pertencem-nos ou aos nossos licenciantes. O utilizador não detém direitos de autor ou direitos de propriedade, apenas tem o direito de utilização da Taxly, de acordo com os requisitos e restrições previstos nestas condições de utilização. Em particular, o utilizador não está autorizado a desmontar, a realizar engenharia inversa (reverse engineering) ou, de outra forma, a desviar o código fonte da Taxly, do site ou da aplicação.",
+                "Assiste-lhe apenas o direito de utilizar a Taxly para o seu uso pessoal e para os fins a que ela se destina. Em particular, a Taxly não deverá ser utilizada para fins ilícitos ou inadequados, nem para fornecer serviços a terceiros. O utilizador não deve utilizar procedimentos automatizados (como scripts, bots, agentes, etc.) para aceder à Taxly, aos seus dados de utilizador ou a outros dados relacionados com a Taxly, nem para copiar, compilar, transmitir ou utilizar esses dados, nem para monitorizar ou testar a utilização, o acesso ou as configurações de segurança da Taxly.",
+                "Com a sua utilização (incluindo o upload de dados e ficheiros), o utilizador não deve colocar em risco ou sobrecarregar os nossos sistemas. Em caso de violação desta disposição, o utilizador indemnizar-nos-á integralmente e não nos responsabilizará por qualquer dano, incluindo reivindicações de terceiros.",
+                "O seu direito de utilização da Taxly não é exclusivo e pode ser revogado a qualquer momento. Em particular, reservamo-nos o direito de, a qualquer momento, restringir a Taxly ou eliminar a sua conta, sem que, para tal, tenhamos a obrigação de apresentar uma justificação.",
+                "Pertencem-lhe todos os direitos sobre os dados inseridos por si e que lhe possam ser atribuídos. Pertence-nos o direito sobre dados anonimizados, agregados ou, de outro modo, despersonalizados, bem como sobre dados e conhecimentos obtidos através da análise de dados do utilizador. Para mais informações sobre este assunto, consulte a nossa política de privacidade.",
+                "O utilizador concede-nos os direitos necessários para realizar o tratamento, a análise e o processamento dos dados descritos aqui e confirma que possui quaisquer direitos e autorizações de terceiros para nos conceder esses direitos."
+            ]
+        },
+        "Terms2_5": {
+            "sectionHeading": "2.5 Direito de rescisão e eliminação",
+            "data": [
+                "O utilizador pode interromper a utilização da Taxly a qualquer momento, sem obrigação de apresentar justificação ou de cumprir um período de aviso prévio. De igual modo, podemos interromper a prestação dos nossos serviços a qualquer momento, sem obrigação de apresentar justificação ou de cumprir um período de aviso prévio. Isso não inclui os serviços que já tenham sido iniciados e pagos. Nesse caso, a sua realização não será interrompida.",
+                "Recorde que a Taxly não é um serviço de armazenamento ou arquivo de dados. Após o termo da nossa relação de prestação de serviços, não temos a obrigação de continuar a armazenar, a arquivar ou, de outro modo, a guardar os seus dados. Temos o direito de apagar os seus dados, após o termo da nossa relação de prestação de serviços, sem necessidade de fornecer mais informações. Para mais informações sobre o tratamento de dados, consulte a nossa política de privacidade."
+            ]
+        },
+        "Terms2_6": {
+            "sectionHeading": "2.6 Outros",
+            "data": [
+                "Relativamente à relação contratual entre si, enquanto utilizador, e nós, enquanto fornecedor da Taxly, é aplicável, na medida em que for permitido, apenas a lei suíça e o local de jurisdição Zurique 1.",
+                "Caso uma determinada cláusula nestas condições de utilização seja ou se torne inadmissível ou inexequível, as cláusulas restantes permanecem e a cláusula em causa é substituída por uma cláusula admissível, que se aproxime mais da finalidade e do objetivo da cláusula original."
+            ]
+        },
+        "Terms2_7": {
+            "sectionHeading": "2.7 Contactos",
+            "data": [
+                "Em caso de dúvidas ou outras questões, entre em contacto, a qualquer momento, através de:",
+                "Taxly AG, Stockerstrasse 38, 8002 Zürich"
+            ],
+            "link": "hello@taxly.ch"
+        },
+        "Terms3": {
+            "sectionHeading": "3. Procuração",
+            "data": [
+                "Ao registar-se na Taxly, autoriza-nos, após instrução prévia ou confirmação da sua parte:",
+                "a) a solicitar uma prorrogação do prazo, em seu nome, junto da repartição de finanças relevante;",
+                "b) a enviar a sua declaração de IRS, em seu nome, para a repartição de finanças relevante;",
+                "c) a trocar correspondência, em seu nome, com a repartição de finanças relevante, para efeitos de realização dos serviços mencionados em (a) e (b).",
+                "Antes de realizarmos qualquer uma dessas atividades em seu nome, receberá expressamente uma notificação da nossa parte e uma solicitação de confirmação da sua parte, relativa aos dados a serem transmitidos.",
+                "Esta autorização pode ser revogada a qualquer momento, mediante notificação. Os nossos dados de contacto encontram-se no ponto2.7. Nesse caso, o utilizador reconhece que deixaremos de poder prestar os serviços oferecidos pela Taxly (ou de os prestar na íntegra)."
             ]
         }
     }

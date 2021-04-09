@@ -111,6 +111,8 @@ import aboutFrontOne from "../Images/about_front-1.png";
 import joinFrontOne from "../Images/join_front-1.png";
 import joinBackOne from "../Images/join_back-1.png";
 import TaxlyAboutUs from "../Images/Taxly_About_Us.png";
+import dictionaryFront from "../Images/dictionary_front.png";
+import dictionaryBack from "../Images/dictionary_back.png";
 const images = {
     logowhite: logowhite,
     taxlypartnership: taxlypartnership,
@@ -225,5 +227,7 @@ const images = {
     joinFrontOneBg: joinFrontOne,
     joinBackOneBg: joinBackOne,
     TaxlyAboutUsBg: TaxlyAboutUs,
+    dictionaryFrontBg: dictionaryFront,
+    dictionaryBackBg: dictionaryBack,
 }
 export default images

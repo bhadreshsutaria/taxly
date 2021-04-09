@@ -24,6 +24,7 @@ const CommunityStorySectionData = [{
         cplpFive: 'That it took about the same time it takes to cook some pasta.',
         cplH2Six: 'Would you recommend Taxly to a friend?',
         cplpSix: '100%.',
+        cplpEmoji: false,
     },
     {
         id: "2",
@@ -63,6 +64,7 @@ const CommunityStorySectionData = [{
         cplpFive: 'The price.',
         cplH2Six: 'Would you recommend Taxly to a friend?',
         cplpSix: 'Two of my friends already submitted with Taxly.',
+        cplpEmoji: false,
     },
     {
         id: "4",
@@ -82,6 +84,7 @@ const CommunityStorySectionData = [{
         cplpFive: 'How quick it was and that I can see the official tax return at the end.',
         cplH2Six: 'Would you recommend Taxly to a friend?',
         cplpSix: 'Yes, most defiantly.',
+        cplpEmoji: false,
     },
     {
         id: "5",
@@ -101,6 +104,7 @@ const CommunityStorySectionData = [{
         cplpFive: 'How simple it was to do.',
         cplH2Six: 'Would you recommend Taxly to a friend?',
         cplpSix: 'Yes.',
+        cplpEmoji: false,
     },
 ];
 

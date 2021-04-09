@@ -1,12 +1,13 @@
 import React from "react";
 import Footer from "../../Layout/Footer";
-import Header from "../../Layout/Header"
+import {TaxDictionaryHeroSection, TaxDictionarySection} from "../TaxDictionary/Content"
 export default function TaxDictionary() {
     return (
         <div className="App">
-            <Header/>
-            <strong>This is Tax Dictionary</strong>
-
+            <TaxDictionaryHeroSection/>
+            <main class="page-content">
+                <TaxDictionarySection/>
+            </main>
             <Footer/>
         </div>
     )

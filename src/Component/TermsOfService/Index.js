@@ -1,12 +1,14 @@
 import React from "react";
+import Faqheader from "../../Layout/Faqheader";
 import Footer from "../../Layout/Footer";
-import Header from "../../Layout/Header"
-export default function TermsOfService() {
+import {TermsOfService} from "../TermsOfService/Content"
+export default function Terms() {
     return (
         <div className="App">
-            <Header/>
-            <strong>This is Term Of Services</strong>
-
+            <Faqheader/>
+            <main className="page-content taxly-white taxly-default">
+                <TermsOfService/>
+            </main>
             <Footer/>
         </div>
     )
