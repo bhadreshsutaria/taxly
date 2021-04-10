@@ -4,7 +4,10 @@ import MobileMenu from "../../Layout/MobileMenu";
 import Navbar from "../../Layout/Navbar";
 import { Modal} from 'react-bootstrap';
 import {TopBottomLeftRight} from "../Modal/Modal";
-import { useTranslation } from "react-i18next";
+import { useTranslation, withTranslation  } from "react-i18next";
+
+
+
 const TaxDictionaryHeroSection = () => {
     const { t } = useTranslation();
     return(
@@ -34,14 +37,14 @@ const TaxDictionaryHeroSection = () => {
         </div> 
     );
 };
-
-export class TaxDictionarySectionModal extends Component {
+class TaxDictionarySectionModal extends Component {
     constructor(props, context) {
         super(props, context);
         this.handleShow = this.handleShow.bind(this);
         this.handleClose = this.handleClose.bind(this);
         this.state = {
-            show: null
+            show: null,
+            data: []
         };
     }
     handleClose() {
@@ -53,79 +56,109 @@ export class TaxDictionarySectionModal extends Component {
     render() {
         return(
             <>
+            <li> 
             <a href="#" onClick={() => this.handleShow(this.props.id)}>{this.props.popupText}</a>
-            <Modal className="modal community-modal is-visible" show={this.state.show === this.props.id} onHide={this.handleClose}>
+            <Modal className="modal title-description-modal is-visible" show={this.state.show === this.props.id} onHide={this.handleClose}>
                 <div className="modal__overlay"></div>
                 <div className="modal__content taxly-box">
                     <TopBottomLeftRight/>
                     <div className="box-content">
-                    <Modal.Header className="modal__close" closeButton closeLabel="close"></Modal.Header>
+                        <Modal.Header className="modal__close" closeButton closeLabel="close"></Modal.Header>
                         <div className="modal__body">
-                            <h2 class="title">{this.props.modalTitle}</h2>
-                            <div class="description list-items-style">
-                                <p>{this.props.modalDesc}</p>
+                            <h2 className="title">{this.props.popupText}</h2>
+                            <div className="description list-items-style">
+                                <p>{this.props.tdModalList}</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </Modal>
+            </li>
             </>
         );
     }
 }
 
-export class TaxDictionarySection extends Component {
-    render() {
-        return(
-            <section className="site-section">
-                <div className="l-container">
-                    <div className="tax-dictionary popup-title-description">
-                        <div className="columns-3 taxly-boxes taxly-boxes-square">
-                            <div className="columns-3-item taxly-box taxly-box-white">
-                                <div className="box-top-left box-image"></div>
-                                <div className="box-top-right box-image"></div>
-                                <div className="box-bottom-left box-image"></div>
-                                <div className="box-bottom-right box-image"></div>
-                                <div className="box-content list-items-style">
-                                    <h3 className="box-heading">A</h3>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Arrival (in Switzerland)</a>
-                                            <div className="popup-content">
-                                                <p>In case of arrival in Switzerland, only the income you received starting at the moment you moved to Switzerland will be taxable.</p>
+
+
+const TaxDictionarySection = () => {
+    const { t } = useTranslation();
+    const [show, setShow] = React.useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    let taxdictionaryData =  t('taxdictionary.taxdictionaryData.tdData', { returnObjects: true });
+    return(
+        <section className="site-section">
+            <div className="l-container">
+                <div className="tax-dictionary popup-title-description">
+                    <div className="columns-3 taxly-boxes taxly-boxes-square">
+                        {taxdictionaryData.map((val,ind) =>
+                        <div key={ind} className="columns-3-item taxly-box taxly-box-white">
+                            <div className="box-top-left box-image"></div>
+                            <div className="box-top-right box-image"></div>
+                            <div className="box-bottom-left box-image"></div>
+                            <div className="box-bottom-right box-image"></div>
+                            <div className="box-content list-items-style">
+                                <h3 className="box-heading">{val.boxHeading}</h3>
+                                <ul>
+                                    <li>
+                                    <a href="#" onClick={handleShow}>{val.tdMTitle}</a>
+                                    <Modal className="modal title-description-modal is-visible" show={show} onHide={handleClose}>
+                                        <div className="modal__overlay"></div>
+                                        <div className="modal__content taxly-box">
+                                            <TopBottomLeftRight/>
+                                            <div className="box-content">
+                                                <Modal.Header className="modal__close" closeButton closeLabel="close"></Modal.Header>
+                                                <div className="modal__body">
+                                                    <h2 className="title">{val.tdMTitle}</h2>
+                                                    <div className="description list-items-style">
+                                                        <p>{val.tdModalList}</p>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="columns-3-item taxly-box taxly-box-white">
-                                <div className="box-top-left box-image"></div>
-                                <div className="box-top-right box-image"></div>
-                                <div className="box-bottom-left box-image"></div>
-                                <div className="box-bottom-right box-image"></div>
-                                <div className="box-content list-items-style">
-                                    <h3 className="box-heading">B</h3>
-                                    <ul>
-                                        <li><a href="#">Benefit in kind</a>
-                                            <div className="popup-content">
-                                                <p>Non-cash benefits received, often from employment such as a business vehicle.</p>
-                                            </div>
-                                        </li>
-                                        <li><a href="#">Business vehicle</a>
-                                            <div className="popup-content">
-                                                <p>A business vehicle is a vehicle owned by an employer, which is available to the employee to drive from home to work, but also potentially privately.</p>
-                                                <p>If an employee has a business vehicle at his disposal, part of that benefit in kind will be added to its wage statement and therefore be taxable.</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
+                                        </div>
+                                    </Modal>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                        )}
+                        {/* {taxdictionaryData.map((val,ind) =>
+                        <div key={ind} className="columns-3-item taxly-box taxly-box-white">
+                            <div className="box-top-left box-image"></div>
+                            <div className="box-top-right box-image"></div>
+                            <div className="box-bottom-left box-image"></div>
+                            <div className="box-bottom-right box-image"></div>
+                            <div className="box-content list-items-style">
+                                <h3 className="box-heading">{val.boxHeading}</h3>
+                                <ul>
+                                    <li>
+                                    <a href="#" onClick={handleShow}>{val.tdMTitle}</a>
+                                    <Modal className="modal title-description-modal is-visible" show={show} onHide={handleClose}>
+                                        <div className="modal__overlay"></div>
+                                        <div className="modal__content taxly-box">
+                                            <TopBottomLeftRight/>
+                                            <div className="box-content">
+                                            <Modal.Header className="modal__close" closeButton closeLabel="close"></Modal.Header>
+                                                <div className="modal__body">
+                                                    <h2 className="title">{val.tdMTitle}</h2>
+                                                    <div className="description list-items-style">
+                                                        <p>{val.tdModalList}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Modal>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        )} */}
                     </div>
                 </div>
-            </section>
-        );
-    }
+            </div>
+        </section>
+    );
 };
-export default TaxDictionarySection;
-export{TaxDictionaryHeroSection};
+export default withTranslation()(TaxDictionarySectionModal);
+export{TaxDictionaryHeroSection, TaxDictionarySection};

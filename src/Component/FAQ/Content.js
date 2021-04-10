@@ -41,24 +41,24 @@ const FaqContent = () =>{
                                 <p>{t('faq.SingalData.actiOneP2Text')}</p>
                                 <p>{t('faq.SingalData.actiOneP3Text')}</p>
                                 <h3 className="site-section-line">{t('faq.SingalData.sslOneH32Heading')}</h3>
-                                <p>{t('faq.SingalData.actiOneP4Text')}</p>
-                                <p>{t('faq.SingalData.actiOneP5Text')}</p>
-                                <p>{t('faq.SingalData.actiOneP6Text')}</p>
-                                <p>{t('faq.SingalData.actiOneP7Text')}</p>
+                                {t('faq.SingalData.actiOneP4Text') === '' ? '' : <p>{t('faq.SingalData.actiOneP4Text')}</p>}
+                                {t('faq.SingalData.actiOneP5Text') === '' ? '' : <p>{t('faq.SingalData.actiOneP5Text')}</p>}
+                                {t('faq.SingalData.actiOneP6Text') === '' ? '' : <p>{t('faq.SingalData.actiOneP6Text')}</p>}
+                                {t('faq.SingalData.actiOneP7Text') === '' ? '' : <p>{t('faq.SingalData.actiOneP7Text')}</p>}
                                 <h3 className="site-section-line">{t('faq.SingalData.sslOneH33Heading')}</h3>
                                 <p>{t('faq.SingalData.actiOneP8Text')}</p>
                                 <h3 className="site-section-line">{t('faq.SingalData.sslOneH34Heading')}</h3>
                                 <p>{t('faq.SingalData.actiOneP9Text')}</p>
                                 <h3 className="site-section-line">{t('faq.SingalData.sslOneH35Heading')}</h3>
-                                <p>{t('faq.SingalData.actiOneP10Text')}</p>
-                                <p>{t('faq.SingalData.actiOneP11Text')}</p>
+                                {t('faq.SingalData.actiOneP10Text') === '' ? '' : <p>{t('faq.SingalData.actiOneP10Text')}</p>}
+                                {t('faq.SingalData.actiOneP11Text') === '' ? '' : <p>{t('faq.SingalData.actiOneP11Text')}</p>}
                                 <h3 className="site-section-line">{t('faq.SingalData.sslOneH36Heading')}</h3>
                                 <p>{t('faq.SingalData.actiOneP12Text')}</p>
                                 <h3 className="site-section-line">{t('faq.SingalData.sslOneH37Heading')}</h3>
                                 <p>{t('faq.SingalData.actiOneP13Text')}</p>
                             </div>
                             <div className="about-content-tab-item list-items-style">
-                                <h2 className="page-heading">{t('faq.SingalData.headingTitleOne')}</h2>
+                                <h2 className="page-heading">{t('faq.SingalData.headingTitleTwo')}</h2>
                                 <p>{t('faq.SingalData.actiTwoP1Text')}</p>
                                 <p>{t('faq.SingalData.actiTwoP2Text')}</p>
                                 <p>{t('faq.SingalData.actiTwoP3Text')}</p>
@@ -103,6 +103,7 @@ const FaqContent = () =>{
                             <div className="about-content-tab-item list-items-style">
                                 <h2 className="page-heading">{t('faq.SingalData.headingTitleSix')}</h2>
                                 <p>{t('faq.SingalData.actiSixP1Text')}</p>
+                                {t('faq.SingalData.actiSixP1TextExtra') === '' ? '' : <p>{t('faq.SingalData.actiSixP1TextExtra')}</p>}
                                 <p>{t('faq.SingalData.actiSixP2Text')}</p>
                                 <p>{t('faq.SingalData.actiSixP3Text')}</p>
                                 <h3 className="site-section-line">{t('faq.SingalData.sslSixH32Heading')}</h3>

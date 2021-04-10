@@ -324,6 +324,7 @@
             "actiFiveP4ExtraText": "",
             "headingTitleSix": "What is it about?",
             "actiSixP1Text": "We strongly believe that Climate Change is the most pressing issue of our time. In its current form, industry grows at the expense of the planet. For us and our community, there is a real desire to be able to engage in actions for the environment, even as a start up and for profit-business.",
+            "actiSixP1TextExtra": "",
             "actiSixP2Text": "We are a young company. Alone, we might not make a large impact. But could it be as simple as just asking other startups to join us? We think it might. There are many startups already doing incredible things to give back. Bigger and better than we might hope to right now.",
             "actiSixP3Text": "This is not about positioning ourselves above, or shaming those who don’t participate, but is intended to be a positive and encouraging call to action for those who agree that we could be doing better.",
             "sslSixH32Heading": "How does it work?",
@@ -889,13 +890,33 @@
             "tdHeroSubHeading": "Ever wondered what those strange and bizarre tax jargon sayings actually mean? Well, we kinda figured it out!",
             "tdHeroBtnText": "Get started"
         },
-        "taxdictionaryA": {
-            "boxHeading": "A",
-            "tdModal": {
-                "tdModal": [{
-                    "tdModalText": "Arrival (in Switzerland)"
-                }]
-            }
+        "taxdictionaryData": {
+            "tdData": [{
+                    "boxHeading": "A",
+                    "tdMTitle": ["Arrival (in Switzerland)"],
+                    "tdModalList": [
+                        "In case of arrival in Switzerland, only the income you received starting at the moment you moved to Switzerland will be taxable."
+                    ]
+                },
+                {
+                    "boxHeading": "B",
+                    "tdMTitle": ["Benefit in kind", "Business vehicle"],
+                    "tdModalList": [
+                        "Non-cash benefits received, often from employment such as a business vehicle.",
+                        "A business vehicle is a vehicle owned by an employer, which is available to the employee to drive from home to work, but also potentially privately.",
+                        "If an employee has a business vehicle at his disposal, part of that benefit in kind will be added to its wage statement and therefore be taxable."
+                    ]
+                },
+                {
+                    "boxHeading": "C",
+                    "tdMTitle": ["Benefit in kind", "Business vehicle", "Business vehicle"],
+                    "tdModalList": [
+                        "Non-cash benefits received, often from employment such as a business vehicle.",
+                        "A business vehicle is a vehicle owned by an employer, which is available to the employee to drive from home to work, but also potentially privately.",
+                        "If an employee has a business vehicle at his disposal, part of that benefit in kind will be added to its wage statement and therefore be taxable."
+                    ]
+                }
+            ]
         }
     },
     "careers": {
