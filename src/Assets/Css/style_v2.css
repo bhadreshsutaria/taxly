@@ -1462,3 +1462,28 @@ img.emoji {
     background: none !important;
     padding: 0 !important;
 }
+
+.language-switcher .css-yk16xz-control {
+    background-color: #1c335b;
+    border: 0;
+}
+
+.language-switcher .css-1okebmr-indicatorSeparator {
+    width: 0;
+    padding: 0;
+}
+
+.language-switcher .css-tj5bde-Svg {
+    opacity: 0;
+}
+
+.language-switcher .css-1uccc91-singleValue {
+    color: #FFF;
+    font-size: 14px;
+}
+
+.language-switcher .css-tlfecz-indicatorContainer {
+    background-image: url('../../Images/arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}

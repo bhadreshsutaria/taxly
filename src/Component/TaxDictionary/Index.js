@@ -5,7 +5,7 @@ export default function TaxDictionary() {
     return (
         <div className="App">
             <TaxDictionaryHeroSection/>
-            <main class="page-content">
+            <main className="page-content">
                 <TaxDictionarySection/>
             </main>
             <Footer/>
