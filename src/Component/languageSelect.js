@@ -8,7 +8,7 @@ const LanguageSelect = () => {
     const currentLanguageObj = JSON.parse(localStorage.getItem('LanguageObj')) ? JSON.parse(localStorage.getItem('LanguageObj')) : localStorage.setItem('LanguageObj', JSON.stringify({ "name": "English", "code": "en" }))
     const [currentI18nLanguage, setCurrentI18nLanguage] = useState(currentLanguageObj)
 
-    console.log(localStorage.getItem('LanguageObj'));
+    //console.log(localStorage.getItem('LanguageObj'));
     const languageOptions = [{
             "name": "English",
             "code": "en"

@@ -1214,7 +1214,7 @@ main .btn--white:hover {
     margin-bottom: 2.4rem;
 }
 
-.modal__close .close {
+.modal__close {
     position: absolute;
     top: 38px;
     right: 38px;
@@ -1229,7 +1229,7 @@ main .btn--white:hover {
     background-color: transparent;
 }
 
-.taxly-dark .modal__close .close {
+.taxly-dark .modal__close {
     background-image: url(../../Images/form_close_dark.svg);
 }
 

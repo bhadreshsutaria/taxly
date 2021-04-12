@@ -36,7 +36,6 @@ function App() {
           <Route exact path="/privacy" component={Privacy} />
           <Route exact path="/terms-of-service" component={TermsOfService} />
           <Route exact path="/contact-us" component={ContactUs} />
-
         </Switch>
       </Router>
     // <div className="App">

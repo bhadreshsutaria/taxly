@@ -234,26 +234,32 @@
     "faq": {
         "FaqTabData": {
             "data": [{
+                    "tabId": "about_us",
                     "extraClass": "selected",
                     "tabName": "About Us"
                 },
                 {
+                    "tabId": "how_it_works",
                     "extraClass": "",
                     "tabName": "How it works"
                 },
                 {
+                    "tabId": "tax_stuff",
                     "extraClass": "",
                     "tabName": "Tax stuff"
                 },
                 {
+                    "tabId": "documents",
                     "extraClass": "",
                     "tabName": "Documents"
                 },
                 {
+                    "tabId": "data_protection",
                     "extraClass": "",
                     "tabName": "Data protection"
                 },
                 {
+                    "tabId": "charity_social_impact",
                     "extraClass": "",
                     "tabName": "Charity/Social impact"
                 }
@@ -279,6 +285,7 @@
             "actiOneP11Text": "We believe these are important values and have therefore deliberately chosen to be a B-Corp.",
             "sslOneH36Heading": "Where is taxly based?",
             "actiOneP12Text": "Taxly AG is located in Zurich, one of the financial capitals of the world. We are registered at the Zurich commercial registry, registrations number CHE-253.409.943, Stockerstrasse 38, 8002 Zurich, Switzerland.",
+            "actiOneP14Text": "",
             "sslOneH37Heading": "Who is behind taxly?",
             "actiOneP13Text": "Taxly has been built by a mix of Certified Swiss Tax Experts and seasoned technology entrepreneurs.",
             "headingTitleTwo": "How does it work?",
@@ -289,6 +296,7 @@
             "actiTwoP4Text": "This depends on your individual circumstance. We try and offer our services at very attractive rates.",
             "sslTwoH32Heading": "What if in the end I see a mistake in my tax return?",
             "actiTwoP5Text": "That’s no problem, simply log into your dashboard and click on the EDIT link on your completed tax return, make the adjustment and we can re-issue you a new version.",
+            "actiTwoP6Text": "",
             "headingTitleThree": "Which tax years are covered by taxly?",
             "actiThreeP1Text": "Taxly offers to file for the 2019 tax year and onwards.",
             "sslThreeH31Heading": "Which tax cases are not covered by taxly?",
@@ -324,13 +332,14 @@
             "actiFiveP4ExtraText": "",
             "headingTitleSix": "What is it about?",
             "actiSixP1Text": "We strongly believe that Climate Change is the most pressing issue of our time. In its current form, industry grows at the expense of the planet. For us and our community, there is a real desire to be able to engage in actions for the environment, even as a start up and for profit-business.",
-            "actiSixP1TextExtra": "",
             "actiSixP2Text": "We are a young company. Alone, we might not make a large impact. But could it be as simple as just asking other startups to join us? We think it might. There are many startups already doing incredible things to give back. Bigger and better than we might hope to right now.",
             "actiSixP3Text": "This is not about positioning ourselves above, or shaming those who don’t participate, but is intended to be a positive and encouraging call to action for those who agree that we could be doing better.",
+            "actiSixP44Text": "",
             "sslSixH32Heading": "How does it work?",
             "actiSixP4Text": "We will be supporting a charity focused on climate change / environmental impact. For every donation made by our customers, we will match it.",
             "actiSixP5Text": "We will be campaigning on social, onsite and in the press. Spreading the word about our customers and those start-ups who join the movement.",
-            "actiSixP6Text": "We hope that this may be the first of many collaborations between customers and corporations to come and make a change for the better."
+            "actiSixP6Text": "We hope that this may be the first of many collaborations between customers and corporations to come and make a change for the better.",
+            "actiSixP7Text": ""
         }
     },
     "howitworks": {
@@ -560,7 +569,7 @@
                     "img": "../assets/Images/scan-like-a-wind.png",
                     "alt": "scan-like-a-wind",
                     "title": "Scan Like The Wind",
-                    "desc": "Digitize paper documents via your smartphone. Single or multi-page document scans with OCR high image processing for maximum readability \n Automatic assignment to your tax return. End-to-end encryption."
+                    "desc": "Digitize paper documents via your smartphone. Single or multi-page document scans with OCR high image processing for maximum readability. \n Automatic assignment to your tax return. End-to-end encryption."
                 }
             ]
         },
@@ -673,17 +682,20 @@
     "charity": {
         "SingalData": {
             "chsHeading": "Making a change",
-            "chsDescription": "For us and our community, there is a real desire to be able to engage in actions for the environment, even as a start-up and for-profit business",
+            "chsDescription1": "For us and our community, there is a real desire to be able to engage in actions for the environment, even as a start-up and for-profit business",
+            "chsDescription2": "",
             "chsBtn": "Get started",
             "cwwuHeading": "Who’s with us?",
             "cwwuSubHeading1": "We are a young company. Alone, we might not make a large impact. But could it be as simple as just asking other start-ups to join us? We think it just might.",
             "cwwuSubHeading2": "There are many start-ups out there already doing incredible things to give back. This is not about positioning ourselves above, or shaming those who don’t participate, but is intended to be positive and an encouraging call to action for those who agree that we could and should be doing better.",
+            "socialwhogloBeen": "../assets/Images/social_who_globe-en.png",
             "copHeading": "Our plan",
             "copdescription1": "We are supporting",
             "myclimate": "myclimate.org",
             "copdescription2": "a Swiss charity focused on climate change, and we will match every donation made by our customers.",
             "cbcHeading": "B-Corp",
             "cbcSubHeading": "Taxly AG has applied for a B-Corp pending certificate. Serious social impact is part of our legal mission and business model – Not just marketing fluff.",
+            "socialimpactBcorpcertified": "../assets/Images/social_bcorp_certified-en.png",
             "cbcLearnMore": "Learn more",
             "cjtmHeading": "Join the movement",
             "cjtmSubHeading": "People are already supporting us in this effort and care deeply about it. And as our community grows, our social impact can become much much bigger.",
@@ -712,6 +724,7 @@
             "taxSoftSubHeading": "We have built the most advanced professional tax software in Switzerland. It seamlessly connects you to your clients to quickly and efficiently prepare and process tax returns.",
             "taxHIWHeading": "How it works",
             "taxHIWSubHeading": "Our cutting edge technology makes onboarding, information collection and management, a time-saving and positive experience for you and your clients.",
+            "TaxOurPriceHeading": "Our prices",
             "taxCuriousHeading": "Are you curious?",
             "taxCuriousSubHeading": "Join those who are already taking advantage"
         },
@@ -1173,13 +1186,13 @@
                 "link1": "http://tools.google.com/dlpage/gaoptout?hl= de",
                 "text3": "Further information on Google Analytics can be found in the Google Analytics terms of use ",
                 "link2": "https://marketingplatform.google.com/about/analytics/terms/de/",
-                "text4": " in the security and data protection principles of Google Analytics (",
+                "text4": " in the security and data protection principles of Google Analytics ",
                 "link3": "https://support.google.com/analytics/answer/6004245?hl=de",
-                "text5": ") and in the Google privacy policy (",
+                "text5": " and in the Google privacy policy ",
                 "link4": "https://policies.google.com/privacy?hl=de&gl=de",
-                "text6": "Google is certified (as of January 2020) under the CH-US Privacy Shield (",
+                "text6": "Google is certified (as of January 2020) under the CH-US Privacy Shield ",
                 "link5": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
-                "text7": "), such that an appropriate level of data protection is ensured for the relevant data."
+                "text7": " such that an appropriate level of data protection is ensured for the relevant data."
             }
         },
         "PrivacyPolicy4_6": {
@@ -1187,9 +1200,9 @@
             "link_data": {
                 "text1": "We use the tracking and quality assurance service “Firebase” or “Firebase Crashlytics” from Google (“Firebase/Crashlytics”). Firebase/Crashlytics uses tracking technologies that enable an analysis of the app usage, e.g. for performance monitoring, for error logs and for analysing user behaviour in order to improve our offer based on this. In addition, data is collected regarding system crashes and errors, in particular information about the device, the app version and other information helpful in error analysis (such as software and hardware information). Further information can be found under",
                 "link1": "https://www.firebase.com/terms/privacy-policy.html",
-                "text2": "Google is certified (as of January 2020) under the CH-US Privacy Shield (",
+                "text2": "Google is certified (as of January 2020) under the CH-US Privacy Shield ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
-                "text3": "), such that an appropriate level of data protection is ensured for the relevant data."
+                "text3": " such that an appropriate level of data protection is ensured for the relevant data."
             }
         },
         "PrivacyPolicy4_7": {
@@ -1197,9 +1210,9 @@
             "link_data": {
                 "text1": "We use Google Places API from Google to make location-based searches easier. The data that is collected through a search with the support of the Google Places API is subject to Google’s terms of use and privacy policy",
                 "link1": "https://www.google.com/policies/privacy/?hl=de",
-                "text2": "Google is certified (as of January 2020) under the CH-US Privacy Shield (",
+                "text2": "Google is certified (as of January 2020) under the CH-US Privacy Shield ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
-                "text3": "), such that an appropriate level of data protection is ensured for the relevant data."
+                "text3": " such that an appropriate level of data protection is ensured for the relevant data."
             }
         },
         "PrivacyPolicy4_8": {
@@ -1208,9 +1221,9 @@
                 "text1": "We use Intercom Messenger to communicate with you; it is a communication solution from Intercom, Inc., 55 2nd Street, 4th Floor, San Francisco, CA 94105, USA (“Intercom”).",
                 "text2": "Intercom uses cookies for your identification and for session management. You can find more information here: ",
                 "link1": "https://www.intercom.com/help/en/articles/2361922-intercom-messenger-cookies",
-                "text3": ". Intercom is certified (as of January 2020) under the CH-US Privacy Shield (",
+                "text3": ". Intercom is certified (as of January 2020) under the CH-US Privacy Shield ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000TNQvAAO",
-                "text4": "), such that an appropriate level of data protection is ensured for the relevant data."
+                "text4": " such that an appropriate level of data protection is ensured for the relevant data."
             }
         },
         "PrivacyPolicy4_9": {
@@ -1220,9 +1233,9 @@
                 "text2": "Mixpanel collects and stores usage data regarding page views and page activity. More information can be found under http://mixpanel.com/privacy. You will also find information at ",
                 "link1": "http://mixpanel.com/optout/",
                 "text3": "on how you can prevent the collection and transmission of usage data to Mixpanel by activating the “Do-No-Track” setting.",
-                "text4": "Mixpanel is certified (as of January 2020) under the CH-US Privacy Shield (",
+                "text4": "Mixpanel is certified (as of January 2020) under the CH-US Privacy Shield ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000TOacAAG",
-                "text5": "), such that an appropriate level of data protection is ensured for the relevant data."
+                "text5": " such that an appropriate level of data protection is ensured for the relevant data."
             }
         },
         "PrivacyPolicy4_10": {
@@ -1235,7 +1248,9 @@
                 "link2": "http://twitter.com/privacy",
                 "text4": "When the LinkedIn button is clicked, usage information is transmitted to LinkedIn. Further information can be found in LinkedIn’s privacy policy under ",
                 "link3": "https://www.linkedin.com/legal/privacy-policy",
-                "text5": "All three providers are certified (as of January 2020) under the CH-US Privacy Shield, such that an appropriate level of data protection is ensured for the relevant data:"
+                "text5": "All three providers are certified (as of January 2020) under the CH-US Privacy Shield, such that an appropriate level of data protection is ensured for the relevant data:",
+                "link4": "",
+                "text6": ""
             },
             "list_data": {
                 "data": [{

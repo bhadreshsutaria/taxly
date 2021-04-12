@@ -141,7 +141,7 @@ const TaxOurPrice = () => {
     return(
         <section class="site-section no-subtitle">
 			<div class="l-container">
-				<h2 class="site-section__heading">Our prices</h2>
+				<h2 class="site-section__heading">{t('taxaccount.SingleData.TaxOurPriceHeading')}</h2>
 				<div class="prices-module">
 					<div class="columns-3 taxly-boxes taxly-boxes-square">
                         {TaxOurPriceData.map((val,ind)=>

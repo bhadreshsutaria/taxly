@@ -5,9 +5,11 @@ export default function App() {
     return (
         <div className="App">
             <HeroApp />
-            <AppHowItWork />
-            <SiteSection />
-            <ComingSoonCard />
+            <main class="page-content">
+                <AppHowItWork />
+                <SiteSection />
+                <ComingSoonCard />
+            </main>
             <Footer/>
         </div>
     )

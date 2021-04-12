@@ -46,9 +46,6 @@ const DarkModal = () => {
         <>
         <div className="modal__body">
             <div className="text-center">
-                <div className="screen-reader-response">
-                    <p role="status" aria-live="polite" aria-atomic="true"></p>
-                </div>
                 <form className="init">
                     <h2>Let's get started</h2>
                     <p>Give us your details and we'll get right back to you</p>
@@ -77,10 +74,6 @@ const DarkModalApi = () => {
         <>
             <div className="modal__body">
                 <div className="text-center">
-                    <div className="screen-reader-response">
-                        <p role="status" aria-live="polite" aria-atomic="true"></p>
-                        <ul></ul>
-                    </div>
                     <form className="init">
                         <h2>Let's get you started using our API!</h2>
                         <p>Apply for early access and we'll get back to you.</p>
