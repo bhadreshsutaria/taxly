@@ -279,6 +279,7 @@
             "actiOneP11Text": "Acreditamos que esses são valores importantes e, por isso, optámos deliberadamente por ser uma empresa B.",
             "sslOneH36Heading": "Onde é a sede da taxly?",
             "actiOneP12Text": "A taxly AG situa-se em Zurique, uma das capitais financeiras do mundo. Estamos registados no registo comercial de Zurique, com o número de registo CHE-253.409.943, Stockerstrasse 38, 8002 Zurique, Suíça.",
+            "actiOneP14Text": "",
             "sslOneH37Heading": "Quem está por detrás da taxly?",
             "actiOneP13Text": "A taxly foi criada por vários especialistas suíços, certificados em matéria fiscal e empresários experientes no domínio da tecnologia.",
             "headingTitleTwo": "Como funciona?",
@@ -289,6 +290,7 @@
             "actiTwoP4Text": "Isso depende de sua situação individual. Tentamos oferecer nossos serviços a preços muito atrativos.",
             "sslTwoH32Heading": "E se, no fim, eu encontrar um erro na minha declaração de IRS?",
             "actiTwoP5Text": "Não há problema. Basta fazer login no painel, clicar no link EDITAR na declaração de IRS concluída e fazer a correção. Por fim, receberá uma nova versão emitida por nós.",
+            "actiTwoP6Text": "",
             "headingTitleThree": "Quais são os anos fiscais abrangidos pela taxly?",
             "actiThreeP1Text": "A taxly oferece a possibilidade de fazer declarações de IRS para o ano fiscal de 2019 e seguintes.",
             "sslThreeH31Heading": "Quais são os casos fiscais não abrangidos pela taxly?",
@@ -324,13 +326,14 @@
             "actiFiveP4ExtraText": " sobre proteção de dados e privacidade.",
             "headingTitleSix": "O que é isso?",
             "actiSixP1Text": "Estamos profundamente convencidos de que as alterações climáticas são a questão mais premente do nosso tempo. Na sua forma atual, a indústria cresce às custas do planeta.",
-            "actiSixP1TextExtra": "Para nós e para a nossa comunidade, existe uma aspiração real de ser capaz de desenvolver ações em prol do ambiente, mesmo sendo uma startup com fins lucrativos.",
-            "actiSixP2Text": "Somos uma empresa jovem. Sozinhos, podemos não causar um grande impacto. Mas poderá ser simplesmente uma questão de pedir a outras startups que se juntem a nós? Talvez seja necessário só isso. Já existem muitas startups a fazer coisas incríveis no sentido da reposição. A uma escala maior e melhor do que poderíamos esperar, neste momento.",
-            "actiSixP3Text": "Não se trata aqui de nos posicionarmos num patamar acima, ou de apontar o dedo àqueles que não participam; trata-se antes de um apelo à ação que pretende ser positivo e encorajador, junto daqueles que concordam que poderíamos estar a fazer melhor.",
+            "actiSixP2Text": "Para nós e para a nossa comunidade, existe uma aspiração real de ser capaz de desenvolver ações em prol do ambiente, mesmo sendo uma startup com fins lucrativos.",
+            "actiSixP3Text": "Somos uma empresa jovem. Sozinhos, podemos não causar um grande impacto. Mas poderá ser simplesmente uma questão de pedir a outras startups que se juntem a nós? Talvez seja necessário só isso. Já existem muitas startups a fazer coisas incríveis no sentido da reposição. A uma escala maior e melhor do que poderíamos esperar, neste momento.",
+            "actiSixP44Text": "Não se trata aqui de nos posicionarmos num patamar acima, ou de apontar o dedo àqueles que não participam; trata-se antes de um apelo à ação que pretende ser positivo e encorajador, junto daqueles que concordam que poderíamos estar a fazer melhor.",
             "sslSixH32Heading": "Como funciona?",
             "actiSixP4Text": "Apoiaremos uma instituição de beneficência que centra a sua atenção nas alterações climáticas e no impacto ambiental. Compensaremos cada donativo feito pelos nossos clientes.",
             "actiSixP5Text": "Faremos campanhas nas redes sociais, no site e na imprensa. Queremos dar a conhecer os nossos clientes e as startups que se juntaram ao movimento.",
-            "actiSixP6Text": "Esperamos que esta seja a primeira de muitas colaborações futuras entre clientes e empresas e que isso signifique uma mudança para melhor."
+            "actiSixP6Text": "Esperamos que esta seja a primeira de muitas colaborações futuras entre clientes e empresas e que isso signifique uma mudança para melhor.",
+            "actiSixP7Text": "We hope that this may be the first of many collaborations between customers and corporations to come and make a change for the better."
         }
     },
     "howitworks": {
@@ -351,7 +354,7 @@
                     "fadeBottomClass": "fade-bottom",
                     "fadeBottomRightLeft": true,
                     "fadeBottomItem": true,
-                    "image": "../assets/Images/meet-roger-1-en.png",
+                    "image": "../assets/Images/meet-roger-1-pt.png",
                     "alt": "meet-roger-1-en",
                     "title": "Perguntas simplificadas",
                     "description": "A IA Roger fornece orientação através de perguntas simplificadas, relevantes apenas para a sua situação."
@@ -560,7 +563,7 @@
                     "img": "../assets/Images/scan-like-a-wind.png",
                     "alt": "scan-like-a-wind",
                     "title": "Digitalize como um vento",
-                    "desc": "Roger repensou completamente o processo tributário suíço. Ele conectará os pontos da sua vida, analisará seus dados e otimizará seu retorno em tempo real. \n Assim, você pode enviar seus impostos com um único clique. Só não o chame de cuco."
+                    "desc": "Roger repensou completamente o processo tributário suíço. Ele conectará os pontos da sua vida, analisará seus dados e otimizará seu retorno em tempo real. Assim, você pode enviar seus impostos com um único clique. Só não o chame de cuco."
                 }
             ]
         },
@@ -673,17 +676,20 @@
     "charity": {
         "SingalData": {
             "chsHeading": "Fazer a mudança",
-            "chsDescription": "Estamos profundamente convencidos de que as alterações climáticas são a questão mais premente do nosso tempo. Na sua forma atual, a indústria cresce às custas do planeta. Para nós e para a nossa comunidade, existe uma aspiração real de ser capaz de desenvolver ações em prol do ambiente, mesmo sendo uma startup com fins lucrativos.",
+            "chsDescription1": "Estamos profundamente convencidos de que as alterações climáticas são a questão mais premente do nosso tempo. Na sua forma atual, a indústria cresce às custas do planeta.",
+            "chsDescription2": "Para nós e para a nossa comunidade, existe uma aspiração real de ser capaz de desenvolver ações em prol do ambiente, mesmo sendo uma startup com fins lucrativos.",
             "chsBtn": "Início",
             "cwwuHeading": "Quem se junta a nós?",
             "cwwuSubHeading1": "Somos uma empresa jovem. Sozinhos, podemos não causar um grande impacto. Mas poderá ser simplesmente uma questão de pedir a outras startups que se juntem a nós? Talvez seja necessário só isso.",
             "cwwuSubHeading2": "Já existem muitas startups a fazer coisas incríveis no sentido da reposição. A uma escala maior e melhor do que poderíamos esperar, neste momento. Não se trata aqui de nos posicionarmos num patamar acima, ou de apontar o dedo àqueles que não participam; trata-se antes de um apelo à ação que pretende ser positivo e encorajador, junto daqueles que concordam que poderíamos e deveríamos estar a fazer melhor.",
+            "socialwhogloBeen": "../assets/Images/social_who_globe-pt.png",
             "copHeading": "Como procedemos",
             "copdescription1": "Apoiamos a",
             "myclimate": "myclimate.org",
             "copdescription2": "uma instituição de beneficência suíça que centra a sua atenção nas alterações climáticas, e compensamos todos os donativos feitos pelos nossos clientes",
             "cbcHeading": "Empresa B",
             "cbcSubHeading": "A Taxly AG solicitou um certificado pendente da B-Corp. Um verdadeiro impacto social faz parte da nossa missão legal e do nosso modelo de negócios – não se trata de frivolidades de marketing.",
+            "socialimpactBcorpcertified": "../assets/Images/social_bcorp_certified-pt.png",
             "cbcLearnMore": "Saiba mais",
             "cjtmHeading": "Junte-se ao movimento",
             "cjtmSubHeading": "Milhares de pessoas já apoiam o nosso esforço e preocupam-se profundamente com esta questão. E, à medida que a nossa comunidade cresce, o impacto social pode tornar-se cada vez maior.",
@@ -712,6 +718,7 @@
             "taxSoftSubHeading": "Criámos o programa informático profissional em matéria de tributação mais avançado da Suíça. Este programa estabelece uma ligação perfeita com os seus clientes, para preparar e processar declarações de IRS de modo rápido e eficiente.",
             "taxHIWHeading": "Como funciona",
             "taxHIWSubHeading": "A nossa tecnologia de ponta torna a integração, a recolha e a gestão de informações numa experiência positiva, que lhe permite poupar tempo, a si e aos seus clientes.",
+            "TaxOurPriceHeading": "Os nossos preços",
             "taxCuriousHeading": "Ficou com curiosidade?",
             "taxCuriousSubHeading": "Junte-se aos que já usufruem."
         },
@@ -1138,13 +1145,13 @@
                 "link1": "http://tools.google.com/dlpage/gaoptout?hl= de",
                 "text3": "Para mais informações sobre o Google Analytics, consulte as respetivas condições de utilização ",
                 "link2": "https://marketingplatform.google.com/about/analytics/terms/de/",
-                "text4": " os princípios de segurança e proteção de dados do Google Analytics (",
+                "text4": " os princípios de segurança e proteção de dados do Google Analytics ",
                 "link3": "https://support.google.com/analytics/answer/6004245?hl=de",
-                "text5": ") e a política de privacidade da Google (",
+                "text5": " e a política de privacidade da Google ",
                 "link4": "https://policies.google.com/privacy?hl=de&gl=de",
-                "text6": "A Google possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "text6": "A Google possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US ",
                 "link5": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
-                "text7": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+                "text7": " para que seja garantido um nível adequado de proteção para os dados em causa."
             }
         },
         "PrivacyPolicy4_6": {
@@ -1152,9 +1159,9 @@
             "link_data": {
                 "text1": "Utilizamos o serviço de acompanhamento e controlo de qualidade «Firebase» ou «Firebase Crashlytics» da Google («Firebase/Crashlytics»). O Firebase/Crashlytics serve-se de tecnologias de acompanhamento que permitem uma análise da utilização da aplicação, p. ex., para monitorização do desempenho («performance monitoring»), listagem de erros e análise do comportamento do utilizador, para que, com base nisso, possamos melhorar a nossa oferta. Além disso, são recolhidos dados sobre falhas e erros do sistema, em particular informações sobre o dispositivo e a versão da aplicação, bem como outras informações úteis em termos de análise de erros (p. ex., informações sobre software e hardware). Para mais informações sobre este assunto, consulte",
                 "link1": "https://www.firebase.com/terms/privacy-policy.html",
-                "text2": "A Google possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "text2": "A Google possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
-                "text3": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+                "text3": " para que seja garantido um nível adequado de proteção para os dados em causa."
             }
         },
         "PrivacyPolicy4_7": {
@@ -1162,9 +1169,9 @@
             "link_data": {
                 "text1": "Utilizamos o Google Places API da Google, para facilitar as pesquisas com base na localização. Os dados recolhidos na sequência de uma pesquisa assistida pelo Google Places API estão sujeitos às condições de utilização e à política de privacidade da Google",
                 "link1": "https://www.google.com/policies/privacy/?hl=de",
-                "text2": "A Google possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "text2": "A Google possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
-                "text3": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+                "text3": " para que seja garantido um nível adequado de proteção para os dados em causa."
             }
         },
         "PrivacyPolicy4_8": {
@@ -1173,9 +1180,9 @@
                 "text1": "Utilizamos o Intercom Messenger para estabelecer comunicação consigo, uma solução de comunicação da Intercom, Inc., 55 2nd Street, 4th Floor, São Francisco, CA 94105, EUA («Intercom»).",
                 "text2": "A Intercom serve-se de cookies para a identificação do utilizador e a gestão de sessões. Para mais informações, consulte: ",
                 "link1": "https://www.intercom.com/help/en/articles/2361922-intercom-messenger-cookies",
-                "text3": ". A Intercom possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "text3": ". A Intercom possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000TNQvAAO",
-                "text4": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+                "text4": " para que seja garantido um nível adequado de proteção para os dados em causa."
             }
         },
         "PrivacyPolicy4_9": {
@@ -1185,9 +1192,9 @@
                 "text2": "A Mixpanel recolhe e armazena dados de utilização, relacionados com o acesso e a atividade na página. Para mais informações sobre este assunto, consulte http://mixpanel.com/privacy. Em ",
                 "link1": "http://mixpanel.com/optout/",
                 "text3": "encontrará informações sobre como impedir a recolha e a transmissão de dados de utilização para a Mixpanel, ativando a configuração de não acompanhamento «Do No Track».",
-                "text4": "A Mixpanel possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US (",
+                "text4": "A Mixpanel possui certificação (a partir de janeiro de 2020), ao abrigo do Escudo de Proteção da Privacidade CH-US ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000TOacAAG",
-                "text5": "), para que seja garantido um nível adequado de proteção para os dados em causa."
+                "text5": " para que seja garantido um nível adequado de proteção para os dados em causa."
             }
         },
         "PrivacyPolicy4_10": {
@@ -1323,6 +1330,122 @@
                 "c) a trocar correspondência, em seu nome, com a repartição de finanças relevante, para efeitos de realização dos serviços mencionados em (a) e (b).",
                 "Antes de realizarmos qualquer uma dessas atividades em seu nome, receberá expressamente uma notificação da nossa parte e uma solicitação de confirmação da sua parte, relativa aos dados a serem transmitidos.",
                 "Esta autorização pode ser revogada a qualquer momento, mediante notificação. Os nossos dados de contacto encontram-se no ponto2.7. Nesse caso, o utilizador reconhece que deixaremos de poder prestar os serviços oferecidos pela Taxly (ou de os prestar na íntegra)."
+            ]
+        }
+    },
+    "contactus": {
+        "SingleData": {
+            "pageHeading": "Contate-Nos",
+            "pageSubHeading": "Estamos felizes em responder a quaisquer perguntas que você possa ter, basta enviar uma mensagem por meio do nosso suporte de bate-papo no aplicativo."
+        },
+        "contactBoxData": {
+            "data": [{
+                    "title": "FALE CONOSCO",
+                    "linkTarget": "",
+                    "linkHref": "tel:0435089354",
+                    "link": "0435089354",
+                    "subTitle": "Mon-Fri: 8:30am-5:30pm"
+                },
+                {
+                    "title": "ESCREVA PARA NÓS",
+                    "linkTarget": "",
+                    "linkHref": "mailto:hello@taxly.ch",
+                    "link": "hello@taxly.ch",
+                    "subTitle": ""
+                },
+                {
+                    "title": "DIGA OI",
+                    "linkTarget": "_blank",
+                    "linkHref": "https://goo.gl/maps/B7Ye8MUDL7UcB54r5",
+                    "link": "Stockerstrasse 38, 8002 Zürich, Switzerland",
+                    "subTitle": "Headquater"
+                }
+            ]
+        }
+    },
+    "aboutUs": {
+        "SingleData": {
+            "pageHeading": "Declarar impostos até é fixe",
+            "pageSubHeading": "Para todos aqueles que recusam acomodarem-se ao modo como as coisas são e têm sido. A missão da Taxly é reinventar a experiência aliada à declaração do IRS e causar um impacto positivo na sociedade e no meio ambiente.",
+            "pageBtnText": "Início",
+            "AboutUsOMHeading": "A nossa missão",
+            "AboutUsOMSubHeading": "Reinventar os impostos para capacitar as pessoas, de modo que elas se sintam seguras e otimizadas e adquiram mais conhecimentos, com vista à tomada de melhores decisões financeiras.",
+            "AboutUsMTHeading": "Equipa de gestão",
+            "AboutUsMTSubHeading": "Conheça os responsáveis pela inovação e progresso, ou pelos «abanões» que fazem a empresa avançar",
+            "AboutUsIAAHeading": "Investidores e consultores",
+            "AboutUsIAASubHeading": "We are lucky enough to be supported by some truly amazing people."
+        },
+        "AboutUsOurMissionData": {
+            "data": [{
+                    "image": "../assets/Images/icon-launch.png",
+                    "imgAlt": "icon-launch",
+                    "text": "Lançamento em 2019"
+                },
+                {
+                    "image": "../assets/Images/icon-zurich.png",
+                    "imgAlt": "icon-zurich",
+                    "text": "Sede em Zurique, Suíça"
+                },
+                {
+                    "image": "../assets/Images/icon-employees.png",
+                    "imgAlt": "icon-employees",
+                    "text": "equipa composta por mais de 10 especialistas experientes"
+                },
+                {
+                    "image": "../assets/Images/icon-saving.png",
+                    "imgAlt": "icon-saving",
+                    "text": "mais de 1milhão de CHF captados junto de investidores"
+                }
+            ]
+        },
+        "AboutUsManagementTeamData": {
+            "data": [{
+                    "link": "https://www.linkedin.com/in/dshkershaw/",
+                    "image": "../assets/Images/about-1.jpg",
+                    "imgAlt": "about-1",
+                    "title": "Daniel S. H. Kershaw",
+                    "description": "Fundador e CEO"
+                },
+                {
+                    "link": "https://www.linkedin.com/company/taxlyag",
+                    "image": "../assets/Images/about-6.jpg",
+                    "imgAlt": "about-6",
+                    "title": "Roger",
+                    "description": "The Tax Boxx"
+                }
+            ]
+        },
+        "AboutUsIAAData": {
+            "data": [{
+                    "link": "https://www.linkedin.com/in/sakebosch/",
+                    "title": "Sake Bosch",
+                    "subTitle": "Prime Ventures"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/joao-monteiro-cv/",
+                    "title": "Joao Monteiro",
+                    "subTitle": "Prime Ventures"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/noel-hayden-2621475/",
+                    "title": "Noel Hayden",
+                    "subTitle": "Gamesys Ltd"
+                },
+                {
+                    "link": "https://www.helvetia.com",
+                    "title": "Helvetia Investment Fund",
+                    "subTitle": "Helvetia Insurance"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/georgsobczak/",
+                    "title": "Georg Sobczak",
+                    "subTitle": "Advisor"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/dr-stefan-a-heitmann-73883955/",
+                    "title": "Dr. Stefan A. Heitmann",
+                    "subTitle": "MoneyPark"
+                }
             ]
         }
     }

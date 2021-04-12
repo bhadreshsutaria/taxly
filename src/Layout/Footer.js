@@ -3,6 +3,7 @@ import images from "../Utils/ImageHelper";
 import { useHistory, NavLink } from "react-router-dom";
 import LanguageSelect from "../Component/languageSelect";
 import { useTranslation } from "react-i18next";
+
 export default function Footer() {
     const { t } = useTranslation();
     let history = useHistory();

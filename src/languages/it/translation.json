@@ -275,10 +275,11 @@
             "sslOneH34Heading": "Come possiamo giungere fino a te?",
             "actiOneP9Text": "Puoi metterti in contatto con la nostra equipe semplicemente cliccando su “Assistenza” in basso a destra della pagina. Puoi anche collegarti alla tua taxly Dashboard e cliccare sull’icona della chat. Se stai prendendo in considerazione l’idea di utilizzare taxly, contattaci pure, ne saremmo felici.",
             "sslOneH35Heading": "Cos’è una B-Corp?",
-            "actiOneP10Text": "Le società con certificazione B-Corp si pongono come obiettivo l’equilibrio tra profitto e finalità in campo ambientale e sociale. Esse hanno l’obbligo legale di considerare l’impatto delle loro decisioni sui lavoratori, i clienti, i fornitori, la comunità e l’ambiente.",
-            "actiOneP11Text": "Crediamo che tali valori siano importanti ed è per questo che abbiamo deciso di diventare una B-Corp.",
+            "actiOneP10Text": "Le società con certificazione B-Corp si pongono come obiettivo l’equilibrio tra profitto e finalità in campo ambientale e sociale. Esse hanno l’obbligo legale di considerare l’impatto delle loro decisioni sui lavoratori, i clienti, i fornitori, la comunità e l’ambiente. Crediamo che tali valori siano importanti ed è per questo che abbiamo deciso di diventare una B-Corp.",
+            "actiOneP11Text": "",
             "sslOneH36Heading": "Dove si trova la sede di taxly?",
             "actiOneP12Text": "Taxly AG si trova a Zurigo, una della capitali finanziarie mondiali. La nostra società è iscritta nel registro commerciale delle imprese di Zurigo con il codice CHE-253.409.943, Stockerstrasse 38, 8002 Zurigo, Svizzera.",
+            "actiOneP14Text": "",
             "sslOneH37Heading": "Chi c’è dietro taxly?",
             "actiOneP13Text": "Taxly è stata creata da un gruppo di Esperti svizzeri certificati in materia fiscale e da imprenditori specializzati nel settore tecnologico.",
             "headingTitleTwo": "Come funziona?",
@@ -288,7 +289,8 @@
             "sslTwoH31Heading": "Quanto costa?",
             "actiTwoP4Text": "Dipende dalle circostanze personali. Cerchiamo di offrire i nostri servizi a tariffe molto interessanti.",
             "sslTwoH32Heading": "Cosa devo fare se riscontro un errore nella mia dichiarazione dei redditi?",
-            "actiTwoP5Text": "Cosa devo fare se riscontro un errore nella mia dichiarazione dei redditi? Non ci sono problemi, collegati semplicemente alla tua dashboard e clicca sul link MODIFICA sulla dichiarazione, correggi e noi pubblicheremo una nuova versione.",
+            "actiTwoP5Text": "Cosa devo fare se riscontro un errore nella mia dichiarazione dei redditi?",
+            "actiTwoP6Text": "Non ci sono problemi, collegati semplicemente alla tua dashboard e clicca sul link MODIFICA sulla dichiarazione, correggi e noi pubblicheremo una nuova versione.",
             "headingTitleThree": "Quali sono gli anni fiscali coperti da taxly?",
             "actiThreeP1Text": "Puoi avvalerti di taxly per le dichiarazioni dal 2019 in poi.",
             "sslThreeH31Heading": "Quali sono i tipi di imposte non coperte da taxly?",
@@ -324,13 +326,14 @@
             "actiFiveP4ExtraText": ".",
             "headingTitleSix": "Di cosa si parla?",
             "actiSixP1Text": "Crediamo profondamente che il cambiamento climatico sia la questione più urgente del nostro tempo. Così com’è oggi, l’industria cresce alle spese del pianeta.",
-            "actiSixP1TextExtra": "",
             "actiSixP2Text": "Per noi e per la nostra comunità, si sente un vero bisogno di essere in grado d’impegnarsi in azioni per il bene dell’ambiente anche in quanto start-up e società con scopo di lucro. Siamo una società giovane. Da soli non possiamo avere un impatto su larga scala. Ma potrebbe essere tanto semplice quanto chiedere ad altre start-up di unirsi a noi? Noi crediamo di sì. Ci sono molte start-up lì fuori che stanno già realizzando cose incredibili per contribuire a salvare il pianeta.",
             "actiSixP3Text": "Ben più grandi e di gran lunga migliori di quanto noi stessi potremmo sperare di fare al momento. Non si tratta di porsi al di sopra degli altri o di biasimare coloro i quali non offrono alcun contributo in tal senso, ma di essere positivi e d’incoraggiare ad agire coloro i quali credono che si potrebbe e dovrebbe fare di meglio.",
+            "actiSixP44Text": "",
             "sslSixH32Heading": "Come funziona?",
             "actiSixP4Text": "Sosterremo opere di beneficenza concentrate sul cambiamento climatico/sull’impatto ambientale. Ad ogni donazione realizzata dai nostri clienti, faremo la stessa cosa.",
             "actiSixP5Text": "Lanceremo campagne sulle reti sociali, sul nostro sito e sulla stampa. Divulgheremo le nostre idee presso i nostri clienti e le start-up che aderiscono al movimento.",
-            "actiSixP6Text": "Speriamo che questa sarà la prima di tante collaborazioni tra clienti e società future e che produrrà un cambiamento positivo."
+            "actiSixP6Text": "Speriamo che questa sarà la prima di tante collaborazioni tra clienti e società future e che produrrà un cambiamento positivo.",
+            "actiSixP7Text": ""
         }
     },
     "howitworks": {
@@ -351,7 +354,7 @@
                     "fadeBottomClass": "fade-bottom",
                     "fadeBottomRightLeft": true,
                     "fadeBottomItem": true,
-                    "image": "../assets/Images/meet-roger-1-en.png",
+                    "image": "../assets/Images/meet-roger-1-it.png",
                     "alt": "meet-roger-1-en",
                     "title": "Domande semplificate",
                     "description": "L’IA Roger ti guiderà attraverso domande semplificate perfettamente pertinenti alla tua situazione."
@@ -560,7 +563,7 @@
                     "img": "../assets/Images/scan-like-a-wind.png",
                     "alt": "scan-like-a-wind",
                     "title": "Scansione come un vento",
-                    "desc": "Roger ha completamente reinventato il processo fiscale svizzero. Collegherà i punti nella tua vita, analizzerà i tuoi dati e ottimizzerà il tuo ritorno in tempo reale. \n Quindi puoi inviare le tue tasse con un solo clic. Non chiamarlo cuculo."
+                    "desc": "Roger ha completamente reinventato il processo fiscale svizzero. Collegherà i punti nella tua vita, analizzerà i tuoi dati e ottimizzerà il tuo ritorno in tempo reale. Quindi puoi inviare le tue tasse con un solo clic. Non chiamarlo cuculo."
                 }
             ]
         },
@@ -673,17 +676,20 @@
     "charity": {
         "SingalData": {
             "chsHeading": "Cambiare le cose",
-            "chsDescription": "Crediamo profondamente che il cambiamento climatico sia un problema urgente del nostro tempo. Così com’è oggi, l’industria cresce alle spese del pianeta. Per noi e per la nostra comunità, c’è un vero bisogno d’impegnarsi in azioni per il bene dell’ambiente anche in quanto start-up e società con scopo di lucro.",
+            "chsDescription1": "Crediamo profondamente che il cambiamento climatico sia un problema urgente del nostro tempo. Così com’è oggi, l’industria cresce alle spese del pianeta.",
+            "chsDescription2": "Per noi e per la nostra comunità, c’è un vero bisogno d’impegnarsi in azioni per il bene dell’ambiente anche in quanto start-up e società con scopo di lucro.",
             "chsBtn": "Guida introduttiva",
             "cwwuHeading": "Chi sta con noi?",
             "cwwuSubHeading1": "Siamo una società giovane. Da soli non possiamo avere un impatto su larga scala. Ma potrebbe essere tanto semplice quanto chiedere ad altre start-up di unirsi a noi? Noi crediamo di sì.",
             "cwwuSubHeading2": "Ci sono molte start-up lì fuori che stanno già realizzando cose incredibili per salvare il pianeta. Ben più grandi e di gran lunga migliori di quanto noi stessi potremmo sperare di fare al momento. Non si tratta di porsi al di sopra degli altri o di biasimare coloro i quali non offrono alcun contributo in tal senso, ma di essere positivi e d’incoraggiare ad agire coloro i quali credono che potremmo e dovremmo fare di meglio.",
+            "socialwhogloBeen": "../assets/Images/social_who_globe-it.png",
             "copHeading": "In che modo",
             "copdescription1": "Noi sosteniamo",
             "myclimate": "myclimate.org",
             "copdescription2": "che è un ente di beneficenza impegnato sul fronte del cambiamento climatico e abbiamo intenzione di allinearci con ogni donazione fatta dai nostri clienti",
             "cbcHeading": "B-Corp",
             "cbcSubHeading": "Taxly AG ha richiesto un certificato B-Corp in sospeso. Avere un serio impatto sulla società fa parte giuridicamente della nostra missione e del nostro modello aziendale – Non è soltanto fuffa marketing.",
+            "socialimpactBcorpcertified": "../assets/Images/social_bcorp_certified-it.png",
             "cbcLearnMore": "Per saperne di più",
             "cjtmHeading": "Aderisci al movimento",
             "cjtmSubHeading": "Migliaia di persone ci stanno già sostenendo in questa missione e vi attribuiscono grande importanza. Man mano che cresce la nostra comunità, cresce anche il nostro impatto sulla società.",
@@ -712,6 +718,7 @@
             "taxSoftSubHeading": "Abbiamo realizzato il software fiscale per professionisti più avanzato di tutta la Svizzera. Ti collega senza soluzione di continuità ai tuoi clienti al fine di preparare ed elaborare i rendimenti in modo rapido ed efficiente.",
             "taxHIWHeading": "Come funziona",
             "taxHIWSubHeading": "La nostra tecnologia all’avanguardia rende l’integrazione, la raccolta e il trattamento dei dati un’esperienza positiva cha fa risparmiare tempo a te e ai tuoi clienti.",
+            "TaxOurPriceHeading": "I nostri prezzi",
             "taxCuriousHeading": "Curioso di saperne di più?",
             "taxCuriousSubHeading": "Unisciti a colori i quali hanno ne stanno già traendo profitto."
         },
@@ -896,7 +903,7 @@
         },
         "careersJoinTheTeamData": {
             "data": [{
-                    "title": "More than just a jobQualcosa di più di un semplice lavoro",
+                    "title": "Qualcosa di più di un semplice lavoro",
                     "description": "Ti metteremo a disposizione due giorni al mese affinché tu possa concentrarti sui progetti dei tuoi sogni o sul tuo backlog. Un giorno per sbrigare varie faccende, insomma."
                 },
                 {
@@ -1138,13 +1145,13 @@
                 "link1": "http://tools.google.com/dlpage/gaoptout?hl= de",
                 "text3": "Ulteriori informazioni su Google Analytics sono disponibili nei termini di utilizzo di Google Analytics ",
                 "link2": "https://marketingplatform.google.com/about/analytics/terms/de/",
-                "text4": " nelle norme di sicurezza e protezione dei dati di Google Analytics (",
+                "text4": " nelle norme di sicurezza e protezione dei dati di Google Analytics ",
                 "link3": "https://support.google.com/analytics/answer/6004245?hl=de",
-                "text5": ") e nella dichiarazione sulla protezione dei dati (",
+                "text5": " e nella dichiarazione sulla protezione dei dati ",
                 "link4": "https://policies.google.com/privacy?hl=de&gl=de",
-                "text6": "Google è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield (",
+                "text6": "Google è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield ",
                 "link5": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
-                "text7": "), motivo per cui è garantito un livello di protezione adeguato per tali dati."
+                "text7": " motivo per cui è garantito un livello di protezione adeguato per tali dati."
             }
         },
         "PrivacyPolicy4_6": {
@@ -1152,9 +1159,9 @@
             "link_data": {
                 "text1": "Utilizziamo il servizio di tracking e controllo di qualità “Firebase” o “Firebase Crashlytics” di Google (“Firebase/Crashlytics”). Firebase/Crashlytics utilizza tecnologie di tracking che consentono un’analisi dell’utilizzo dell’app, ad es. il monitoraggio delle prestazioni (Performance Monitoring) per i log degli errori e l’analisi del comportamento degli utenti, al fine di migliorare la nostra offerta. Inoltre, vengono raccolti dati relativi ad arresti anomali ed errori di sistema, in particolare, informazioni sul dispositivo, sulla versione dell’app, nonché altre informazioni utili per l’analisi degli errori (come informazioni su hardware e software). Ulteriori informazioni sono disponibili all’indirizzo",
                 "link1": "https://www.firebase.com/terms/privacy-policy.html",
-                "text2": "Google è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield (",
+                "text2": "Google è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
-                "text3": "), motivo per cui è garantito un livello di protezione adeguato per tali dati."
+                "text3": " motivo per cui è garantito un livello di protezione adeguato per tali dati."
             }
         },
         "PrivacyPolicy4_7": {
@@ -1162,9 +1169,9 @@
             "link_data": {
                 "text1": "Utilizziamo Google Places API di Google per semplificare le ricerche basate sulla posizione. I dati raccolti tramite una ricerca supportata dall’API di Google Places sono soggetti ai termini di utilizzo e alle norme sulla privacy di Google",
                 "link1": "https://www.google.com/policies/privacy/?hl=de",
-                "text2": "Google è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield (",
+                "text2": "Google è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
-                "text3": "), motivo per cui è garantito un livello di protezione adeguato per tali dati."
+                "text3": " motivo per cui è garantito un livello di protezione adeguato per tali dati."
             }
         },
         "PrivacyPolicy4_8": {
@@ -1173,9 +1180,9 @@
                 "text1": "Per comunicare con te utilizziamo Intercom Messenger di Intercom, Inc., 55 2nd Street, 4th Floor, San Francisco, CA 94105, USA (”Intercom”).",
                 "text2": "Intercom utilizza i cookie per identificarti e per la gestione della sessione. Puoi trovare maggiori informazioni qui: ",
                 "link1": "https://www.intercom.com/help/en/articles/2361922-intercom-messenger-cookies",
-                "text3": ". Intercom è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield (",
+                "text3": ". Intercom è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000TNQvAAO",
-                "text4": "), motivo per cui è garantito un livello di protezione adeguato per tali dati."
+                "text4": " motivo per cui è garantito un livello di protezione adeguato per tali dati."
             }
         },
         "PrivacyPolicy4_9": {
@@ -1185,9 +1192,9 @@
                 "text2": "Mixpanel raccoglie e archivia i dati di utilizzo relativi alle visualizzazioni e all’attività della pagina. Per maggiori informazioni visita http://mixpanel.com/privacy. All’indirizzo ",
                 "link1": "http://mixpanel.com/optout/",
                 "text3": "trovi anche informazioni su come impedire la raccolta e il trasferimento dei dati di utilizzo su Mixpanel attivando l’impostazione “Do-No-Track”.",
-                "text4": "Mixpanel è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield (",
+                "text4": "Mixpanel è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000TOacAAG",
-                "text5": "), motivo per cui è garantito un livello di protezione adeguato per tali dati."
+                "text5": " motivo per cui è garantito un livello di protezione adeguato per tali dati."
             }
         },
         "PrivacyPolicy4_10": {
@@ -1200,7 +1207,7 @@
                 "link2": "http://twitter.com/privacy",
                 "text4": "Cliccando sul pulsante LinkedIn, le informazioni sull’utilizzo vengono trasmesse a LinkedIn. Per ulteriori informazioni, è possibile consultare l’informativa sulla privacy di LinkedIn all’indirizzo ",
                 "link3": "https://www.linkedin.com/legal/privacy-policy",
-                "text5": "Tutte e tre le aziende sono certificate (a gennaio 2020) ai sensi del CH-US Privacy Shield ( ",
+                "text5": "Tutte e tre le aziende sono certificate (a gennaio 2020) ai sensi del CH-US Privacy Shield (",
                 "link4": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
                 "text6": "), motivo per cui è garantito un livello di protezione adeguato per tali dati:"
             },
@@ -1323,6 +1330,122 @@
                 "c) gestire la corrispondenza con l’ufficio delle imposte competente per i servizi alle lettere (a) e (b) per tuo conto.",
                 "Prima di svolgere una qualsiasi di queste operazioni per tuo conto, ti chiederemo espressamente un momento di attenzione, nonché una conferma dei dati da te comunicati.",
                 "Puoi revocare questa autorizzazione in qualsiasi momento avvisandoci. Trovi i nostri dati di contatto alla sez. 2.7. Riconosci che in tal caso non possiamo più (o non completamente) fornire i servizi offerti da Taxly."
+            ]
+        }
+    },
+    "contactus": {
+        "SingleData": {
+            "pageHeading": "Contattaci",
+            "pageSubHeading": "Siamo lieti di rispondere a qualsiasi domanda tu possa avere, basta inviarci un messaggio tramite il nostro supporto chat in-app."
+        },
+        "contactBoxData": {
+            "data": [{
+                    "title": "PARLA CON NOI",
+                    "linkTarget": "",
+                    "linkHref": "tel:0435089354",
+                    "link": "0435089354",
+                    "subTitle": "Lun-Ven: 8:30am-5:30pm"
+                },
+                {
+                    "title": "SCRIVICI",
+                    "linkTarget": "",
+                    "linkHref": "mailto:hello@taxly.ch",
+                    "link": "hello@taxly.ch",
+                    "subTitle": ""
+                },
+                {
+                    "title": "DÌ CIAO",
+                    "linkTarget": "_blank",
+                    "linkHref": "https://goo.gl/maps/B7Ye8MUDL7UcB54r5",
+                    "link": "Stockerstrasse 38, 8002 Zürich, Switzerland",
+                    "subTitle": "Headquater"
+                }
+            ]
+        }
+    },
+    "aboutUs": {
+        "SingleData": {
+            "pageHeading": "Le tasse diventano sempre più interessanti",
+            "pageSubHeading": "Per coloro i quali rifiutano di accontentarsi delle cose così come sono e sono state sino ad ora. Taxly ha per missione di reinventare l’esperienza in materia di imposte e di avere un impatto positivo sulla società e sull’ambiente.",
+            "pageBtnText": "Guida introduttiva",
+            "AboutUsOMHeading": "La nostra missione",
+            "AboutUsOMSubHeading": "Reinventare il regime impositivo progressivo permettendo alla gente di sentirsi al sicuro, di ottimizzare la loro posizione finanziaria e di capire meglio al fine di prendere migliori decisioni in campo finanziario.",
+            "AboutUsMTHeading": "Il team management",
+            "AboutUsMTSubHeading": "Incontra pensatori lungimiranti, agitatori che con nuove idee danno impulso al mondo del business",
+            "AboutUsIAAHeading": "Investitori e consulenti",
+            "AboutUsIAASubHeading": "We are lucky enough to be supported by some truly amazing people."
+        },
+        "AboutUsOurMissionData": {
+            "data": [{
+                    "image": "../assets/Images/icon-launch.png",
+                    "imgAlt": "icon-launch",
+                    "text": "Lanciato nel 2019"
+                },
+                {
+                    "image": "../assets/Images/icon-zurich.png",
+                    "imgAlt": "icon-zurich",
+                    "text": "Con sede a Zurigo, Svizzera"
+                },
+                {
+                    "image": "../assets/Images/icon-employees.png",
+                    "imgAlt": "icon-employees",
+                    "text": "dotato di un team di 10 esperti"
+                },
+                {
+                    "image": "../assets/Images/icon-saving.png",
+                    "imgAlt": "icon-saving",
+                    "text": "+1M CHF raccolti presso gli investitori"
+                }
+            ]
+        },
+        "AboutUsManagementTeamData": {
+            "data": [{
+                    "link": "https://www.linkedin.com/in/dshkershaw/",
+                    "image": "../assets/Images/about-1.jpg",
+                    "imgAlt": "about-1",
+                    "title": "Daniel S. H. Kershaw",
+                    "description": "Fondatore e Amministratore Delegato"
+                },
+                {
+                    "link": "https://www.linkedin.com/company/taxlyag",
+                    "image": "../assets/Images/about-6.jpg",
+                    "imgAlt": "about-6",
+                    "title": "Roger",
+                    "description": "The Tax Boss"
+                }
+            ]
+        },
+        "AboutUsIAAData": {
+            "data": [{
+                    "link": "https://www.linkedin.com/in/sakebosch/",
+                    "title": "Sake Bosch",
+                    "subTitle": "Prime Ventures"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/joao-monteiro-cv/",
+                    "title": "Joao Monteiro",
+                    "subTitle": "Prime Ventures"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/noel-hayden-2621475/",
+                    "title": "Noel Hayden",
+                    "subTitle": "Gamesys Ltd"
+                },
+                {
+                    "link": "https://www.helvetia.com",
+                    "title": "Helvetia Investment Fund",
+                    "subTitle": "Helvetia Insurance"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/georgsobczak/",
+                    "title": "Georg Sobczak",
+                    "subTitle": "Advisor"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/dr-stefan-a-heitmann-73883955/",
+                    "title": "Dr. Stefan A. Heitmann",
+                    "subTitle": "MoneyPark"
+                }
             ]
         }
     }

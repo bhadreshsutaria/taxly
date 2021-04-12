@@ -1412,6 +1412,22 @@
 
 /*  */
 
+.tab-content>.tab-pane {
+    display: none;
+}
+
+.tab-content>.active {
+    display: block;
+}
+
+.fade:not(.show) {
+    opacity: 0;
+}
+
+.fade {
+    transition: opacity .15s linear;
+}
+
 .hero__inner .taxly-logo a .taxly-logo__white,
 .hero__inner__white .taxly-logo a .taxly-logo__blue {
     display: none;
@@ -1450,6 +1466,10 @@ p:empty:before {
     content: "​";
 }
 
+.howitworks-module .columns-2-item p {
+    white-space: pre-line;
+}
+
 img.wp-smiley,
 img.emoji {
     display: inline !important;
@@ -1463,9 +1483,30 @@ img.emoji {
     padding: 0 !important;
 }
 
+.language-switcher .css-yk16xz-control,
+.language-switcher .css-1pahdxg-control {
+    min-height: 35px;
+    border: 0;
+}
+
 .language-switcher .css-yk16xz-control {
     background-color: #1c335b;
+}
+
+.language-switcher .css-1pahdxg-control {
+    background-color: #1c335b;
+    border-radius: 4px 4px 0 0;
+    box-shadow: none;
+}
+
+.language-switcher .css-yk16xz-control:hover,
+.language-switcher .css-1pahdxg-control:hover {
     border: 0;
+    box-shadow: none;
+}
+
+.language-switcher .css-g1d714-ValueContainer {
+    padding: 0px 8px;
 }
 
 .language-switcher .css-1okebmr-indicatorSeparator {
@@ -1482,8 +1523,43 @@ img.emoji {
     font-size: 14px;
 }
 
-.language-switcher .css-tlfecz-indicatorContainer {
+.language-switcher .css-tlfecz-indicatorContainer,
+.language-switcher .css-1gtu0rj-indicatorContainer {
     background-image: url('../../Images/arrow-down.svg');
     background-repeat: no-repeat;
     background-position: right 10px center;
+    padding: 7px 8px;
+}
+
+.language-switcher .css-26l3qy-menu {
+    margin-bottom: 0;
+    margin-top: 0;
+    border-radius: 0 0 4px 4px;
+    box-shadow: none;
+}
+
+.language-switcher .css-4ljt47-MenuList {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.language-switcher .css-9gakcf-option,
+.language-switcher .css-yt9ioa-option,
+.language-switcher .css-1n7v3ny-option {
+    background-color: #1c335b;
+    padding: 7px 10px;
+    font-size: 14px;
+}
+
+.language-switcher .css-9gakcf-option:hover,
+.language-switcher .css-9gakcf-option:active,
+.language-switcher .css-9gakcf-option:visited,
+.language-switcher .css-yt9ioa-option:hover,
+.language-switcher .css-yt9ioa-option:active,
+.language-switcher .css-yt9ioa-option:visited,
+.language-switcher .css-1n7v3ny-option:hover,
+.language-switcher .css-1n7v3ny-option:active,
+.language-switcher .css-1n7v3ny-option:visited {
+    background-color: #1c335b;
+    color: #00ffb6;
 }

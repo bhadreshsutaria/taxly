@@ -80,13 +80,13 @@ import openDoor from "../Images/open-door.png";
 import socialBack from "../Images/social_back-1.png";
 import socialFront from "../Images/social_front-1.png";
 import socialWhostars from "../Images/social_who_stars.png";
-import socialWhoglobeen from "../Images/social_who_globe-en.png";
+// import socialWhoglobeen from "../Images/social_who_globe-en.png";
 import iconcharity from "../Images/icon-charity.png";
 import iconcampaign from "../Images/icon-campaign.png";
 import iconcollaboration from "../Images/icon-collaboration.png";
 import socialBcorpglobe from "../Images/social_bcorp_globe.png";
 import socialBcorpleaf from "../Images/social_bcorp_leaf.png";
-import socialBcorpcertified from "../Images/social_bcorp_certified-en.png";
+// import socialBcorpcertified from "../Images/social_bcorp_certified-en.png";
 import homeBack from "../Images/home_back.png";
 import appFrontOne from "../Images/app_front-1.png";
 import revolutionalOsr from "../Images/revolutional-osr.png";
@@ -196,13 +196,13 @@ const images = {
     socialBackBg: socialBack,
     socialFrontBg: socialFront,
     socialwhoStars: socialWhostars,
-    socialwhogloBeen: socialWhoglobeen,
+    // socialwhogloBeen: socialWhoglobeen,
     charityIcon: iconcharity,
     campaignIcon: iconcampaign,
     collaborationIcon: iconcollaboration,
     socialimpactBcorpglobe: socialBcorpglobe,
     socialimpactBcorpleaf: socialBcorpleaf,
-    socialimpactBcorpcertified: socialBcorpcertified,
+    // socialimpactBcorpcertified: socialBcorpcertified,
     homeBackBg: homeBack,
     appFrontOneBg: appFrontOne,
     revolutionalOsrBg: revolutionalOsr,
