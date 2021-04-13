@@ -43,10 +43,10 @@ jQuery(document).ready(function() {
         jQuery('html, body').animate({ scrollTop: jQuery(document).height() }, 'slow');
         return false;
     });
-    windowResize();
-    jQuery(window).resize(function() {
-        windowResize();
-    });
+    // windowResize();
+    // jQuery(window).resize(function() {
+    //     windowResize();
+    // });
 
 
     // jQuery('.slider-container .slick-list').slick({

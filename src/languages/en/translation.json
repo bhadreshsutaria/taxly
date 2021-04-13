@@ -51,7 +51,7 @@
     },
     "home": {
         "SingalData": {
-            "partnershipTitle": "In partnership with",
+            "partnershipTitle": "You might’ve heard of us",
             "heroHeading": "Complicated is Outdated. Swiss Tax Returns Made Simple.",
             "heroDesc": "Create your Swiss tax return in less than 10 minutes",
             "heroBtnName": "Get Started",
@@ -88,7 +88,7 @@
                 },
                 {
                     "title": "Taxes made simple!",
-                    "description": "So easy to navigate and quick &amp; the team is very reactive for any question. Highly recommend!",
+                    "description": "So easy to navigate and quick & the team is very reactive for any question. Highly recommend!",
                     "name": "Anna Blomkvist",
                     "image": "../assets/Images/users/anna-blomkvist.png"
                 },
@@ -1099,11 +1099,10 @@
                 "To the relevant tax authority (according to your express instructions or approval of your tax return).",
                 "To service providers involved in the provision of the services, as far as necessary for the provision of the services provided by them (such as the processing of contact/support inquiries, customer relationship management (CRM), shipping of mail and other shipments, data analysis for pattern recognition , etc.). Such service providers may only use the data for the purpose of the agreed service."
             ],
-            "data2": [
-                "Your data will not be disclosed to third parties for purposes other than those mentioned here. Further disclosure of your data to third parties only takes place based on your express prior consent (or instruction).",
-                "If necessary, we can also disclose data abroad for the purposes mentioned here. In such a case, we take the legally required measures to ensure the prescribed level of data protection where necessary. In particular, we ensure that US service providers are certified in accordance with the requirements of the CH-US Privacy Shield or similarly contractually committed to the necessary data protection level (see https://www.edoeb.admin.ch/edoeb/de /home/datenschutz/handel-und-wirtschaft/uebermittlung-ins-ausland/datenuebermittlung-in-die-usa.html).",
-                "This applies (in addition to the analysis services listed under no.4) to the following service providers who are certified (as of January 2020) under the CH-US Privacy Shield:"
-            ],
+            "data2": "Your data will not be disclosed to third parties for purposes other than those mentioned here. Further disclosure of your data to third parties only takes place based on your express prior consent (or instruction).",
+            "data3": "If necessary, we can also disclose data abroad for the purposes mentioned here. In such a case, we take the legally required measures to ensure the prescribed level of data protection where necessary. In particular, we ensure that US service providers are certified in accordance with the requirements of the CH-US Privacy Shield or similarly contractually committed to the necessary data protection level (see https://www.edoeb.admin.ch/edoeb/de /home/datenschutz/handel-und-wirtschaft/uebermittlung-ins-ausland/datenuebermittlung-in-die-usa.html).",
+            "data3Link": "",
+            "data4": "This applies (in addition to the analysis services listed under no.4) to the following service providers who are certified (as of January 2020) under the CH-US Privacy Shield:",
             "PrivacyPolicy2_5List": {
                 "data": [{
                         "text": "Automattic Inc.",
@@ -1162,9 +1161,9 @@
             "link_data": {
                 "text1": "We use “Facebook Pixel” from Facebook Inc., 1 Hacker Way, Menlo Park, CA 94025, USA, (“Facebook”) on our website and in Taxly to analyse the use of Facebook advertisements and to determine their effectiveness. The data collected is stored and processed by Facebook and is anonymous to us. Facebook can link this data to your Facebook account and also use it for its own advertising purposes in accordance with the provisions of the Facebook privacy policy (",
                 "link1": "http://www.facebook.com/about/privacy",
-                "text2": "Facebook is certified (as of January 2020) under the CH-US Privacy Shield (",
+                "text2": "Facebook is certified (as of January 2020) under the CH-US Privacy Shield ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC",
-                "text3": "), such that an appropriate level of data protection is ensured for the relevant data."
+                "text3": " such that an appropriate level of data protection is ensured for the relevant data."
             }
         },
         "PrivacyPolicy4_4": {
@@ -1183,7 +1182,7 @@
                 "text1": "We use Google Analytics (and Google Tag Manager), a web analysis service from Google.",
                 "text11": "Google uses cookies to analyse your use of the website and Taxly on our behalf. The information collected by Google is transferred to a Google server in the USA, stored there, analysed and the result is made available to us in anonymous form. Your usage data will not be linked to your full IP address: We have activated the IP anonymisation function offered by Google for Taxly, so that the information collected is anonymised by shortening the IP address.",
                 "text2": "You can prevent the installation of cookies by setting your browser accordingly. You can also prevent Google from collecting and processing the information generated by the cookies about your user behaviour by downloading and installing the browser plug-in available under the following link:",
-                "link1": "http://tools.google.com/dlpage/gaoptout?hl= de",
+                "link1": "http://tools.google.com/dlpage/gaoptout?hl=de",
                 "text3": "Further information on Google Analytics can be found in the Google Analytics terms of use ",
                 "link2": "https://marketingplatform.google.com/about/analytics/terms/de/",
                 "text4": " in the security and data protection principles of Google Analytics ",
@@ -1230,7 +1229,9 @@
             "sectionHeading": "4.9 Mixpanel",
             "link_data": {
                 "text1": "For the analysis of the use of our website and Taxly, we use Mixpanel, an analysis solution from Mixpanel Inc., One Front Street, 28th Floor, San Francisco, CA 94111, USA (“Mixpanel”).",
-                "text2": "Mixpanel collects and stores usage data regarding page views and page activity. More information can be found under http://mixpanel.com/privacy. You will also find information at ",
+                "text2": "Mixpanel collects and stores usage data regarding page views and page activity. More information can be found under ",
+                "link0": "http://mixpanel.com/privacy",
+                "text0": " You will also find information at ",
                 "link1": "http://mixpanel.com/optout/",
                 "text3": "on how you can prevent the collection and transmission of usage data to Mixpanel by activating the “Do-No-Track” setting.",
                 "text4": "Mixpanel is certified (as of January 2020) under the CH-US Privacy Shield ",

@@ -5,7 +5,7 @@ export default function App() {
     return (
         <div className="App">
             <HeroApp />
-            <main class="page-content">
+            <main className="page-content">
                 <AppHowItWork />
                 <SiteSection />
                 <ComingSoonCard />

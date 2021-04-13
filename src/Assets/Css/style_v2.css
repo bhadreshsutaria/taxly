@@ -1491,6 +1491,7 @@ img.emoji {
 
 .language-switcher .css-yk16xz-control {
     background-color: #1c335b;
+    cursor: pointer;
 }
 
 .language-switcher .css-1pahdxg-control {
@@ -1549,6 +1550,7 @@ img.emoji {
     background-color: #1c335b;
     padding: 7px 10px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .language-switcher .css-9gakcf-option:hover,

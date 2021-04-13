@@ -3,7 +3,7 @@ import images from "../Utils/ImageHelper";
 import { useHistory, NavLink } from "react-router-dom";
 import LanguageSelect from "../Component/languageSelect";
 import { useTranslation } from "react-i18next";
-
+import AppendScripts from '../Utils/AppendScripts';
 export default function Footer() {
     const { t } = useTranslation();
     let history = useHistory();
@@ -11,6 +11,10 @@ export default function Footer() {
     const onRedirect = (url) => {
         history.push(url)
     }
+    AppendScripts('https://code.jquery.com/jquery-3.5.1.min.js');
+    AppendScripts('/js/detectmobilebrowser.js');
+    AppendScripts('/js/mystickymenu.min.js');
+    AppendScripts('/js/scripts.js');
     return (
         <>
         <footer className="site-footer">

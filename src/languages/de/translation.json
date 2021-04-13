@@ -51,7 +51,7 @@
     },
     "home": {
         "SingalData": {
-            "partnershipTitle": "In Partnerschaft mit",
+            "partnershipTitle": "Bekannt aus den Medien",
             "heroHeading": "Reiche Deine Steuererklärung in nur 10 Minuten ein",
             "heroDesc": "Starte mit einem einfachen Fragebogen",
             "heroBtnName": "Jetzt loslegen",
@@ -234,26 +234,32 @@
     "faq": {
         "FaqTabData": {
             "data": [{
+                    "tabId": "about_us",
                     "extraClass": "selected",
                     "tabName": "Über uns"
                 },
                 {
+                    "tabId": "how_it_works",
                     "extraClass": "",
                     "tabName": "So funktioniert es"
                 },
                 {
+                    "tabId": "tax_stuff",
                     "extraClass": "",
                     "tabName": "Steuern kompakt"
                 },
                 {
+                    "tabId": "documents",
                     "extraClass": "",
                     "tabName": "Dokumente"
                 },
                 {
+                    "tabId": "data_protection",
                     "extraClass": "",
                     "tabName": "Datenschutz"
                 },
                 {
+                    "tabId": "charity_social_impact",
                     "extraClass": "",
                     "tabName": "Wohltätigkeit / Soziale Verantwortung"
                 }
@@ -1058,11 +1064,10 @@
                 "An die jeweils zuständige Steuerbehörde (gemäss deiner ausdrücklichen Anweisung bzw. Freigabe deiner Steuererklärung).",
                 "An von uns zur Erbringung der Leistungen beigezogene Dienstleister, soweit für die Erbringung der durch diese Beigezogenen erbrachten Leistungen nötig (wie z.B. die Bearbeitung von Kontakt-/Supportanfragen, Betreuung der Kundenbeziehung (CRM), Versand von Post- und anderweitiger Sendungen, Datenanalyse zur Mustererkennung, etc.). Solche Dienstleister dürfen die Daten nur zum Zwecke der vereinbarten Leistung einsetzen."
             ],
-            "data2": [
-                "Es erfolgt keine Bekanntgabe deiner Daten an Dritte zu anderen als den hierin genannten Zwecken. Eine weitergehende Bekanntgabe deiner Daten an Dritte erfolgt nur aufgrund deiner ausdrücklichen vorgängigen Einwilligung (oder Anweisung).",
-                "Falls nötig können wir für die hierin erwähnten Zwecke Daten auch ins Ausland bekanntgeben. In einem solchen Fall treffen wir vorgängig die gesetzlich vorgesehenen Massnahmen zur Gewährleistung des vorgeschriebenen Datenschutzniveaus, wo nötig. Insbesondere stellen wir sicher, dass US-amerikanische Dienstleister gemäss den Vorgaben zum CH-US Privacy Shield zertifiziert sind oder sich in vergleichbarer Weise vertraglich auf das notwendige Datanschutzniveau verpflichten (vgl. https://www.edoeb.admin.ch/edoeb/de/home/datenschutz/handel-und-wirtschaft/uebermittlung-ins-ausland/datenuebermittlung-in-die-usa.html).",
-                "Dies trifft (zusätzlich zu den unter Ziff. 4 aufgeführten Analysediensten) auf folgende beigezogenen Dienstleister zu, die (per Januar 2020) unter dem CH-US-Privacy Shield zertifiziert sind:"
-            ],
+            "data2": "Es erfolgt keine Bekanntgabe deiner Daten an Dritte zu anderen als den hierin genannten Zwecken. Eine weitergehende Bekanntgabe deiner Daten an Dritte erfolgt nur aufgrund deiner ausdrücklichen vorgängigen Einwilligung (oder Anweisung).",
+            "data3": "Falls nötig können wir für die hierin erwähnten Zwecke Daten auch ins Ausland bekanntgeben. In einem solchen Fall treffen wir vorgängig die gesetzlich vorgesehenen Massnahmen zur Gewährleistung des vorgeschriebenen Datenschutzniveaus, wo nötig. Insbesondere stellen wir sicher, dass US-amerikanische Dienstleister gemäss den Vorgaben zum CH-US Privacy Shield zertifiziert sind oder sich in vergleichbarer Weise vertraglich auf das notwendige Datanschutzniveau verpflichten (vgl. ",
+            "data3Link": "https://www.edoeb.admin.ch/edoeb/de/home/datenschutz/handel-und-wirtschaft/uebermittlung-ins-ausland/datenuebermittlung-in-die-usa.html",
+            "data4": "Dies trifft (zusätzlich zu den unter Ziff. 4 aufgeführten Analysediensten) auf folgende beigezogenen Dienstleister zu, die (per Januar 2020) unter dem CH-US-Privacy Shield zertifiziert sind:",
             "PrivacyPolicy2_5List": {
                 "data": [{
                         "text": "Automattic Inc.",
@@ -1121,9 +1126,9 @@
             "link_data": {
                 "text1": "Wir verwenden auf unserer Website und in Taxly sogenannte „Facebook Pixel“ von Facebook Inc., 1 Hacker Way, Menlo Park, CA 94025, USA, (‚Facebook‘), um die Nuztzungsweise von Facebook-Werbeanzeigen zu analysieren und deren Wirksamkeit zu erfassen. Die erfassten Daten werden von Facebook gespeichert und verarbeitet und sind für uns anonym. Facebook kann diese Daten mit deinem Facebook Account verbinden und gemäss den Bestimmungen der Facebook-Datenschutzerklärung auch für eigene Werbezwecke nutzen (",
                 "link1": "http://www.facebook.com/about/privacy",
-                "text2": "Facebook ist (per Januar 2020) unter dem CH-US Privacy Shield zertifiziert (",
+                "text2": "Facebook ist (per Januar 2020) unter dem CH-US Privacy Shield zertifiziert ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC",
-                "text3": "), sodass für die diesbezüglichen Daten ein angemessenes Datenschutzniveau sichergestellt ist."
+                "text3": " sodass für die diesbezüglichen Daten ein angemessenes Datenschutzniveau sichergestellt ist."
             }
         },
         "PrivacyPolicy4_4": {
@@ -1142,7 +1147,7 @@
                 "text1": "Wir verwenden Google Analytics (und Google Tag Manager), einen Webanalysedienst von Google.",
                 "text11": "Google analysiert in unserem Auftrag mit Hilfe von Cookies deine Nutzung der Website und von Taxly. Die dabei von Google erhobenen Informationen werden an einen Server von Google in die USA übertragen, dort gespeichert, analysiert und das Ergebnis wird uns in anonymisierter Form zur Verfügung gestellt. Deine Nutzungsdaten werden dabei nicht mit deiner vollen IP-Adresse verbunden: Wir haben für Taxly die von Google angebotene IP-Anonymisierungsfunktion aktiviert, sodass durch Kürzung der IP-Adresse die erhobenen Angaben anonymisiert erden.",
                 "text2": "Du kannst die Installation von Cookies durch entsprechende Browsereinstellung verhindern. Du kannst auch verhindern, dass Google die durch die Cookies erzeugten Informationen über dein Nutzerverhalten sammelt und verarbeitet, indem du das unter folgendem Link verfügbare Browser-Plugin herunterlädst und installierst:",
-                "link1": "http://tools.google.com/dlpage/gaoptout?hl= de",
+                "link1": "http://tools.google.com/dlpage/gaoptout?hl=de",
                 "text3": "Weitere Informationen zu Google Analytics findest du in den Google Analytics Nutzungsbedingungen ",
                 "link2": "https://marketingplatform.google.com/about/analytics/terms/de/",
                 "text4": " in den Sicherheits- und Datenschutzgrundsätzen von Google Analytics ",
@@ -1189,7 +1194,9 @@
             "sectionHeading": "4.9 Mixpanel",
             "link_data": {
                 "text1": "Wir verwenden für die Analyse der Nutzung unserer Website und Taxly Mixpanel, eine Analyselösung Mixpanel Inc., One Front Street, 28th Floor, San Francisco, CA 94111, USA (‚Mixpanel‘).",
-                "text2": "ixpanel erhebt und speichert Nutzungsdaten bezüglich Seitenaufrufe und Seitenaktivität. Weitere Informationen dazu findest du auf http://mixpanel.com/privacy. Dort findest du unter",
+                "text2": "Mixpanel erhebt und speichert Nutzungsdaten bezüglich Seitenaufrufe und Seitenaktivität. Weitere Informationen dazu findest du auf ",
+                "link0": "http://mixpanel.com/privacy",
+                "text0": " Dort findest du unter ",
                 "link1": "http://mixpanel.com/optout/",
                 "text3": "auch Informationen dazu, wie du durch Aktivierung der ‚Do-No-Track‘ Einstellung die Sammlung und Übertragung von Nutzungsdaten an Mixpanel unterbinden kannst.",
                 "text4": "Mixpanel ist (per Januar 2020) unter dem CH-US Privacy Shield zertifiziert ",

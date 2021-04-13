@@ -230,4 +230,4 @@ const images = {
     dictionaryFrontBg: dictionaryFront,
     dictionaryBackBg: dictionaryBack,
 }
-export default images
+export default images;

@@ -14,7 +14,9 @@ const PrivacyPolicy = () => {
     let PrivacyPolicy2_4 =  t('privacy.PrivacyPolicy2_4.data', { returnObjects: true });
     let PrivacyPolicy2_5_data =  t('privacy.PrivacyPolicy2_5.data', { returnObjects: true });
     let PrivacyPolicy2_5_list =  t('privacy.PrivacyPolicy2_5.data1', { returnObjects: true });
-    let PrivacyPolicy2_5_data2 =  t('privacy.PrivacyPolicy2_5.data2', { returnObjects: true });
+    // let PrivacyPolicy2_5_data2 =  t('privacy.PrivacyPolicy2_5.data2', { returnObjects: true });
+    // let PrivacyPolicy2_5_data3 =  t('privacy.PrivacyPolicy2_5.data3', { returnObjects: true });
+    // let PrivacyPolicy2_5_data4 =  t('privacy.PrivacyPolicy2_5.data4', { returnObjects: true });
     let PrivacyPolicy2_5_List2 =  t('privacy.PrivacyPolicy2_5.PrivacyPolicy2_5List.data', { returnObjects: true });
     let PrivacyPolicy3_data =  t('privacy.PrivacyPolicy3.data', { returnObjects: true });
     let PrivacyPolicy3_link_data =  t('privacy.PrivacyPolicy3.link_data.data', { returnObjects: true });
@@ -78,9 +80,9 @@ const PrivacyPolicy = () => {
                         <li key={ind}>{val}</li>
                     )}   
                 </ul>
-                {PrivacyPolicy2_5_data2.map((val,ind) =>
-                    <p key={ind} align="justify">{val}</p>
-                )}
+                <p align="justify">{t('privacy.PrivacyPolicy2_5.data2')}</p>
+                <p align="justify">{t('privacy.PrivacyPolicy2_5.data3')} {t('privacy.PrivacyPolicy2_5.data3Link') === '' ? '' : <a href={t('privacy.PrivacyPolicy2_5.data3Link')} target="_blank" rel="noopener noreferrer">{t('privacy.PrivacyPolicy2_5.data3Link')}</a>}).</p>
+                <p align="justify">{t('privacy.PrivacyPolicy2_5.data4')}</p>
                 <ul>
                     {PrivacyPolicy2_5_List2.map((val,ind) =>
                         <li key={ind}>{val.text} (<a href={val.link} target="_blank" rel="noopener noreferrer">{val.link}</a>)</li>
@@ -110,8 +112,8 @@ const PrivacyPolicy = () => {
                     <p key={ind} align="justify">{val.text} <a href={val.link} target="_blank" rel="noopener noreferrer">{val.link}</a>.</p>
                 )}
                 <h4><strong>{t('privacy.PrivacyPolicy4_3.sectionHeading')}</strong></h4>
-                <p align="justify">{t('privacy.PrivacyPolicy4_3.link_data.text1')} <a href={t('privacy.PrivacyPolicy4_3.link_data.link1')} target="_blank" rel="noopener noreferrer">{t('privacy.PrivacyPolicy4_3.link_data.link1')}</a>).</p>
-                <p align="justify">{t('privacy.PrivacyPolicy4_3.link_data.text2')} <a href={t('privacy.PrivacyPolicy4_3.link_data.link2')} target="_blank" rel="noopener noreferrer">{t('privacy.PrivacyPolicy4_3.link_data.link2')}</a>{t('privacy.PrivacyPolicy4_3.link_data.text3')}</p>
+                <p align="justify">{t('privacy.PrivacyPolicy4_3.link_data.text1')} (<a href={t('privacy.PrivacyPolicy4_3.link_data.link1')} target="_blank" rel="noopener noreferrer">{t('privacy.PrivacyPolicy4_3.link_data.link1')}</a>).</p>
+                <p align="justify">{t('privacy.PrivacyPolicy4_3.link_data.text2')} (<a href={t('privacy.PrivacyPolicy4_3.link_data.link2')} target="_blank" rel="noopener noreferrer">{t('privacy.PrivacyPolicy4_3.link_data.link2')}</a>),{t('privacy.PrivacyPolicy4_3.link_data.text3')}</p>
                 <h4><strong>{t('privacy.PrivacyPolicy4_4.sectionHeading')}</strong></h4>
                 <p align="justify">{t('privacy.PrivacyPolicy4_4.link_data.text1')} <a href={t('privacy.PrivacyPolicy4_4.link_data.link1')} target="_blank" rel="noopener noreferrer">{t('privacy.PrivacyPolicy4_4.link_data.link1')}</a>.</p>
                 <p align="justify">{t('privacy.PrivacyPolicy4_4.link_data.text2')} <a href={t('privacy.PrivacyPolicy4_4.link_data.link2')} target="_blank" rel="noopener noreferrer">{t('privacy.PrivacyPolicy4_4.link_data.link2')}</a>{t('privacy.PrivacyPolicy4_4.link_data.text3')}</p>
@@ -138,8 +140,9 @@ const PrivacyPolicy = () => {
                 </p>
                 <h4><strong>{t('privacy.PrivacyPolicy4_9.sectionHeading')}</strong></h4>
                 <p align="justify">{t('privacy.PrivacyPolicy4_9.link_data.text1')}</p>
-                <p align="justify">{t('privacy.PrivacyPolicy4_9.link_data.text2')} 
-                    <a href={t('privacy.PrivacyPolicy4_9.link_data.link1')} target="_blank" rel="noopener noreferrer">{t('privacy.PrivacyPolicy4_9.link_data.link1')}</a>{t('privacy.PrivacyPolicy4_9.link_data.text3')}
+                <p align="justify">{t('privacy.PrivacyPolicy4_9.link_data.text2')}
+                    {t('privacy.PrivacyPolicy4_9.link_data.link0') === '' ? '' : <a href={t('privacy.PrivacyPolicy4_9.link_data.link0')} target="_blank" rel="noopener noreferrer">{t('privacy.PrivacyPolicy4_9.link_data.link0')}</a>}. {t('privacy.PrivacyPolicy4_9.link_data.text0')}
+                    <a href={t('privacy.PrivacyPolicy4_9.link_data.link1')} target="_blank" rel="noopener noreferrer">{t('privacy.PrivacyPolicy4_9.link_data.link1')}</a> {t('privacy.PrivacyPolicy4_9.link_data.text3')}
                 </p>
                 <p align="justify">{t('privacy.PrivacyPolicy4_9.link_data.text4')} 
                     (<a href={t('privacy.PrivacyPolicy4_9.link_data.link2')} target="_blank" rel="noopener noreferrer">{t('privacy.PrivacyPolicy4_9.link_data.link2')}</a>),{t('privacy.PrivacyPolicy4_9.link_data.text5')}

@@ -51,7 +51,7 @@
     },
     "home": {
         "SingalData": {
-            "partnershipTitle": "In collaborazione con",
+            "partnershipTitle": "Conosciuto dai media",
             "heroHeading": "Dimentica tutto quello che sai in materia fiscale",
             "heroDesc": "Presenta la tua dichiarazione dei redditi in Svizzera in soli 10 minuti",
             "heroBtnName": "Guida introduttiva",
@@ -234,26 +234,32 @@
     "faq": {
         "FaqTabData": {
             "data": [{
+                    "tabId": "about_us",
                     "extraClass": "selected",
                     "tabName": "Chi siamo"
                 },
                 {
+                    "tabId": "how_it_works",
                     "extraClass": "",
                     "tabName": "Come funziona"
                 },
                 {
+                    "tabId": "tax_stuff",
                     "extraClass": "",
                     "tabName": "Tutto ciò che devi sapere in materia fiscale"
                 },
                 {
+                    "tabId": "documents",
                     "extraClass": "",
                     "tabName": "Documenti"
                 },
                 {
+                    "tabId": "data_protection",
                     "extraClass": "",
                     "tabName": "Protezione dei dati"
                 },
                 {
+                    "tabId": "charity_social_impact",
                     "extraClass": "",
                     "tabName": "Beneficenza / Impatto sociale"
                 }
@@ -1058,11 +1064,10 @@
                 "All’autorità fiscale competente (secondo tue esplicite istruzioni o approvazione della dichiarazione dei redditi).",
                 "Ai fornitori da noi coinvolti per la fornitura dei servizi, per quanto necessario per la fornitura di servizi da loro forniti (come ad es. l’elaborazione di richieste di contatto/supporto, gestione delle relazioni con i clienti (CRM), invio di posta e altre spedizioni, analisi dei dati per il riconoscimento di modelli, ecc.). Questi fornitori possono utilizzare i dati solo ai fini del servizio concordato."
             ],
-            "data2": [
-                "I tuoi dati non saranno divulgati a terzi per scopi diversi da quelli qui menzionati. Una possibile divulgazione dei tuoi dati avviene solo sulla base del tuo consenso (o istruzione) esplicito.",
-                "Se necessario, possiamo anche divulgare dati all’estero per gli scopi qui indicati. In tal caso, adottiamo le misure legalmente richieste per garantire il livello di protezione dei dati prescritto, dove necessario. In particolare, ci assicuriamo che i fornitori di servizi statunitensi siano certificati in conformità con i requisiti del CH-US Privacy Shield o si impegnino contrattualmente a garantire lo stesso livello di protezione dei dati (vedi https://www.edoeb.admin.ch/edoeb/de/home/datenschutz/handel-und-wirtschaft/uebermittlung-ins-ausland/datenuebermittlung-in-die-usa.html).",
-                "Ciò si applica (oltre ai servizi di analisi elencati nella sez. 4) ai seguenti fornitori di servizi coinvolti, certificati con il CH-US Privacy Shield (a gennaio 2020):"
-            ],
+            "data2": "I tuoi dati non saranno divulgati a terzi per scopi diversi da quelli qui menzionati. Una possibile divulgazione dei tuoi dati avviene solo sulla base del tuo consenso (o istruzione) esplicito.",
+            "data3": "Se necessario, possiamo anche divulgare dati all’estero per gli scopi qui indicati. In tal caso, adottiamo le misure legalmente richieste per garantire il livello di protezione dei dati prescritto, dove necessario. In particolare, ci assicuriamo che i fornitori di servizi statunitensi siano certificati in conformità con i requisiti del CH-US Privacy Shield o si impegnino contrattualmente a garantire lo stesso livello di protezione dei dati (vedi ",
+            "data3Link": "https://www.edoeb.admin.ch/edoeb/de/home/datenschutz/handel-und-wirtschaft/uebermittlung-ins-ausland/datenuebermittlung-in-die-usa.html",
+            "data4": "Ciò si applica (oltre ai servizi di analisi elencati nella sez. 4) ai seguenti fornitori di servizi coinvolti, certificati con il CH-US Privacy Shield (a gennaio 2020):",
             "PrivacyPolicy2_5List": {
                 "data": [{
                         "text": "Automattic Inc.",
@@ -1121,9 +1126,9 @@
             "link_data": {
                 "text1": "Utilizziamo il cosiddetto “Facebook Pixel” di Facebook Inc., 1 Hacker Way, Menlo Park, CA 94025, USA, (“Facebook”), sul nostro sito web e su Taxly, al fine di analizzare l’uso degli annunci pubblicitari di Facebook e determinarne l’efficacia. I dati raccolti vengono archiviati e trattati da Facebook e sono per noi anonimi. Facebook può collegare questi dati al tuo account Facebook e utilizzarli anche per i propri scopi pubblicitari in conformità con le disposizioni della dichiarazione sulla protezione dei dati di Facebook (",
                 "link1": "http://www.facebook.com/about/privacy",
-                "text2": "Facebook è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield (",
+                "text2": "Facebook è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield ",
                 "link2": "https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC",
-                "text3": "), motivo per cui è garantito un livello di protezione adeguato per tali dati."
+                "text3": " motivo per cui è garantito un livello di protezione adeguato per tali dati."
             }
         },
         "PrivacyPolicy4_4": {
@@ -1142,13 +1147,13 @@
                 "text1": "Utilizziamo Google Analytics (e Google Tag Manager), un servizio di analisi web di Google.",
                 "text11": "Google utilizza i cookie per analizzare l’utilizzo del sito web e di Taxly per nostro conto. Le informazioni raccolte da Google vengono trasferite su un server di Google negli Stati Uniti, ivi archiviate, analizzate e il risultato ci viene reso disponibile in forma anonima. I tuoi dati di utilizzo non saranno collegati al tuo indirizzo IP completo: per Taxly abbiamo attivato la funzione di anonimizzazione IP offerta da Google, in modo che le informazioni raccolte vengono rese anonime accorciando l’indirizzo IP.",
                 "text2": "Puoi impedire l’installazione dei cookie selezionando le impostazioni corrispondenti sul tuo browser. Puoi anche impedire a Google di raccogliere e trattare le informazioni generate dai cookie sul comportamento degli utenti scaricando e installando il plug-in per browser disponibile al seguente link:",
-                "link1": "http://tools.google.com/dlpage/gaoptout?hl= de",
+                "link1": "http://tools.google.com/dlpage/gaoptout?hl=it",
                 "text3": "Ulteriori informazioni su Google Analytics sono disponibili nei termini di utilizzo di Google Analytics ",
-                "link2": "https://marketingplatform.google.com/about/analytics/terms/de/",
+                "link2": "https://marketingplatform.google.com/about/analytics/terms/it/",
                 "text4": " nelle norme di sicurezza e protezione dei dati di Google Analytics ",
-                "link3": "https://support.google.com/analytics/answer/6004245?hl=de",
+                "link3": "https://support.google.com/analytics/answer/6004245?hl=it",
                 "text5": " e nella dichiarazione sulla protezione dei dati ",
-                "link4": "https://policies.google.com/privacy?hl=de&gl=de",
+                "link4": "https://policies.google.com/privacy?hl=it&gl=it",
                 "text6": "Google è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield ",
                 "link5": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI",
                 "text7": " motivo per cui è garantito un livello di protezione adeguato per tali dati."
@@ -1189,7 +1194,9 @@
             "sectionHeading": "4.9 Mixpanel",
             "link_data": {
                 "text1": "Utilizziamo una soluzione di analisi Mixpanel Inc., One Front Street, 28th Floor, San Francisco, CA 94111, USA (“Mixpanel”), per l’analisi dell’uso del nostro sito web e di Taxly.",
-                "text2": "Mixpanel raccoglie e archivia i dati di utilizzo relativi alle visualizzazioni e all’attività della pagina. Per maggiori informazioni visita http://mixpanel.com/privacy. All’indirizzo ",
+                "text2": "Mixpanel raccoglie e archivia i dati di utilizzo relativi alle visualizzazioni e all’attività della pagina. Per maggiori informazioni visita ",
+                "link0": "http://mixpanel.com/privacy",
+                "text0": " All’indirizzo ",
                 "link1": "http://mixpanel.com/optout/",
                 "text3": "trovi anche informazioni su come impedire la raccolta e il trasferimento dei dati di utilizzo su Mixpanel attivando l’impostazione “Do-No-Track”.",
                 "text4": "Mixpanel è certificato (a gennaio 2020) ai sensi del CH-US Privacy Shield ",
