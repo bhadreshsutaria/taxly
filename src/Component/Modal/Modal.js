@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import {ModalData} from "../Modal/Data";
-
+import { useTranslation } from "react-i18next";
 
 Modal.setAppElement('#root');
 const TopBottomLeftRight = () => {
@@ -16,6 +16,7 @@ const TopBottomLeftRight = () => {
 };
 
 const VideoModal = () => {
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
     function toggleModal() {
         setIsOpen(!isOpen);
@@ -23,7 +24,7 @@ const VideoModal = () => {
     return(
         <>
         <div className="video-link clear-inline-block">
-            <button className="taxly-icon taxly-icon-play" onClick={toggleModal}>{ModalData.videoModalText}</button>
+            <button className="taxly-icon taxly-icon-play" onClick={toggleModal}>{t('home.SingalData.videoModalText')}</button>
         </div>
         <Modal className="modal video-modal is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
             <div className="modal__overlay"></div>
