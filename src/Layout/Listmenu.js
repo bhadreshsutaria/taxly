@@ -1,32 +1,34 @@
-import React from "react";
-import { useHistory, NavLink } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 const Listmenu = () => {
-    let history = useHistory();
-
-    const onRedirect = (url) => {
-        history.push(url)
-    }
     const { t } = useTranslation();
+    const [scrol, setScrol] = useState(0);
+    useEffect(() => {
+        try {
+            window.scroll();
+        } catch (error) {
+            window.scrollTo({top: 0,left: 0,behavior: 'smooth'});
+        }
+    });
+    const scrolling = () => {
+        setScrol(window.scroll({top: 0,left: 0,behavior: 'smooth'}))
+    }
     return (
       <>
         <ul id="menu-main-nav" className="main-nav__list">
             <li className="menu-item">
-                <NavLink activeClassName="active" exact rel="noopener" to="/faq/">{t('header.data.navLinkFaq')}</NavLink>
+                <NavLink activeClassName="active" onClick={scrolling} exact rel="noopener" to="/faq/">{t('header.data.navLinkFaq')}</NavLink>
             </li>
             <li className="menu-item">
-                <NavLink activeClassName="active" exact rel="noopener" to="/how-it-works/">{t('header.data.navLinkHowItWork')}</NavLink>
+                <NavLink activeClassName="active" onClick={scrolling} exact rel="noopener" to="/how-it-works/">{t('header.data.navLinkHowItWork')}</NavLink>
             </li>
             <li className="menu-item">
-                <NavLink activeClassName="active" exact rel="noopener" to="/insights/">{t('header.data.navLinkInsights')}</NavLink>
+                <NavLink activeClassName="active" onClick={scrolling} exact rel="noopener" to="/insights/">{t('header.data.navLinkInsights')}</NavLink>
             </li>
             <li className="menu-item">
-                <NavLink activeClassName="active" exact rel="noopener" to="/app/">{t('header.data.navLinkApp')}</NavLink>
+                <NavLink activeClassName="active" onClick={scrolling}  exact rel="noopener" to="/app/">{t('header.data.navLinkApp')}</NavLink>
             </li>
-            {/* <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/faq/')}>FAQ</a></li>
-            <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/how-it-works/')}>How it works</a></li>
-            <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/insights/')}>Insights</a></li>
-            <li className="menu-item"><a rel="noopener" onClick={() => onRedirect('/app/')}>App</a></li> */}
         </ul>
       </>
     );

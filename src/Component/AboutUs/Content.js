@@ -1,4 +1,4 @@
-import React , {useState} from "react";
+import React from "react";
 import images from "../../Utils/ImageHelper";
 import MobileMenu from "../../Layout/MobileMenu";
 import Navbar from "../../Layout/Navbar";
@@ -16,7 +16,7 @@ const AboutUsHeroSection = () => {
                         <div className="l-container l-container--content">
                             <h1 className="page-heading">{t('aboutUs.SingleData.pageHeading')}</h1>
                             <p>{t('aboutUs.SingleData.pageSubHeading')}</p>
-                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{t('aboutUs.SingleData.pageBtnText')}</a>
+                            <a href="https://app.taxly.ch/GettingStarted" rel="noreferrer" target="_blank" className="btn btn-large hero__cta">{t('aboutUs.SingleData.pageBtnText')}</a>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ const AboutUsManagementTeam = () => {
                                 <div className="box-bottom-left box-image"></div>
                                 <div className="box-bottom-right box-image"></div>
                                 <div className="box-content">
-                                    <a href={val.link} className="icon-linkedin" target="_blank"></a>
+                                    <a href={val.link} className="icon-linkedin" rel="noreferrer" target="_blank">&nbsp;</a>
                                     <img src={val.image} alt={val.imgAlt} />
                                     <div className="person-item">
                                         <h3>{val.title}</h3>
@@ -104,7 +104,7 @@ const AboutUsInvestorsAndAdvisors = () => {
                                 <div className="box-bottom-left box-image"></div>
                                 <div className="box-bottom-right box-image"></div>
                                 <div className="box-content">
-                                    <a href={val.link} className="icon-linkedin" target="_blank"></a>
+                                    <a href={val.link} rel="noreferrer" className="icon-linkedin" target="_blank">&nbsp;</a>
                                     <h3>{val.title}</h3>
                                     <p>{val.subTitle}</p>
                                 </div>

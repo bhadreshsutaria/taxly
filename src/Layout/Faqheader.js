@@ -19,7 +19,7 @@ export default function Faqheader() {
                                 <Listmenu />
                                 <ul className="main-nav__right">
                                     <li className="menu-item"><a href="#" className="taxly-icon taxly-icon-language">{t("language")}</a></li>
-                                    <li className="menu-item"><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" className="taxly-icon taxly-icon-login">{t('header.data.navLogIn')}</a></li>
+                                    <li className="menu-item"><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" rel="noreferrer" target="_blank" className="taxly-icon taxly-icon-login">{t('header.data.navLogIn')}</a></li>
                                 </ul>
                             </div>
                             <div className="taxly-logo">
@@ -27,7 +27,7 @@ export default function Faqheader() {
                                     <img className="taxly-logo__icon" src={images.sitelogonavy} alt="Taxly" />
                                 </a>
                             </div>
-                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" className={`btn btn-large hero__cta btn-${t("language")}`}>{t('header.data.navGetStartedBtn')}</a>
+                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" rel="noreferrer" className={`btn btn-large hero__cta btn-${t("language")}`}>{t('header.data.navGetStartedBtn')}</a>
                         </div>
                     </div>
                 </div>

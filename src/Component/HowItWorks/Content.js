@@ -29,7 +29,7 @@ const HeroSection = () => {
                             <div className="l-container l-container--content">
                                 <h1 className="page-heading">{val.title}</h1>
                                 <p>{val.description}</p>
-                                <a href={val.btnLink} target="_blank" className="btn btn-large hero__cta">{val.btnName}</a>
+                                <a href={val.btnLink} target="_blank" rel="noreferrer" className="btn btn-large hero__cta">{val.btnName}</a>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ const TaxReturn = () => {
             <section key={ind} className="site-section narrow-hedding clock-image-bg taxly-grey-bg no-subtitle">
                 <div className="l-container">
                 <h2 className="site-section__heading">{val.title}</h2>
-                    <a href={val.btnLink} target="_blank" className="btn btn-large">{val.btnText}</a>
+                    <a href={val.btnLink} target="_blank" rel="noreferrer" className="btn btn-large">{val.btnText}</a>
                 </div>
             </section>
         )}

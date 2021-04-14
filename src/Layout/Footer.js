@@ -1,19 +1,16 @@
 import React from "react";
 import images from "../Utils/ImageHelper";
-import { useHistory, NavLink } from "react-router-dom";
+import {NavLink } from "react-router-dom";
 import LanguageSelect from "../Component/languageSelect";
 import { useTranslation } from "react-i18next";
 import AppendScripts from '../Utils/AppendScripts';
+
+
 export default function Footer() {
     const { t } = useTranslation();
-    let history = useHistory();
-
-    const onRedirect = (url) => {
-        history.push(url)
-    }
     AppendScripts('https://code.jquery.com/jquery-3.5.1.min.js');
     AppendScripts('/js/detectmobilebrowser.js');
-    AppendScripts('/js/mystickymenu.min.js');
+    // AppendScripts('/js/mystickymenu.min.js');
     AppendScripts('/js/scripts.js');
     return (
         <>
@@ -100,11 +97,11 @@ export default function Footer() {
                             </div>
                             <div className="footer-menu__heading">{t('footer.followUs.headingfollowUs')}</div>
                             <ul className="taxly-footer-social">
-                                <li><a href="https://www.facebook.com/SimplifiedByTaxly" target="_blank"><img src={images.socfacebook} alt="Facebook" /></a></li>
-                                <li><a href="https://twitter.com/Taxly_" target="_blank"><img src={images.soctwitter} alt="Twitter" /></a></li>
-                                <li><a href="https://www.instagram.com/Taxly___/" target="_blank"><img src={images.socinstagram} alt="Instagram" /></a></li>
-                                <li><a href="https://www.linkedin.com/company/taxlyag" target="_blank"><img src={images.soclinkedin} alt="Linkedin" /></a></li>
-                                <li><a href="https://medium.com/taxly" target="_blank"><img src={images.socmedium} alt="Medium" /></a></li>
+                                <li><a href="https://www.facebook.com/SimplifiedByTaxly" target="_blank" rel="noreferrer"><img src={images.socfacebook} alt="Facebook" /></a></li>
+                                <li><a href="https://twitter.com/Taxly_" target="_blank" rel="noreferrer"><img src={images.soctwitter} alt="Twitter" /></a></li>
+                                <li><a href="https://www.instagram.com/Taxly___/" target="_blank" rel="noreferrer"><img src={images.socinstagram} alt="Instagram" /></a></li>
+                                <li><a href="https://www.linkedin.com/company/taxlyag" target="_blank" rel="noreferrer"><img src={images.soclinkedin} alt="Linkedin" /></a></li>
+                                <li><a href="https://medium.com/taxly" target="_blank" rel="noreferrer"><img src={images.socmedium} alt="Medium" /></a></li>
                             </ul>
                         </div>
                     </div>

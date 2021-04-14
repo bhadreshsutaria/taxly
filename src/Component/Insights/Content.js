@@ -134,7 +134,7 @@ const InsightControl = () => {
             <div className="l-container">
                 <h2 className="site-section__heading">{t('insights.SingleData.InsightControlHeading')}</h2>
                 <div className="taxly-module">
-                    <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{t('insights.SingleData.InsightControlBtnText')}</a>
+                    <a href="https://app.taxly.ch/GettingStarted" rel="noreferrer" target="_blank" className="btn btn-large hero__cta">{t('insights.SingleData.InsightControlBtnText')}</a>
                 </div>
             </div>
         </section>

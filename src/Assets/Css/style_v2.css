@@ -1130,6 +1130,19 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .taxly-mobile-menu-fixed {
+        height: 80px;
+    }
+    .taxly-mobile-menu-fixed_white {
+        background: var(--white-color);
+        box-shadow: 0 2px 30px 0 var(--shadow-color);
+    }
+    .taxly-mobile-menu-button_white {
+        background-image: url('../../Images/v2/mobile_menu_button_dark.svg');
+    }
+}
+
 @media screen and (max-width: 767px) {
     .taxly-mobile-menu-fixed .taxly-logo a img.taxly-logo__item_mobile,
     .taxly-mobile-menu-fixed_white .taxly-logo a img.taxly-logo__item {
@@ -1270,16 +1283,11 @@
     .taxly-hero_bg-white .taxly-logo__item_mobile {
         display: block;
     }
-    .taxly-mobile-menu-fixed {
-        height: 80px;
-    }
-    .home .taxly-mobile-menu-fixed,
-    .taxly-mobile-menu-fixed_white {
+    .home .taxly-mobile-menu-fixed {
         background: var(--white-color);
         box-shadow: 0 2px 30px 0 var(--shadow-color);
     }
-    .home .taxly-mobile-menu-button,
-    .taxly-mobile-menu-button_white {
+    .home .taxly-mobile-menu-button {
         background-image: url('../../Images/v2/mobile_menu_button_dark.svg');
     }
     .home .taxly-mobile-menu-bg,

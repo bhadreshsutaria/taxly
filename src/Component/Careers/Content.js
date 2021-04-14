@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import images from "../../Utils/ImageHelper";
 import MobileMenu from "../../Layout/MobileMenu";
 import Navbar from "../../Layout/Navbar";
@@ -25,7 +25,7 @@ const CareersHeroSection = () => {
                         <div className="l-container l-container--content">
                             <h1 className="page-heading">{t('careers.SingleData.careersHeroHeading')}</h1>
                             <p>{t('careers.SingleData.careersHeroSubHeading')}</p>
-                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{t('careers.SingleData.careersHeroBtnText')}</a>
+                            <a href="https://app.taxly.ch/GettingStarted" rel="noreferrer" target="_blank" className="btn btn-large hero__cta">{t('careers.SingleData.careersHeroBtnText')}</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ const CareerCurrentOpp = () => {
                                 <div className="box-content">
                                     <img src={val.image} alt={val.imgAlt} />
                                     <h3>{val.title}</h3>
-                                    <a href={val.btnLink} target="_blank">{val.button}</a>
+                                    <a href={val.btnLink} rel="noreferrer" target="_blank">{val.button}</a>
                                 </div>
                             </div>
                         )}

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import {ModalData} from "../Modal/Data";
 import { useTranslation } from "react-i18next";
 
 Modal.setAppElement('#root');
@@ -33,7 +32,7 @@ const VideoModal = () => {
                 <div className="box-content">
                     <div className="modal__close" onClick={toggleModal}>Close</div>
                     <div className="modal__body">
-                        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/LVeccgzap4s"></iframe></p>
+                        <p><iframe title="Taxly - How it Works - English" width="560" height="315" src="https://www.youtube.com/embed/LVeccgzap4s"></iframe></p>
                     </div>
                 </div>
             </div>

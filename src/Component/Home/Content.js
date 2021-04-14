@@ -10,7 +10,7 @@ const LogoSection = () => {
     return(
         <section className="site-section home-press-logos taxly-grey-bg">
             <div className="l-container">
-                <p className="home-press-logos__title">{t("home.SingalData.partnershipTitle")}</p>
+                <p className="home-press-logos__title">{t("home.SingalData.logoTitle")}</p>
                 <ul>
                     <li><img style={{height: "18px"}} src={images.techCrunchLogo} alt="01_TechCrunch" /></li>
                     <li><img style={{height: "50px"}} src={images.twentyMinutenLogo} alt="02_20Minuten" /></li>
@@ -186,7 +186,7 @@ const Price = (props) => {
                 <p>{props.priceText[2]}</p>
                 <pre id="tw-target-text" className="tw-data-text tw-text-large XcVN5d tw-ta" dir="ltr" data-placeholder="Translation"></pre>
             </div>
-            <a target="_blank" className="btn hero__cta price-item__button" href="https://app.taxly.ch/GettingStarted">{props.priceBtnText}</a>
+            <a target="_blank" rel="noreferrer" className="btn hero__cta price-item__button" href="https://app.taxly.ch/GettingStarted">{props.priceBtnText}</a>
         </div>
     );
 };

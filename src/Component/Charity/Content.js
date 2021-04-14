@@ -25,7 +25,7 @@ const CharityHeroSection = () => {
                                 <h1 className="page-heading">{t('charity.SingalData.chsHeading')}</h1>
                                 {t('charity.SingalData.chsDescription1') === '' ? '' : <p>{t('charity.SingalData.chsDescription1')}</p>}
                                 {t('charity.SingalData.chsDescription2') === '' ? '' : <p>{t('charity.SingalData.chsDescription2')}</p>}
-                                <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{t('charity.SingalData.chsBtn')}</a>
+                                <a href="https://app.taxly.ch/GettingStarted" rel="noreferrer" target="_blank" className="btn btn-large hero__cta">{t('charity.SingalData.chsBtn')}</a>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const CharityOurPlan = () =>{
                     <div className="columns-3">
                         <div className="columns-3-item">
                             <img src={images.charityIcon} alt="icon-charity" />
-                            <p>{t('charity.SingalData.copdescription1')} <a href="https://www.myclimate.org/" target="_blank" rel="noopener">{t('charity.SingalData.myclimate')}</a>, {t('charity.SingalData.copdescription2')}</p>
+                            <p>{t('charity.SingalData.copdescription1')} <a href="https://www.myclimate.org/" target="_blank" rel="noreferrer noopener">{t('charity.SingalData.myclimate')}</a>, {t('charity.SingalData.copdescription2')}</p>
                         </div>
                         {CharityOurPlanData.map((val,ind) =>
                             <div key={ind} className="columns-3-item">
@@ -95,7 +95,7 @@ const CharityBCorp = () => {
                     <img src={images.socialimpactBcorpleaf} className="leaf" alt="social_bcorp_leaf" />
                     <img src={t('charity.SingalData.socialimpactBcorpcertified')} className="bcorp" alt="social_bcorp_certified" />
                 </div>
-                <a href="https://bcorporation.net/about-b-corps" target="_blank" className="btn btn-large hero__cta">{t('charity.SingalData.cbcLearnMore')}</a>
+                <a href="https://bcorporation.net/about-b-corps" target="_blank" rel="noreferrer" className="btn btn-large hero__cta">{t('charity.SingalData.cbcLearnMore')}</a>
             </div>
         </section>
     );
@@ -110,7 +110,7 @@ const CharityJoinThe = () => {
                 <div className="site-section__subheading">
                     <p>{t('charity.SingalData.cjtmSubHeading')}</p>
                 </div>
-                <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{t('charity.SingalData.cjtmBtnText')}</a>
+                <a href="https://app.taxly.ch/GettingStarted" target="_blank" rel="noreferrer" className="btn btn-large hero__cta">{t('charity.SingalData.cjtmBtnText')}</a>
             </div>
         </section>
     );

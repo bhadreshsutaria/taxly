@@ -3,7 +3,6 @@ import images from "../Utils/ImageHelper";
 import MobileMenu from "../Layout/MobileMenu";
 import Navbar from "../Layout/Navbar";
 import {VideoModal} from "../Component/Modal/Modal";
-import {SingalData} from "../Component/Home/Data";
 import { useTranslation } from "react-i18next";
 import '../Assets/Css/style.css';
 import '../Assets/Css/style_v2.css';
@@ -28,7 +27,7 @@ export default function Homeheader() {
                     <div className="l-container l-container--content">
                         <h1 className="page-heading">{t('home.SingalData.heroHeading')}</h1>
                         <p>{t('home.SingalData.heroDesc')}</p>
-                        <a href="https://app.taxly.ch/GettingStarted?culture=en" target="_blank" className="btn btn-large hero__cta">{t('home.SingalData.heroBtnName')}</a>
+                        <a href="https://app.taxly.ch/GettingStarted?culture=en" target="_blank" rel="noreferrer" className="btn btn-large hero__cta">{t('home.SingalData.heroBtnName')}</a>
                         <VideoModal/>
                         {/* <div className="video-link clear-inline-block"><a href="#" className="taxly-icon taxly-icon-play js-show-video-modal">{SingalData.heroVidName}</a></div> */}
                     </div>

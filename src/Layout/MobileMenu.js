@@ -39,7 +39,7 @@ export default function MobileMenu(props) {
                     </li>
                 </ul>
                 <ul className="bottom-menu">
-                    <li><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" className="taxly-icon taxly-icon-login">{t('header.data.navLogIn')}</a></li>
+                    <li><a href="https://app.taxly.ch/Identity/Account/Login?culture=en" target="_blank" rel="noreferrer" className="taxly-icon taxly-icon-login">{t('header.data.navLogIn')}</a></li>
                 </ul>
             </div>
         </>

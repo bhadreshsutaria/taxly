@@ -1214,7 +1214,8 @@ main .btn--white:hover {
     margin-bottom: 2.4rem;
 }
 
-.modal__close {
+.modal__close,
+.modal .modal-header .close {
     position: absolute;
     top: 38px;
     right: 38px;
