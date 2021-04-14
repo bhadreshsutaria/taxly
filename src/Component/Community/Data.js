@@ -1,5 +1,3 @@
-import React from "react";
-
 const SingleData = {
     communityHeroHeading: 'Meet some of the taxly community',
     communityHeroSubHeading: 'From writers, interns and bakers, tech guys to investors, each of them has a story to tell.',

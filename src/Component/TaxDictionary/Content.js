@@ -29,7 +29,7 @@ const TaxDictionaryHeroSection = () => {
                         <div className="l-container l-container--content">
                             <h1 className="page-heading">{t('taxdictionary.SingleData.tdHeroHeading')}</h1>
                             <p>{t('taxdictionary.SingleData.tdHeroSubHeading')}</p>
-                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" className="btn btn-large hero__cta">{t('taxdictionary.SingleData.tdHeroBtnText')}</a>
+                            <a href="https://app.taxly.ch/GettingStarted" target="_blank" rel="noreferrer" className="btn btn-large hero__cta">{t('taxdictionary.SingleData.tdHeroBtnText')}</a>
                         </div>
                     </div>
                 </div>

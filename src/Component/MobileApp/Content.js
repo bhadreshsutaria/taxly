@@ -100,28 +100,28 @@ const SiteSection = () => {
 	);
 };
 
-const AppDarkModal = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    function toggleModal() {
-        setIsOpen(!isOpen);
-    }
-    const { t } = useTranslation();
-    return(
-        <>
-        <button className="btn btn-large hero__cta" onClick={toggleModal}>{t('mobileapp.SingleData.notifyMeModalText')}</button>
-        <Modal className="modal invite-modal dark-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
-            <div className="modal__overlay"></div>
-            <div className="modal__content taxly-box">
-                <TopBottomLeftRight />
-                <div className="box-content">
-                    <div className="modal__close" onClick={toggleModal}>Close</div>
-                    <DarkModal />
-                </div>
-            </div>
-        </Modal>
-        </>
-    );
-};
+// const AppDarkModal = () => {
+//     const [isOpen, setIsOpen] = useState(false);
+//     function toggleModal() {
+//         setIsOpen(!isOpen);
+//     }
+//     const { t } = useTranslation();
+//     return(
+//         <>
+//         <button className="btn btn-large hero__cta" onClick={toggleModal}>{t('mobileapp.SingleData.notifyMeModalText')}</button>
+//         <Modal className="modal invite-modal dark-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
+//             <div className="modal__overlay"></div>
+//             <div className="modal__content taxly-box">
+//                 <TopBottomLeftRight />
+//                 <div className="box-content">
+//                     <div className="modal__close" onClick={toggleModal}>Close</div>
+//                     <DarkModal />
+//                 </div>
+//             </div>
+//         </Modal>
+//         </>
+//     );
+// };
 
 const ComingSoonCard= () => {
     const { t } = useTranslation();
