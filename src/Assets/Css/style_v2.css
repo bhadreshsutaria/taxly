@@ -1573,3 +1573,23 @@ img.emoji {
     background-color: #1c335b;
     color: #00ffb6;
 }
+
+
+/* .tax-dictionary ul li span {
+    color: #7297D6;
+    font-family: "Gilroy W05 Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.2px;
+    text-decoration: none;
+    cursor: pointer;
+} */
+
+.taxly-hero {
+    overflow: hidden;
+}
+
+.taxly-hero-bg-green {
+    bottom: -98px;
+}

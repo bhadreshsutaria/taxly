@@ -905,29 +905,351 @@
         },
         "taxdictionaryData": {
             "tdData": [{
+                    "id": "1",
                     "boxHeading": "A",
-                    "tdMTitle": ["Arrival (in Switzerland)"],
-                    "tdModalList": [
-                        "In case of arrival in Switzerland, only the income you received starting at the moment you moved to Switzerland will be taxable."
-                    ]
+                    "listData": [{
+                        "listTitle": "Arrival (in Switzerland)",
+                        "listDescription": [
+                            "In case of arrival in Switzerland, only the income you received starting at the moment you moved to Switzerland will be taxable."
+                        ]
+                    }]
                 },
                 {
+                    "id": "2",
                     "boxHeading": "B",
-                    "tdMTitle": ["Benefit in kind", "Business vehicle"],
-                    "tdModalList": [
-                        "Non-cash benefits received, often from employment such as a business vehicle.",
-                        "A business vehicle is a vehicle owned by an employer, which is available to the employee to drive from home to work, but also potentially privately.",
-                        "If an employee has a business vehicle at his disposal, part of that benefit in kind will be added to its wage statement and therefore be taxable."
+                    "listData": [{
+                        "listTitle": "Benefit in kind",
+                        "listDescription": [
+                            "Non-cash benefits received, often from employment such as a business vehicle."
+                        ]
+                    }, {
+                        "listTitle": "Business vehicle",
+                        "listDescription": [
+                            "A business vehicle is a vehicle owned by an employer, which is available to the employee to drive from home to work, but also potentially privately.",
+                            "If an employee has a business vehicle at his disposal, part of that benefit in kind will be added to its wage statement and therefore be taxable."
+                        ]
+                    }]
+                },
+                {
+                    "id": "3",
+                    "boxHeading": "C",
+                    "listData": [{
+                            "listTitle": "Capital gains",
+                            "listDescription": [
+                                "Denotes a gain on the sale of an asset, be it a security, a car, a house or a pencil. In Switzerland, unlike in most countries, a capital gain of a non-business asset (sales of shares in your savings for instance) is non-taxable. This exception does not apply to real estate however."
+                            ],
+                            "list": "",
+                            "listDescription1": ""
+                        }, {
+                            "listTitle": "Casinos",
+                            "listDescription": [
+                                "Any gains you made in a brick-and-mortar Swiss casinos are tax-free and do not need to be declared in your tax return.",
+                                "Gains you made on authorized online gambling or lottery websites are tax free until CHF 1m (since 2019, online gambling is subject to an official authorization). Any gains higher than that are taxable.",
+                                "Any gains from a non-Swiss casinos or from unauthorized online casinos are however completely taxable."
+                            ]
+                        },
+                        {
+                            "listTitle": "Civil partnership",
+                            "listDescription": [
+                                "Civil partnership, the legal union for same-sex couples, is considered for tax purposes to be exactly the same as marriage."
+                            ]
+                        }
                     ]
                 },
                 {
-                    "boxHeading": "C",
-                    "tdMTitle": ["Benefit in kind", "Business vehicle", "Business vehicle"],
-                    "tdModalList": [
-                        "Non-cash benefits received, often from employment such as a business vehicle.",
-                        "A business vehicle is a vehicle owned by an employer, which is available to the employee to drive from home to work, but also potentially privately.",
-                        "If an employee has a business vehicle at his disposal, part of that benefit in kind will be added to its wage statement and therefore be taxable."
+                    "id": "4",
+                    "boxHeading": "D",
+                    "listData": [{
+                        "listTitle": "Debt",
+                        "listDescription": [
+                            "Any sorts of liability you owe, which can be charged interest or not. Standard example would be a bank loan or an overdraft from your bank on 31 December but could also include for instance loans you’ve been granted by friends or family."
+                        ]
+                    }]
+                },
+                {
+                    "id": "5",
+                    "boxHeading": "E",
+                    "listData": [{
+                        "listTitle": "Education",
+                        "listDescription": [
+                            "In the context of taxes and Taxly, education costs can be deducted from the taxable income if they meet the following characteristics:"
+                        ],
+                        "list": [
+                            "the taxpayer attending the education is older than 20 years old",
+                            "the taxpayer has already achieved high school or vocational training (apprenticeship)",
+                            "it must directly or indirectly linked to his profession"
+                        ],
+                        "listDescription1": [
+                            "Thus any kind of education’s costs borne by the taxpayer that fulfill those criteria can be deducted from their taxable income. This deduction is however capped to CHF 12’000."
+                        ]
+                    }]
+                },
+                {
+                    "id": "6",
+                    "boxHeading": "F",
+                    "listData": [{
+                            "listTitle": "Federal tax",
+                            "listDescription": [
+                                "In Switzerland, taxes are levied at the federal level on top of the cantonal level. Taxation itself is made only at the cantonal level however and that is why you only file one cantonal return for both cantonal and federal taxes. That is why two figures are computed for your taxable income and why in some cantons you might receive two invoices, one for cantonal and one for federal taxes."
+                            ]
+                        },
+                        {
+                            "listTitle": "Fiscal year",
+                            "listDescription": [
+                                "In Switzerland, for individuals the fiscal year corresponds to the calendar year (1 January to 31 December)."
+                            ]
+                        },
+                        {
+                            "listTitle": "Fringe benefits",
+                            "listDescription": [
+                                "See also: Benefits in kind.",
+                                "Benefits supplementing normal wages or salaries. Fringe benefits may be given in the form of a money allowance, e.g. a holiday bonus or in the form of benefits in kind, e.g. free accommodation. Fringe benefits are usually taxable but their individual treatment varies widely. However, all taxable fringe benefits must have been declared by the employer in the employee’s wage statement."
+                            ]
+                        }
                     ]
+                },
+                {
+                    "id": "7",
+                    "boxHeading": "G",
+                    "listData": [{
+                            "listTitle": "Gain, capital",
+                            "listDescription": [
+                                "See: Capital gain"
+                            ]
+                        },
+                        {
+                            "listTitle": "Gift tax",
+                            "listDescription": [
+                                "A special tax paid by the giver of a gift (of money or property) worth more than a certain amount ($13,000 in 2010). Some transfers are exempt from the gift tax depending on the family relation. Such taxes are levied at the cantonal level, separately from the income tax return and vary widely across cantons."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "8",
+                    "boxHeading": "H",
+                    "listData": [{
+                        "listTitle": "Health insurance",
+                        "listDescription": [
+                            "See: Insurance premium."
+                        ]
+                    }]
+                },
+                {
+                    "id": "9",
+                    "boxHeading": "I",
+                    "listData": [{
+                            "listTitle": "Income",
+                            "listDescription": [
+                                "Defined broadly, any increase in wealth obtained during the year. One important exception is wealth coming from inheritance."
+                            ]
+                        },
+                        {
+                            "listTitle": "Inheritance",
+                            "listDescription": [
+                                "Inheritances are not subject to direct income taxation in Switzerland and therefore do not flow directly into your tax return. In most cases, inheritance and gift donations are however subject to additional cantonal taxation."
+                            ]
+                        },
+                        {
+                            "listTitle": "Insurance premium",
+                            "listDescription": [
+                                "Any kind of insurance premiums, including health insurance premiums are deductible from your income as an expense. This deduction is however capped and in most cantons, you cannot claim your whole insurance premium as deductions."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "10",
+                    "boxHeading": "J",
+                    "listData": [{
+                        "listTitle": "Joint return",
+                        "listDescription": [
+                            "Married couples and people under a civil partnership are mandated to file their taxes in common. This means they file only one tax return per year for the both of them, adding up all their taxable income and their taxable wealth. The year they married or they conclude a civil partnership, these persons will file a joint return for the whole year."
+                        ]
+                    }]
+                },
+                {
+                    "id": "11",
+                    "boxHeading": "L",
+                    "listData": [{
+                        "listTitle": "Late-payment interests",
+                        "listDescription": [
+                            "Interests charged on the late payment of tax, sometimes on the difference between the anticipated payments of taxes and the actual final tax liability. Each canton has different rules on the levying of such interests."
+                        ]
+                    }]
+                },
+                {
+                    "id": "12",
+                    "boxHeading": "M",
+                    "listData": [{
+                        "listTitle": "Marginal tax rate",
+                        "listDescription": [
+                            "The tax rate that applies to the last franc of income earned."
+                        ]
+                    }]
+                },
+                {
+                    "id": "13",
+                    "boxHeading": "N",
+                    "listData": [{
+                        "listTitle": "Non-resident",
+                        "listDescription": [
+                            "Persons that are non-resident in Switzerland are usually not subject to tax in Switzerland. There are a few exceptions, for instance:"
+                        ],
+                        "list": [
+                            "owners of real estate",
+                            "brokers of Swiss real estate",
+                            "board members of a Swiss company recipient of Swiss retirement payouts"
+                        ]
+                    }]
+                },
+                {
+                    "id": "14",
+                    "boxHeading": "P",
+                    "listData": [{
+                        "listTitle": "Pension",
+                        "listDescription": [
+                            "A retirement plan that pays a monthly payment until the recipient’s death."
+                        ]
+                    }]
+                },
+                {
+                    "id": "15",
+                    "boxHeading": "Q",
+                    "listData": [{
+                        "listTitle": "Qualified participation",
+                        "listDescription": [
+                            "A participation (share) in a corporation exceeding 10% of the voting rights. In such a situation, some tax breaks apply to income for those shares (dividends)."
+                        ]
+                    }]
+                },
+                {
+                    "id": "16",
+                    "boxHeading": "R",
+                    "listData": [{
+                            "listTitle": "Refund (tax)",
+                            "listDescription": [
+                                "Tax refunds are usually done once taxes have been finally assessed by the cantonal authorities. The timeframe of this varies widely across cantons."
+                            ]
+                        },
+                        {
+                            "listTitle": "Resident",
+                            "listDescription": [
+                                "A person is considered resident for tax purposes in Switzerland if he/she works more than 30 days in Switzerland or lives more than 90 days without notable interruptions."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "17",
+                    "boxHeading": "S",
+                    "listData": [{
+                            "listTitle": "Separation",
+                            "listDescription": [
+                                "In Switzerland, a separated couple, while still formerly married, are not subject to joint taxation and are therefore freed of the obligation to file a joint tax return."
+                            ]
+                        },
+                        {
+                            "listTitle": "Subsidised catering",
+                            "listDescription": [
+                                "Sometimes employers will put at their employee’s disposal a subsidized cantine or catering. This means that the employees are not paying the full price for their meals at their employer’s. This needs to be declared by the employer in their wage statement (see section G) and the employee is in that case not allowed to claim the full lunch meal deduction, but only half of it."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "18",
+                    "boxHeading": "T",
+                    "listData": [{
+                            "listTitle": "Taxable income",
+                            "listDescription": [
+                                "Your gross income is reduced by all applicable exemptions, credits, and deductions. The amount of income that is taxed."
+                            ]
+                        },
+                        {
+                            "listTitle": "Tax avoidance",
+                            "listDescription": [
+                                "Using legal tax planning strategies to reduce your tax bill."
+                            ]
+                        },
+                        {
+                            "listTitle": "Tax Evasion",
+                            "listDescription": [
+                                "Illegally hiding income from the tax authorities or deliberately underpaying taxes. Switzerland knows a category between tax avoidance and tax evasion, which can be roughly translated as “tax circumvention” (Steuerumgehung). In such a situation, you are not hiding or doing something illegal but your dealings constitute legal abuse, which permits the tax authorities to claim back taxes on the concerned transaction while you would not face criminal prosecution (no fines would be levied)."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "19",
+                    "boxHeading": "U",
+                    "listData": [{
+                        "listTitle": "Undue hardship",
+                        "listDescription": [
+                            "An undue hardship is a special circumstance that partially or fully exempt a person or organization from performance of a legal obligation so as to avoid an unreasonable or disproportionate burden or obstacle.",
+                            "In the context of Swiss tax, a tax exemption can be granted if the person to be taxed has become destitute after the conclusion of the tax year and still has to pay taxes on that tax year. The practical threshold for reaching this circumstance is usually very high, however."
+                        ]
+                    }]
+                },
+                {
+                    "id": "20",
+                    "boxHeading": "V",
+                    "listData": [{
+                        "listTitle": "Value added tax (VAT)",
+                        "listDescription": [
+                            "An undue hardship is a special circumstance that partially or fully exempt a person or organization from performance of a legal obligation so as to avoid an unreasonable or disproportionate burden or obstacle.",
+                            "In the context of Swiss tax, a tax exemption can be granted if the person to be taxed has become destitute after the conclusion of the tax year and still has to pay taxes on that tax year. The practical threshold for reaching this circumstance is usually very high, however."
+                        ]
+                    }]
+                },
+                {
+                    "id": "21",
+                    "boxHeading": "W",
+                    "listData": [{
+                            "listTitle": "Wage statement",
+                            "listDescription": [
+                                "Wage statement, or salary certificate is a document stating the net income obtained for a salaried work, including usually benefits in kind. It is prepared by the employer each year and summarizes basically the following information:"
+                            ],
+                            "list": [
+                                "gross income agreed between the employer and the employee",
+                                "social insurance contribution levied by the employer in the name of the employee",
+                                "pension fund contribution levied by the employer in the name of the employee",
+                                "Any other benefits in kind the employer might have granted the employee, such as indemnity for catering, indemnity for his rent etc…"
+                            ],
+                            "listDescription1": [
+                                "The net figure salary, is therefore the income subject to tax for that particular work."
+                            ]
+                        },
+                        {
+                            "listTitle": "Wealth tax",
+                            "listDescription": [
+                                "Tax levied on a person net’s wealth, i.e. any assets they own (car, business, financial accounts, etc.. but not personal belongings) minus their debts.",
+                                "Switzerland is one of the few countries in the world that still levy a wealth tax on any net assets that are not personal belongings. Also unlike countries still having a wealth tax, business assets are not excluded from the tax."
+                            ]
+                        },
+                        {
+                            "listTitle": "Withholding tax",
+                            "listDescription": [
+                                "Withholding tax is a tax levied on basically income from shares (dividends), bonds and bank accounts (interests) and lottery gain. Its rate is 35%. This tax can however be claimed back if the income itself is declared. The purpose of this tax in Switzerland is to combat tax evasion by inciting the declaration of the aforementioned income."
+                            ]
+                        },
+                        {
+                            "listTitle": "Worldwide taxation",
+                            "listDescription": [
+                                "When you are a tax resident in Switzerland, you are liable for tax on your worldwide income. Therefore any bank account, financial products or income from a corporation you earn from abroad will be taxable in Switzerland. Main exceptions to this are real estate or if a double tax treaty prevents Switzerland from taxing that particular income."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "22",
+                    "boxHeading": "Z",
+                    "listData": [{
+                        "listTitle": "Zero coupon bond",
+                        "listDescription": [
+                            "Long-term bond on which interest is not payable on a regular basis, but rather upon maturity of the bond. It is sold at a deep discount from its face value. Upon sale, that share then becomes taxable."
+                        ]
+                    }]
                 }
             ]
         }
