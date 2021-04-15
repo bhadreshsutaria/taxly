@@ -34,6 +34,10 @@ export default function Navbar() {
     if(scrolled){
         y.push('myfixed');
     }
+    // let h=[''];
+    // if(scrolled){
+    //     h.push('taxly-height');
+    // }
     return (
         <div id="mysticky-wrap">
             <div id="mysticky-nav" style={{top: 0}} className={`up ${x.join("")}`}>
