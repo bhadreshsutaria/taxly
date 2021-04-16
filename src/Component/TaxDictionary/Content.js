@@ -36,6 +36,21 @@ const TaxDictionaryHeroSection = () => {
     );
 };
 
+const List = (props) =>{
+    const numbers = props.numbers;
+    const numRow = numbers.length
+    const listItems = numbers.map((number) =>
+        <>
+        <li key={number.toString()}>{number}</li>
+        </>
+    );
+    return (
+        <>
+        {numRow === '' ? '' : listItems}
+        </>
+    );
+}
+
 const DescriptionList = (props) =>{
     const numbers = props.numbers;
     const listItems = numbers.map((number) =>
@@ -45,6 +60,18 @@ const DescriptionList = (props) =>{
     );
     return (
         <>{listItems}</>
+    );
+}
+const DescriptionList1 = (props) =>{
+    const numbers = props.numbers;
+    const listItems = numbers.map((number) =>
+        <>
+        <p key={number.toString()}>{number}</p>
+        </>
+    );
+    const numRow = numbers.length
+    return (
+        <>{numRow === '' ? '' : listItems}</>
     );
 }
 
@@ -80,6 +107,8 @@ class TaxDictionarySectionModal extends Component {
                             <h2 className="title">{this.props.modalText}</h2>
                             <div className="description list-items-style">
                                 <DescriptionList numbers={this.props.listDescription} />
+                                <List numbers={this.props.list} />
+                                <DescriptionList1 numbers={this.props.listDescription1} />
                             </div>
                         </div>
                     </div>
@@ -94,7 +123,6 @@ class TaxDictionarySectionModal extends Component {
 const TaxDictionarySection = () => {
     const { t } = useTranslation();
     let taxdictionaryData =  t('taxdictionary.taxdictionaryData.tdData', { returnObjects: true });
-    let list =  t('taxdictionary.taxdictionaryData.tdData.listData.list', { returnObjects: true });
     return(
         <section className="site-section">
             <div className="l-container">
@@ -116,6 +144,8 @@ const TaxDictionarySection = () => {
                                         popupText={subVal.popupText}
                                         modalText={subVal.listTitle}
                                         listDescription={subVal.listDescription}
+                                        list={subVal.list}
+                                        listDescription1={subVal.listDescription1}
                                     />
                                     )}
                                 </ul>
