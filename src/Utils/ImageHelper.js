@@ -44,68 +44,68 @@ import insightsBackWhite from "../Images/Taxly_Insights.png";
 import insightsBack from "../Images/insights_back.png";
 import insightsFront from "../Images/insights_front.png";
 import insightsHowitworksSingle from "../Images/insights-howitworks-single.png";
-import insightsIcon from "../Images/insights-icon-ai.png";
-import insightsSavings from "../Images/insights-icon-savings.png";
-import insightsOffers from "../Images/insights-icon-offers.png";
-import insightsHome from "../Images/insights-home.png";
-import insightsMortgage from "../Images/insights-mortgage.png";
-import insightsChildren from "../Images/insights-children.png";
-import insightsMarried from "../Images/insights-married.png";
-import insightsRetirement from "../Images/insights-retirement.png";
-import insights3a from "../Images/insights-3a.png";
-import insightsCar from "../Images/insights-car.png";
-import insightsBusiness from "../Images/insights-business.png";
-import insightsLifeInsurance from "../Images/insights-life-insurance.png";
-import insightsCanton from "../Images/insights-canton.png";
-import insightsDivorce from "../Images/insights-divorce.png";
-import insightsMore from "../Images/insights-more.png";
-import iconManager from "../Images/icon-manager.png";
-import iconInvest from "../Images/icon-invest.png";
-import iconArt from "../Images/icon-art.png";
-import iconIncome from "../Images/icon-income.png";
-import iconHouse from "../Images/icon-house.png";
-import iconChoose from "../Images/icon-choose.png";
+// import insightsIcon from "../Images/insights-icon-ai.png";
+// import insightsSavings from "../Images/insights-icon-savings.png";
+// import insightsOffers from "../Images/insights-icon-offers.png";
+// import insightsHome from "../Images/insights-home.png";
+// import insightsMortgage from "../Images/insights-mortgage.png";
+// import insightsChildren from "../Images/insights-children.png";
+// import insightsMarried from "../Images/insights-married.png";
+// import insightsRetirement from "../Images/insights-retirement.png";
+// import insights3a from "../Images/insights-3a.png";
+// import insightsCar from "../Images/insights-car.png";
+// import insightsBusiness from "../Images/insights-business.png";
+// import insightsLifeInsurance from "../Images/insights-life-insurance.png";
+// import insightsCanton from "../Images/insights-canton.png";
+// import insightsDivorce from "../Images/insights-divorce.png";
+// import insightsMore from "../Images/insights-more.png";
+// import iconManager from "../Images/icon-manager.png";
+// import iconInvest from "../Images/icon-invest.png";
+// import iconArt from "../Images/icon-art.png";
+// import iconIncome from "../Images/icon-income.png";
+// import iconHouse from "../Images/icon-house.png";
+// import iconChoose from "../Images/icon-choose.png";
 import apiBack from "../Images/api_back.png";
 import apiFront from "../Images/api_front.png";
-import screenOne from "../Images/screen-1.svg";
-import screenTwo from "../Images/screen-2.svg";
-import screenThree from "../Images/screen-3.svg";
-import vis from "../Images/vis.png";
-import visOne from "../Images/vis1.png";
-import apiFinance from "../Images/api-finance.png";
-import apiRealestate from "../Images/api-real-estate.png";
-import apiInsurance from "../Images/api-insurance.png";
-import apiCommerce from "../Images/api-commerce.png";
+// import screenOne from "../Images/screen-1.svg";
+// import screenTwo from "../Images/screen-2.svg";
+// import screenThree from "../Images/screen-3.svg";
+// import vis from "../Images/vis.png";
+// import visOne from "../Images/vis1.png";
+// import apiFinance from "../Images/api-finance.png";
+// import apiRealestate from "../Images/api-real-estate.png";
+// import apiInsurance from "../Images/api-insurance.png";
+// import apiCommerce from "../Images/api-commerce.png";
 import openDoor from "../Images/open-door.png";
 import socialBack from "../Images/social_back-1.png";
 import socialFront from "../Images/social_front-1.png";
 import socialWhostars from "../Images/social_who_stars.png";
 // import socialWhoglobeen from "../Images/social_who_globe-en.png";
 import iconcharity from "../Images/icon-charity.png";
-import iconcampaign from "../Images/icon-campaign.png";
-import iconcollaboration from "../Images/icon-collaboration.png";
+// import iconcampaign from "../Images/icon-campaign.png";
+// import iconcollaboration from "../Images/icon-collaboration.png";
 import socialBcorpglobe from "../Images/social_bcorp_globe.png";
 import socialBcorpleaf from "../Images/social_bcorp_leaf.png";
 // import socialBcorpcertified from "../Images/social_bcorp_certified-en.png";
-import homeBack from "../Images/home_back.png";
+// import homeBack from "../Images/home_back.png";
 import appFrontOne from "../Images/app_front-1.png";
-import revolutionalOsr from "../Images/revolutional-osr.png";
-import scanLikeAWind from "../Images/scan-like-a-wind.png";
-import appScreens from "../Images/app-screens.png";
-import thirdApp from "../Images/3rd-app.png";
+// import revolutionalOsr from "../Images/revolutional-osr.png";
+// import scanLikeAWind from "../Images/scan-like-a-wind.png";
+// import appScreens from "../Images/app-screens.png";
+// import thirdApp from "../Images/3rd-app.png";
 import tBackground1x from "../Images/t-background1x.png";
-import appleLogo from "../Images/apple.png";
-import androidLogo from "../Images/android.png";
+// import appleLogo from "../Images/apple.png";
+// import androidLogo from "../Images/android.png";
 import TaxlyHowItWorks from "../Images/Taxly_How_It_Works.png";
 import TaxlyApp from "../Images/Taxly_App.png";
 import TaxlyApi from "../Images/Taxly_Api.png";
 import TaxlyAccountants from "../Images/Taxly_Accountants.png";
-import taxAccountantsOne from "../Images/tax-accountants-1.png";
-import taxAccountantsTwo from "../Images/tax-accountants-2.png";
-import taxAccountantsThree from "../Images/tax-accountants-3.png";
-import taxAccountantsHowOneEn from "../Images/tax-accountants-how-1-en.png";
-import taxAccountantsHowTwoEn from "../Images/tax-accountants-how-2-en.png";
-import taxAccountantsHowThreeEn from "../Images/tax-accountants-how-3-en.png";
+// import taxAccountantsOne from "../Images/tax-accountants-1.png";
+// import taxAccountantsTwo from "../Images/tax-accountants-2.png";
+// import taxAccountantsThree from "../Images/tax-accountants-3.png";
+// import taxAccountantsHowOneEn from "../Images/tax-accountants-how-1-en.png";
+// import taxAccountantsHowTwoEn from "../Images/tax-accountants-how-2-en.png";
+// import taxAccountantsHowThreeEn from "../Images/tax-accountants-how-3-en.png";
 import aboutBackOne from "../Images/about_back-1.png";
 import aboutFrontOne from "../Images/about_front-1.png";
 import joinFrontOne from "../Images/join_front-1.png";
@@ -160,68 +160,68 @@ const images = {
     insightsBackBg: insightsBack,
     insightsFrontBg: insightsFront,
     insightsHowitworksSingleBg: insightsHowitworksSingle,
-    insightsIconAi: insightsIcon,
-    insightsIconSavings: insightsSavings,
-    insightsIconOffers: insightsOffers,
-    insightsHomeIcon: insightsHome,
-    insightsMortgageIcon: insightsMortgage,
-    insightsChildrenIcon: insightsChildren,
-    insightsMarriedIcon: insightsMarried,
-    insightsRetirementIcon: insightsRetirement,
-    insights3aIcon: insights3a,
-    insightsCarIcon: insightsCar,
-    insightsBusinessIcon: insightsBusiness,
-    insightsLifeInsuranceIcon: insightsLifeInsurance,
-    insightsCantonIcon: insightsCanton,
-    insightsDivorceIcon: insightsDivorce,
-    insightsMoreIcon: insightsMore,
-    managerIcon: iconManager,
-    investIcon: iconInvest,
-    artIcon: iconArt,
-    incomeIcon: iconIncome,
-    houseIcon: iconHouse,
-    chooseIcon: iconChoose,
+    // insightsIconAi: insightsIcon,
+    // insightsIconSavings: insightsSavings,
+    // insightsIconOffers: insightsOffers,
+    // insightsHomeIcon: insightsHome,
+    // insightsMortgageIcon: insightsMortgage,
+    // insightsChildrenIcon: insightsChildren,
+    // insightsMarriedIcon: insightsMarried,
+    // insightsRetirementIcon: insightsRetirement,
+    // insights3aIcon: insights3a,
+    // insightsCarIcon: insightsCar,
+    // insightsBusinessIcon: insightsBusiness,
+    // insightsLifeInsuranceIcon: insightsLifeInsurance,
+    // insightsCantonIcon: insightsCanton,
+    // insightsDivorceIcon: insightsDivorce,
+    // insightsMoreIcon: insightsMore,
+    // managerIcon: iconManager,
+    // investIcon: iconInvest,
+    // artIcon: iconArt,
+    // incomeIcon: iconIncome,
+    // houseIcon: iconHouse,
+    // chooseIcon: iconChoose,
     apiBackBg: apiBack,
     apiFrontBg: apiFront,
-    apiscreenOne: screenOne,
-    apiscreenTwo: screenTwo,
-    apiscreenThree: screenThree,
-    apivis: vis,
-    apivisOne: visOne,
-    apiFinanceIcon: apiFinance,
-    apiRealestateIcon: apiRealestate,
-    apiInsuranceIcon: apiInsurance,
-    apiCommerceIcon: apiCommerce,
+    // apiscreenOne: screenOne,
+    // apiscreenTwo: screenTwo,
+    // apiscreenThree: screenThree,
+    // apivis: vis,
+    // apivisOne: visOne,
+    // apiFinanceIcon: apiFinance,
+    // apiRealestateIcon: apiRealestate,
+    // apiInsuranceIcon: apiInsurance,
+    // apiCommerceIcon: apiCommerce,
     apiopenDoor: openDoor,
     socialBackBg: socialBack,
     socialFrontBg: socialFront,
     socialwhoStars: socialWhostars,
     // socialwhogloBeen: socialWhoglobeen,
     charityIcon: iconcharity,
-    campaignIcon: iconcampaign,
-    collaborationIcon: iconcollaboration,
+    // campaignIcon: iconcampaign,
+    // collaborationIcon: iconcollaboration,
     socialimpactBcorpglobe: socialBcorpglobe,
     socialimpactBcorpleaf: socialBcorpleaf,
     // socialimpactBcorpcertified: socialBcorpcertified,
-    homeBackBg: homeBack,
+    // homeBackBg: homeBack,
     appFrontOneBg: appFrontOne,
-    revolutionalOsrBg: revolutionalOsr,
-    scanLikeAWindBg: scanLikeAWind,
-    appScreensBg: appScreens,
-    thirdAppBg: thirdApp,
+    // revolutionalOsrBg: revolutionalOsr,
+    // scanLikeAWindBg: scanLikeAWind,
+    // appScreensBg: appScreens,
+    // thirdAppBg: thirdApp,
     tBackground1xLogo: tBackground1x,
-    appleIcon: appleLogo,
-    androidIcon: androidLogo,
+    // appleIcon: appleLogo,
+    // androidIcon: androidLogo,
     TaxlyHowItWorksBg: TaxlyHowItWorks,
     TaxlyAppBg: TaxlyApp,
     TaxlyApiBg: TaxlyApi,
     TaxlyAccountantsBg: TaxlyAccountants,
-    taxAccountantsOneBg: taxAccountantsOne,
-    taxAccountantsTwoBg: taxAccountantsTwo,
-    taxAccountantsThreeBg: taxAccountantsThree,
-    taxAccountantsHowOneEnBg: taxAccountantsHowOneEn,
-    taxAccountantsHowTwoEnBg: taxAccountantsHowTwoEn,
-    taxAccountantsHowThreeEnBg: taxAccountantsHowThreeEn,
+    // taxAccountantsOneBg: taxAccountantsOne,
+    // taxAccountantsTwoBg: taxAccountantsTwo,
+    // taxAccountantsThreeBg: taxAccountantsThree,
+    // taxAccountantsHowOneEnBg: taxAccountantsHowOneEn,
+    // taxAccountantsHowTwoEnBg: taxAccountantsHowTwoEn,
+    // taxAccountantsHowThreeEnBg: taxAccountantsHowThreeEn,
     aboutBackOneBg: aboutBackOne,
     aboutFrontOneBg: aboutFrontOne,
     joinFrontOneBg: joinFrontOne,

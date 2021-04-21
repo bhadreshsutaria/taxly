@@ -6,7 +6,6 @@ import Navbar from "../../Layout/Navbar";
 import {DarkModalApi, TopBottomLeftRight} from "../Modal/Modal";
 import Modal from "react-modal";
 import { useTranslation } from "react-i18next";
-
 Modal.setAppElement('#root');
 
 const ApiDarkModalApi = () => {
@@ -39,15 +38,8 @@ const ApiHeroSection = () => {
             <div className="hero">
                 <MobileMenu/>
                 <div className="taxly-hero taxly-hero_bg" style={{ backgroundImage: `url(${images.TaxlyApiBg})` }}>
-                    {/* <div className="taxly-hero-city-bg"></div> */}
                     <Navbar/>
-                    {/* <div className="taxly-hero-bg-green"></div> */}
                     <div className="hero site-section padding-bottom-none l-container in-viewport">
-                        {/* <div className="taxly-hero-bg"></div>
-                        <div className="taxly-hero-bird-back" style={{ backgroundImage: `url(${images.apiBackBg})` }}></div>
-                        <div className="taxly-hero-curve-green"><img src={images.taxlyHeroCurveDarkBg} alt="taxly-hero-curve-dark" /></div>
-                        <div className="taxly-hero-bird-front" style={{ backgroundImage: `url(${images.apiFrontBg})` }}></div>
-                        <div className="taxly-hero-bird"></div> */}
                         <div className="hero__wrapper">
                             <div className="l-container l-container--content">
                                 <h1 className="page-heading">{t('api.SingleData.apiHeroHeading')}</h1>

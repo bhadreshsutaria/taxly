@@ -29,7 +29,6 @@ export default function Homeheader() {
                         <p>{t('home.SingalData.heroDesc')}</p>
                         <a href="https://app.taxly.ch/GettingStarted?culture=en" target="_blank" rel="noreferrer" className="btn btn-large hero__cta">{t('home.SingalData.heroBtnName')}</a>
                         <VideoModal/>
-                        {/* <div className="video-link clear-inline-block"><a href="#" className="taxly-icon taxly-icon-play js-show-video-modal">{SingalData.heroVidName}</a></div> */}
                     </div>
                 </div>
             </div>

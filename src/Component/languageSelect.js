@@ -34,6 +34,7 @@ const LanguageSelect = () => {
     const changeLanguage = (obj) => {
         i18n.changeLanguage(obj.code)
         setCurrentI18nLanguage(obj);
+        window.scroll({top: 0,left: 0,behavior: 'smooth'})
         localStorage.setItem('LanguageObj', JSON.stringify(obj));
     };
     // const changeLanguage = (language) => {

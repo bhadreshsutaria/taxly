@@ -36,10 +36,6 @@ export default function Faqheader() {
     if(scrolled){
         y.push('myfixed');
     }
-    // let h=[''];
-    // if(scrolled){
-    //     h.push('taxly-height');
-    // }
     return (
     <div className="header-wrap">
         <MobileMenu/>

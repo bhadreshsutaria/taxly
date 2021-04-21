@@ -46,7 +46,7 @@ const List = (props) =>{
     );
     return (
         <>
-        {numRow === '' ? '' : listItems}
+        {numRow > 1 ? <ul>{numRow === '' ? '' : listItems}</ul> : ''}
         </>
     );
 }

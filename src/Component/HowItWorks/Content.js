@@ -15,16 +15,9 @@ const HeroSection = () => {
                 menuBGColorClass="taxly-mobile-menu_white"
             />
             <div className="taxly-hero taxly-hero_bg taxly-hero_bg-white" style={{ backgroundImage: `url(${images.TaxlyHowItWorksBg})` }}>
-                {/* <div className="taxly-hero-city-bg"></div> */}
                 <Navbar/>
-                {/* <div className="taxly-hero-bg-green"></div> */}
                 {HeroSectionData.map((val,ind) =>
                     <div key={ind} className="hero site-section padding-bottom-none l-container in-viewport">
-                        {/* <div className="taxly-hero-bg"></div>
-                        <div className="taxly-hero-bird-back" style={{ backgroundImage: `url(${images.howItWorkBirdBg})` }}></div>
-                        <div className="taxly-hero-curve-green">
-                            <img src={images.taxlyHeroCurveDarkBg} alt="taxly-hero-curve-dark" />
-                        </div> */}
                         <div className="hero__wrapper">
                             <div className="l-container l-container--content">
                                 <h1 className="page-heading">{val.title}</h1>
