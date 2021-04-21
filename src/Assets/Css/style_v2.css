@@ -1586,10 +1586,13 @@ img.emoji {
     cursor: pointer;
 } */
 
-.taxly-hero {
+/* .taxly-hero {
     overflow: hidden;
-}
+} */
 
 .taxly-hero-bg-green {
     bottom: -98px;
+}
+.height-98 #mysticky-wrap{
+    height: 98px;
 }

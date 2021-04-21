@@ -20,15 +20,8 @@ const HeroApp = () => {
             menuBGColorClass="taxly-mobile-menu_white"
         />
         <div className="taxly-hero taxly-hero_bg taxly-hero_bg-white" style={{ backgroundImage: `url(${images.TaxlyAppBg})` }}>
-            {/* <div className="taxly-hero-city-bg"></div> */}
             <Navbar/>
-            {/* <div className="taxly-hero-bg-green"></div> */}
             <div className="hero site-section padding-bottom-none l-container in-viewport">
-                {/* <div className="taxly-hero-bg"></div>
-                <div className="taxly-hero-bird-back" style={{ backgroundImage: `url(${images.homeBackBg})` }}></div>
-                <div className="taxly-hero-curve-green"><img src={images.taxlyHeroCurveDarkBg} alt="taxly-hero-curve-dark" /></div>
-                <div className="taxly-hero-bird-front" style={{ backgroundImage: `url(${images.appFrontOneBg})` }}></div>
-                <div className="taxly-hero-bird"></div> */}
                 <div className="hero__wrapper">
                     <div className="l-container l-container--content">
                         <h1 className="page-heading">{t('mobileapp.SingleData.heroAppPageHeading')}</h1>
@@ -99,29 +92,6 @@ const SiteSection = () => {
 		</>
 	);
 };
-
-// const AppDarkModal = () => {
-//     const [isOpen, setIsOpen] = useState(false);
-//     function toggleModal() {
-//         setIsOpen(!isOpen);
-//     }
-//     const { t } = useTranslation();
-//     return(
-//         <>
-//         <button className="btn btn-large hero__cta" onClick={toggleModal}>{t('mobileapp.SingleData.notifyMeModalText')}</button>
-//         <Modal className="modal invite-modal dark-modal taxly-dark is-visible" isOpen={isOpen} onRequestClose={toggleModal}>
-//             <div className="modal__overlay"></div>
-//             <div className="modal__content taxly-box">
-//                 <TopBottomLeftRight />
-//                 <div className="box-content">
-//                     <div className="modal__close" onClick={toggleModal}>Close</div>
-//                     <DarkModal />
-//                 </div>
-//             </div>
-//         </Modal>
-//         </>
-//     );
-// };
 
 const ComingSoonCard= () => {
     const { t } = useTranslation();

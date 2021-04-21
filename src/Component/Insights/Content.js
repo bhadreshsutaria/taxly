@@ -14,15 +14,8 @@ const InsightHeroSection = () => {
                 menuBGColorClass="taxly-mobile-menu_white"
             />
             <div className="taxly-hero taxly-hero taxly-hero_bg taxly-hero_bg-white" style={{ backgroundImage: `url(${images.insightsBackWhiteBg})` }}>
-                {/* <div className="taxly-hero-city-bg"></div> */}
                 <Navbar/>
-                {/* <div className="taxly-hero-bg-green"></div> */}
                 <div className="hero site-section padding-bottom-none l-container in-viewport">
-                    {/* <div className="taxly-hero-bg"></div>
-                    <div className="taxly-hero-bird-back" style={{ backgroundImage: `url(${images.insightsBackBg})` }}></div>
-                    <div className="taxly-hero-curve-green"><img src={images.taxlyHeroCurveDarkBg} alt="taxly-hero-curve-dark" /></div>
-                    <div className="taxly-hero-bird-front" style={{ backgroundImage: `url(${images.insightsFrontBg})` }}></div>
-                    <div className="taxly-hero-bird"></div> */}
                     <div className="hero__wrapper">
                         <div className="l-container l-container--content">
                             <h1 className="page-heading">{t('insights.SingleData.heroPageHeading')}</h1>

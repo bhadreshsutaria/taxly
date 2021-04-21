@@ -14,9 +14,6 @@ const PrivacyPolicy = () => {
     let PrivacyPolicy2_4 =  t('privacy.PrivacyPolicy2_4.data', { returnObjects: true });
     let PrivacyPolicy2_5_data =  t('privacy.PrivacyPolicy2_5.data', { returnObjects: true });
     let PrivacyPolicy2_5_list =  t('privacy.PrivacyPolicy2_5.data1', { returnObjects: true });
-    // let PrivacyPolicy2_5_data2 =  t('privacy.PrivacyPolicy2_5.data2', { returnObjects: true });
-    // let PrivacyPolicy2_5_data3 =  t('privacy.PrivacyPolicy2_5.data3', { returnObjects: true });
-    // let PrivacyPolicy2_5_data4 =  t('privacy.PrivacyPolicy2_5.data4', { returnObjects: true });
     let PrivacyPolicy2_5_List2 =  t('privacy.PrivacyPolicy2_5.PrivacyPolicy2_5List.data', { returnObjects: true });
     let PrivacyPolicy3_data =  t('privacy.PrivacyPolicy3.data', { returnObjects: true });
     let PrivacyPolicy3_link_data =  t('privacy.PrivacyPolicy3.link_data.data', { returnObjects: true });

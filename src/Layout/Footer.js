@@ -10,7 +10,6 @@ export default function Footer() {
     const { t } = useTranslation();
     AppendScripts('https://code.jquery.com/jquery-3.5.1.min.js');
     AppendScripts('/js/detectmobilebrowser.js');
-    // AppendScripts('/js/mystickymenu.min.js');
     AppendScripts('/js/scripts.js');
     return (
         <>

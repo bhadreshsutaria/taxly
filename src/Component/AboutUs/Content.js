@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 const AboutUsHeroSection = () => {
     const { t } = useTranslation();
     return(
-        <div className="header-wrap hero__inner__white">
+        <div className="header-wrap hero__inner__white height-98">
             <MobileMenu/>
             <div className="taxly-hero taxly-hero_bg" style={{ backgroundImage: `url(${images.TaxlyAboutUsBg})` }}>
                 <Navbar/>

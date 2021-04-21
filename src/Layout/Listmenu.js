@@ -10,7 +10,7 @@ const Listmenu = () => {
         } catch (error) {
             window.scroll(scrolling);
         }
-    }, []);
+    }, [scrol]);
     const scrolling = () => {
         setScrol(window.scroll({top: 0,left: 0,behavior: 'smooth'}))
     }
