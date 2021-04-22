@@ -39,9 +39,9 @@ const TaxDictionaryHeroSection = () => {
 const List = (props) =>{
     const numbers = props.numbers;
     const numRow = numbers.length
-    const listItems = numbers.map((number) =>
+    const listItems = numbers.map((number, index) =>
         <>
-        <li key={number.toString()}>{number}</li>
+        <li key={index}>{number}</li>
         </>
     );
     return (
@@ -53,9 +53,9 @@ const List = (props) =>{
 
 const DescriptionList = (props) =>{
     const numbers = props.numbers;
-    const listItems = numbers.map((number) =>
+    const listItems = numbers.map((number, index) =>
         <>
-        <p key={number.toString()}>{number}</p>
+        <p key={index}>{number}</p>
         </>
     );
     return (
@@ -64,9 +64,9 @@ const DescriptionList = (props) =>{
 }
 const DescriptionList1 = (props) =>{
     const numbers = props.numbers;
-    const listItems = numbers.map((number) =>
+    const listItems = numbers.map((number, index) =>
         <>
-        <p key={number.toString()}>{number}</p>
+        <p key={index}>{number}</p>
         </>
     );
     const numRow = numbers.length
@@ -95,7 +95,7 @@ class TaxDictionarySectionModal extends Component {
         const val = [];
         return(
             <>
-            <li>
+            <li key={val.id}>
             <a href="#" onClick={() => this.handleShow(val.id)}>{this.props.modalText}</a>
             <Modal className="modal title-description-modal is-visible" show={this.state.show === val.id} onHide={this.handleClose}>
                 <div className="modal__overlay"></div>

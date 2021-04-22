@@ -5,11 +5,7 @@ const Listmenu = () => {
     const { t } = useTranslation();
     const [scrol, setScrol] = useState(0);
     useEffect(() => {
-        try {
-            window.scroll();
-        } catch (error) {
-            window.scroll(scrolling);
-        }
+        window.scroll({top: 0,left: 0,behavior: 'smooth'})
     }, [scrol]);
     const scrolling = () => {
         setScrol(window.scroll({top: 0,left: 0,behavior: 'smooth'}))

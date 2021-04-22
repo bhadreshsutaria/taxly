@@ -139,18 +139,18 @@ const TaxOurPrice = () => {
     const { t } = useTranslation();
     let TaxOurPriceData =  t('taxaccount.TaxOurPriceData.data', { returnObjects: true });
     return(
-        <section class="site-section no-subtitle">
-			<div class="l-container">
-				<h2 class="site-section__heading">{t('taxaccount.SingleData.TaxOurPriceHeading')}</h2>
-				<div class="prices-module">
-					<div class="columns-3 taxly-boxes taxly-boxes-square">
+        <section className="site-section no-subtitle">
+			<div className="l-container">
+				<h2 className="site-section__heading">{t('taxaccount.SingleData.TaxOurPriceHeading')}</h2>
+				<div className="prices-module">
+					<div className="columns-3 taxly-boxes taxly-boxes-square">
                         {TaxOurPriceData.map((val,ind)=>
-                            <div key={ind} class="columns-3-item taxly-box taxly-box-white">
-                                <div class="box-top-left box-image"></div>
-                                <div class="box-top-right box-image"></div>
-                                <div class="box-bottom-left box-image"></div>
-                                <div class="box-bottom-right box-image"></div>
-                                <div class="box-content">
+                            <div key={ind} className="columns-3-item taxly-box taxly-box-white">
+                                <div className="box-top-left box-image"></div>
+                                <div className="box-top-right box-image"></div>
+                                <div className="box-bottom-left box-image"></div>
+                                <div className="box-bottom-right box-image"></div>
+                                <div className="box-content">
                                     <ul>
                                         <li>{val.boxListOne}</li>
                                         <li>{val.boxListTwo}</li>
