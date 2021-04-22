@@ -18,6 +18,10 @@
     font-size: 62.5%;
 }
 
+a {
+    cursor: pointer;
+}
+
 .taxly-hero_bg {
     background-size: 100% auto;
     background-position: center 100%;
@@ -1523,8 +1527,9 @@ img.emoji {
     padding: 0;
 }
 
-.language-switcher .css-tj5bde-Svg {
+.language-switcher .css-tlfecz-indicatorContainer>svg {
     opacity: 0;
+    visibility: hidden;
 }
 
 .language-switcher .css-1uccc91-singleValue {
@@ -1586,6 +1591,7 @@ img.emoji {
     cursor: pointer;
 } */
 
+
 /* .taxly-hero {
     overflow: hidden;
 } */
@@ -1593,6 +1599,7 @@ img.emoji {
 .taxly-hero-bg-green {
     bottom: -98px;
 }
-.height-98 #mysticky-wrap{
+
+.height-98 #mysticky-wrap {
     height: 98px;
 }

@@ -57,7 +57,7 @@ const CommunityStoryModalBody = (props) =>{
                     <h2>{props.cplH2Five}</h2>
                     <p>{props.cplpFive}</p><hr />
                     <h2>{props.cplH2Six}</h2>
-                    <p>{props.cplpSix} {props.cplpEmoji === true ? <img draggable="false" role="img" className="emoji" alt="🙂" src="https://s.w.org/images/core/emoji/13.0.1/svg/1f642.svg" alt="" /> : '' }</p>                                                 
+                    <p>{props.cplpSix} {props.cplpEmoji === true ? <img draggable="false" className="emoji" alt="🙂" src="https://s.w.org/images/core/emoji/13.0.1/svg/1f642.svg" /> : '' }</p>                                                 
                 </div>
             </div>
         </div>
@@ -110,8 +110,8 @@ class CommunityStorySectionModal extends React.Component {
                         />
                     </div>
                 </div>
-            </Modal>
-        </>                       
+            </Modal> 
+        </>                   
         );
     }
 };

@@ -24,8 +24,11 @@ export default function Navbar() {
         }
     }
     useEffect(() => {
-        window.addEventListener('scroll',handleScroll)
-    })
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    });
     let x=[''];
     if(scrolled){
         x.push('down wrapfixed');
