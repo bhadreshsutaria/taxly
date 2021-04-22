@@ -1527,7 +1527,8 @@ img.emoji {
     padding: 0;
 }
 
-.language-switcher .css-tlfecz-indicatorContainer>svg {
+.language-switcher .css-tlfecz-indicatorContainer>svg,
+.language-switcher .css-1gtu0rj-indicatorContainer>svg {
     opacity: 0;
     visibility: hidden;
 }

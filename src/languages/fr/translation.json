@@ -897,6 +897,401 @@
             ]
         }
     },
+    "taxdictionary": {
+        "SingleData": {
+            "tdHeroHeading": "La fiscalité expliquée !",
+            "tdHeroSubHeading": "Vous vous êtes déjà demandé tout ce que cet étrange jargon bizarre voulait dire ? Eh bien, nous l’avons décrypté pour vous.",
+            "tdHeroBtnText": "Commencer"
+        },
+        "taxdictionaryData": {
+            "tdData": [{
+                    "id": "1",
+                    "boxHeading": "A",
+                    "listData": [{
+                            "listTitle": "Année fiscale",
+                            "listDescription": [
+                                "En Suisse, le calendrier fiscal pour les individus correspond au calendrier annuel (du 1er janvier au 31 décembre)."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Arrivée (en Suisse)",
+                            "listDescription": [
+                                "Si vous arrivez en Suisse, seuls les revenus que vous avez reçu à partir du moment où vous avez emménagé en Suisse seront imposables."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Assurance premium",
+                            "listDescription": [
+                                "Toute sorte d’assurance premium, y compris les assurances santé premium, sont déductibles de vos revenus en tant que dépense. Cette déduction est toutefois limitée et dans la plupart des cantons, vous ne pouvez pas déduire la totalité de votre assurance premium."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Assurance santé",
+                            "listDescription": [
+                                "Voir: Assurance premium"
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Avantage en nature",
+                            "listDescription": [
+                                "Les avantages non monétaires reçus, souvent par votre emploi comme un véhicule de fonction."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Avantages en nature",
+                            "listDescription": [
+                                "Voir aussi : Avantage en nature",
+                                "Des avantages en plus du salaire normal. Les avantages en nature peuvent prendre la forme de sommes d’argent, comme des primes de vacances ou sous la forme d’avantages en nature, comme un logement gratuit. Les avantages en nature sont généralement imposables mais leur traitement individuel varie grandement. Toutefois, tous les avantages en nature imposables doivent être déclarés par l’employeur dans le certificat de salaire de l’employé."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "boxHeading": "C",
+                    "listData": [{
+                        "listTitle": "Casinos",
+                        "listDescription": [
+                            "Tout gain remporté dans un casino physique suisse n’est pas imposable et ne doit pas être déclaré dans votre déclaration de revenus.",
+                            "Les gains que vous remportez sur des sites en ligne de paris ou loterie sont non imposables à hauteur de 1m CHF (depuis 2019, les paris en lignes sont assujettis à une autorisation officielle). Tout gain supérieur est imposable.",
+                            "Tout gain provenant d’un casino non suisse ou d’un casino en ligne non autorisé est imposable en totalité."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }, {
+                        "listTitle": "Certificat de salaire",
+                        "listDescription": [
+                            "Le certificat de salaire est un document qui établit le revenu net obtenu pour un travail salarié, comprenant généralement les avantages en nature. Il est préparé par l’employeur chaque année et résume les informations suivantes :"
+                        ],
+                        "list": [
+                            "revenu brut convenu entre l’employeur et l’employé",
+                            "la contribution à la sécurité sociale prélevée par l’employeur au nom de l’employé",
+                            "la contribution au fond de pension prélevée par l’employeur au nom de l’employé",
+                            "Tout autre avantage en nature que l’employeur pourrait avoir fourni à l’employé, tel qu’une indemnité de restauration, de loyer, etc."
+                        ],
+                        "listDescription1": [
+                            "Le chiffre du revenu net est donc le revenu imposable pour ce travail en particulier."
+                        ]
+                    }]
+                },
+                {
+                    "id": "3",
+                    "boxHeading": "D",
+                    "listData": [{
+                            "listTitle": "Déclaration commune",
+                            "listDescription": [
+                                "Les couples mariés et les personnes inscrites sous une union civile doivent remplir une déclaration commune. Cela signifie qu’ils ne doivent remplir qu’une seule déclaration par an pour eux deux, où ils additionnent tous leurs revenus imposables et leur richesse imposable. L’année où ces personnes se sont mariées ou ont conclu une union civile, ces personnes doivent remplir une déclaration commune pour l’année entière."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }, {
+                            "listTitle": "Dette",
+                            "listDescription": [
+                                "Toute sorte de dette que vous devez, qui peut comprendre des intérêts ou non. L’exemple classique est un prêt bancaire ou un découvert sur votre compte bancaire au 31 décembre mais peut comprendre également par exemple des prêts que vous avez contracté auprès de votre famille ou de vos amis."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Difficulté excessive",
+                            "listDescription": [
+                                "Une difficulté excessive est une circonstance exceptionnelle qui exempt une personne ou une organisation partiellement ou totalement de la réalisation d’une obligation légale afin d’éviter un fardeau ou obstacle non raisonnable ou disproportionné.",
+                                "Dans le cadre de l’impôt suisse, une exemption d’impôt peut être autorisée si la personne imposée s’est retrouvée dans le dénuement à la fin de l’année fiscale et doit encore payer ses impôts pour cette année fiscale. Le seuil pratique pour atteindre ces circonstances est toutefois très élevé."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "4",
+                    "boxHeading": "E",
+                    "listData": [{
+                            "listTitle": "Évasion fiscale",
+                            "listDescription": [
+                                "Cacher de manière illégale des revenus aux autorités fiscales ou sous-payer vos impôts. La Suisse reconnaît une catégorie entre l’évitement fiscal et l’évasion fiscale, qui peut être décrite comme le « contournement fiscal » (Steuerumgehung). Dans ce cas, vous ne cachez pas ni ne faites quelque chose d’illégal mais vos agissements représentent une violation de la loi, ce qui permet aux autorités fiscales de réclamer le remboursement des transactions concernées pour éviter toute poursuite judiciaire (aucune amende ne sera appliquée)."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Évitement fiscal",
+                            "listDescription": [
+                                "Utiliser des stratégies de planification d’impôt légales pour réduire vos impôts."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "boxHeading": "G",
+                    "listData": [{
+                            "listTitle": "Gain, capital",
+                            "listDescription": [
+                                "Voir : Gains en capital"
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Gains en capital",
+                            "listDescription": [
+                                "Indique un gain sur la vente d’un actif, qu’il s’agisse d’une assurance, une voiture, une maison ou un crayon. En Suisse, contrairement à la plupart des pays, un gain en capital pour un actif non commercial (ventes ou parts de vos économies par exemple) n’est pas imposable. Cette exception ne s’applique toutefois pas à l’immobilier."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "boxHeading": "H",
+                    "listData": [{
+                        "listTitle": "Héritage",
+                        "listDescription": [
+                            "Les héritages sont directement imposés en Suisse, et n’ont donc pas besoin de figurer dans votre déclaration d’impôt. Dans la plupart des cas, les héritages et les dons sont toutefois assujettis à un autre impôt au niveau du canton."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "7",
+                    "boxHeading": "I",
+                    "listData": [{
+                            "listTitle": "Impôt à la source",
+                            "listDescription": [
+                                "L’impôt à la source est un impôt prélevé sur un revenu classique sur les parts (dividendes), bonds, comptes bancaires (intérêts) et gains de loterie. Son taux s’élève à 35%. Cet impôt peut toutefois être réclamé en remboursement si le revenu lui-même est déclaré. Le but de cet impôt en Suisse est de lutter contre l’évasion fiscale en incitant à déclarer le revenu sus-mentionné."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Impôt fédéral",
+                            "listDescription": [
+                                "En Suisse, les impôts sont prélevés au niveau fédéral au-dessus du niveau du canton. L’impôt en soi n’est toutefois prélevé qu’au niveau du canton, et c’est pourquoi vous ne remplissez qu’une déclaration cantonale pour les impôts du canton et fédéraux. C’est pourquoi ces deux éléments sont calculés pour votre revenu imposable et pourquoi dans certains cantons, vous pouvez recevoir deux avis, un pour le canton et un au niveau fédéral."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Impôt sur la fortune",
+                            "listDescription": [
+                                "L’impôt prélevé sur la fortune nette d’une personne, par exemple tout bien qu’elle possède (voiture, entreprise, compte financier, etc… mais pas les bien personnels) moins leurs dettes.",
+                                "La Suisse est l’un des rare pays au monde qui prélève encore un impôt sur la fortune sur tout bien qui ne soit pas un bien personnel. Contrairement aux pays qui ont un impôt sur la fortune, les actifs commerciaux ne sont pas exclus de cet impôt."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Impôt sur les donations",
+                            "listDescription": [
+                                "Un impôt spécial payé par celui qui fait un cadeau (argent ou propriété) d’une valeur supérieure à un certain montant (13 000$ en 2010). Certains transferts sont exempts de cette taxe selon le lien familial. Ces impôts sont prélevés au niveau du canton, séparément de l’impôt sur les revenus et peuvent varier selon le canton."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Impôt universel",
+                            "listDescription": [
+                                "Si vous êtes résident en Suisse, vous êtes assujetti à l’impôt universel sur votre revenu. Dès lors, tout compte bancaire, tout produit financier ou revenu émanant d’une entreprise que vous possédez à l’étranger sera imposable en Suisse. Il existe de nombreuses exceptions, telles que l’immobilier ou si un double traité fiscal empêche la Suisse d’imposer ce revenu en particulier."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Intérêts de retard de paiement",
+                            "listDescription": [
+                                "Les intérêts indexés sur le retard de paiement des impôts, parfois sur la différence entre le paiement anticipé des impôts et le délai final réel. Chaque canton a des règles différentes sur le prélèvement de ces intérêts."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "8",
+                    "boxHeading": "N",
+                    "listData": [{
+                        "listTitle": "Non-résident",
+                        "listDescription": [
+                            "Les personnes qui ne résident pas en Suisse ne sont généralement pas assujetties à l’impôt Suisse. Il existe quelques exceptions, par exemple :"
+                        ],
+                        "list": [
+                            "propriétaires immobilier",
+                            "courtiers immobilier en Suisse",
+                            "administrateurs d’une entreprise suisse récepteurs de pensions de retraites suisses"
+                        ],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "9",
+                    "boxHeading": "O",
+                    "listData": [{
+                        "listTitle": "Obligation zéro coupon",
+                        "listDescription": [
+                            "Un bond à long terme où les intérêts ne sont pas à payer de manière régulière mais une fois à maturité du bond. Il est vendu à un prix bien moindre que sa valeur nominale. À la vente, cette part devient imposable."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "10",
+                    "boxHeading": "P",
+                    "listData": [{
+                        "listTitle": "Participation qualifiée",
+                        "listDescription": [
+                            "Une participation (part) d’une entreprise qui dépasse 10% des droits de vote. Dans ce cas, des exemptions fiscales s’appliquent au revenu de ces parts (dividendes)."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "11",
+                    "boxHeading": "R",
+                    "listData": [{
+                            "listTitle": "Remboursement (d’impôt)",
+                            "listDescription": [
+                                "Les remboursements d’impôts sont généralement réalisés une fois que les impôts ont terminés d’être évalués par les autorités cantonales. Ce délai varie d’un canton à l’autre."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Résident",
+                            "listDescription": [
+                                "Une personne est considérée résident(e) à des fins fiscales en Suisse si cette personne travaille plus de 30 jours en Suisse ou s’il/elle y vit plus de 90 jours sans interruption notable."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Retraite",
+                            "listDescription": [
+                                "Un plan de retraite qui verse un montant mensuel jusqu’au décès du bénéficiaire."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Revenu",
+                            "listDescription": [
+                                "En gros, une augmentation de la richesse enregistrée dans l’année. Exception importante : la richesse provenant d’un héritage."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Revenu imposable",
+                            "listDescription": [
+                                "Votre revenu brut est prélevé de toutes les exceptions, crédits et déductions applicables. Le montant du revenu qui est imposé."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "12",
+                    "boxHeading": "S",
+                    "listData": [{
+                            "listTitle": "Scolarité",
+                            "listDescription": [
+                                "Dans le cadre fiscal et de Taxly, les frais de scolarité peuvent être déduits du revenu imposable s’ils correspondent aux caractéristiques suivantes :"
+                            ],
+                            "list": [
+                                "le contribuable qui poursuit ses études a plus de 20 ans",
+                                "le contribuable a déjà terminé le lycée ou une formation professionnelle (apprentissage)",
+                                "les études doivent être liées directement ou indirectement à sa profession"
+                            ],
+                            "listDescription1": [
+                                "Ainsi, tous les frais de scolarité endossés par le contribuable qui rempli les critères suivants peuvent être déduits des impôts. Cette déduction est toutefois plafonnée à 12 000 CHF."
+                            ]
+                        },
+                        {
+                            "listTitle": "Séparation",
+                            "listDescription": [
+                                "En Suisse, un couple séparé, s’il est toujours marié, n’est pas assujetti à l’imposition commune et n’est donc pas obligé d’envoyer une déclaration commune."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Service de restauration subventionné",
+                            "listDescription": [
+                                "Parfois, l’employeur met à disposition de ses employés un service de restauration subventionné. Cela signifie que les employés n’y paient pas le prix total pour leur plat. Cela doit être déclaré par l’employeur dans leur certificat de salaire (voir section G) et l’employé n’est dans ce cas pas autorisé à déduire la totalité de son repas de midi, mais seulement la moitié."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "13",
+                    "boxHeading": "T",
+                    "listData": [{
+                            "listTitle": "Taux marginal d’imposition",
+                            "listDescription": [
+                                "Le taux d’imposition qui s’applique sur le revenu touché, jusqu’au dernier franc."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Taxe sur la valeur ajoutée (TVA)",
+                            "listDescription": [
+                                "Le taux d’imposition qui s’applique sur le revenu touché, jusqu’au dernier franc."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "14",
+                    "boxHeading": "U",
+                    "listData": [{
+                        "listTitle": "Union civile",
+                        "listDescription": [
+                            "L’union civile, l’union légale pour les couples du même sexe, est d’un point de vue fiscal égale au mariage."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "15",
+                    "boxHeading": "V",
+                    "listData": [{
+                        "listTitle": "Véhicule de fonction",
+                        "listDescription": [
+                            "Un véhicule de fonction est un véhicule possédé par un employeur qui est mis à disposition de l’employé pour se déplacer entre son logement et son travail, mais aussi potentiellement pour un usage privé.",
+                            "Si un employé dispose d’un véhicule de fonction, une partie de cet avantage en nature sera ajoutée à sa déclaration de revenus et sera donc imposable."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                }
+            ]
+        }
+    },
     "careers": {
         "SingleData": {
             "careersHeroHeading": "Vous voulez faire carrière chez Taxly ?",

@@ -897,6 +897,417 @@
             ]
         }
     },
+    "taxdictionary": {
+        "SingleData": {
+            "tdHeroHeading": "Steuern einfach erklärt!",
+            "tdHeroSubHeading": "Hast Du Dich auch schon mal gefragt, was dieser seltsame Steuerjargon eigentlich zu bedeuten hat? Nun, wir haben es hier das Wichtigste für Dich übersetzt.",
+            "tdHeroBtnText": "Los geht‘s"
+        },
+        "taxdictionaryData": {
+            "tdData": [{
+                    "id": "1",
+                    "boxHeading": "A",
+                    "listData": [{
+                        "listTitle": "Ansässigkeit",
+                        "listDescription": [
+                            "Eine Person gilt als in der Schweiz steuerlich ansässig, wenn sie mehr als 30 Tage in der Schweiz arbeitet oder mehr als 90 Tage ohne nennenswerte Unterbrechungen lebt."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "2",
+                    "boxHeading": "B",
+                    "listData": [{
+                        "listTitle": "Bereitgestellte Verpflegung",
+                        "listDescription": [
+                            "Manchmal stellen die Arbeitgeber ihren Mitarbeitern eine subventionierte Kantine oder ein Catering zur Verfügung. Dies bedeutet, dass die Arbeitnehmer nicht den vollen Preis für ihre Mahlzeiten beim Arbeitgeber zahlen. Dies muss der Arbeitgeber in seiner Lohnbescheinigung angeben (siehe Abschnitt G) und der Arbeitnehmer kann in diesem Fall nicht den vollen, sondern nur die Hälfte des Essensabzugs geltend machen."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "3",
+                    "boxHeading": "D",
+                    "listData": [{
+                        "listTitle": "Dienstfahrzeug",
+                        "listDescription": [
+                            "Ein Dienstfahrzeug ist ein Fahrzeug im Besitz eines Arbeitgebers, das dem Arbeitnehmer zur Verfügung steht, um von zu Hause zur Arbeit zu fahren, aber auch möglicherweise für private Zwecke.",
+                            "Verfügt ein Arbeitnehmer über ein Dienstfahrzeug, so wird ein Teil dieser Sachleistung in seine Lohnbescheinigung aufgenommen und ist somit steuerpflichtig."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }, {
+                        "listTitle": "Direkte Bundessteuer",
+                        "listDescription": [
+                            "In der Schweiz werden die Steuern zusätzlich zur kantonalen Ebene auf Bundesebene erhoben. Die Besteuerung selbst erfolgt jedoch nur auf kantonaler Ebene, weshalb Du sowohl für die Kantons- als auch für die Bundessteuer nur eine kantonale Steuererklärung abgeben musst. Deshalb werden zwei Beträge für Dein zu versteuerndes Einkommen berechnet, und deshalb erhältst Du in einigen Kantonen zwei Rechnungen, eine für die Kantons- und eine für die Bundessteuer."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "4",
+                    "boxHeading": "E",
+                    "listData": [{
+                            "listTitle": "Eingetragene Partnerschaft",
+                            "listDescription": [
+                                "Die eingetragene Partnerschaft, die gesetzliche Lebensgemeinschaft für gleichgeschlechtliche Paare, wird für steuerliche Zwecke genau wie die Ehe behandelt."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Einkommen",
+                            "listDescription": [
+                                "Definiert im weitesten Sinne jede Vermögenssteigerung, die im Laufe des Jahres erzielt wird. Eine wichtige Ausnahme ist das Vermögen, das aus einer Erbschaft stammt."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Erbschaft",
+                            "listDescription": [
+                                "Erbschaften unterliegen in der Schweiz nicht der direkten Einkommensbesteuerung und fliessen daher nicht direkt in Deine Steuererklärung ein. In den meisten Fällen unterliegen Erbschaften und Schenkungen jedoch einer zusätzlichen kantonalen Besteuerung."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "boxHeading": "G",
+                    "listData": [{
+                            "listTitle": "Gemeinsame Steuererklärung",
+                            "listDescription": [
+                                "Verheiratete Paare und Personen in einer eingetragenen Partnerschaft sind verpflichtet, ihre Steuern gemeinsam zu entrichten. Das bedeutet, dass sie gemeinsam nur eine Steuererklärung pro Jahr abgeben, in der sie ihr gesamtes zu versteuerndes Einkommen und ihr zu versteuerndes Vermögen zusammenfassen. In dem Jahr, in dem sie heiraten oder eine eingetragene Partnerschaft eingehen, reichen diese Personen eine gemeinsame Erklärung für das ganze Jahr ein."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Gewinn, Kapital",
+                            "listDescription": [
+                                "Siehe: Kapitalgewinn"
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Grenzsteuersatz",
+                            "listDescription": [
+                                "Der Steuersatz, der für den letzten Franken des verdienten Einkommens gilt."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "boxHeading": "K",
+                    "listData": [{
+                            "listTitle": "Kapitalgewinne",
+                            "listDescription": [
+                                "Bezeichnet einen Gewinn aus dem Verkauf eines Vermögenswertes, sei es ein Wertpapier, ein Auto, ein Haus oder ein Bleistift. Anders als in den meisten Ländern ist in der Schweiz der Gewinn aus dem Verkauf eines nicht geschäftlichen Vermögens (z.B. aus dem Verkauf von Aktien aus Ihrer Ersparnisse) nicht steuerpflichtig. Diese Ausnahme gilt jedoch nicht für Immobilien."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Kasinos",
+                            "listDescription": [
+                                "Alle Gewinne, die Du in einem Schweizer Spielkasino erspielst, sind steuerfrei und müssen nicht in Deiner Steuererklärung deklariert werden.",
+                                "Gewinne, die Du auf autorisierten Online-Glücksspiel- oder Lotterie-Websites erzielst, sind bis zu einem Betrag von CHF 1 Mio. steuerfrei (seit 2019 unterliegt das Online-Glücksspiel einer behördlichen Genehmigung). Höhere Gewinne sind steuerpflichtig.",
+                                "Gewinne von ausländischen Kasinos oder von nicht autorisierten Online-Kasinos sind vollständig steuerpflichtig."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Krankenversicherung",
+                            "listDescription": [
+                                "Siehe: Versicherungsprämie"
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "7",
+                    "boxHeading": "L",
+                    "listData": [{
+                        "listTitle": "Lohnausweis",
+                        "listDescription": [
+                            "Der Lohnausweis ist ein Dokument, das das Nettoeinkommen für eine bezahlte Arbeit, in der Regel einschließlich Sachleistungen, angibt. Sie wird jedes Jahr vom Arbeitgeber erstellt und fasst im Wesentlichen die folgenden Informationen zusammen:"
+                        ],
+                        "list": [
+                            "das zwischen dem Arbeitgeber und dem Arbeitnehmer vereinbarte Bruttoeinkommen",
+                            "Sozialversicherungsbeitrag, der vom Arbeitgeber im Namen des Arbeitnehmers erhoben wird",
+                            "Pensionskassenbeitrag, der vom Arbeitgeber im Namen des Arbeitnehmers erhoben wird",
+                            "Alle anderen Sachleistungen, die der Arbeitgeber dem Arbeitnehmer gewährt hat, wie z.B. Entschädigung für die Verpflegung, Entschädigung für seine Miete usw…."
+                        ],
+                        "listDescription1": [
+                            "Der Nettolohn, ist also das steuerpflichtige Einkommen für diese bestimmte Arbeit."
+                        ]
+                    }]
+                },
+                {
+                    "id": "8",
+                    "boxHeading": "M",
+                    "listData": [{
+                        "listTitle": "Mehrwertsteuer (MWST)",
+                        "listDescription": [
+                            "Der Lohnausweis ist ein Dokument, das das Nettoeinkommen für eine bezahlte Arbeit, in der Regel einschließlich Sachleistungen, angibt. Sie wird jedes Jahr vom Arbeitgeber erstellt und fasst im Wesentlichen die folgenden Informationen zusammen:"
+                        ],
+                        "list": [
+                            "das zwischen dem Arbeitgeber und dem Arbeitnehmer vereinbarte Bruttoeinkommen",
+                            "Sozialversicherungsbeitrag, der vom Arbeitgeber im Namen des Arbeitnehmers erhoben wird",
+                            "Pensionskassenbeitrag, der vom Arbeitgeber im Namen des Arbeitnehmers erhoben wird",
+                            "Alle anderen Sachleistungen, die der Arbeitgeber dem Arbeitnehmer gewährt hat, wie z.B. Entschädigung für die Verpflegung, Entschädigung für seine Miete usw…."
+                        ],
+                        "listDescription1": [
+                            "Der Nettolohn, ist also das steuerpflichtige Einkommen für diese bestimmte Arbeit."
+                        ]
+                    }]
+                },
+                {
+                    "id": "9",
+                    "boxHeading": "N",
+                    "listData": [{
+                            "listTitle": "Nebenleistungen",
+                            "listDescription": [
+                                "Siehe auch: Leistung in Form von Sachleistungen",
+                                "Leistungen, die die normalen Löhne oder Gehälter erhöhen. Nebenleistungen können in Form von Geldleistungen, z. B. Urlaubsgeld, oder in Form von Sachleistungen, z. B. kostenlose Unterkunft, gewährt werden. Nebenleistungen sind in der Regel steuerpflichtig, aber ihre individuelle Behandlung ist sehr unterschiedlich. Alle steuerpflichtigen Nebenleistungen müssen jedoch vom Arbeitgeber in der Lohnbescheinigung des Arbeitnehmers deklariert worden sein."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Nicht ansässig",
+                            "listDescription": [
+                                "Personen, die nicht in der Schweiz ansässig sind, sind in der Regel nicht in der Schweiz steuerpflichtig. Es gibt einige Ausnahmen, zum Beispiel:"
+                            ],
+                            "list": [
+                                "Eigentümer von Immobilien",
+                                "Makler von Schweizer Immobilien",
+                                "Vorstandsmitglieder eines Schweizer Unternehmens, die Schweizer Pensionszahlungen erhalten"
+                            ],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Nullkuponanleihe",
+                            "listDescription": [
+                                "Langfristige Anleihe, bei der die Zinsen nicht regelmäßig, sondern erst bei Laufzeitende der Anleihe fällig werden. Sie wird mit einem hohen Abschlag vom Nennwert verkauft. Beim Verkauf wird diese Aktie dann steuerpflichtig."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "10",
+                    "boxHeading": "Q",
+                    "listData": [{
+                        "listTitle": "Qualifizierte Beteiligung",
+                        "listDescription": [
+                            "Eine Beteiligung (Aktie) an einer Gesellschaft, die 10% der Stimmrechte überschreitet. In einer solchen Situation gelten einige Steuervergünstigungen für das Einkommen aus diesen Aktien (Dividenden)."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "11",
+                    "boxHeading": "R",
+                    "listData": [{
+                            "listTitle": "Rente",
+                            "listDescription": [
+                                "Ein Ruhestandsplan, der eine monatliche Zahlung bis zum Tod des Empfängers vorsieht."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Rückerstattung (Steuer)",
+                            "listDescription": [
+                                "Die Steuerrückerstattung erfolgt in der Regel nach der finalen Veranlagung der Steuern durch die kantonalen Behörden. Der zeitliche Rahmen dafür ist von Kanton zu Kanton sehr unterschiedlich."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "12",
+                    "boxHeading": "S",
+                    "listData": [{
+                            "listTitle": "Sachleistungen",
+                            "listDescription": [
+                                "Erhaltene Sachleistungen, oft aus der Erwerbstätigkeit, z.B. ein Dienstfahrzeug."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Schenkungssteuer",
+                            "listDescription": [
+                                "Eine Sondersteuer, die der Geber eines Geschenks (Geld oder Eigentum) im Wert von mehr als einem bestimmten Betrag (CHF 13’000 im Jahr 2010) bezahlt. Einige Schenkungen sind je nach Familienverhältnissen von der Schenkungssteuer befreit. Solche Steuern werden auf kantonaler Ebene, getrennt von der Einkommenssteuererklärung, erhoben und sind von Kanton zu Kanton sehr unterschiedlich."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Schuld",
+                            "listDescription": [
+                                "Jegliche Art von Verbindlichkeit, die Du schuldest, und die mit oder ohne Zinsen berechnet werden kann. Ein Standardbeispiel wäre ein Bankkredit oder ein Überziehungskredit Deiner Bank am 31. Dezember, aber auch z.B. Kredite, die Dir von Freunden oder Familie gewährt wurden."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Steuerhinterziehung",
+                            "listDescription": [
+                                "Illegales Unterschlagen von Einkommen vor den Steuerbehörden oder absichtliche Unterbezahlung von Steuern. In der Schweiz wird eine Kategorie zwischen Steuervermeidung und Steuerhinterziehung unterschieden, und zwar die Steuerumgehung. In einer solchen Situation unterschlägst Du kein Einkommen und tust nichts Illegales, sondern Du begehst einen Rechtsmissbrauch, der es den Steuerbehörden erlaubt, die Steuern auf die betreffende Transaktion zurückzufordern, ohne dass Du strafrechtlich verfolgt wirst (es werden keine Geldstrafen erhoben)."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Steuerperiode",
+                            "listDescription": [
+                                "In der Schweiz entspricht die Steuerperiode für natürliche Personen dem Kalenderjahr (1. Januar bis 31. Dezember)."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Steuerpflichtiges Einkommen",
+                            "listDescription": [
+                                "Ihr Bruttoeinkommen wird um alle anwendbaren Freistellungen, Anrechnungen und Abzüge reduziert. Der Betrag des Einkommens, der versteuert wird."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Steuervermeidung",
+                            "listDescription": [
+                                "Legale Nutzung von Möglichkeiten und Verfahren, um Deine Steuerlast zu reduzieren."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "13",
+                    "boxHeading": "T",
+                    "listData": [{
+                        "listTitle": "Trennung/Getrenntleben",
+                        "listDescription": [
+                            "In der Schweiz unterliegen Ehepaare, die getrennt leben, obwohl sie noch formell verheiratet sind, nicht der gemeinsamen Besteuerung und sind daher von der Verpflichtung zur Abgabe einer gemeinsamen Steuererklärung befreit."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "14",
+                    "boxHeading": "U",
+                    "listData": [{
+                        "listTitle": "Unbillige Härte",
+                        "listDescription": [
+                            "Eine unbillige Härte ist ein besonderer Umstand, der eine Person oder Organisation teilweise oder ganz von der Erfüllung einer gesetzlichen Verpflichtung befreit, um eine unzumutbare oder unverhältnismäßige Belastung oder Behinderung zu vermeiden.",
+                            "Im Rahmen der Schweizer Besteuerung kann eine Steuerbefreiung (Steuererlass) gewährt werden, wenn die zu besteuernde Person nach Abschluss des Steuerjahres mittellos geworden ist und für dieses Steuerjahr noch Steuern zu entrichten hat. Die praktische Schwelle für das Vorliegen dieses Umstandes ist jedoch in der Regel sehr hoch."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "15",
+                    "boxHeading": "V",
+                    "listData": [{
+                            "listTitle": "Vermögenssteuer",
+                            "listDescription": [
+                                "Steuer, die auf das Nettovermögen einer Person erhoben wird, d.h. auf alle Vermögenswerte, die sie besitzt (Auto, Unternehmen, Geldkonten usw., aber nicht auf persönliche Gegenstände), abzüglich ihrer Schulden.",
+                                "Die Schweiz ist eines der wenigen Länder der Welt, das noch eine Vermögenssteuer auf jegliches Nettovermögen, das nicht zum persönlichen Besitz gehört, erhebt. Auch im Gegensatz zu Ländern, die noch eine Vermögenssteuer haben, ist das Geschäftsvermögen nicht von der Steuer ausgenommen."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Verrechnungssteuer",
+                            "listDescription": [
+                                "Die Verrechnungssteuer ist eine Steuer, die im Wesentlichen auf Einkünfte aus Aktien (Dividenden), Anleihen und Bankkonten (Zinsen) und Lotteriegewinne erhoben wird. Ihr Satz beträgt 35 %. Diese Steuer kann jedoch zurückgefordert werden, wenn das Einkommen selbst deklariert wird. Der Zweck dieser Steuer in der Schweiz ist die Bekämpfung der Steuerhinterziehung durch Anreiz zur Deklaration der vorgenannten Einkünfte."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Versicherungsprämie",
+                            "listDescription": [
+                                "Jede Art von Versicherungsprämien, einschliesslich der Krankenversicherungsprämien, sind von Deinem Einkommen als Aufwand abzugsfähig. Dieser Abzug ist jedoch nach oben hin begrenzt und in den meisten Kantonen kannst Du nicht die gesamte Versicherungsprämie als Abzug geltend machen."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Verzugszinsen",
+                            "listDescription": [
+                                "Zinsen, die auf die verspätete Zahlung von Steuern erhoben werden, manchmal auf die Differenz zwischen den voraussichtlichen Steuerzahlungen und der tatsächlichen endgültigen Steuerschuld. Jeder Kanton hat unterschiedliche Bestimmungen für die Erhebung solcher Zinsen."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "16",
+                    "boxHeading": "W",
+                    "listData": [{
+                            "listTitle": "Weiterbildung",
+                            "listDescription": [
+                                "Im Rahmen der Steuerpraxis können Weiterbildungskosten vom zu versteuernden Einkommen abgezogen werden, wenn sie die folgenden Voraussetzungen erfüllen:"
+                            ],
+                            "list": [
+                                "der Steuerzahler, der an der Ausbildung teilnimmt, ist älter als 20 Jahre",
+                                "der Steuerpflichtige hat bereits das Gymnasium oder eine Berufsausbildung (Lehre) absolviert",
+                                "die Bildungsmassnahme muss direkt oder indirekt mit dem Beruf in Verbindung stehen"
+                            ],
+                            "listDescription1": [
+                                "Somit können die vom Steuerzahler getragenen Ausbildungskosten jeder Art, die diese Kriterien erfüllen, von seinem steuerpflichtigen Einkommen abgezogen werden. Dieser Abzug ist jedoch auf CHF 12.000 begrenzt."
+                            ]
+                        },
+                        {
+                            "listTitle": "Weltweite Besteuerung",
+                            "listDescription": [
+                                "Wenn Du in der Schweiz steuerlich ansässig bist, bist Du mit Deinem weltweiten Einkommen steuerpflichtig. Daher sind alle Bankkonten, Finanzprodukte oder Einkünfte aus einer Gesellschaft, die Du aus dem Ausland beziehst, in der Schweiz steuerpflichtig. Hauptausnahme hiervon sind Immobilien, oder ein Doppelbesteuerungsabkommen, was die Schweiz daran hindert, dieses bestimmte Einkommen zu besteuern."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "17",
+                    "boxHeading": "Z",
+                    "listData": [{
+                        "listTitle": "Zuzug in die Schweiz",
+                        "listDescription": [
+                            "Im Falle eines Zuzuges in die Schweiz, wird nur das Einkommen versteuert, das Du ab dem Zeitpunkt Deiner Ankuft in der Schweiz eingenommen hast."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                }
+            ]
+        }
+    },
     "careers": {
         "SingleData": {
             "careersHeroHeading": "Wie wäre es mit einer Karriere bei taxly?",
