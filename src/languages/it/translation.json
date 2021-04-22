@@ -897,6 +897,404 @@
             ]
         }
     },
+    "taxdictionary": {
+        "SingleData": {
+            "tdHeroHeading": "D’ora in poi sarà tutto chiaro in materia di tasse!",
+            "tdHeroSubHeading": "Ti sei già interrogato sul significato dello strano e astruso gergo fiscale? Bene, ora te lo spieghiamo.",
+            "tdHeroBtnText": "Guida introduttiva"
+        },
+        "taxdictionaryData": {
+            "tdData": [{
+                    "id": "1",
+                    "boxHeading": "A",
+                    "listData": [{
+                            "listTitle": "Aliquota fiscale marginale",
+                            "listDescription": [
+                                "L’aliquota fiscale che si applica alle ultime retribuzioni percepite."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Anno fiscale",
+                            "listDescription": [
+                                "In Svizzera, per i privati, l’anno fiscale corrisponde all’anno civile (dal 1° gennaio al 31 dicembre)."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Arrivo (In Svizzera)",
+                            "listDescription": [
+                                "Nel caso in cui tu ti sia trasferito in Svizzera, saranno imponibili solo gli introiti percepiti a partire dalla data del tuo trasferimento."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Assicurazione sanitaria",
+                            "listDescription": [
+                                "Vedi: Premio assicurativo"
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "boxHeading": "B",
+                    "listData": [{
+                        "listTitle": "Busta paga",
+                        "listDescription": [
+                            "La busta paga, o attestato documentativo della retribuzione, è un documento su cui è riportato il reddito netto percepito in qualità di lavoratore dipendente, comprendente le prestazioni abituali in natura. La busta paga è creata ogni anno dal datore di lavoro e contiene essenzialmente le seguenti informazioni:"
+                        ],
+                        "list": [
+                            "reddito lordo concordato dal datore di lavoro e dal dipendente",
+                            "contributi previdenziali versati dal datore di lavoro a nome del dipendente",
+                            "montante contributivo versato dal datore di lavoro a nome del dipendente",
+                            "Qualsiasi altra prestazione in natura di cui potrebbe beneficiare il dipendente su decisione del datore di lavoro, come sovvenzioni per il servizio di ristorazione, per l’affitto ecc…"
+                        ],
+                        "listDescription1": [
+                            "La retribuzione netta è il reddito imponibile percepito per quel determinato lavoro."
+                        ]
+                    }]
+                },
+                {
+                    "id": "3",
+                    "boxHeading": "C",
+                    "listData": [{
+                        "listTitle": "Casinò",
+                        "listDescription": [
+                            "Qualsiasi vincita ottenuta presso Swiss casinos non virtuali è esentasse e non dovrà essere dichiarata nella dichiarazione dei redditi.",
+                            "Le vincite da giochi d’azzardo on-line o siti di lotteria sono esentasse fino a 1m CHF (dal 2019, il gioco d’azzardo on-line è soggetto ad un’autorizzazione amministrativa). Qualsiasi vincita superiore a tale somma sarà tassata.",
+                            "Invece, qualsiasi vincita realizzata presso casinò che non siano Swiss casinos o casinò on-line sarà totalmente imponibile."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "4",
+                    "boxHeading": "D",
+                    "listData": [{
+                            "listTitle": "Debiti",
+                            "listDescription": [
+                                "Qualsiasi tipo di onere finanziario generante o meno interessi. Ne è un classico esempio un mutuo bancario o una concessione di scoperto della tua banca al 31 dicembre ma può anche consistere in prestiti accordati da amici o familiari."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Dichiarazione congiunta",
+                            "listDescription": [
+                                "Le coppie sposate o coniugate con rito civile dovranno sottomettere una dichiarazione dei redditi congiunta. Ciò vuol dire che bisogna presentare una sola dichiarazione dei redditi all’anno per entrambi, aggiungendo l’utile e la ricchezza imponibili. L’anno in cui si è contratto il matrimonio o è stata conclusa l’unione civile, gli interessati dovranno presentare una dichiarazione dei redditi congiunta per tutto l’anno."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "boxHeading": "E",
+                    "listData": [{
+                            "listTitle": "Elusione fiscale",
+                            "listDescription": [
+                                "Avvalersi di strategie di pianificazione fiscale legali per ridurre il proprio carico fiscale."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Eredità",
+                            "listDescription": [
+                                "In Svizzera, l’eredità in generale non è soggetta a tassazione diretta come gli utili, pertanto essa non va riportata direttamente nella dichiarazione dei redditi. Nella maggior parte dei casi, l’eredità e le donazioni sono soggette a tassazione cantonale aggiuntiva a quella federale."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Evasione fiscale",
+                            "listDescription": [
+                                "Occultare illegalmente i propri introiti alle autorità fiscali o pagare volutamente meno tasse. La Svizzera conosce una categoria intermedia tra l’elusione e l’evasione fiscale, che potremmo tradurre con l’espressione “sfuggire all’imposta” (Steuerumgehung). In effetti, ciò non consiste né nell’occultamento né nel ricorso ad azioni illegali ma in un abuso di diritto, che permette alle autorità fiscali di recuperare le imposte sulla transazione interessata senza che il contribuente incorra in procedimenti penali (non saranno applicate more)."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "boxHeading": "G",
+                    "listData": [{
+                        "listTitle": "Guadagni, capitali",
+                        "listDescription": [
+                            "Vedi: Le plusvalenze"
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "7",
+                    "boxHeading": "I",
+                    "listData": [{
+                            "listTitle": "Imposizione sui redditi mondiali",
+                            "listDescription": [
+                                "Si sei fiscalmente residente in Svizzera, sei soggetto all’imposizione sui redditi mondiali. Pertanto, qualsiasi conto corrente bancario, prodotto finanziario o reddito versato da una società all’estero sarà imponibile in Svizzera. Le principali eccezioni a tale norma sono i beni immobili, ma essa non viene applicata neanche in caso di trattato fiscale che esenti la Svizzera dal tassare l’introito in questione."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Imposta patrimoniale",
+                            "listDescription": [
+                                "Tassa riscossa sul patrimonio (ricchezza) netto, ossia qualsiasi attivo patrimoniale (auto, attività commerciali, conti finanziari, ecc. ma non gli effetti personali) detratti i debiti.",
+                                "La Svizzera è uno dei pochi paesi al mondo a continuare a riscuotere un’imposta patrimoniale su ogni attivo patrimoniale netto che non consista in effetti personali. A differenza di altri paesi che hanno ancora la patrimoniale, i capitali di esercizio non ne sono esclusi da questa tassa."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Imposta sulle donazioni",
+                            "listDescription": [
+                                "Una tassa speciale pagata dalla persona che fa la donazione (in denaro o proprietà) dal valore superiore a un certo importo (13000$ nel 2010). Alcuni bonifici bancari sono esenti dall’imposta sulle donazioni a seconda del grado di parentela. Queste imposte sono riscosse a livello cantonale, separatamente della dichiarazione dei redditi e variano molto da un cantone all’altro."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Imposta sul valore aggiunto (IVA)",
+                            "listDescription": [
+                                "Una tassa speciale pagata dalla persona che fa la donazione (in denaro o proprietà) dal valore superiore a un certo importo (13000$ nel 2010). Alcuni bonifici bancari sono esenti dall’imposta sulle donazioni a seconda del grado di parentela. Queste imposte sono riscosse a livello cantonale, separatamente della dichiarazione dei redditi e variano molto da un cantone all’altro."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Imposte federali",
+                            "listDescription": [
+                                "In Svizzera, le imposte sono riscosse a livello federale oltre che a livello cantonale. Tuttavia la tassazione stessa avviene soltanto a livello cantonale ed è per questo che presenti solo la dichiarazione cantonale sia per le tasse cantonali che per le tasse federali. Ecco perché sono calcolate due cifre diverse per l’imponibile ed è per la stessa ragione che in alcuni cantoni potresti ricevere due fatture diverse, una per le tasse cantonali e un’altra per le tasse federali."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Interessi di mora",
+                            "listDescription": [
+                                "Gli interessi applicati a volte in caso di ritardo nel pagamento delle imposte, a volte sulla differenza tra i pagamenti anticipati delle tasse e il debito d’imposta finale effettivo. Ogni cantone segue regole di riscossione diverse dei suddetti interessi."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Istruzione",
+                            "listDescription": [
+                                "A livello fiscale e per Taxly, i costi relativi all’istruzione possono essere dedotti da redditi imponibili se rispondono ai criteri seguenti:"
+                            ],
+                            "list": [
+                                "il contribuente che segue la formazione ha più di 20 anni",
+                                "il contribuente ha già conseguito il diploma di scuola superiore o ha già portato a termine un percorso di formazione professionale (apprendistato)",
+                                "essa dev’essere direttamente o indirettamente legata alla sua professione"
+                            ],
+                            "listDescription1": [
+                                "In tal modo, qualsiasi tipo di costo relativo alla formazione a carico del contribuente, che rispetti tali criteri, può essere dedotta dai redditi imponibili. Tale deduzione avrà in ogni caso un tetto massimo di 12 000 CHF."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "8",
+                    "boxHeading": "L",
+                    "listData": [{
+                        "listTitle": "Le plusvalenze",
+                        "listDescription": [
+                            "Indica gli utili grazie alla cessione di un bene, che si tratti di un titolo di credito, un’auto, una casa o una matita. In Svizzera, a differenza dalla maggior parte dei paesi, una plusvalenza di un attivo non commerciale (le vendite di quote dei tuoi risparmi per esempio) è esentasse. Tale eccezione non si applica invece ai beni immobili."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "9",
+                    "boxHeading": "N",
+                    "listData": [{
+                        "listTitle": "Non-residente",
+                        "listDescription": [
+                            "Le persone non residenti in Svizzera di solito non pagano tasse in questo paese. Tuttavia, vi sono alcune eccezioni, eccone alcune:"
+                        ],
+                        "list": [
+                            "proprietari di beni immobili",
+                            "mediatori immobiliari in Svizzera",
+                            "membri del consiglio di amministrazione di una società svizzera percettori di quote pensionistiche"
+                        ],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "10",
+                    "boxHeading": "O",
+                    "listData": [{
+                            "listTitle": "Obbligazioni prive di cedola",
+                            "listDescription": [
+                                "Titoli a lungo termine su cui la quota interessi non si paga regolarmente ma piuttosto alla scadenza di essi. Venduti a un prezzo notevolmente scontato rispetto al valore nominale. Alla vendita, la quota diventa imponibile."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Onere indebito",
+                            "listDescription": [
+                                "Un onere indebito corrisponde a una circostanza particolare che esenta parzialmente o del tutto una persona o un’impresa dall’adempimento di un obbligo legale in modo da evitarle un onere o impedimento irragionevole o smisurato.",
+                                "Nel sistema fiscale svizzero, un’esenzione fiscale è concessa qualora la persona interessata si trovi in una situazione d’indigenza alla fine dell’anno fiscale e le rimangano ancora tasse da pagare relativamente all’anno fiscale in questione. La soglia empirica che determina tale condizione è comunque, di solito, molto alta."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "11",
+                    "boxHeading": "P",
+                    "listData": [{
+                            "listTitle": "Partecipazione qualificata",
+                            "listDescription": [
+                                "Una partecipazione (quota) che superi del 10% dei diritti di voto. In una tale situazione, le agevolazioni fiscali si applicano ai proventi di tali quote (dividendi)."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Pensione",
+                            "listDescription": [
+                                "Un piano pensionistico che preveda un versamento mensile fino alla morte del destinatario."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Premio assicurativo",
+                            "listDescription": [
+                                "Qualsiasi tipo di premio assicurativo, inclusi quelli sanitari, sono deducibili dagli utili in quanto spese. Tale deduzione sarà fissata a un importo massimo e nella maggior parte dei cantoni, non è possibile far valere i premi assicurativi come deduzioni."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Prestazioni in natura",
+                            "listDescription": [
+                                "Prestazioni non monetarie ricevute, spesso nell’ambito di un impiego, come un veicolo aziendale."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Prestazioni supplementari",
+                            "listDescription": [
+                                "Vedi: Prestazioni in natura.",
+                                "Prestazioni complementari alle retribuzioni abituali in forma di stipendio o salario. Le prestazioni complementari sono concesse in forma di spettanza in denaro, come un premio vacanza o in forma di prestazioni in natura, per esempio l’alloggio gratuito. Le prestazioni complementari sono in genere imponibili anche se il trattamento varia fortemente da caso a caso. Ma tutte le prestazioni complementari devono comunque essere dichiarate dal datore di lavoro sulla busta paga del dipendente."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "12",
+                    "boxHeading": "R",
+                    "listData": [{
+                            "listTitle": "Reddito imponibile",
+                            "listDescription": [
+                                "Il tuo reddito lordo è decurtato di un importo pari a tutte le esenzioni, i crediti e le deduzioni applicabili. L’importo dell’imposta riscossa sul reddito."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Residente",
+                            "listDescription": [
+                                "Dal punto di vista fiscale, una persona è considerata residente in Svizzera se vi lavora per più di 30 giorni o ci vive più di 90 giorni senza lunghe interruzioni."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Rimborso (tasse)",
+                            "listDescription": [
+                                "I rimborsi avvengono di solito dopo la stima delle imposte da parte delle autorità cantonali. Le scadenze variano da un cantone all’altro."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Ritenuta fiscale",
+                            "listDescription": [
+                                "La ritenuta fiscale è un’imposta che si applica su redditi azionari o derivanti da quote sociali (dividendi), pacchetti azionari e conti correnti bancari (interessi) e vincite alla lotteria. Il tasso è del 35%. Quest’imposta può tuttavia essere recuperata se l’imposta in questione viene dichiarata. Lo scopo di tale tassa è combattere l’evasione fiscale, incitando le persone a dichiarare il reddito summenzionato."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "13",
+                    "boxHeading": "S",
+                    "listData": [{
+                            "listTitle": "Separazione",
+                            "listDescription": [
+                                "In Svizzera una coppia separata, pur restando formalmente sposata, non è soggetta a imposizione congiunta ed è quindi libera dall’obbligo di sottoporre una dichiarazione dei redditi comune."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Sovvenzioni per la mensa",
+                            "listDescription": [
+                                "A volte i datori di lavoro mettono a disposizione dei loro dipendenti una mensa o un servizio di ristorazione sovvenzionato. Ciò significa che i dipendenti non pagano il prezzo completo dei loro pasti al loro datore di lavoro. Ciò dev’essere dichiarato dal datore di lavoro sulla busta paga (vedi sezione G) e il dipendente a sua volta non è in diritto di chiedere la deduzione sull’intero prezzo del pasto ma solo sulla metà."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "14",
+                    "boxHeading": "U",
+                    "listData": [{
+                            "listTitle": "Unione civile",
+                            "listDescription": [
+                                "L’unione civile, l’unione legale di coppie dello stesso sesso, ha, sul piano fiscale, lo stesso valore che il matrimonio."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Utili",
+                            "listDescription": [
+                                "In un’accezione ampia del termine, qualsiasi aumento della ricchezza verificatosi nel corso dell’anno. Un’eccezione è costituita dalla ricchezza derivante dall’eredità."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "15",
+                    "boxHeading": "V",
+                    "listData": [{
+                        "listTitle": "Veicolo aziendale",
+                        "listDescription": [
+                            "Un veicolo aziendale è un’autovettura il cui titolare è il datore di lavoro, e che è messo a disposizione del dipendente affinché quest’ultimo possa recarsi a lavoro, ma di cui può anche usufruire a scopi personali.",
+                            "Se un dipendente dispone di un veicolo aziendale, parte di tale prestazione in natura sarà aggiunta alla sua busta paga e sarà quindi imponibile."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                }
+            ]
+        }
+    },
     "careers": {
         "SingleData": {
             "careersHeroHeading": "Ti piacerebbe fare carriera presso Taxly?",

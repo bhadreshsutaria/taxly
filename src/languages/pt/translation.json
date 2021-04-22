@@ -897,6 +897,415 @@
             ]
         }
     },
+    "taxdictionary": {
+        "SingleData": {
+            "tdHeroHeading": "Tudo bem explicado!",
+            "tdHeroSubHeading": "Sempre se questionou sobre o significado da gíria fiscal, tão estranha e bizarra? Então, explicamos-lhe tudo por escrito.",
+            "tdHeroBtnText": "Início"
+        },
+        "taxdictionaryData": {
+            "tdData": [{
+                    "id": "1",
+                    "boxHeading": "A",
+                    "listData": [{
+                            "listTitle": "Alimentação subsidiada",
+                            "listDescription": [
+                                "Por vezes, a entidade empregadora coloca à disposição dos seus funcionários uma cantina ou serviço de catering subsidiados. Isso significa que os funcionários não pagam o preço total pelas refeições que fazem no local de trabalho. Isso deve ser declarado pelo empregador na folha de vencimento dele (consultar a secção G) e, nesse caso, o funcionário não pode reivindicar a dedução total da refeição do almoço, mas apenas metade dela."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Ano fiscal",
+                            "listDescription": [
+                                "Na Suíça, para pessoas singulares, o ano fiscal corresponde ao ano civil (de 1 de janeiro a 31 de dezembro)."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "boxHeading": "B",
+                    "listData": [{
+                        "listTitle": "Benefícios em espécie",
+                        "listDescription": [
+                            "Benefícios não monetários, recebidos normalmente após contratos de trabalho, como por exemplo veículos da empresa."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "3",
+                    "boxHeading": "C",
+                    "listData": [{
+                        "listTitle": "Casinos",
+                        "listDescription": [
+                            "Quaisquer ganhos obtidos em casinos suíços tradicionais, i.e. não online, estão isentos de impostos e não necessitam de constar na sua declaração de IRS.",
+                            "Os ganhos obtidos em sites autorizados de jogos de azar ou lotaria estão isentos de impostos até 1 milhão de CHF (desde 2019, o jogo online está sujeito a uma autorização oficial). Quaisquer ganhos superiores a esse valor são tributáveis.",
+                            "Quaisquer ganhos em casinos não suíços ou em casinos online não autorizados são, no entanto, totalmente tributáveis."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }, {
+                        "listTitle": "Chegada (à Suíça)",
+                        "listDescription": [
+                            "Em caso de ter vindo para a Suíça, serão tributáveis apenas os rendimentos recebidos a partir do momento em que veio viver para a Suíça."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "4",
+                    "boxHeading": "D",
+                    "listData": [{
+                            "listTitle": "Declaração conjunta",
+                            "listDescription": [
+                                "As pessoas casadas e as pessoas ao abrigo de uma parceria registada entre pessoas do mesmo sexo são obrigadas a declarar os seus impostos em comum. Isso significa que essas pessoas preenchem apenas uma declaração de IRS por ano para os dois, somando os rendimentos e a riqueza tributáveis de ambos. No ano em que se casaram ou registaram uma parceria, essas pessoas preenchem uma declaração conjunta para o ano inteiro."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Dificuldade gravosa",
+                            "listDescription": [
+                                "Uma dificuldade gravosa é uma circunstância especial que isenta, parcial ou totalmente, uma pessoa ou organização do cumprimento de uma obrigação legal, a fim de evitar encargos ou obstáculos não razoáveis ou desproporcionais.",
+                                "No contexto do imposto suíço, pode ser concedida uma isenção fiscal, se a pessoa a ser tributada se tiver tornado indigente após a conclusão do ano fiscal e ainda tiver a obrigação de pagar impostos nesse ano fiscal. Contudo, o limiar prático para alguém ser considerado nessa situação é normalmente muito elevado."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Dívidas",
+                            "listDescription": [
+                                "Quaisquer obrigações devidas, relativamente às quais podem ser cobrados juros ou não. Um exemplo comum é um empréstimo bancário ou um crédito a descoberto no seu banco em 31 de dezembro, embora também possa incluir, por exemplo, empréstimos concedidos por amigos ou familiares."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "boxHeading": "E",
+                    "listData": [{
+                            "listTitle": "Educação",
+                            "listDescription": [
+                                "No contexto dos impostos e da Taxly, os custos relativos à educação podem ser deduzidos do rendimento tributável, se cumprirem as seguintes características:"
+                            ],
+                            "list": [
+                                "o contribuinte que usufrui da educação tem mais de 20 anos",
+                                "o contribuinte já concluiu o ensino secundário ou uma formação profissional (estágio)",
+                                "a educação deve estar direta ou indiretamente relacionada com a sua profissão"
+                            ],
+                            "listDescription1": [
+                                "Assim, qualquer tipo de custo relacionado com educação, suportado pelo contribuinte e que cumpra estes critérios, pode ser deduzido do seu rendimento tributável. No entanto, esta dedução está limitada a 12.000 CHF."
+                            ]
+                        },
+                        {
+                            "listTitle": "Elisão fiscal",
+                            "listDescription": [
+                                "Recurso a estratégias legais de planeamento fiscal para reduzir a fatura fiscal."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Evasão fiscal",
+                            "listDescription": [
+                                "Ocultação ilegal dos rendimentos às autoridades fiscais, ou pagamento deliberadamente insuficiente de impostos. A lei suíça prevê um tipo de ofensa entre a elisão e a evasão fiscais, que pode ser traduzido aproximadamente como “desvio fiscal” (Steuerumgehung). Em tal situação, não existe ocultação ou ato ilegal, mas os atos constituem abuso legal, o que permite às autoridades fiscais reivindicar impostos atrasados, relativos à transação em questão, embora não exista um processo criminal (não são cobradas multas)."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "boxHeading": "F",
+                    "listData": [{
+                        "listTitle": "Folha de vencimento",
+                        "listDescription": [
+                            "A folha de vencimento ou pagamento é um documento que indica o rendimento líquido obtido em consequência de um trabalho assalariado, incluindo normalmente os benefícios em espécie. É um documento elaborado anualmente pela entidade empregadora que contém essencialmente as seguintes informações:"
+                        ],
+                        "list": [
+                            "rendimento bruto acordado entre o empregador e o funcionário",
+                            "contribuição para a segurança social, cobrada pelo empregador em nome do funcionário",
+                            "contribuição para o fundo de pensões, cobrada pelo empregador em nome do funcionário",
+                            "quaisquer outros benefícios em espécie que o empregador possa ter concedido ao funcionário, como indemnização por serviço de catering, indemnização por arrendamento, etc."
+                        ],
+                        "listDescription1": [
+                            "O salário líquido constitui, assim, o rendimento sujeito a imposto, referente a esse trabalho específico."
+                        ]
+                    }]
+                },
+                {
+                    "id": "7",
+                    "boxHeading": "G",
+                    "listData": [{
+                        "listTitle": "Ganho de capital",
+                        "listDescription": [
+                            "Ver: Mais-valias"
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "8",
+                    "boxHeading": "H",
+                    "listData": [{
+                        "listTitle": "Herança",
+                        "listDescription": [
+                            "Na Suíça, as heranças não estão sujeitas à tributação direta dos rendimentos, pelo que não são canalizadas diretamente para a sua declaração de IRS. Porém, na maioria dos casos, as heranças e as doações estão sujeitas a tributação cantonal adicional."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "9",
+                    "boxHeading": "I",
+                    "listData": [{
+                            "listTitle": "Imposto federal",
+                            "listDescription": [
+                                "Na Suíça, os impostos são cobrados ao nível federal, acima do nível cantonal. No entanto, a tributação é feita apenas ao nível cantonal. Por essa razão, só é necessário fazer uma declaração cantonal, para impostos cantonais e federais. É por isso que são calculados dois números para o seu rendimento tributável e, em alguns cantões, poderá receber duas faturas, uma para impostos cantonais e outra para impostos federais."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Imposto sobre a fortuna",
+                            "listDescription": [
+                                "Imposto cobrado sobre a riqueza de uma pessoa, isto é, sobre quaisquer ativos que ela possua (viaturas, negócios, contas financeiras, etc., mas não pertences pessoais), menos as suas dívidas.",
+                                "A Suíça é um dos poucos países do mundo que ainda cobra um imposto sobre a fortuna de quaisquer ativos líquidos que não sejam pertences pessoais. Além disso, ao contrário dos países que ainda possuem um imposto sobre a fortuna, o capital de exploração não é excluído do imposto."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Imposto sobre doações",
+                            "listDescription": [
+                                "Imposto especial pago por quem faz uma doação (em dinheiro ou propriedade), com valor superior a um determinado montante (13.000 USD em 2010). Algumas transferências estão isentas do imposto sobre doações, dependendo da relação familiar. Estes impostos são cobrados ao nível cantonal, separadamente da declaração de IRS, e variam muito de cantão para cantão."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Imposto sobre o valor acrescentado (IVA)",
+                            "listDescription": [
+                                "Imposto sobre o volume de negócios, cobrado em cada etapa do processo de produção e distribuição. Este imposto é devido pelos fornecedores de bens e serviços que, por sua vez, podem creditar o IVA pago na etapa anterior de produção e distribuição.",
+                                "Na Suíça, a partir de 2019, a taxa normal de IVA é de 7,7%, embora para bens de primeira necessidade (principalmente alimentos e bebidas) seja de 2,5% e de 3,7% para serviços de hotelaria."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "10",
+                    "boxHeading": "J",
+                    "listData": [{
+                        "listTitle": "Juros de mora",
+                        "listDescription": [
+                            "Juros cobrados pelo atraso no pagamento do imposto, por vezes pela diferença entre o pagamento antecipado de impostos e a verdadeira dívida fiscal final. Cada cantão possui regras diferentes de cobrança de tais juros."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "11",
+                    "boxHeading": "M",
+                    "listData": [{
+                        "listTitle": "Mais-valias",
+                        "listDescription": [
+                            "Indica um ganho na venda de um ativo, quer se trate de um título, um carro, uma casa ou um lápis. Na Suíça, ao contrário da maioria dos países, uma mais-valia de um ativo não comercial (venda de ações das suas poupanças, por exemplo) não é tributável. Porém, esta exceção não se aplica ao património imobiliário."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "12",
+                    "boxHeading": "N",
+                    "listData": [{
+                        "listTitle": "Não residente",
+                        "listDescription": [
+                            "As pessoas que não são residentes na Suíça não estão, de um modo geral, sujeitas a tributação na Suíça. Existem algumas exceções, por exemplo:"
+                        ],
+                        "list": [
+                            "proprietários de imóveis",
+                            "corretores de imóveis na Suíça",
+                            "membros do conselho de administração de uma empresa suíça que recebam dividendos de reforma da Suíça"
+                        ],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "13",
+                    "boxHeading": "O",
+                    "listData": [{
+                        "listTitle": "Obrigações de cupão zero",
+                        "listDescription": [
+                            "Obrigações de longo prazo, nas quais os juros não são pagáveis regularmente, mas após vencimento da obrigação. São vendidas com um profundo desconto em relação ao valor nominal. Após a venda, a ação torna-se tributável."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                },
+                {
+                    "id": "14",
+                    "boxHeading": "P",
+                    "listData": [{
+                            "listTitle": "Parceria registada entre pessoas do mesmo sexo",
+                            "listDescription": [
+                                "A parceria registada entre pessoas do mesmo sexo, ou a união legal para casais do mesmo sexo, é, para efeitos fiscais, considerada exatamente igual ao casamento."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Participação qualificada",
+                            "listDescription": [
+                                "Uma participação (ação) numa empresa, que exceda 10% dos direitos de voto. Nestes casos, aplicam-se alguns benefícios fiscais aos rendimentos dessas ações (dividendos)."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Pensões",
+                            "listDescription": [
+                                "Um plano de reforma que consiste num pagamento mensal até à morte do destinatário."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Prémio de seguro",
+                            "listDescription": [
+                                "Qualquer tipo de prémio de seguro, incluindo prémios de seguro de saúde, é dedutível dos seus rendimentos como uma despesa. No entanto, essa dedução tem um limite e, na maioria dos cantões, não é possível beneficiar de deduções relativamente ao prémio de seguro na sua totalidade."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "15",
+                    "boxHeading": "R",
+                    "listData": [{
+                            "listTitle": "Reembolso (impostos)",
+                            "listDescription": [
+                                "O reembolso de impostos ocorre normalmente após a avaliação final dos impostos pelas autoridades cantonais. O prazo de reembolso varia muito de cantão para cantão."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Remuneração acessória",
+                            "listDescription": [
+                                "Ver também: «Benefícios em espécie».",
+                                "Benefícios que complementam salários e remunerações normais. A remuneração acessória pode ser concedida sob a forma de um subsídio em numerário, p. ex. um complemento de férias, ou sob a forma de benefícios em espécie, p. ex. alojamento gratuito. A remuneração acessória é normalmente tributável, mas o modo como é tratada é muito variável de caso para caso. No entanto, toda a remuneração acessória tributável deve ter sido declarada pelo empregador na folha de vencimento do funcionário."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Rendimentos",
+                            "listDescription": [
+                                "Em sentido lato, qualquer aumento de riqueza obtida durante o ano. Uma exceção importante é a riqueza proveniente de herança."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Rendimento tributável",
+                            "listDescription": [
+                                "O rendimento bruto é reduzido de acordo com todas as isenções, créditos e deduções aplicáveis. Significa o montante de rendimento que é tributado."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Residente",
+                            "listDescription": [
+                                "Uma pessoa é considerada residente para efeitos fiscais na Suíça, se aí tiver trabalhado mais de 30 dias, ou vivido mais de 90 dias sem interrupções consideráveis."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Retenção de imposto na fonte",
+                            "listDescription": [
+                                "A retenção de imposto na fonte refere-se basicamente ao imposto cobrado sobre rendimentos de ações (dividendos), títulos, contas bancárias (juros) e ganhos em lotaria. A taxa é de 35%. No entanto, este imposto pode ser reembolsado, se o rendimento for declarado. O objetivo deste imposto na Suíça é combater a evasão fiscal, encorajando a declaração dos rendimentos referidos anteriormente."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "16",
+                    "boxHeading": "S",
+                    "listData": [{
+                            "listTitle": "Seguro de saúde",
+                            "listDescription": [
+                                "Ver: «Prémio de seguro»."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Separação",
+                            "listDescription": [
+                                "Na Suíça, um casal separado, embora formalmente casado, não está sujeito a tributação conjunta, estando, assim, isento da obrigação de apresentar uma declaração de IRS conjunta."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "17",
+                    "boxHeading": "T",
+                    "listData": [{
+                            "listTitle": "Taxa marginal de tributação",
+                            "listDescription": [
+                                "A taxa de tributação que se aplica ao último franco de rendimentos auferidos."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        },
+                        {
+                            "listTitle": "Tributação a nível mundial",
+                            "listDescription": [
+                                "Se tem residência fiscal na Suíça, deverá pagar impostos sobre os seus rendimentos a nível mundial. Assim, qualquer conta bancária, produto financeiro ou rendimento de uma empresa que aufira no estrangeiro serão tributados na Suíça. As principais exceções são os imóveis, ou a existência de um tratado sobre dupla tributação que impeça a Suíça de tributar esse rendimento específico."
+                            ],
+                            "list": [],
+                            "listDescription1": []
+                        }
+                    ]
+                },
+                {
+                    "id": "18",
+                    "boxHeading": "V",
+                    "listData": [{
+                        "listTitle": "Veículo da empresa",
+                        "listDescription": [
+                            "O veículo da empresa é um veículo que pertence ao empregador e que está disponível ao funcionário, para que este conduza de casa para o trabalho, bem como eventualmente para uso particular.",
+                            "Se um funcionário tiver um veículo da empresa à sua disposição, uma parte desse benefício em espécie será adicionada à sua folha de vencimento, sendo, por conseguinte, passível de tributação."
+                        ],
+                        "list": [],
+                        "listDescription1": []
+                    }]
+                }
+            ]
+        }
+    },
     "careers": {
         "SingleData": {
             "careersHeroHeading": "Quer iniciar uma carreira na Taxly?",
