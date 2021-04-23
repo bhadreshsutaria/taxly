@@ -1864,5 +1864,29 @@
                 }
             ]
         }
+    },
+    "taxExtension": {
+        "SingleData": {
+            "pageHeading": "Precisa de mais tempo para preencher os seus impostos?",
+            "pageSubHeading": "Processe sua extensão em questão de segundos",
+            "pageBtnText": "Início"
+        },
+        "TaxExtensionColumns2": {
+            "data": [{
+                    "extraClass": "",
+                    "image": "../assets/Images/meet-roger-1-pt.png",
+                    "alt": "meet-roger-1-pt",
+                    "title": "Formulário simplificado",
+                    "description": "Responda a algumas perguntas para que possamos preparar a sua extensão"
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "image": "../assets/Images/meet-roger-4.png",
+                    "alt": "meet-roger-4",
+                    "title": "Submeter com um clique",
+                    "description": "E nós tratamos da extensão de impostos para a sua repartição fiscal local"
+                }
+            ]
+        }
     }
 }

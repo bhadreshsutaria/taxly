@@ -1853,5 +1853,29 @@
                 }
             ]
         }
+    },
+    "taxExtension": {
+        "SingleData": {
+            "pageHeading": "Avete bisogno di più tempo per pagare le tasse?",
+            "pageSubHeading": "Elaborate la vostra estensione in pochi secondi",
+            "pageBtnText": "Guida introduttiva"
+        },
+        "TaxExtensionColumns2": {
+            "data": [{
+                    "extraClass": "",
+                    "image": "../assets/Images/meet-roger-1-it.png",
+                    "alt": "meet-roger-1-it",
+                    "title": "Forma semplificata",
+                    "description": "Rispondi ad alcune domande in modo che possiamo preparare la tua estensione"
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "image": "../assets/Images/meet-roger-4.png",
+                    "alt": "meet-roger-4",
+                    "title": "Invia con un click",
+                    "description": "E noi ci occupiamo dell’estensione fiscale per il vostro ufficio delle imposte locale"
+                }
+            ]
+        }
     }
 }

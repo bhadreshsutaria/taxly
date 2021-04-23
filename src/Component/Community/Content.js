@@ -10,7 +10,7 @@ const CommunityHeroSection = () => {
     return(
         <div className="header-wrap hero__inner__white">
             <MobileMenu/>
-            <div className="taxly-hero">
+            <div className="taxly-hero height-98">
                 <div className="taxly-hero-city-bg"></div>
                 <Navbar/>
                 <div className="taxly-hero-bg-green"></div>
@@ -66,8 +66,8 @@ const CommunityStoryModalBody = (props) =>{
 };
 
 class CommunityStorySectionModal extends React.Component {
-    constructor(props, context) {
-        super(props, context);
+    constructor(props) {
+        super(props);
         this.handleShow = this.handleShow.bind(this);
         this.handleClose = this.handleClose.bind(this);
         this.state = {
