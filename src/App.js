@@ -16,7 +16,7 @@ import Careers from './Component/Careers/Index'
 import Privacy from './Component/Privacy/Index'
 import TermsOfService from './Component/TermsOfService/Index'
 import ContactUs from './Component/ContactUs/Index'
-
+import TaxExtension from './Component/TaxExtension/Index';
 function App() {
   return (
     <Router>
@@ -36,24 +36,9 @@ function App() {
           <Route exact path="/privacy" component={Privacy} />
           <Route exact path="/terms-of-service" component={TermsOfService} />
           <Route exact path="/contact-us" component={ContactUs} />
+          <Route exact path="/tax-extension" component={TaxExtension} />
         </Switch>
       </Router>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 

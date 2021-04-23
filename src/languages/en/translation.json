@@ -1879,5 +1879,29 @@
                 }
             ]
         }
+    },
+    "taxExtension": {
+        "SingleData": {
+            "pageHeading": "Need more time to fill in your taxes?",
+            "pageSubHeading": "Process your tax extension in a matter of seconds!",
+            "pageBtnText": "Get started"
+        },
+        "TaxExtensionColumns2": {
+            "data": [{
+                    "extraClass": "",
+                    "image": "../assets/Images/meet-roger-1-en.png",
+                    "alt": "meet-roger-1-en",
+                    "title": "Simplified Form",
+                    "description": "Answer a few questions so that we can prepare your extension."
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "image": "../assets/Images/meet-roger-4.png",
+                    "alt": "meet-roger-4",
+                    "title": "Submit with a click",
+                    "description": "We handle the tax extension to your local tax office. Thats it!"
+                }
+            ]
+        }
     }
 }

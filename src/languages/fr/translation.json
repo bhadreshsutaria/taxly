@@ -1850,5 +1850,29 @@
                 }
             ]
         }
+    },
+    "taxExtension": {
+        "SingleData": {
+            "pageHeading": "Vous avez besoin de plus de temps pour remplir votre déclarations d'impôts ?",
+            "pageSubHeading": "Traitez votre demande de délai en quelques secondes",
+            "pageBtnText": "Commencer"
+        },
+        "TaxExtensionColumns2": {
+            "data": [{
+                    "extraClass": "",
+                    "image": "../assets/Images/meet-roger-1-fr.png",
+                    "alt": "meet-roger-1-fr",
+                    "title": "Formulaire simplifié",
+                    "description": "Répondez à quelques questions afin que nous puissions préparer votre demande de délai"
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "image": "../assets/Images/meet-roger-4.png",
+                    "alt": "meet-roger-4",
+                    "title": "Soumettre en un clic",
+                    "description": "Et nous nous occupons de la demande de délai auprès de votre office d’impôts"
+                }
+            ]
+        }
     }
 }

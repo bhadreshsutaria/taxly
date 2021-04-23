@@ -11,7 +11,7 @@ const TaxDictionaryHeroSection = () => {
     return(
         <div className="header-wrap hero__inner__white">
             <MobileMenu/>
-            <div className="taxly-hero">
+            <div className="taxly-hero height-98">
                 <div className="taxly-hero-city-bg"></div>
                 <Navbar/>
                 <div className="taxly-hero-bg-green"></div>

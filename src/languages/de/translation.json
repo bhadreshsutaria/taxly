@@ -1866,5 +1866,29 @@
                 }
             ]
         }
+    },
+    "taxExtension": {
+        "SingleData": {
+            "pageHeading": "Benötigst Du mehr Zeit für Deine Steuern?",
+            "pageSubHeading": "Mache hier Deine Fristerstreckung in Sekundenschnelle",
+            "pageBtnText": "Los geht‘s"
+        },
+        "TaxExtensionColumns2": {
+            "data": [{
+                    "extraClass": "",
+                    "image": "../assets/Images/meet-roger-1-de.png",
+                    "alt": "meet-roger-1-de",
+                    "title": "Vereinfachte Form",
+                    "description": "Beantworte ein paar Fragen, damit wir Deine Fristerstreckung vorbereiten können"
+                },
+                {
+                    "extraClass": "flex-reverse",
+                    "image": "../assets/Images/meet-roger-4.png",
+                    "alt": "meet-roger-4",
+                    "title": "Mit einem Klick abschicken",
+                    "description": "Wir kümmern uns um den Rest."
+                }
+            ]
+        }
     }
 }
