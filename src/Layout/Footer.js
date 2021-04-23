@@ -67,7 +67,7 @@ export default function Footer() {
                                     <NavLink onClick={scrolling} exact to="/tax-dictionary/">{t('footer.resources.navLinkTaxDictionary')}</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink onClick={scrolling} exact to="/insights/">{t('footer.resources.navLinkHowItWork')}</NavLink>
+                                    <NavLink onClick={scrolling} exact to="/how-it-works/">{t('footer.resources.navLinkHowItWork')}</NavLink>
                                 </li>
                             </ul>
                         </div>
