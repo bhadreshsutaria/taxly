@@ -898,7 +898,6 @@ a {
 .partnership-template__text {
     padding: 45px 0;
     padding-bottom: 90px;
-    max-width: 500px;
 }
 
 .partnership-template__text p {
@@ -906,6 +905,7 @@ a {
     margin-bottom: 20px;
     line-height: 1.55;
     font-size: 1.8rem;
+    max-width: 600px;
 }
 
 .partnership-template__text ul {
@@ -962,9 +962,10 @@ a {
 
 .partnership-template__form {
     position: absolute;
-    top: -220px;
+    top: -250px;
     right: 0;
     max-width: 450px;
+    width: 100%;
     background: var(--white-color);
     padding: 30px;
     padding-bottom: 0;
@@ -991,24 +992,6 @@ a {
     max-width: 170px;
 }
 
-.partnership-template__form label {
-    font-size: 1.4rem;
-    letter-spacing: -.03em;
-    color: var(--primary-color);
-    line-height: 1.3;
-}
-
-.partnership-template__form .form__control {
-    padding: 12px 15px;
-    background-color: var(--gray-color);
-    border: 1px solid var(--primary-color-300);
-}
-
-.partnership-template__form .form__control.wpcf7-not-valid {
-    border-color: var(--error-color);
-    background-color: rgba(255, 57, 98, 0.05);
-}
-
 .partnership-template__form .form__submit {
     padding: 16px 30px;
 }
@@ -1025,7 +1008,7 @@ a {
 .taxly-lang-button {
     text-decoration: none;
     color: var(--primary-color);
-    background: #fff url('../../Images/language.svg') no-repeat 3px center / 24px auto;
+    background: #fff url('../../Images/v2/language.svg') no-repeat 3px center / 24px auto;
     line-height: 1.3;
     border-radius: 3px;
 }
@@ -1033,6 +1016,33 @@ a {
 .taxly-lang-button::after {
     content: '';
     position: absolute;
+}
+
+
+/* Partners Helvetia Landing Page */
+
+.partnership-template__text p:nth-child(n+5) {
+    max-width: 100%;
+}
+
+form .form-control-email {
+    background-image: url('../../Images/form_email.svg');
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    padding: 18px 44px 18px 16px;
+}
+
+.partnership-template__form .form__control {
+    padding: 12px 15px;
+    background-color: var(--gray-color);
+    border: 1px solid var(--primary-color-300);
+}
+
+.partnership-template__form label {
+    font-size: 1.4rem;
+    letter-spacing: -.03em;
+    color: var(--primary-color);
+    line-height: 1.3;
 }
 
 
@@ -1075,10 +1085,7 @@ a {
         padding: 0 40px;
     }
     .partnership-template__form {
-        max-width: 420px;
-    }
-    .partnership-template__text {
-        max-width: 450px;
+        max-width: 467px;
     }
     .partnership-hero__title {
         font-size: 5rem;
@@ -1086,6 +1093,9 @@ a {
     .taxly-lang-button_position-sticky {
         right: 40px;
         top: 5px;
+    }
+    .partnership-template__text p {
+        max-width: 450px;
     }
 }
 
@@ -1131,6 +1141,9 @@ a {
     .partnership-hero__title {
         font-size: 4.5rem;
         max-width: 500px;
+    }
+    .partnership-template__text p {
+        max-width: 100%;
     }
 }
 

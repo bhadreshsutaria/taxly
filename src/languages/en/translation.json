@@ -1903,5 +1903,84 @@
                 }
             ]
         }
+    },
+    "partnersHelvetia": {
+        "SingleData": {
+            "language": "EN",
+            "pageHeading": "Swiss Tax Returns Made Simple.",
+            "contentTitleOne": "Have you filed your tax return yet?",
+            "contentParagraphOne": "Taxly in partnership with Helvetia Insurance offers its services to all residents of Switzerland, regardless of income or nationality to complete and file their tax returns using a radically simple yet impressive process. It has been built by a mix of Certified Swiss Tax Experts and seasoned technology entrepreneurs.",
+            "contentParagraphTwo": "Not every tax situation is the same and we can adapt to your needs. Whenever you need help, one of our Swiss tax advisors will be there to support you. Step by step until the finished tax return.",
+            "contentTitleTwo": "For persons underlying source tax:",
+            "contentParagraphThree": "Due to a change of law by January 1st 2021 tax deductions, such investments in pillar 3A, are not considered anymore. But, you have the right to choose regular tax returns.",
+            "contentTitleThree": "How is taxly different from that of a traditional cantonal tax software?",
+            "inPartnershipWith": "In partnership with",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "residenceStatus": "Residence Status",
+            "hdyhau": "How did you hear about us?",
+            "canton": "Canton",
+            "helvetiaConsultant": "Helvetia Consultant",
+            "phLogoTitle": "You might’ve heard of us",
+            "phFormBtn": "Get Started"
+        },
+        "list": {
+            "data": [
+                "Cantonal softwares such as EasyTax, PrivateTax, BalTax or GeTax were developed primarily to speed up the internal process of the authorities and to help their users fill in their tax.",
+                "Taxly is the first tax return technology in Switzerland which has ease of use and customer satisfaction as its primary goal. Our team constantly reviews our product to make sure that our flows are simplified and easy to understand, while making sure that tax law is followed.",
+                "Furthermore, any court decisions or changes in cantonal laws are immediately implemented in taxly, which in some cases takes years to be implemented in traditional cantonal software.",
+                "Finally, this software was prepared to take advantage of all available deductions in the cantonal law and practise, which is not systematically the case when you prepare your tax return with a cantonal software, often resulting in 100s of Francs in taxes being wasted.",
+                "So what are you waiting for, enter your details and start the process."
+            ]
+        },
+        "ResidenceStatusSelect": {
+            "data": [
+                "Swiss National",
+                "Permit L",
+                "Permit B",
+                "Permit C",
+                "Permit Ci",
+                "Permit G"
+            ]
+        },
+        "hdyhauSelect": {
+            "data": [
+                "Helvetia Consultant",
+                "Taxly Homepage",
+                "Google",
+                "Other"
+            ]
+        },
+        "cantonSelect": {
+            "data": [
+                "Zürich",
+                "Basel Land",
+                "Sankt Gallen",
+                "Aargau",
+                "Luzern",
+                "Basel Stadt",
+                "Genève",
+                "Bern / Berne",
+                "Uri",
+                "Schwyz",
+                "Unterwalden Obwalden",
+                "Nidwalden",
+                "Glarus",
+                "Zug",
+                "Freiburg / Fribourg",
+                "Solothurn",
+                "Schaffhausen",
+                "Appenzell Ausserrhoden",
+                "Appenzell Innerrhoden",
+                "Graubünden",
+                "Thurgau",
+                "Ticino",
+                "Vaud",
+                "Valais / Wallis",
+                "Neuchâtel",
+                "Jura"
+            ]
+        }
     }
 }

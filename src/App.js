@@ -17,6 +17,7 @@ import Privacy from './Component/Privacy/Index'
 import TermsOfService from './Component/TermsOfService/Index'
 import ContactUs from './Component/ContactUs/Index'
 import TaxExtension from './Component/TaxExtension/Index';
+import PartnersHelvetia from './Component/LandingPage/PartnersHelvetia/index';
 function App() {
   return (
     <Router>
@@ -37,6 +38,7 @@ function App() {
           <Route exact path="/terms-of-service" component={TermsOfService} />
           <Route exact path="/contact-us" component={ContactUs} />
           <Route exact path="/tax-extension" component={TaxExtension} />
+          <Route exact path="/partners-helvetia" component={PartnersHelvetia} />
         </Switch>
       </Router>
   );

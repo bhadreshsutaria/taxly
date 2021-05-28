@@ -43,6 +43,8 @@ import dictionaryFront from "../Images/dictionary_front.png";
 import dictionaryBack from "../Images/dictionary_back.png";
 import homeBack from "../Images/home_back.png";
 import homeFront from "../Images/home_front.png";
+import helveticaBg from "../Images/Helvetica-background.svg";
+import taxlyLpLogo from "../Images/taxly.png";
 const images = {
     logowhite: logowhite,
     taxlypartnership: taxlypartnership,
@@ -89,5 +91,7 @@ const images = {
     dictionaryBackBg: dictionaryBack,
     homeBackBg: homeBack,
     homeFrontBg: homeFront,
+    helveticaHeaderBg: helveticaBg,
+    taxlyLpLogo: taxlyLpLogo,
 }
 export default images;
