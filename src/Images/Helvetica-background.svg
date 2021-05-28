@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280px" height="409px" viewBox="0 0 1280 409" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Hero banner</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1280" height="409"></rect>
+        <rect id="path-3" x="0" y="2.27373675e-13" width="1280" height="1082.64706"></rect>
+        <filter x="-12.4%" y="-9.5%" width="124.8%" height="118.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="36" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-9.5%" y="-24.0%" width="119.1%" height="148.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="36" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.6%" y="-8.5%" width="123.2%" height="116.9%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="36" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#CFF7FE" offset="0%"></stop>
+            <stop stop-color="#A1EDFC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#FFE054" offset="0%"></stop>
+            <stop stop-color="#FFBE2A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-10">
+            <stop stop-color="#CFF7FE" offset="0%"></stop>
+            <stop stop-color="#A1EDFC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-11">
+            <stop stop-color="#FFE054" offset="0%"></stop>
+            <stop stop-color="#FFBE2A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-12">
+            <stop stop-color="#FFE054" offset="0%"></stop>
+            <stop stop-color="#FFBE2A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hero-banner">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#0A224C" xlink:href="#path-1"></use>
+            <g id="Group-18" mask="url(#mask-2)">
+                <g transform="translate(0.000000, -369.904412)" id="Helvetia">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                </g>
+            </g>
+            <g id="Group-8" mask="url(#mask-2)">
+                <g transform="translate(157.000000, -806.851376)">
+                    <path d="M560.663,600.920376 L863.420998,528.72496 L627.814727,1065.3528 L326.037019,1142.85138 L102,1104.47336 L545.501056,67.2508149 L849.584797,0.851376147 L972,281.495502 L668.73705,351.29503 L560.663,600.920376 Z" id="Fill-16" fill="#7C5A96" filter="url(#filter-5)"></path>
+                    <path d="M627.630283,1065.85138 L1133,1150.19709 L832.192133,1229.85693 L955.897952,1515.85138 L-4.54747351e-13,1344.19223 L102.144212,1104.93937 L326.125,1143.26338 L627.630283,1065.85138 Z" id="Fill-20" fill="#4A9FA3" filter="url(#filter-6)"></path>
+                    <path d="M955.600764,1516.47366 L560,601.404353 L668.150411,351.672959 L971.307579,281.851376 L1491,1474.52598 L1191.63278,1558.85138 L955.600764,1516.47366 Z" id="Fill-19" fill="#B0252A" filter="url(#filter-7)"></path>
+                </g>
+            </g>
+            <g id="Group-11" mask="url(#mask-2)">
+                <g transform="translate(760.500000, 182.995674) scale(1, -1) rotate(-270.000000) translate(-760.500000, -182.995674) translate(605.500000, 23.995674)" id="Oval">
+                    <ellipse stroke="url(#linearGradient-8)" stroke-width="1.82524272" fill="none" cx="46.5043258" cy="199.5" rx="13" ry="12.5"></ellipse>
+                    <circle stroke="url(#linearGradient-9)" stroke-width="1.82524272" fill="none" cx="274.004326" cy="273.5" r="25"></circle>
+                    <circle stroke="url(#linearGradient-10)" stroke-width="1.82524272" fill="none" cx="199.004326" cy="174.5" r="39"></circle>
+                    <circle stroke="none" fill="#00FFB6" fill-rule="evenodd" cx="276.004326" cy="18.5" r="18"></circle>
+                    <circle stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="211.504326" cy="244" r="9.5"></circle>
+                    <circle stroke="none" fill="#A1EDFC" fill-rule="evenodd" cx="300.504326" cy="223" r="9.5"></circle>
+                    <ellipse stroke="none" fill="#D0AAFF" fill-rule="evenodd" cx="226.504326" cy="113.5" rx="13" ry="12.5"></ellipse>
+                    <circle stroke="none" fill="url(#linearGradient-9)" fill-rule="evenodd" cx="48.5043258" cy="308" r="9.5"></circle>
+                    <circle stroke="none" fill="#EEF1F6" fill-rule="evenodd" cx="13.5043258" cy="234" r="13.5"></circle>
+                    <ellipse stroke="none" fill="url(#linearGradient-11)" fill-rule="evenodd" cx="248.004326" cy="169.5" rx="31" ry="30"></ellipse>
+                </g>
+            </g>
+            <g id="Group-13" mask="url(#mask-2)">
+                <g transform="translate(1010.163126, 233.056727) scale(1, -1) translate(-1010.163126, -233.056727) translate(789.163126, 17.556727)" id="Oval">
+                    <circle stroke="url(#linearGradient-9)" stroke-width="2.26430454" fill="none" cx="82.6631259" cy="309.943273" r="22.5"></circle>
+                    <ellipse stroke="none" fill="url(#linearGradient-12)" fill-rule="evenodd" cx="247.663126" cy="394.443273" rx="37.5" ry="36"></ellipse>
+                    <circle stroke="none" fill="#A1EDFC" fill-rule="evenodd" cx="202.663126" cy="369.943273" r="22.5"></circle>
+                    <circle stroke="none" fill="#D0AAFF" fill-rule="evenodd" cx="240.663126" cy="287.943273" r="22.5"></circle>
+                    <circle stroke="none" fill="#D0AAFF" fill-rule="evenodd" cx="432.663126" cy="260.943273" r="8.5"></circle>
+                    <circle stroke="none" fill="url(#linearGradient-9)" fill-rule="evenodd" cx="147.663126" cy="187.943273" r="22.5"></circle>
+                    <circle stroke="none" fill="#00FFB6" fill-rule="evenodd" cx="266.163126" cy="279.443273" r="11"></circle>
+                    <circle stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="292.663126" cy="233.943273" r="12.5"></circle>
+                    <circle stroke="url(#linearGradient-10)" stroke-width="2.26430454" fill="none" cx="180.663126" cy="204.943273" r="22.5"></circle>
+                    <ellipse stroke="#00FFB6" stroke-width="2.26430454" fill="none" cx="351.163126" cy="293.943273" rx="33" ry="33.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

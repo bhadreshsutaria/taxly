@@ -1888,5 +1888,84 @@
                 }
             ]
         }
+    },
+    "partnersHelvetia": {
+        "SingleData": {
+            "language": "PT",
+            "pageHeading": "Esqueça tudo o que sabe sobre impostos",
+            "contentTitleOne": "Você já preencheu sua declaração de imposto de renda?",
+            "contentParagraphOne": "Taxly em parceria com a Helvetia Insurance oferece seus serviços a todos os residentes na Suíça, independentemente de renda ou nacionalidade, para preencher e preencher suas declarações de impostos usando um processo radicalmente simples, mas impressionante. Ele foi construído por uma combinação de especialistas em impostos suíços certificados e empresários experientes em tecnologia.",
+            "contentParagraphTwo": "Nem todas as situações fiscais são iguais e podemos nos adaptar às suas necessidades. Sempre que você precisar de ajuda, um de nossos consultores tributários suíços estará lá para apoiá-lo. Passo a passo até a declaração de impostos concluída.",
+            "contentTitleTwo": "Para pessoas sujeitas ao imposto de origem:",
+            "contentParagraphThree": "Devido a uma alteração da lei até 1º de janeiro de 2021, as deduções fiscais, tais investimentos no pilar 3A, não são mais considerados. Porém, você tem o direito de escolher declarações de imposto de renda regulares.",
+            "contentTitleThree": "Qual a diferença em relação a um software tributário cantonal tradicional?",
+            "inPartnershipWith": "Em parceria com",
+            "firstName": "Primeiro nome",
+            "lastName": "Sobrenome",
+            "email": "Email",
+            "residenceStatus": "Status de residência",
+            "hdyhau": "Como você ficou sabendo sobre nós?",
+            "canton": "Canton",
+            "helvetiaConsultant": "Helvetia consultant",
+            "phLogoTitle": "Você pode ter ouvido falar de nós",
+            "phFormBtn": "Início"
+        },
+        "list": {
+            "data": [
+                "Softwares cantonais como EasyTax, PrivateTax, BalTax ou GeTax foram desenvolvidos principalmente para agilizar o processo interno das autoridades e ajudar seus usuários a preencherem seus impostos.",
+                "Taxly é a primeira tecnologia de declaração de impostos na Suíça que tem como objetivo principal a facilidade de uso e a satisfação do cliente. Nossa equipe revisa constantemente nosso produto para garantir que nossos fluxos sejam simplificados e fáceis de entender, ao mesmo tempo que se certifica de que a legislação tributária é seguida.",
+                "Além disso, quaisquer decisões judiciais ou alterações nas leis cantonais são imediatamente implementadas em termos fiscais, o que, em alguns casos, leva anos para ser implementado no software cantonal tradicional.",
+                "Finalmente, este software foi preparado para aproveitar todas as deduções disponíveis na lei e na prática cantonal, o que não é sistematicamente o caso quando você prepara sua declaração de imposto de renda com um software cantonal, muitas vezes resultando em 100 francos em impostos sendo desperdiçados.",
+                "Então, o que você está esperando, insira seus dados e inicie o processo."
+            ]
+        },
+        "ResidenceStatusSelect": {
+            "data": [
+                "Swiss National",
+                "Permit L",
+                "Permit B",
+                "Permit C",
+                "Permit Ci",
+                "Permit G"
+            ]
+        },
+        "hdyhauSelect": {
+            "data": [
+                "Helvetia Consultant",
+                "Taxly Homepage",
+                "Google",
+                "Other"
+            ]
+        },
+        "cantonSelect": {
+            "data": [
+                "Zürich",
+                "Basel Land",
+                "Sankt Gallen",
+                "Aargau",
+                "Luzern",
+                "Basel Stadt",
+                "Genève",
+                "Bern / Berne",
+                "Uri",
+                "Schwyz",
+                "Unterwalden Obwalden",
+                "Nidwalden",
+                "Glarus",
+                "Zug",
+                "Freiburg / Fribourg",
+                "Solothurn",
+                "Schaffhausen",
+                "Appenzell Ausserrhoden",
+                "Appenzell Innerrhoden",
+                "Graubünden",
+                "Thurgau",
+                "Ticino",
+                "Vaud",
+                "Valais / Wallis",
+                "Neuchâtel",
+                "Jura"
+            ]
+        }
     }
 }

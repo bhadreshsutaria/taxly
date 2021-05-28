@@ -1890,5 +1890,84 @@
                 }
             ]
         }
+    },
+    "partnersHelvetia": {
+        "SingleData": {
+            "language": "DE",
+            "pageHeading": "Reiche Deine Steuererklärung in nur 10 Minuten ein",
+            "contentTitleOne": "Haben Sie Ihre Steuererklärung schon eingereicht?",
+            "contentParagraphOne": "Taxly in Partnerschaft mit Helvetia Insurance bietet seine Dienstleistungen allen in der Schweiz ansässigen Personen an, unabhängig von Einkommen oder Nationalität, um ihre Steuererklärungen in einem radikal einfachen und dennoch beeindruckenden Verfahren auszufüllen und einzureichen. Es wurde von einer Mischung aus zertifizierten Schweizer Steuerexperten und erfahrenen Technologieunternehmern gebaut.",
+            "contentParagraphTwo": "Nicht jede Steuersituation ist gleich und wir können uns an Ihre Bedürfnisse anpassen. Wenn Sie Hilfe benötigen, steht Ihnen einer unserer Schweizer Steuerberater zur Seite. Schritt für Schritt bis zur fertigen Steuererklärung.",
+            "contentTitleTwo": "Für Personen, die der Quellensteuer zugrunde liegen:",
+            "contentParagraphThree": "Aufgrund einer Gesetzesänderung bis zum 1. Januar 2021 werden solche Abzüge in Säule 3A nicht mehr berücksichtigt. Sie haben jedoch das Recht, regelmäßige Steuererklärungen zu wählen.",
+            "contentTitleThree": "Wie unterscheiden wir uns von einer traditionellen kantonalen Steuersoftware?",
+            "inPartnershipWith": "Partnerschaft mit",
+            "firstName": "Vorname",
+            "lastName": "Nachname",
+            "email": "Email",
+            "residenceStatus": "Aufenthaltsstatus",
+            "hdyhau": "Woher haben Sie von uns gehört?",
+            "canton": "Kanton",
+            "helvetiaConsultant": "Helvetia Berater",
+            "phLogoTitle": "Sie haben vielleicht von uns gehört",
+            "phFormBtn": "Jetzt loslegen"
+        },
+        "list": {
+            "data": [
+                "Kantonale Software wie EasyTax, PrivateTax, BalTax oder GeTax wurden in erster Linie entwickelt, um den internen Prozess der Behörden zu beschleunigen und ihren Benutzern beim Ausfüllen ihrer Steuern zu helfen.",
+                "Taxly ist die erste Steuererklärungstechnologie in der Schweiz, deren Hauptziel die Benutzerfreundlichkeit und Kundenzufriedenheit ist. Unser Team überprüft unser Produkt ständig, um sicherzustellen, dass unsere Abläufe vereinfacht und leicht verständlich sind, und um sicherzustellen, dass das Steuerrecht eingehalten wird.",
+                "Darüber hinaus werden Gerichtsentscheidungen oder Änderungen der kantonalen Gesetze sofort steuerlich umgesetzt, was in einigen Fällen Jahre dauert, bis sie in traditioneller kantonaler Software umgesetzt werden.",
+                "Schließlich war diese Software darauf vorbereitet, alle verfügbaren Abzüge im kantonalen Recht und in der kantonalen Praxis zu nutzen, was bei der Erstellung Ihrer Steuererklärung mit einer kantonalen Software nicht systematisch der Fall ist, was häufig dazu führt, dass Steuern in Höhe von Hunderten von Franken verschwendet werden.",
+                "Worauf warten Sie noch? Geben Sie Ihre Daten ein und starten Sie den Vorgang."
+            ]
+        },
+        "ResidenceStatusSelect": {
+            "data": [
+                "Swiss National",
+                "Permit L",
+                "Permit B",
+                "Permit C",
+                "Permit Ci",
+                "Permit G"
+            ]
+        },
+        "hdyhauSelect": {
+            "data": [
+                "Helvetia Berater",
+                "Taxly.ch",
+                "Google",
+                "Other"
+            ]
+        },
+        "canton": {
+            "data": [
+                "Zürich",
+                "Basel Land",
+                "Sankt Gallen",
+                "Aargau",
+                "Luzern",
+                "Basel Stadt",
+                "Genève",
+                "Bern / Berne",
+                "Uri",
+                "Schwyz",
+                "Unterwalden Obwalden",
+                "Nidwalden",
+                "Glarus",
+                "Zug",
+                "Freiburg / Fribourg",
+                "Solothurn",
+                "Schaffhausen",
+                "Appenzell Ausserrhoden",
+                "Appenzell Innerrhoden",
+                "Graubünden",
+                "Thurgau",
+                "Ticino",
+                "Vaud",
+                "Valais / Wallis",
+                "Neuchâtel",
+                "Jura"
+            ]
+        }
     }
 }
