@@ -1,9 +1,10 @@
 const express = require("express");
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+var cors = require('cors')
 
 const app = express();
-
+app.use(cors())
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -26,11 +27,12 @@ const transporter = nodemailer.createTransport({
 });
 
 route.post('/text-mail', (req, res) => {
-    const {to, subject } = req.body;
+    const { email } = req.body;
+    console.log(req.body)
     const mailData = {
         from: 'info@krakeninfotech.com',
-        to: to,
-        subject: subject,
+        to: email,
+        subject: 'This is testing from taxly',
         html: '<b>Hey there! </b><br> This is our first message sent with Nodemailer<br/>',
     };
 
