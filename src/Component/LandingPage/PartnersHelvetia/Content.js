@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 import images from "../../../Utils/ImageHelper";
 import { useForm } from 'react-hook-form';
 import { useTranslation } from "react-i18next";
@@ -37,9 +38,30 @@ const PartnersHelvetiaMainSection = () => {
     let ResidenceStatus =  t('partnersHelvetia.ResidenceStatusSelect.data', { returnObjects: true });
     let hdyhauSelectData =  t('partnersHelvetia.hdyhauSelect.data', { returnObjects: true });
     let cantonSelectData =  t('partnersHelvetia.cantonSelect.data', { returnObjects: true });
-    const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
-    console.log(errors);
+    const [email, setEmail] = useState("");
+    const { register, formState: { errors } } = useForm();
+    //const onSubmit = data => console.log(data);
+
+    const handleSubmitform = (event) => {
+        console.log(JSON.stringify({ email }))
+        const headerConfig = {
+            headers: {
+                'content-Type': 'application/json',
+                "Access-Control-Allow-Origin": "*",
+            }
+        };
+        const body = JSON.stringify({ email })
+
+        axios.post('http://localhost:5000/v1/text-mail', body, headerConfig)
+        .then((res) => {
+            console.log("response", res);
+        })
+        .catch((error) => {
+            console.log(error);
+        })
+        event.preventDefault();
+    }
+    
     return(
         <main className="partnership-template">
             <div style={{ backgroundImage: `url(${images.helveticaHeaderBg})` }} className="partnership-hero partnership-template__hero">
@@ -64,7 +86,7 @@ const PartnersHelvetiaMainSection = () => {
                                 <span>{t('partnersHelvetia.SingleData.inPartnershipWith')}</span>
                                 <img src="https://taxly.ch/wp-content/uploads/2021/03/helvetica.svg" alt="Complicated is Outdated. Swiss Tax Returns Made Simple." />
                             </div>
-                            <form onSubmit={handleSubmit(onSubmit)}>
+                            <form onSubmit={handleSubmitform}>
                                 <div className="form__group">
                                     <label htmlFor="first-name">{t('partnersHelvetia.SingleData.firstName')}</label>
                                     <input id="first-name" className="form__control" type="text" {...register("First name", {required: true, maxLength: 80})} />
@@ -75,7 +97,7 @@ const PartnersHelvetiaMainSection = () => {
                                 </div>
                                 <div className="form__group">
                                     <label htmlFor="email">{t('partnersHelvetia.SingleData.email')}</label>
-                                    <input id="email" className="form__control form-control-email" type="text" {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
+                                    <input id="email" className="form__control form-control-email" value={email} type="text" onChange={e => setEmail(e.target.value)} />
                                 </div>
                                 <div className="form__group">
                                     <label htmlFor="residence-status">{t('partnersHelvetia.SingleData.residenceStatus')}</label>
