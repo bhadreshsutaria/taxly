@@ -21,7 +21,7 @@ const transporter = nodemailer.createTransport({
     host: "smtpout.secureserver.net",
     auth: {
         user: 'info@krakeninfotech.com',
-        pass: 'Papaji@143',
+        pass: '*********',
     },
     secure: true, // upgrades later with STARTTLS -- change this based on the PORT
 });
